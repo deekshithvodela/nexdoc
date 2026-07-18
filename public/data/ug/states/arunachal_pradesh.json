@@ -1,0 +1,30 @@
+[
+  {
+    "college_id": "ug_ar001g1",
+    "college_name": "Tomo Riba Institute of Health & Medical Sciences, Naharlagun",
+    "college_type": "Government",
+    "state": "Arunachal Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_ar001g1",
+    "college_name": "Tomo Riba Institute of Health & Medical Sciences, Naharlagun",
+    "college_type": "Government",
+    "state": "Arunachal Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  }
+]

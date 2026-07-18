@@ -1,0 +1,122 @@
+[
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM- Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 2,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Plastic Surgery/Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Urology/Genito-Urinary Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM - Cardiac-Anaesthesia",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Thoracic Surgery/Cardio Thoracic Surgery/Cardio Vascular and thoracic Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM - Endocrinology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM- Medical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_goa_medical_college_goa",
+    "college_name": "Goa Medical College",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  }
+]

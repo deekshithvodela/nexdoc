@@ -1,0 +1,72 @@
+[
+  {
+    "college_id": "ug_sikkim_government_medical_college_sikkim",
+    "college_name": "Sikkim Government Medical College",
+    "college_type": "Government",
+    "state": "Sikkim",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 0,
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_sikkim_government_medical_college_sikkim",
+    "college_name": "Sikkim Government Medical College",
+    "college_type": "Government",
+    "state": "Sikkim",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 0,
+    "seats_inc": 85,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_sk001p1",
+    "college_name": "Sikkim Manipal Institute of Medical Sciences, Gangtok",
+    "college_type": "Private",
+    "state": "Sikkim",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 50,
+    "seats_prev": 50,
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_sk001p1",
+    "college_name": "Sikkim Manipal Institute of Medical Sciences, Gangtok",
+    "college_type": "Private",
+    "state": "Sikkim",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Management Quota",
+    "seats": 35,
+    "seats_prev": 35,
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_sk001p1",
+    "college_name": "Sikkim Manipal Institute of Medical Sciences, Gangtok",
+    "college_type": "Private",
+    "state": "Sikkim",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "NRI / Minority Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
+  }
+]

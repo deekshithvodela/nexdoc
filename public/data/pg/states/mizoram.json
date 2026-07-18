@@ -1,0 +1,122 @@
+[
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MD - Paediatrics",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MD - Paediatrics",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MS - General Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MS - General Surgery",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MD - General Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MD - General Medicine",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MS - Obstetrics and Gynaecology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MS - Obstetrics and Gynaecology",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MD - Anaesthesiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "pg_zoram_medical_college_mizoram_mizoram",
+    "college_name": "Zoram Medical College Mizoram",
+    "college_type": "Government",
+    "state": "Mizoram",
+    "course": "MD - Anaesthesiology",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  }
+]

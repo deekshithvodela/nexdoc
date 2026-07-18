@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0-nmc-data",
+  "lastUpdated": "2026-07-18T19:18:43.832582Z",
+  "levels": {
+    "ug": {
+      "name": "Undergraduate (UG)",
+      "summaryPath": "ug/summary.json"
+    },
+    "pg": {
+      "name": "Postgraduate (PG)",
+      "summaryPath": "pg/summary.json"
+    },
+    "ss": {
+      "name": "Super Specialty (SS)",
+      "summaryPath": "ss/summary.json"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "M.Ch - Plastic Surgery/Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "M. Ch- Pediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "DM- Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "college_id": "ss_north_eastern_indira_gandhi_regional_instt_of_health_and_medical_sciences_shillong_meghalaya",
+    "college_name": "North Eastern Indira Gandhi Regional Instt. of Health and Medical Sciences, Shillong",
+    "college_type": "Government",
+    "state": "Meghalaya",
+    "course": "DM- Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_north_eastern_indira_gandhi_regional_instt_of_health_and_medical_sciences_shillong_meghalaya",
+    "college_name": "North Eastern Indira Gandhi Regional Instt. of Health and Medical Sciences, Shillong",
+    "college_type": "Government",
+    "state": "Meghalaya",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  }
+]

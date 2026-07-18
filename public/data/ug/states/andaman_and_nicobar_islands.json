@@ -1,0 +1,30 @@
+[
+  {
+    "college_id": "ug_an001g1",
+    "college_name": "Andaman & Nicobar Islands Institute of Medical Sciences, Port Blair",
+    "college_type": "Government",
+    "state": "Andaman and Nicobar Islands",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 17,
+    "seats_prev": 17,
+    "seats_inc": 0,
+    "pg_seats": 13,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_an001g1",
+    "college_name": "Andaman & Nicobar Islands Institute of Medical Sciences, Port Blair",
+    "college_type": "Government",
+    "state": "Andaman and Nicobar Islands",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 97,
+    "seats_prev": 97,
+    "seats_inc": 0,
+    "pg_seats": 13,
+    "ss_seats": 0
+  }
+]

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexDoc | NEET Seat Explorer</title>
+  <meta name="description" content="NexDoc is a high-performance, zero-backend explorer and analytics dashboard for Indian medical seat matrices (MBBS, MD, MS, DM, MCh) across UG, PG, and Super Specialty levels.">
+  <meta name="keywords" content="NEET, seat matrix, MBBS, medical colleges, India, MCC, counselling, UG, PG, Super Specialty, NexDoc">
+  <meta name="author" content="Deekshith Vodela">
+  <meta name="theme-color" content="#070c19">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NexDoc | NEET Seat Explorer">
+  <meta property="og:description" content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
+  <meta property="og:url" content="https://deekshithvodela.github.io/nexdoc/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NexDoc | NEET Seat Explorer">
+  <meta name="twitter:description" content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
+
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="app.css">
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <!-- D3.js CDN for Sankey -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7" defer></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+
+  <!-- App Wrapper -->
+  <div class="app-container">
+    
+    <!-- Top Navigation Bar -->
+    <header class="app-header">
+      <div class="brand">
+        <i data-lucide="stethoscope" class="brand-icon"></i>
+        <div class="brand-text">
+          <h1>NexDoc</h1>
+          <span class="brand-tagline">NEET Seat Explorer</span>
+        </div>
+      </div>
+      
+      <!-- Level Switcher -->
+      <div class="level-tabs">
+        <button class="level-tab active" data-level="ug">
+          <span>UG</span>
+          <small>Undergraduate</small>
+        </button>
+        <button class="level-tab" data-level="pg">
+          <span>PG</span>
+          <small>Postgraduate</small>
+        </button>
+        <button class="level-tab" data-level="ss">
+          <span>SS</span>
+          <small>Super Specialty</small>
+        </button>
+      </div>
+
+      <!-- State Selector Dropdown -->
+      <div class="state-select-container">
+        <label for="stateSelector"><i data-lucide="map-pin"></i> Region</label>
+        <select id="stateSelector">
+          <option value="" disabled selected>Select Region / State</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Stat Dashboard Section -->
+    <section class="stats-dashboard card-glass">
+      <div class="stats-header">
+        <h2>Region Overview Dashboard</h2>
+        <!-- Statistics Mode Toggle -->
+        <div class="toggle-container">
+          <span class="toggle-label">Stats Mode:</span>
+          <div class="toggle-buttons">
+            <button class="toggle-btn active" data-mode="physical">Geographical Capacity</button>
+            <button class="toggle-btn" data-mode="counseling">Counseling Access</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon bg-blue"><i data-lucide="school"></i></div>
+          <div class="stat-info">
+            <h3 id="statColleges">-</h3>
+            <p>Total Colleges</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon bg-green"><i data-lucide="award"></i></div>
+          <div class="stat-info">
+            <h3 id="statSeats">-</h3>
+            <p>Total Seats Available</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon bg-purple"><i data-lucide="shield"></i></div>
+          <div class="stat-info">
+            <h3 id="statGovt">-</h3>
+            <p id="statGovtLabel">Govt. Seats</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon bg-orange"><i data-lucide="building"></i></div>
+          <div class="stat-info">
+            <h3 id="statPrivate">-</h3>
+            <p id="statPrivateLabel">Private / Deemed Seats</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Workspace Layout -->
+    <main class="app-workspace">
+      
+      <!-- Left Sidebar Filters -->
+      <aside class="sidebar-filters card-glass" id="filterSidebar">
+        <!-- Rendered by SearchFilters.js -->
+      </aside>
+
+      <!-- Right Panel Content -->
+      <section class="main-panel">
+        
+        <!-- Tab Navigation -->
+        <div class="panel-tabs card-glass">
+          <button class="panel-tab active" data-tab="table">
+            <i data-lucide="table-properties"></i> Table Explorer
+          </button>
+          <button class="panel-tab" data-tab="analytics">
+            <i data-lucide="bar-chart-3"></i> Seat Analytics
+          </button>
+          <button class="panel-tab" data-tab="sankey">
+            <i data-lucide="git-branch"></i> Sankey Flowchart
+          </button>
+          <button class="panel-tab" data-tab="compare">
+            <i data-lucide="columns-3"></i> Compare Colleges (<span id="compareCount">0</span>)
+          </button>
+        </div>
+
+        <!-- Panel Views -->
+        <div class="panel-views-container">
+          
+          <!-- 1. Table Explorer View -->
+          <div class="panel-view active" id="viewTable">
+            <div class="table-actions card-glass">
+              <div class="table-search-bar">
+                <i data-lucide="search"></i>
+                <input type="text" id="tableSearchInput" placeholder="Quick search college or branch...">
+              </div>
+              <div class="table-meta">
+                <span id="showingCount">Showing 0 rows</span>
+                <button class="btn-fullscreen-toggle" id="tableFullscreenToggleBtn" title="Interactive Fullscreen">
+                  <i data-lucide="maximize-2"></i>
+                  <span>Fullscreen</span>
+                </button>
+              </div>
+            </div>
+            
+            <div class="table-container card-glass">
+              <table id="seatsTable">
+                <thead>
+                  <tr>
+                    <th>College Name</th>
+                    <th>Type</th>
+                    <th>Course</th>
+                     <th>Counselling</th>
+                     <th>Quota</th>
+                     <th class="text-right">Prev Seats</th>
+                    <th class="text-right">Increased</th>
+                    <th class="text-right">Total Seats</th>
+                    <th class="text-center">Compare</th>
+                  </tr>
+                </thead>
+                <tbody id="seatsTableBody">
+                  <tr>
+                    <td colspan="9" class="placeholder-text">Please select a region/state to load the database.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-footer-actions">
+              <button class="btn-go-to-top" id="goToTopBtn" title="Back to Top">
+                <i data-lucide="arrow-up"></i> Back to Top
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Analytics View -->
+          <div class="panel-view" id="viewAnalytics">
+            <div class="analytics-grid">
+              <div class="chart-container card-glass">
+                <h3>Seat Capacity by College Type</h3>
+                <div class="chart-wrapper">
+                  <canvas id="typeChart"></canvas>
+                </div>
+              </div>
+              <div class="chart-container card-glass">
+                <h3>Seats Distribution by Specialization</h3>
+                <div class="chart-wrapper">
+                  <canvas id="specialtyChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Sankey Flowchart View -->
+          <div class="panel-view" id="viewSankey">
+            <div class="sankey-explanation card-glass">
+              <i data-lucide="info"></i>
+              <p>This flow diagram visualizes how medical seats flow from the selected **Counselling Route** down through the **College Type** and **College** to the **Specific Speciality/Course**.</p>
+            </div>
+            <div class="sankey-container card-glass" id="sankeyChartContainer">
+              <svg id="sankeySvg" width="100%" height="550"></svg>
+            </div>
+          </div>
+
+          <!-- 4. Comparison View -->
+          <div class="panel-view" id="viewCompare">
+            <div class="table-actions card-glass">
+              <div class="table-meta" style="margin-left: auto;">
+                <button class="btn-fullscreen-toggle" id="compareFullscreenToggleBtn" title="Interactive Fullscreen">
+                  <i data-lucide="maximize-2"></i>
+                  <span>Fullscreen</span>
+                </button>
+              </div>
+            </div>
+            
+            <div class="comparison-container card-glass" id="comparisonMatrixWrapper">
+              <!-- Rendered by ComparisonMatrix.js -->
+            </div>
+            
+            <!-- Scroll to top button in compare view -->
+            <div class="table-footer-actions">
+              <button class="btn-go-to-top" id="goToTopCompareBtn">
+                <i data-lucide="arrow-up"></i>
+                <span>Back to Top</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Sticky Bottom Compare Drawer -->
+    <div class="compare-drawer" id="compareDrawer">
+      <button class="drawer-toggle-handle" id="drawerToggleBtn">
+        <i data-lucide="chevron-up"></i>
+        <span><strong id="drawerCollegesCountMini">0</strong> selected</span>
+      </button>
+      <div class="drawer-content" id="drawerContentBody">
+        <div class="drawer-info">
+          <i data-lucide="git-compare"></i>
+          <span><strong id="drawerCollegesCount">0</strong> colleges selected for side-by-side analysis.</span>
+        </div>
+        <div class="drawer-actions">
+          <button class="btn btn-secondary" id="clearCompareBtn">Clear All</button>
+          <button class="btn btn-primary" id="openCompareTabBtn">Compare Side-by-Side</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- College Details Modal -->
+    <div class="modal-overlay" id="detailsModal">
+      <div class="modal-container card-glass">
+        <header class="modal-header">
+          <div class="modal-title-group">
+            <h3 id="modalCollegeName">College Name</h3>
+            <span class="badge badge-code" id="modalCollegeCode">Code</span>
+          </div>
+          <button class="modal-close-btn" id="closeDetailsModalBtn">
+            <i data-lucide="x"></i>
+          </button>
+        </header>
+        <div class="modal-body" id="modalBodyContent">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="app-footer card-glass">
+      <div class="footer-content">
+        <div class="footer-info">
+          <span>&copy; 2026 <a href="https://linktr.ee/deekshithvodela" target="_blank" rel="noopener noreferrer">Deekshith Vodela</a></span>
+          <span class="footer-separator">•</span>
+          <a href="license.html" class="license-link">
+            <i data-lucide="scale"></i> MIT License
+          </a>
+          <span class="footer-separator">•</span>
+          <span class="data-update-badge"><i data-lucide="calendar" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 4px; color: var(--accent-green);"></i>Data updated: July 2026</span>
+        </div>
+        
+        <div class="footer-actions">
+          <a href="https://deekshithvodela.substack.com/" target="_blank" rel="noopener noreferrer" class="footer-btn">
+            <i data-lucide="mail"></i> Subscribe to Newsletter
+          </a>
+          <a href="mailto:deekshithvodela@gmail.com?subject=NexDoc%20Feedback" class="footer-btn btn-feedback">
+            <i data-lucide="message-square"></i> Send Feedback
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Floating Action Button for Filters on Mobile -->
+  <button class="floating-filter-btn" id="mobileFilterOpenBtn">
+    <i data-lucide="sliders-horizontal"></i>
+    <span>Filters</span>
+  </button>
+
+  <!-- Sidebar Backdrop -->
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <!-- Fullscreen Controls for Mobile Table View -->
+  <button class="fullscreen-close-btn" id="exitFullscreenBtn" title="Exit Fullscreen">
+    <i data-lucide="minimize-2"></i>
+  </button>
+  <div class="fullscreen-rotate-prompt" id="rotatePrompt">
+    <i data-lucide="rotate-cw"></i> Rotate to landscape for wider view!
+  </div>
+
+  <!-- Component & App Scripts -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>

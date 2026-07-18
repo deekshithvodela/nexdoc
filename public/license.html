@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIT License - NexDoc | NEET Seat Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #070c19;
+      --glass-bg: rgba(13, 21, 39, 0.6);
+      --glass-blur: blur(20px);
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-blue: #3b82f6;
+      --accent-green: #10b981;
+    }
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(at 10% 20%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+        radial-gradient(at 90% 80%, rgba(168, 85, 247, 0.1) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .license-card {
+      background: var(--glass-bg);
+      backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--border-glass);
+      border-radius: 20px;
+      padding: 3rem;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    }
+    h1, h2 {
+      font-family: 'Outfit', sans-serif;
+      color: #fff;
+    }
+    h1 {
+      margin-top: 0;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 1rem;
+      font-size: 2.25rem;
+    }
+    p {
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+    strong {
+      color: #fff;
+    }
+    ul {
+      padding-left: 1.5rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      background: rgba(59, 130, 246, 0.2);
+      border: 1px solid var(--accent-blue);
+      border-radius: 8px;
+      color: #fff;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .back-btn:hover {
+      background: var(--accent-blue);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="license-card">
+    <h1>MIT License</h1>
+    <p>Copyright (c) 2026 <strong>Deekshith Vodela</strong></p>
+    
+    <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+    
+    <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+    
+    <p style="text-transform: uppercase; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.</p>
+
+    <a href="index.html" class="back-btn">Back to Explorer</a>
+  </div>
+
+</body>
+</html>

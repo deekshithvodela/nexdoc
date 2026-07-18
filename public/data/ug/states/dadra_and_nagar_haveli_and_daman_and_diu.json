@@ -1,0 +1,30 @@
+[
+  {
+    "college_id": "ug_nd001g1",
+    "college_name": "NAMO Medical Education and Research Institute, Silvassa (Formerly known as Shri Vinoba Bhave Institute of Medical Sciences, (Government Medical College) Silvassa, U.T)",
+    "college_type": "Government",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 26,
+    "seats_prev": 26,
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_nd001g1",
+    "college_name": "NAMO Medical Education and Research Institute, Silvassa (Formerly known as Shri Vinoba Bhave Institute of Medical Sciences, (Government Medical College) Silvassa, U.T)",
+    "college_type": "Government",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 151,
+    "seats_prev": 151,
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
+  }
+]

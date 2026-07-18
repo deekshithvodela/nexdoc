@@ -1,0 +1,50 @@
+[
+  {
+    "college_id": "ss_rajendra_institute_of_medical_sciences_ranchi_jharkhand",
+    "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
+    "college_type": "Government",
+    "state": "Jharkhand",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_rajendra_institute_of_medical_sciences_ranchi_jharkhand",
+    "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
+    "college_type": "Government",
+    "state": "Jharkhand",
+    "course": "DM - Critical Care Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_rajendra_institute_of_medical_sciences_ranchi_jharkhand",
+    "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
+    "college_type": "Government",
+    "state": "Jharkhand",
+    "course": "DM- Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ss_rajendra_institute_of_medical_sciences_ranchi_jharkhand",
+    "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
+    "college_type": "Government",
+    "state": "Jharkhand",
+    "course": "M. Ch- Pediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  }
+]
