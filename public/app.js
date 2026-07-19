@@ -796,7 +796,7 @@ function setupGlobalListeners() {
       if (rotatePrompt) rotatePrompt.style.display = 'none';
       clearTimeout(AppState.rotatePromptTimeout);
       
-      // Scroll to the end of the table/page on exit
+      // Scroll to the end of the page on exit
       setTimeout(() => {
         // Scroll the main window to the bottom of the page
         const scrollHeight = Math.max(
@@ -807,25 +807,6 @@ function setupGlobalListeners() {
           top: scrollHeight,
           behavior: 'smooth'
         });
-        
-        // Also scroll the table container or comparison container to the bottom if applicable
-        if (type === 'table') {
-          const tableContainer = document.querySelector('.table-container');
-          if (tableContainer) {
-            tableContainer.scrollTo({
-              top: tableContainer.scrollHeight,
-              behavior: 'smooth'
-            });
-          }
-        } else if (type === 'compare') {
-          const compareContainer = document.querySelector('.comparison-container');
-          if (compareContainer) {
-            compareContainer.scrollTo({
-              top: compareContainer.scrollHeight,
-              behavior: 'smooth'
-            });
-          }
-        }
       }, 150);
     }
   };
