@@ -793,11 +793,35 @@ function setupGlobalListeners() {
       
       // Scroll to the end of the table/page on exit
       setTimeout(() => {
+        // Scroll the main window to the bottom of the page
+        const scrollHeight = Math.max(
+          document.body.scrollHeight,
+          document.documentElement.scrollHeight
+        );
         window.scrollTo({
-          top: document.body.scrollHeight,
+          top: scrollHeight,
           behavior: 'smooth'
         });
-      }, 100);
+        
+        // Also scroll the table container or comparison container to the bottom if applicable
+        if (type === 'table') {
+          const tableContainer = document.querySelector('.table-container');
+          if (tableContainer) {
+            tableContainer.scrollTo({
+              top: tableContainer.scrollHeight,
+              behavior: 'smooth'
+            });
+          }
+        } else if (type === 'compare') {
+          const compareContainer = document.querySelector('.comparison-container');
+          if (compareContainer) {
+            compareContainer.scrollTo({
+              top: compareContainer.scrollHeight,
+              behavior: 'smooth'
+            });
+          }
+        }
+      }, 150);
     }
   };
 
