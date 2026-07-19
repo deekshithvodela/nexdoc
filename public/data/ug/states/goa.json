@@ -9,9 +9,7 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 30,
-    "seats_inc": 7,
-    "pg_seats": 140,
-    "ss_seats": 19
+    "seats_inc": 7
   },
   {
     "college_id": "ug_ga001g1",
@@ -23,8 +21,6 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 170,
-    "seats_inc": 43,
-    "pg_seats": 140,
-    "ss_seats": 19
+    "seats_inc": 43
   }
 ]

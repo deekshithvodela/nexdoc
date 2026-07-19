@@ -9,9 +9,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0,
-    "pg_seats": 59,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl001p4",
@@ -23,9 +21,7 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0,
-    "pg_seats": 59,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl001p4",
@@ -37,9 +33,7 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 59,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl007g1",
@@ -51,9 +45,7 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 202,
-    "ss_seats": 47
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl007g1",
@@ -65,9 +57,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 202,
-    "ss_seats": 47
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl002g1",
@@ -79,9 +69,7 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl002g1",
@@ -93,9 +81,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 107,
     "seats_prev": 107,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl003g1",
@@ -107,9 +93,7 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl003g1",
@@ -121,9 +105,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl004p3",
@@ -135,9 +117,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0,
-    "pg_seats": 49,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl004p3",
@@ -149,9 +129,7 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0,
-    "pg_seats": 49,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl004p3",
@@ -163,9 +141,7 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0,
-    "pg_seats": 49,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl008g1",
@@ -177,9 +153,7 @@
     "quota_type": "All India Quota",
     "seats": 36,
     "seats_prev": 36,
-    "seats_inc": 0,
-    "pg_seats": 174,
-    "ss_seats": 10
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl008g1",
@@ -191,9 +165,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 204,
     "seats_prev": 204,
-    "seats_inc": 0,
-    "pg_seats": 174,
-    "ss_seats": 10
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl005g1",
@@ -205,9 +177,7 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0,
-    "pg_seats": 246,
-    "ss_seats": 12
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl005g1",
@@ -219,9 +189,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0,
-    "pg_seats": 246,
-    "ss_seats": 12
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl006g1",
@@ -233,9 +201,7 @@
     "quota_type": "All India Quota",
     "seats": 9,
     "seats_prev": 9,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl006g1",
@@ -247,9 +213,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 51,
     "seats_prev": 51,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl010g1",
@@ -261,9 +225,7 @@
     "quota_type": "All India Quota",
     "seats": 25,
     "seats_prev": 25,
-    "seats_inc": 0,
-    "pg_seats": 210,
-    "ss_seats": 2
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl010g1",
@@ -275,9 +237,7 @@
     "quota_type": "Competent Authority Quota",
     "seats": 145,
     "seats_prev": 145,
-    "seats_inc": 0,
-    "pg_seats": 210,
-    "ss_seats": 2
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl009g1",
@@ -289,9 +249,7 @@
     "quota_type": "All India Quota",
     "seats": 25,
     "seats_prev": 25,
-    "seats_inc": 0,
-    "pg_seats": 324,
-    "ss_seats": 54
+    "seats_inc": 0
   },
   {
     "college_id": "ug_dl009g1",
@@ -303,8 +261,6 @@
     "quota_type": "Competent Authority Quota",
     "seats": 145,
     "seats_prev": 145,
-    "seats_inc": 0,
-    "pg_seats": 324,
-    "ss_seats": 54
+    "seats_inc": 0
   }
 ]
