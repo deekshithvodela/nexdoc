@@ -754,6 +754,16 @@ function setupGlobalListeners() {
     }, 250);
   });
 
+  // Helper to show rotate prompt with an auto-hide timeout
+  const showRotatePromptWithTimeout = (rotatePrompt) => {
+    if (!rotatePrompt) return;
+    rotatePrompt.style.display = 'flex';
+    clearTimeout(AppState.rotatePromptTimeout);
+    AppState.rotatePromptTimeout = setTimeout(() => {
+      rotatePrompt.style.display = 'none';
+    }, 5000);
+  };
+
   // Mobile Table Fullscreen controls
   const toggleFullscreen = (forceShow, type) => {
     if (!type) {
@@ -775,12 +785,7 @@ function setupGlobalListeners() {
       
       // Only show rotate prompt if device is in portrait mode on mobile
       if (rotatePrompt && window.innerHeight > window.innerWidth) {
-        rotatePrompt.style.display = 'flex';
-        // Auto hide rotate prompt after 5 seconds
-        clearTimeout(AppState.rotatePromptTimeout);
-        AppState.rotatePromptTimeout = setTimeout(() => {
-          rotatePrompt.style.display = 'none';
-        }, 5000);
+        showRotatePromptWithTimeout(rotatePrompt);
       }
     } else {
       document.body.classList.remove('table-fullscreen-active');
@@ -912,8 +917,9 @@ function setupGlobalListeners() {
     if (rotatePrompt) {
       if (AppState.fullscreenActive && window.innerWidth > window.innerHeight) {
         rotatePrompt.style.display = 'none';
+        clearTimeout(AppState.rotatePromptTimeout);
       } else if (AppState.fullscreenActive && window.innerHeight > window.innerWidth) {
-        rotatePrompt.style.display = 'flex';
+        showRotatePromptWithTimeout(rotatePrompt);
       }
     }
   });
