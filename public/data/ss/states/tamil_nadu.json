@@ -2496,8 +2496,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_edacs_medical_college_and_hospital_chennai_tamil_nadu",
-    "college_name": "edACS Medical College and Hospital Chennai",
+    "college_id": "ss_acs_medical_college_and_hospital_chennai_tamil_nadu",
+    "college_name": "ACS Medical College and Hospital, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -2508,8 +2508,8 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_edacs_medical_college_and_hospital_chennai_tamil_nadu",
-    "college_name": "edACS Medical College and Hospital Chennai",
+    "college_id": "ss_acs_medical_college_and_hospital_chennai_tamil_nadu",
+    "college_name": "ACS Medical College and Hospital, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Urology",
