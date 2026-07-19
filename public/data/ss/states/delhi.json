@@ -144,8 +144,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_esipgimsresi_hospitalbasaidarapurnew_delhi_delhi",
-    "college_name": "ESI-PGIMSR,ESI- Hospital,Basaidarapur,New Delhi",
+    "college_id": "ss_esipgimsr_esi_hospital_basaidarapur_new_delhi_delhi",
+    "college_name": "ESI-PGIMSR, ESI- Hospital, Basaidarapur, New Delhi",
     "college_type": "Government",
     "state": "Delhi",
     "course": "DM - Pulmonary Medicine",

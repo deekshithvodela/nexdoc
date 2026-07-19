@@ -1476,8 +1476,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_esipgimsresi_hospitalbasaidarapurnew_delhi_delhi",
-    "college_name": "ESI-PGIMSR,ESI- Hospital,Basaidarapur,New Delhi",
+    "college_id": "ss_esipgimsr_esi_hospital_basaidarapur_new_delhi_delhi",
+    "college_name": "ESI-PGIMSR, ESI- Hospital, Basaidarapur, New Delhi",
     "college_type": "Government",
     "state": "Delhi",
     "course": "DM - Pulmonary Medicine",
@@ -2112,8 +2112,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sbks_medical_instt_research_centre_vadodra_gujarat",
-    "college_name": "SBKS Medical Instt. & Research Centre, Vadodra",
+    "college_id": "ss_sbks_medical_institute_research_centre_vadodra_gujarat",
+    "college_name": "SBKS Medical Institute & Research Centre, Vadodra",
     "college_type": "Private",
     "state": "Gujarat",
     "course": "DM - Cardiology",
@@ -2124,8 +2124,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sbks_medical_instt_research_centre_vadodra_gujarat",
-    "college_name": "SBKS Medical Instt. & Research Centre, Vadodra",
+    "college_id": "ss_sbks_medical_institute_research_centre_vadodra_gujarat",
+    "college_name": "SBKS Medical Institute & Research Centre, Vadodra",
     "college_type": "Private",
     "state": "Gujarat",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -2136,8 +2136,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sbks_medical_instt_research_centre_vadodra_gujarat",
-    "college_name": "SBKS Medical Instt. & Research Centre, Vadodra",
+    "college_id": "ss_sbks_medical_institute_research_centre_vadodra_gujarat",
+    "college_name": "SBKS Medical Institute & Research Centre, Vadodra",
     "college_type": "Private",
     "state": "Gujarat",
     "course": "M.Ch - Neuro Surgery",
@@ -2148,8 +2148,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sbks_medical_instt_research_centre_vadodra_gujarat",
-    "college_name": "SBKS Medical Instt. & Research Centre, Vadodra",
+    "college_id": "ss_sbks_medical_institute_research_centre_vadodra_gujarat",
+    "college_name": "SBKS Medical Institute & Research Centre, Vadodra",
     "college_type": "Private",
     "state": "Gujarat",
     "course": "DM - Neurology",
@@ -2160,8 +2160,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sbks_medical_instt_research_centre_vadodra_gujarat",
-    "college_name": "SBKS Medical Instt. & Research Centre, Vadodra",
+    "college_id": "ss_sbks_medical_institute_research_centre_vadodra_gujarat",
+    "college_name": "SBKS Medical Institute & Research Centre, Vadodra",
     "college_type": "Private",
     "state": "Gujarat",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -2520,8 +2520,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Clinical Immunology & Rheumatology",
@@ -2532,8 +2532,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Cardiology",
@@ -2544,8 +2544,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Endocrinology",
@@ -2556,8 +2556,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Medical Gastroenterology",
@@ -2568,8 +2568,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Medical Oncology",
@@ -2580,8 +2580,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Nephrology",
@@ -2592,8 +2592,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Neurology",
@@ -2604,8 +2604,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Pulmonary Medicine",
@@ -2616,8 +2616,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Endocrine Surgery",
@@ -2628,8 +2628,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Neuro Surgery",
@@ -2640,8 +2640,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -2652,8 +2652,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -2664,8 +2664,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Urology",
@@ -2676,8 +2676,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Paediatric Surgery",
@@ -2688,8 +2688,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -2953,7 +2953,7 @@
   },
   {
     "college_id": "ss_institute_of_nephrourology_bangalore_karnataka",
-    "college_name": "INSTITUTE OF NEPHRO-UROLOGY, BANGALORE",
+    "college_name": "Institute of Nephro-Urology, Bangalore",
     "college_type": "Government",
     "state": "Karnataka",
     "course": "M.Ch - Urology",
@@ -2965,7 +2965,7 @@
   },
   {
     "college_id": "ss_institute_of_nephrourology_bangalore_karnataka",
-    "college_name": "INSTITUTE OF NEPHRO-UROLOGY, BANGALORE",
+    "college_name": "Institute of Nephro-Urology, Bangalore",
     "college_type": "Government",
     "state": "Karnataka",
     "course": "DM - Nephrology",
@@ -3828,8 +3828,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_mysore_medical_college_and_research_instt_prevname_government_medical_college_mysore_karnataka",
-    "college_name": "Mysore Medical College and Research Instt. (Prev.name Government Medical College), Mysore",
+    "college_id": "ss_mysore_medical_college_and_research_institute_prevname_government_medical_college_mysore_karnataka",
+    "college_name": "Mysore Medical College and Research Institute (Prev.name Government Medical College), Mysore",
     "college_type": "Government",
     "state": "Karnataka",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -3937,7 +3937,7 @@
   },
   {
     "college_id": "ss_s_s_institute_of_medical_sciences_research_centre_davangere_karnataka",
-    "college_name": "S S Institute of Medical Sciences& Research Centre, Davangere",
+    "college_name": "S S Institute of Medical Sciences & Research Centre, Davangere",
     "college_type": "Private",
     "state": "Karnataka",
     "course": "DM - Cardiology",
@@ -3949,7 +3949,7 @@
   },
   {
     "college_id": "ss_s_s_institute_of_medical_sciences_research_centre_davangere_karnataka",
-    "college_name": "S S Institute of Medical Sciences& Research Centre, Davangere",
+    "college_name": "S S Institute of Medical Sciences & Research Centre, Davangere",
     "college_type": "Private",
     "state": "Karnataka",
     "course": "DM - Neurology",
@@ -3961,7 +3961,7 @@
   },
   {
     "college_id": "ss_s_s_institute_of_medical_sciences_research_centre_davangere_karnataka",
-    "college_name": "S S Institute of Medical Sciences& Research Centre, Davangere",
+    "college_name": "S S Institute of Medical Sciences & Research Centre, Davangere",
     "college_type": "Private",
     "state": "Karnataka",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -3973,7 +3973,7 @@
   },
   {
     "college_id": "ss_s_s_institute_of_medical_sciences_research_centre_davangere_karnataka",
-    "college_name": "S S Institute of Medical Sciences& Research Centre, Davangere",
+    "college_name": "S S Institute of Medical Sciences & Research Centre, Davangere",
     "college_type": "Private",
     "state": "Karnataka",
     "course": "M.Ch - Urology",
@@ -4584,8 +4584,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_academy_of_medical_sciencespariyaram_kannur_kerala",
-    "college_name": "Academy of Medical Sciences,Pariyaram, Kannur",
+    "college_id": "ss_academy_of_medical_sciences_pariyaram_kannur_kerala",
+    "college_name": "Academy of Medical Sciences, Pariyaram, Kannur",
     "college_type": "Government",
     "state": "Kerala",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -5220,8 +5220,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikodecalicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode,Calicut",
+    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Medical Gastroenterology",
@@ -5232,8 +5232,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikodecalicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode,Calicut",
+    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Cardiology",
@@ -5772,8 +5772,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centreindore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre,Indore",
+    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "DM - Cardiology",
@@ -5784,8 +5784,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centreindore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre,Indore",
+    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "M.Ch - Urology",
@@ -5796,8 +5796,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centreindore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre,Indore",
+    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "DM - Nephrology",
@@ -5808,8 +5808,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centreindore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre,Indore",
+    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "DM - Endocrinology",
@@ -5820,8 +5820,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centreindore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre,Indore",
+    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "M.Ch - Paediatric Surgery",
@@ -7056,8 +7056,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_n_k_p_salve_instt_of_medical_sciences_and_research_centre_and_lata_mangeshkar_hospital_nagpur_maharashtra",
-    "college_name": "N. K. P. Salve Instt. of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
+    "college_id": "ss_n_k_p_salve_institute_of_medical_sciences_and_research_centre_and_lata_mangeshkar_hospital_nagpur_maharashtra",
+    "college_name": "N. K. P. Salve Institute of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -7068,8 +7068,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_n_k_p_salve_instt_of_medical_sciences_and_research_centre_and_lata_mangeshkar_hospital_nagpur_maharashtra",
-    "college_name": "N. K. P. Salve Instt. of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
+    "college_id": "ss_n_k_p_salve_institute_of_medical_sciences_and_research_centre_and_lata_mangeshkar_hospital_nagpur_maharashtra",
+    "college_name": "N. K. P. Salve Institute of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "M.Ch - Paediatric Surgery",
@@ -7512,8 +7512,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_north_eastern_indira_gandhi_regional_instt_of_health_and_medical_sciences_shillong_meghalaya",
-    "college_name": "North Eastern Indira Gandhi Regional Instt. of Health and Medical Sciences, Shillong",
+    "college_id": "ss_north_eastern_indira_gandhi_regional_institute_of_health_and_medical_sciences_shillong_meghalaya",
+    "college_name": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences, Shillong",
     "college_type": "Government",
     "state": "Meghalaya",
     "course": "DM - Cardiology",
@@ -7524,8 +7524,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_north_eastern_indira_gandhi_regional_instt_of_health_and_medical_sciences_shillong_meghalaya",
-    "college_name": "North Eastern Indira Gandhi Regional Instt. of Health and Medical Sciences, Shillong",
+    "college_id": "ss_north_eastern_indira_gandhi_regional_institute_of_health_and_medical_sciences_shillong_meghalaya",
+    "college_name": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences, Shillong",
     "college_type": "Government",
     "state": "Meghalaya",
     "course": "DM - Neurology",
@@ -7572,8 +7572,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Cardiology",
@@ -7584,8 +7584,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Critical Care Medicine",
@@ -7596,8 +7596,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Endocrinology",
@@ -7608,8 +7608,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Medical Gastroenterology",
@@ -7620,8 +7620,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Medical Oncology",
@@ -7632,8 +7632,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Neurology",
@@ -7644,8 +7644,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Clinical Hematology",
@@ -7656,8 +7656,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Clinical Immunology & Rheumatology",
@@ -7668,8 +7668,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Neonatology",
@@ -7680,8 +7680,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Nephrology",
@@ -7692,8 +7692,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Neuro Surgery",
@@ -7704,8 +7704,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -7716,8 +7716,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Surgical Oncology",
@@ -7728,8 +7728,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Urology",
@@ -7740,8 +7740,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospitalbhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital,Bhubaneswar",
+    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
+    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -8376,8 +8376,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Neurology",
@@ -8388,8 +8388,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Cardiology",
@@ -8400,8 +8400,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Nephrology",
@@ -8412,8 +8412,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "M.Ch - Neuro Surgery",
@@ -8424,8 +8424,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "M.Ch - Surgical Oncology",
@@ -8436,8 +8436,8 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "M.Ch - Urology",
@@ -8448,8 +8448,8 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Medical Oncology",
@@ -8460,8 +8460,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Medical Gastroenterology",
@@ -9420,8 +9420,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_chennai_medical_college_hospital_and_research_centre_irungalur_trichytrichy_srm_medical_college_hospital_research_centre_trichy_tamil_nadu",
-    "college_name": "Chennai Medical College Hospital and research centre Irungalur Trichy,Trichy SRM Medical College Hospital & Research Centre Trichy",
+    "college_id": "ss_chennai_medical_college_hospital_and_research_centre_irungalur_trichy_trichy_srm_medical_college_hospital_research_centre_trichy_tamil_nadu",
+    "college_name": "Chennai Medical College Hospital and research centre Irungalur Trichy, Trichy SRM Medical College Hospital & Research Centre Trichy",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -9972,8 +9972,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospitalperambalur_tamil_nadu",
-    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital,Perambalur",
+    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospital_perambalur_tamil_nadu",
+    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Cardiology",
@@ -9984,8 +9984,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospitalperambalur_tamil_nadu",
-    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital,Perambalur",
+    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospital_perambalur_tamil_nadu",
+    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Neurology",
@@ -9996,8 +9996,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospitalperambalur_tamil_nadu",
-    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital,Perambalur",
+    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospital_perambalur_tamil_nadu",
+    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -10008,8 +10008,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospitalperambalur_tamil_nadu",
-    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital,Perambalur",
+    "college_id": "ss_dhanalakshmi_srinivasan_medical_college_and_hospital_perambalur_tamil_nadu",
+    "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Urology",
@@ -10177,7 +10177,7 @@
   },
   {
     "college_id": "ss_kanyakumari_government_medical_college_asaripallam_tamil_nadu",
-    "college_name": "KanyaKumari Government Medical College, Asaripallam",
+    "college_name": "Kanyakumari Government Medical College, Asaripallam",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Neurology",
@@ -10189,7 +10189,7 @@
   },
   {
     "college_id": "ss_kanyakumari_government_medical_college_asaripallam_tamil_nadu",
-    "college_name": "KanyaKumari Government Medical College, Asaripallam",
+    "college_name": "Kanyakumari Government Medical College, Asaripallam",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Neuro Surgery",
@@ -10860,8 +10860,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_centre_for_cancer_research_and_treatmentadyarchennai_tamil_nadu",
-    "college_name": "Regional centre for Cancer Research and treatment,Adyar,Chennai",
+    "college_id": "ss_regional_centre_for_cancer_research_and_treatment_adyar_chennai_tamil_nadu",
+    "college_name": "Regional centre for Cancer Research and treatment, Adyar, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Medical Oncology",
@@ -10872,8 +10872,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_centre_for_cancer_research_and_treatmentadyarchennai_tamil_nadu",
-    "college_name": "Regional centre for Cancer Research and treatment,Adyar,Chennai",
+    "college_id": "ss_regional_centre_for_cancer_research_and_treatment_adyar_chennai_tamil_nadu",
+    "college_name": "Regional centre for Cancer Research and treatment, Adyar, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Onco Pathology",
@@ -10884,8 +10884,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_centre_for_cancer_research_and_treatmentadyarchennai_tamil_nadu",
-    "college_name": "Regional centre for Cancer Research and treatment,Adyar,Chennai",
+    "college_id": "ss_regional_centre_for_cancer_research_and_treatment_adyar_chennai_tamil_nadu",
+    "college_name": "Regional centre for Cancer Research and treatment, Adyar, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Surgical Oncology",
@@ -11292,8 +11292,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Nephrology",
@@ -11304,8 +11304,8 @@
     "seats_inc": 1
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Medical Gastroenterology",
@@ -11316,8 +11316,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Critical Care Medicine",
@@ -11328,8 +11328,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Neuro Surgery",
@@ -11340,8 +11340,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Neurology",
@@ -11352,8 +11352,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -11364,8 +11364,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -11376,8 +11376,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Paediatric Surgery",
@@ -11388,8 +11388,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Cardiology",
@@ -11400,8 +11400,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "M.Ch - Urology",
@@ -11568,8 +11568,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -11580,8 +11580,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Vascular Surgery",
@@ -11592,8 +11592,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Surgical Oncology",
@@ -11604,8 +11604,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Neuro Surgery",
@@ -11616,8 +11616,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Neurology",
@@ -11628,8 +11628,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Cardiology",
@@ -11640,8 +11640,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -11652,8 +11652,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_thanjavur_medical_collegethanjavur_tamil_nadu",
-    "college_name": "Thanjavur Medical College,Thanjavur",
+    "college_id": "ss_thanjavur_medical_college_thanjavur_tamil_nadu",
+    "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Paediatric Surgery",
@@ -11688,8 +11688,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Cardiology",
@@ -11700,8 +11700,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Nephrology",
@@ -11712,8 +11712,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Urology",
@@ -11724,8 +11724,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Medical Gastroenterology",
@@ -11736,8 +11736,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -11748,8 +11748,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Neurology",
@@ -11760,8 +11760,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Neuro Surgery",
@@ -11772,8 +11772,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -11784,8 +11784,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Paediatric Surgery",
@@ -11796,8 +11796,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Medical Oncology",
@@ -11808,8 +11808,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "M.Ch - Surgical Oncology",
@@ -11820,8 +11820,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_tirunelveli_medical_collegetirunelveli_tamil_nadu",
-    "college_name": "Tirunelveli Medical College,Tirunelveli",
+    "college_id": "ss_tirunelveli_medical_college_tirunelveli_tamil_nadu",
+    "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "DM - Virology",
@@ -11832,8 +11832,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_chalmeda_anand_rao_insttitute_of_medical_sciences_karimnagar_telangana",
-    "college_name": "Chalmeda Anand Rao Insttitute Of Medical Sciences, Karimnagar",
+    "college_id": "ss_chalmeda_anand_rao_instituteitute_of_medical_sciences_karimnagar_telangana",
+    "college_name": "Chalmeda Anand Rao Instituteitute Of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "DM - Neurology",
@@ -11844,8 +11844,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_chalmeda_anand_rao_insttitute_of_medical_sciences_karimnagar_telangana",
-    "college_name": "Chalmeda Anand Rao Insttitute Of Medical Sciences, Karimnagar",
+    "college_id": "ss_chalmeda_anand_rao_instituteitute_of_medical_sciences_karimnagar_telangana",
+    "college_name": "Chalmeda Anand Rao Instituteitute Of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "M.Ch - Urology",
@@ -12384,8 +12384,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Paediatric Surgery",
@@ -12396,8 +12396,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "DM - Nephrology",
@@ -12408,8 +12408,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -12420,8 +12420,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Urology",
@@ -12432,8 +12432,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Neuro Surgery",
@@ -12444,8 +12444,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "DM - Neurology",
@@ -12456,8 +12456,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -12468,8 +12468,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Surgical Oncology",
@@ -12480,8 +12480,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_scienceslucknow_uttar_pradesh",
-    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences,Lucknow",
+    "college_id": "ss_dr_ram_manohar_lohia_institute_of_medical_sciences_lucknow_uttar_pradesh",
+    "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "DM - Cardiology",
@@ -13356,8 +13356,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_uttar_pradesh_university_of_medical_sciences_prev_up_rural_instof_medscr_etawah_uttar_pradesh",
-    "college_name": "Uttar Pradesh University of Medical Sciences, (Prev. UP Rural Inst.of Med.Sc&R) Etawah",
+    "college_id": "ss_uttar_pradesh_university_of_medical_sciences_prev_up_rural_instof_medsc_r_etawah_uttar_pradesh",
+    "college_name": "Uttar Pradesh University of Medical Sciences, (Prev. UP Rural Inst.of Med.Sc & R) Etawah",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "M.Ch - Neuro Surgery",
@@ -13849,7 +13849,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "DM - Cardiology",
@@ -13861,7 +13861,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "DM - Clinical Hematology",
@@ -13873,7 +13873,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "DM - Endocrinology",
@@ -13885,7 +13885,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "DM - Medical Gastroenterology",
@@ -13897,7 +13897,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "DM - Neurology",
@@ -13909,7 +13909,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "M.Ch - Paediatric Surgery",
@@ -13921,7 +13921,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -13933,7 +13933,7 @@
   },
   {
     "college_id": "ss_medical_college_kolkata_west_bengal",
-    "college_name": "MEDICAL COLLEGE, KOLKATA",
+    "college_name": "Medical College, Kolkata",
     "college_type": "Government",
     "state": "West Bengal",
     "course": "M.Ch - Urology",
@@ -15012,8 +15012,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Clinical Immunology & Rheumatology",
@@ -15024,8 +15024,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Paediatric & Neonatal Anaesthesia",
@@ -15036,8 +15036,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_sherikashmir_instt_of_medical_sciences_srinagar_jammu_and_kashmir",
-    "college_name": "Sher-I-Kashmir Instt. Of Medical Sciences, Srinagar",
+    "college_id": "ss_sherikashmir_institute_of_medical_sciences_srinagar_jammu_and_kashmir",
+    "college_name": "Sher-I-Kashmir Institute Of Medical Sciences, Srinagar",
     "college_type": "Government",
     "state": "Jammu and Kashmir",
     "course": "DM - Neuro Anaesthesia",
@@ -15072,8 +15072,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_mysore_medical_college_and_research_instt_prevname_government_medical_college_mysore_karnataka",
-    "college_name": "Mysore Medical College and Research Instt. (Prev.name Government Medical College), Mysore",
+    "college_id": "ss_mysore_medical_college_and_research_institute_prevname_government_medical_college_mysore_karnataka",
+    "college_name": "Mysore Medical College and Research Institute (Prev.name Government Medical College), Mysore",
     "college_type": "Government",
     "state": "Karnataka",
     "course": "M.Ch - Urology",
@@ -15084,8 +15084,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_mysore_medical_college_and_research_instt_prevname_government_medical_college_mysore_karnataka",
-    "college_name": "Mysore Medical College and Research Instt. (Prev.name Government Medical College), Mysore",
+    "college_id": "ss_mysore_medical_college_and_research_institute_prevname_government_medical_college_mysore_karnataka",
+    "college_name": "Mysore Medical College and Research Institute (Prev.name Government Medical College), Mysore",
     "college_type": "Government",
     "state": "Karnataka",
     "course": "DM - Nephrology",
@@ -15276,8 +15276,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikodecalicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode,Calicut",
+    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
     "course": "M.Ch - Urology",
@@ -15493,7 +15493,7 @@
   },
   {
     "college_id": "ss_cancer_hospital_and_research_centre_ne_punjab",
-    "college_name": "CANCER HOSPITAL AND RESEARCH CENTRE NE",
+    "college_name": "Cancer Hospital and Research Centre Ne",
     "college_type": "Private",
     "state": "Punjab",
     "course": "DM - Medical Oncology",
@@ -15505,7 +15505,7 @@
   },
   {
     "college_id": "ss_cancer_hospital_and_research_centre_ne_punjab",
-    "college_name": "CANCER HOSPITAL AND RESEARCH CENTRE NE",
+    "college_name": "Cancer Hospital and Research Centre Ne",
     "college_type": "Private",
     "state": "Punjab",
     "course": "M.Ch - Surgical Oncology",
@@ -15540,8 +15540,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Critical Care Medicine",
@@ -15552,8 +15552,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -15564,8 +15564,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -15576,8 +15576,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_geetanjali_medical_college_hospitaludaipur_rajasthan",
-    "college_name": "Geetanjali Medical College & Hospital,Udaipur",
+    "college_id": "ss_geetanjali_medical_college_hospital_udaipur_rajasthan",
+    "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "DM - Cardiac Anaesthesia",
@@ -15672,8 +15672,8 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattusrm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
-    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu,SRM Medical College Hospital & Research Centre Kancheepuram",
+    "college_id": "ss_srm_medical_college_hospital_research_centre_chengalpattu_srm_medical_college_hospital_research_centre_kancheepuram_tamil_nadu",
+    "college_name": "SRM Medical College Hospital & Research Centre Chengalpattu, SRM Medical College Hospital & Research Centre Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "DM - Neonatology",
@@ -16045,7 +16045,7 @@
   },
   {
     "college_id": "ss_cancer_hospital_and_research_centre_ne_punjab",
-    "college_name": "CANCER HOSPITAL AND RESEARCH CENTRE NE",
+    "college_name": "Cancer Hospital and Research Centre Ne",
     "college_type": "Private",
     "state": "Punjab",
     "course": "DM - Onco Pathology",

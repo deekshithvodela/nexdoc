@@ -1,7 +1,7 @@
 [
   {
-    "college_id": "ss_academy_of_medical_sciencespariyaram_kannur_kerala",
-    "college_name": "Academy of Medical Sciences,Pariyaram, Kannur",
+    "college_id": "ss_academy_of_medical_sciences_pariyaram_kannur_kerala",
+    "college_name": "Academy of Medical Sciences, Pariyaram, Kannur",
     "college_type": "Government",
     "state": "Kerala",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -636,8 +636,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikodecalicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode,Calicut",
+    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Medical Gastroenterology",
@@ -648,8 +648,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikodecalicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode,Calicut",
+    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Cardiology",
@@ -1080,8 +1080,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikodecalicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode,Calicut",
+    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
     "course": "M.Ch - Urology",
