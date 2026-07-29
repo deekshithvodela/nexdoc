@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('nexdoc_theme');
+        var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) { }
+    })();
+  </script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>NexDoc | NEET Seat Explorer</title>
-  <meta name="description" content="NexDoc is a high-performance, zero-backend explorer and analytics dashboard for Indian medical seat matrices (MBBS, MD, MS, DM, MCh) across UG, PG, and Super Specialty levels.">
-  <meta name="keywords" content="NEET, seat matrix, MBBS, medical colleges, India, MCC, counselling, UG, PG, Super Specialty, NexDoc">
+  <meta name="description"
+    content="NexDoc is a high-performance, zero-backend explorer and analytics dashboard for Indian medical seat matrices (MBBS, MD, MS, DM, MCh) across UG, PG, and Super Specialty levels.">
+  <meta name="keywords"
+    content="NEET, seat matrix, MBBS, medical colleges, India, MCC, counselling, UG, PG, Super Specialty, NexDoc">
   <meta name="author" content="Deekshith Vodela">
   <meta name="theme-color" content="#070c19">
 
   <!-- GoatCounter Analytics (Privacy-First) -->
-  <script data-goatcounter="https://deekshithvodela.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://deekshithvodela.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="NexDoc | NEET Seat Explorer">
-  <meta property="og:description" content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
+  <meta property="og:description"
+    content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
   <meta property="og:url" content="https://deekshithvodela.github.io/nexdoc/">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="NexDoc | NEET Seat Explorer">
-  <meta name="twitter:description" content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
+  <meta name="twitter:description"
+    content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
 
   <!-- Premium Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- CSS Stylesheet -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon & PWA App Icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="app.css">
-  
+
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
   <!-- D3.js CDN for Sankey -->
@@ -39,11 +60,12 @@
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest" defer></script>
 </head>
+
 <body>
 
   <!-- App Wrapper -->
   <div class="app-container">
-    
+
     <!-- Top Navigation Bar -->
     <header class="app-header">
       <div class="brand">
@@ -53,7 +75,7 @@
           <span class="brand-tagline">NEET Seat Explorer</span>
         </div>
       </div>
-      
+
       <!-- Level Switcher -->
       <div class="level-tabs">
         <button class="level-tab active" data-level="ug">
@@ -70,14 +92,34 @@
         </button>
       </div>
 
-      <!-- State Selector Dropdown -->
-      <div class="state-select-container">
-        <label for="stateSelector"><i data-lucide="map-pin"></i> Region</label>
-        <select id="stateSelector">
-          <option value="" disabled selected>Select Region / State</option>
-        </select>
+      <!-- State Selector Dropdown & Header Controls -->
+      <div class="header-right-group">
+        <div class="header-controls">
+          <button id="installPwaBtn" class="btn-header-control btn-install-pwa" title="Install NexDoc PWA"
+            aria-label="Install NexDoc PWA">
+            <i data-lucide="download"></i>
+            <span class="btn-label">Install</span>
+          </button>
+          <button id="themeToggleBtn" class="btn-header-control btn-theme-toggle" title="Toggle Theme"
+            aria-label="Toggle Dark/Light Theme">
+            <i data-lucide="moon" class="theme-icon-dark"></i>
+            <i data-lucide="sun" class="theme-icon-light"></i>
+          </button>
+        </div>
+        <div class="state-select-container">
+          <label for="stateSelector"><i data-lucide="map-pin"></i> Region</label>
+          <select id="stateSelector">
+            <option value="" disabled selected>Select Region / State</option>
+          </select>
+        </div>
       </div>
     </header>
+
+    <!-- Global Dataset Disclaimer Banner -->
+    <div class="global-disclaimer-banner">
+      <span>This portal does not contain Institutes of National Importance (INI) data (such as AIIMS, JIPMER, PGIMER,
+        NIMHANS, etc.).</span>
+    </div>
 
     <!-- Stat Dashboard Section -->
     <section class="stats-dashboard card-glass">
@@ -92,7 +134,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-icon bg-blue"><i data-lucide="school"></i></div>
@@ -127,7 +169,7 @@
 
     <!-- Main Workspace Layout -->
     <main class="app-workspace">
-      
+
       <!-- Left Sidebar Filters -->
       <aside class="sidebar-filters card-glass" id="filterSidebar">
         <!-- Rendered by SearchFilters.js -->
@@ -135,11 +177,14 @@
 
       <!-- Right Panel Content -->
       <section class="main-panel">
-        
+
         <!-- Tab Navigation -->
         <div class="panel-tabs card-glass">
           <button class="panel-tab active" data-tab="table">
             <i data-lucide="table-properties"></i> Table Explorer
+          </button>
+          <button class="panel-tab" data-tab="cutoffs">
+            <i data-lucide="target"></i> MCC UG Cutoffs & Predictor
           </button>
           <button class="panel-tab" data-tab="analytics">
             <i data-lucide="bar-chart-3"></i> Seat Analytics
@@ -154,7 +199,7 @@
 
         <!-- Panel Views -->
         <div class="panel-views-container">
-          
+
           <!-- 1. Table Explorer View -->
           <div class="panel-view active" id="viewTable">
             <div class="table-actions card-glass">
@@ -170,17 +215,18 @@
                 </button>
               </div>
             </div>
-            
+
             <div class="table-container card-glass">
               <table id="seatsTable">
                 <thead>
                   <tr>
+                    <th class="th-expand-col"></th>
                     <th>College Name</th>
                     <th>Type</th>
                     <th>Course</th>
-                     <th>Counselling</th>
-                     <th>Quota</th>
-                     <th class="text-right">Prev Seats</th>
+                    <th>Counselling</th>
+                    <th>Quota</th>
+                    <th class="text-right">Prev Seats</th>
                     <th class="text-right">Increased</th>
                     <th class="text-right">Total Seats</th>
                     <th class="text-center">Compare</th>
@@ -188,7 +234,7 @@
                 </thead>
                 <tbody id="seatsTableBody">
                   <tr>
-                    <td colspan="9" class="placeholder-text">Please select a region/state to load the database.</td>
+                    <td colspan="10" class="placeholder-text">Please select a region/state to load the database.</td>
                   </tr>
                 </tbody>
               </table>
@@ -222,7 +268,10 @@
           <div class="panel-view" id="viewSankey">
             <div class="sankey-explanation card-glass">
               <i data-lucide="info"></i>
-              <p>This flow diagram visualizes how medical seats flow from the selected **Counselling Route** down through the **College Type** and **College** to the **Specific Speciality/Course**.</p>
+              <p>This flow diagram visualizes how medical seats flow from the selected <strong>Counselling
+                  Route</strong> down through the <strong>College Type</strong> and <strong>College</strong> to the
+                <strong>Specific Speciality/Course</strong>.
+              </p>
             </div>
             <div class="sankey-container card-glass" id="sankeyChartContainer">
               <svg id="sankeySvg" width="100%" height="550"></svg>
@@ -232,18 +281,18 @@
           <!-- 4. Comparison View -->
           <div class="panel-view" id="viewCompare">
             <div class="table-actions card-glass">
-              <div class="table-meta" style="margin-left: auto;">
+              <div class="table-meta align-right">
                 <button class="btn-fullscreen-toggle" id="compareFullscreenToggleBtn" title="Interactive Fullscreen">
                   <i data-lucide="maximize-2"></i>
                   <span>Fullscreen</span>
                 </button>
               </div>
             </div>
-            
+
             <div class="comparison-container card-glass" id="comparisonMatrixWrapper">
               <!-- Rendered by ComparisonMatrix.js -->
             </div>
-            
+
             <!-- Scroll to top button in compare view -->
             <div class="table-footer-actions">
               <button class="btn-go-to-top" id="goToTopCompareBtn">
@@ -251,6 +300,11 @@
                 <span>Back to Top</span>
               </button>
             </div>
+          </div>
+
+          <!-- 5. AIQ Cutoffs & Rank Predictor View -->
+          <div class="panel-view" id="viewCutoffs">
+            <!-- Rendered by CutoffExplorer.js -->
           </div>
 
         </div>
@@ -297,15 +351,25 @@
     <footer class="app-footer card-glass">
       <div class="footer-content">
         <div class="footer-info">
-          <span>&copy; 2026 <a href="https://linktr.ee/deekshithvodela" target="_blank" rel="noopener noreferrer">Deekshith Vodela</a></span>
+          <span>&copy; 2026 <a href="https://linktr.ee/deekshithvodela" target="_blank"
+              rel="noopener noreferrer">Deekshith Vodela</a></span>
           <span class="footer-separator">•</span>
           <a href="license.html" class="license-link">
             <i data-lucide="scale"></i> MIT License
           </a>
           <span class="footer-separator">•</span>
-          <span class="data-update-badge"><i data-lucide="calendar" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 4px; color: var(--accent-green);"></i>Data updated: July 2026</span>
+          <a href="privacy.html" class="license-link">
+            <i data-lucide="shield"></i> Privacy Policy
+          </a>
+          <span class="footer-separator">•</span>
+          <a href="disclosure.html" class="license-link">
+            <i data-lucide="info"></i> Disclosure
+          </a>
+          <span class="footer-separator">•</span>
+          <span class="data-update-badge"><i data-lucide="calendar" class="data-update-icon"></i>Data updated: July
+            2026</span>
         </div>
-        
+
         <div class="footer-actions">
           <a href="https://deekshithvodela.substack.com/" target="_blank" rel="noopener noreferrer" class="footer-btn">
             <i data-lucide="mail"></i> Subscribe to Newsletter
@@ -339,4 +403,5 @@
   <!-- Component & App Scripts -->
   <script type="module" src="app.js"></script>
 </body>
+
 </html>

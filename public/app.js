@@ -3,6 +3,7 @@ import { SearchFilters } from './components/SearchFilters.js';
 import { AnalyticsPanel } from './components/AnalyticsPanel.js';
 import { SankeyChart } from './components/SankeyChart.js';
 import { ComparisonMatrix } from './components/ComparisonMatrix.js';
+import { CutoffExplorer } from './components/CutoffExplorer.js';
 
 // Application State
 const AppState = {
@@ -57,6 +58,41 @@ function debounce(func, wait) {
   };
 }
 
+// Early PWA Event Interception (preserves beforeinstallprompt across timing/refreshes)
+let deferredInstallPrompt = window.deferredInstallPrompt || null;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredInstallPrompt = e;
+  window.deferredInstallPrompt = e;
+  updateInstallButtonVisibility();
+});
+
+window.addEventListener('appinstalled', () => {
+  console.log('[PWA] App successfully installed!');
+  deferredInstallPrompt = null;
+  window.deferredInstallPrompt = null;
+  updateInstallButtonVisibility();
+});
+
+function isAppInstalled() {
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches 
+                    || window.navigator.standalone === true 
+                    || document.referrer.includes('android-app://');
+  return isStandalone;
+}
+
+function updateInstallButtonVisibility() {
+  const installBtn = document.getElementById('installPwaBtn');
+  if (!installBtn) return;
+
+  if (isAppInstalled() || !deferredInstallPrompt) {
+    installBtn.classList.add('is-hidden');
+  } else {
+    installBtn.classList.remove('is-hidden');
+  }
+}
+
 // Initialize Application
 async function init() {
   try {
@@ -81,14 +117,103 @@ async function init() {
 
     // 3. Attach Global Event Listeners
     setupGlobalListeners();
+
+    // 4. Setup Theme Toggle System
+    setupThemeToggle();
     
-    // 4. Initialize Lucide icons
+    // 5. Register PWA Service Worker & Setup Install Prompt
+    setupPwaSupport();
+
+    // 6. Initialize Lucide icons
     if (window.lucide) {
       window.lucide.createIcons();
     }
+
+    // Ensure theme icon visibility after Lucide rendering
+    applyTheme(localStorage.getItem('nexdoc_theme') || 'dark');
+
+    // 7. Initialize scroll indicators for static containers
+    const staticScrollOwners = [
+      document.querySelector('.panel-tabs'),
+      document.querySelector('#viewTable .table-container'),
+      document.querySelector('.sankey-container'),
+      document.querySelector('.comparison-container')
+    ];
+    staticScrollOwners.forEach(el => {
+      if (el) window.initScrollAffordance(el);
+    });
   } catch (err) {
     console.error('Initialization failed:', err);
   }
+}
+
+// PWA Support & Service Worker Registration
+function setupPwaSupport() {
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('[PWA] Service Worker registered successfully:', reg.scope))
+        .catch(err => console.warn('[PWA] Service Worker registration failed:', err));
+    });
+  }
+
+  const installBtn = document.getElementById('installPwaBtn');
+  if (installBtn) {
+    installBtn.onclick = async () => {
+      if (!deferredInstallPrompt) return;
+      try {
+        deferredInstallPrompt.prompt();
+        const { outcome } = await deferredInstallPrompt.userChoice;
+        console.log(`[PWA] User response to install prompt: ${outcome}`);
+        if (outcome === 'accepted') {
+          deferredInstallPrompt = null;
+          window.deferredInstallPrompt = null;
+          updateInstallButtonVisibility();
+        }
+      } catch (err) {
+        console.warn('[PWA] Install prompt error:', err);
+      }
+    };
+  }
+
+  try {
+    window.matchMedia('(display-mode: standalone)').addEventListener('change', () => {
+      updateInstallButtonVisibility();
+    });
+  } catch (e) {}
+
+  updateInstallButtonVisibility();
+}
+
+// Dark/Light Theme Toggle System
+function setupThemeToggle() {
+  const themeToggleBtn = document.getElementById('themeToggleBtn');
+  if (!themeToggleBtn) return;
+
+  // Determine current active theme (Saved choice > OS preference > default dark)
+  const savedTheme = localStorage.getItem('nexdoc_theme');
+  const currentTheme = savedTheme || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  applyTheme(currentTheme);
+
+  themeToggleBtn.addEventListener('click', () => {
+    const activeTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+    const nextTheme = activeTheme === 'dark' ? 'light' : 'dark';
+    applyTheme(nextTheme);
+    localStorage.setItem('nexdoc_theme', nextTheme);
+  });
+
+  // Listen to OS preference changes dynamically when no explicit user choice is saved
+  try {
+    window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('nexdoc_theme')) {
+        applyTheme(e.matches ? 'light' : 'dark');
+      }
+    });
+  } catch (err) {}
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
 }
 
 // Load summary files and populate dropdowns for a chosen level
@@ -153,8 +278,42 @@ async function loadLevelData(level) {
       updateExplorerViews();
       SearchFilters.render('filterSidebar', AppState.activeLevel, AppState.levelSummary, AppState.filters, AppState.selectedState, onFilterChange);
     }
+
+    // AIQ Cutoffs & Predictor is strictly applicable to UG level only
+    updateCutoffsTabVisibility();
   } catch (err) {
     console.error(`Failed loading summary for ${level}:`, err);
+  }
+}
+
+// Show AIQ Cutoffs tab only for UG level; hide for PG & SS
+function updateCutoffsTabVisibility() {
+  const cutoffsTabBtn = document.querySelector('.panel-tab[data-tab="cutoffs"]');
+  if (cutoffsTabBtn) {
+    if (AppState.activeLevel === 'ug') {
+      cutoffsTabBtn.classList.remove('is-hidden');
+    } else {
+      cutoffsTabBtn.classList.add('is-hidden');
+      // If cutoffs tab was active when switching away from UG, revert to table explorer
+      if (cutoffsTabBtn.classList.contains('active')) {
+        cutoffsTabBtn.classList.remove('active');
+        const tableTabBtn = document.querySelector('.panel-tab[data-tab="table"]');
+        if (tableTabBtn) tableTabBtn.classList.add('active');
+        document.querySelectorAll('.panel-view').forEach(view => view.classList.remove('active'));
+        const viewTable = document.getElementById('viewTable');
+        if (viewTable) viewTable.classList.add('active');
+      }
+    }
+  }
+
+  // Handle Global Disclaimer Banner (remove in UG, keep in PG and SS)
+  const disclaimer = document.querySelector('.global-disclaimer-banner');
+  if (disclaimer) {
+    if (AppState.activeLevel === 'ug') {
+      disclaimer.style.display = 'none';
+    } else {
+      disclaimer.style.display = '';
+    }
   }
 }
 
@@ -170,12 +329,28 @@ async function loadStateDetails(stateValue) {
       let res;
       if (stateValue === 'all') {
         res = await fetch(`data/${level}/all.json`);
+        const data = await res.json();
+        AppState.seatsDataCache[cacheKey] = data;
+        AppState.rawSeatsData = data;
       } else {
-        res = await fetch(`data/${level}/states/${stateValue}.json`);
+        try {
+          res = await fetch(`data/${level}/states/${stateValue}.json`);
+          const data = await res.json();
+          AppState.seatsDataCache[cacheKey] = data;
+          AppState.rawSeatsData = data;
+        } catch (fetchErr) {
+          console.warn(`Offline fetch for state ${stateValue} failed, reverting to local filter from all.json:`, fetchErr);
+          let allData = AppState.seatsDataCache[`${level}_all`];
+          if (!allData) {
+            const allRes = await fetch(`data/${level}/all.json`);
+            allData = await allRes.json();
+            AppState.seatsDataCache[`${level}_all`] = allData;
+          }
+          const stateRows = allData.filter(row => row.state === stateValue);
+          AppState.seatsDataCache[cacheKey] = stateRows;
+          AppState.rawSeatsData = stateRows;
+        }
       }
-      const data = await res.json();
-      AppState.seatsDataCache[cacheKey] = data;
-      AppState.rawSeatsData = data;
     }
     
     // Refresh filters with empty selection (meaning all are allowed)
@@ -193,6 +368,16 @@ async function loadStateDetails(stateValue) {
     console.error(`Failed loading state details for ${stateValue}:`, err);
   }
 }
+
+// Global helper to synchronize CutoffExplorer region changes with master state selector
+window.syncMasterStateSelector = async (stateVal) => {
+  const masterSelector = document.getElementById('stateSelector');
+  if (masterSelector && masterSelector.value !== stateVal) {
+    masterSelector.value = stateVal;
+    AppState.selectedState = stateVal;
+    await loadStateDetails(stateVal);
+  }
+};
 
 // Multi-faceted search and filter engine
 function applyFiltering() {
@@ -321,14 +506,33 @@ function updateExplorerViews() {
     document.getElementById('showingCount').textContent = `Showing 0 records`;
   }
 
-  if (activeTab === 'table') {
-    renderTableExplorer();
-  } else if (activeTab === 'analytics') {
-    AnalyticsPanel.render(AppState.filteredSeatsData);
-  } else if (activeTab === 'sankey') {
-    SankeyChart.render(AppState.filteredSeatsData);
-  } else if (activeTab === 'compare') {
-    renderComparisonMatrix();
+  // Synchronize state selection & sidebar filters according to active tab
+  if (activeTab === 'cutoffs') {
+    if (CutoffExplorer) {
+      if (CutoffExplorer.setSelectedState) {
+        CutoffExplorer.setSelectedState(AppState.selectedState);
+      }
+      CutoffExplorer.init('viewCutoffs');
+      CutoffExplorer.renderSidebarFilters('filterSidebar');
+    }
+  } else {
+    SearchFilters.render('filterSidebar', AppState.activeLevel, AppState.levelSummary, AppState.filters, AppState.selectedState, onFilterChange);
+    
+    if (activeTab === 'table') {
+      renderTableExplorer();
+      const container = document.querySelector('#viewTable .table-container');
+      if (container && container._updateScrollAffordance) container._updateScrollAffordance();
+    } else if (activeTab === 'analytics') {
+      AnalyticsPanel.render(AppState.filteredSeatsData);
+    } else if (activeTab === 'sankey') {
+      SankeyChart.render(AppState.filteredSeatsData);
+      const container = document.querySelector('.sankey-container');
+      if (container && container._updateScrollAffordance) container._updateScrollAffordance();
+    } else if (activeTab === 'compare') {
+      renderComparisonMatrix();
+      const container = document.querySelector('.comparison-container');
+      if (container && container._updateScrollAffordance) container._updateScrollAffordance();
+    }
   }
 }
 
@@ -387,16 +591,17 @@ function renderFlatTable(tbody) {
     const seatsInc = row.seats_inc !== undefined ? row.seats_inc : 0;
 
     tr.innerHTML = `
+      <td class="th-expand-col"></td>
       <td><button class="college-details-link" data-college-id="${row.college_id}">${row.college_name}</button></td>
       <td><span class="badge ${badgeClass}">${row.college_type}</span></td>
       <td>${row.course}</td>
-      <td><span style="font-weight: 600;">${row.counseling_route === 'MCC' ? 'MCC' : 'State'}</span></td>
-      <td><small style="opacity: 0.85;">${row.quota_type}</small></td>
-      <td class="text-right" style="opacity: 0.85; font-size: 0.95rem;">${seatsPrev}</td>
-      <td class="text-right" style="color: ${seatsInc > 0 ? 'var(--accent-green)' : 'inherit'}; font-weight: ${seatsInc > 0 ? '600' : 'normal'}; font-size: 0.95rem;">
+      <td><span class="font-semibold">${row.counseling_route === 'MCC' ? 'MCC' : 'State'}</span></td>
+      <td><small class="opacity-85">${row.quota_type}</small></td>
+      <td class="text-right opacity-85 cell-subtle">${seatsPrev}</td>
+      <td class="text-right ${seatsInc > 0 ? 'text-green font-semibold' : ''} cell-subtle">
         ${seatsInc > 0 ? `+${seatsInc}` : '0'}
       </td>
-      <td class="text-right"><strong style="font-size: 1rem; color: var(--accent-green);">${row.seats}</strong></td>
+      <td class="text-right"><strong class="text-green text-md">${row.seats}</strong></td>
       <td class="text-center">
         <button class="${compareBtnClass}" data-college-id="${row.college_id}" title="${compareBtnText}">
           <i data-lucide="${isInCompare ? 'check' : 'plus'}"></i>
@@ -445,19 +650,21 @@ function renderGroupedTable(tbody) {
       ? `${uniqueQuotas.size} quota${uniqueQuotas.size > 1 ? 's' : ''}`
       : `${uniqueCourses.size} course${uniqueCourses.size > 1 ? 's' : ''}`;
     const courseSummary = isUG
-      ? `<span style="opacity: 0.7;">${sample.course}</span>`
-      : `<span style="opacity: 0.7; font-style: italic;">${uniqueCourses.size} specialties</span>`;
+      ? `<span class="opacity-70">${sample.course}</span>`
+      : `<span class="opacity-70 font-italic">${uniqueCourses.size} specialties</span>`;
 
     // Group header row (collapsed summary)
     const headerTr = document.createElement('tr');
     headerTr.classList.add('group-header-row');
     headerTr.setAttribute('data-group-id', collegeId);
     headerTr.innerHTML = `
+      <td class="text-center th-expand-col">
+        <button class="group-expand-btn" data-group-id="${collegeId}" aria-label="Expand college">
+          <i data-lucide="chevron-right" class="group-chevron"></i>
+        </button>
+      </td>
       <td>
-        <div class="group-toggle">
-          <button class="group-expand-btn" data-group-id="${collegeId}" aria-label="Expand college">
-            <i data-lucide="chevron-right" class="group-chevron"></i>
-          </button>
+        <div>
           <button class="college-details-link" data-college-id="${collegeId}">${sample.college_name}</button>
         </div>
         <div class="group-summary-chips">
@@ -466,13 +673,13 @@ function renderGroupedTable(tbody) {
       </td>
       <td><span class="badge ${badgeClass}">${sample.college_type}</span></td>
       <td class="group-summary-courses">${courseSummary}</td>
-      <td><span style="font-weight: 600;">${rows.some(r => r.counseling_route === 'MCC') ? 'MCC' : ''}${rows.some(r => r.counseling_route === 'MCC') && rows.some(r => r.counseling_route !== 'MCC') ? ' / ' : ''}${rows.some(r => r.counseling_route !== 'MCC') ? 'State' : ''}</span></td>
+      <td><span class="font-semibold">${rows.some(r => r.counseling_route === 'MCC') ? 'MCC' : ''}${rows.some(r => r.counseling_route === 'MCC') && rows.some(r => r.counseling_route !== 'MCC') ? ' / ' : ''}${rows.some(r => r.counseling_route !== 'MCC') ? 'State' : ''}</span></td>
       <td>—</td>
-      <td class="text-right" style="opacity: 0.85;">${totalPrev}</td>
-      <td class="text-right" style="color: ${totalInc > 0 ? 'var(--accent-green)' : 'inherit'}; font-weight: ${totalInc > 0 ? '600' : 'normal'};">
+      <td class="text-right opacity-85">${totalPrev}</td>
+      <td class="text-right ${totalInc > 0 ? 'text-green font-semibold' : ''}">
         ${totalInc > 0 ? `+${totalInc}` : '0'}
       </td>
-      <td class="text-right"><strong style="font-size: 1rem; color: var(--accent-green);">${totalSeats}</strong></td>
+      <td class="text-right"><strong class="text-green text-md">${totalSeats}</strong></td>
       <td class="text-center">
         <button class="${compareBtnClass}" data-college-id="${collegeId}" title="${compareBtnText}">
           <i data-lucide="${isInCompare ? 'check' : 'plus'}"></i>
@@ -484,24 +691,24 @@ function renderGroupedTable(tbody) {
     // Individual course rows (hidden by default)
     rows.forEach(row => {
       const childTr = document.createElement('tr');
-      childTr.classList.add('group-child-row');
+      childTr.classList.add('group-child-row', 'is-hidden');
       childTr.setAttribute('data-parent-group', collegeId);
-      childTr.style.display = 'none'; // Collapsed by default
 
       const seatsPrev = row.seats_prev !== undefined ? row.seats_prev : row.seats;
       const seatsInc = row.seats_inc !== undefined ? row.seats_inc : 0;
 
       childTr.innerHTML = `
-        <td style="padding-left: 2.5rem;"><span style="opacity: 0.5;">└</span> ${row.college_name}</td>
-        <td></td>
+        <td class="th-expand-col child-indent-symbol-cell"><span class="indent-tree-char">└</span></td>
+        <td><button class="college-details-link" data-college-id="${row.college_id}">${row.college_name}</button></td>
+        <td><span class="badge ${badgeClass}">${row.college_type}</span></td>
         <td>${row.course}</td>
-        <td><span style="font-weight: 600;">${row.counseling_route === 'MCC' ? 'MCC' : 'State'}</span></td>
-        <td><small style="opacity: 0.85;">${row.quota_type}</small></td>
-        <td class="text-right" style="opacity: 0.85; font-size: 0.95rem;">${seatsPrev}</td>
-        <td class="text-right" style="color: ${seatsInc > 0 ? 'var(--accent-green)' : 'inherit'}; font-weight: ${seatsInc > 0 ? '600' : 'normal'}; font-size: 0.95rem;">
+        <td><span class="font-semibold">${row.counseling_route === 'MCC' ? 'MCC' : 'State'}</span></td>
+        <td><small class="opacity-85">${row.quota_type}</small></td>
+        <td class="text-right opacity-85 cell-subtle">${seatsPrev}</td>
+        <td class="text-right ${seatsInc > 0 ? 'text-green font-semibold' : ''} cell-subtle">
           ${seatsInc > 0 ? `+${seatsInc}` : '0'}
         </td>
-        <td class="text-right"><strong style="color: var(--accent-green);">${row.seats}</strong></td>
+        <td class="text-right"><strong class="text-green">${row.seats}</strong></td>
         <td></td>
       `;
       tbody.appendChild(childTr);
@@ -514,7 +721,7 @@ function renderGroupedTable(tbody) {
       const isExpanded = headerTr.classList.toggle('expanded');
       const children = tbody.querySelectorAll(`tr[data-parent-group="${collegeId}"]`);
       children.forEach(child => {
-        child.style.display = isExpanded ? '' : 'none';
+        child.classList.toggle('is-hidden', !isExpanded);
       });
     });
   });
@@ -611,6 +818,48 @@ function renderComparisonMatrix() {
   });
 }
 
+// Scroll Indicator Affordance helper
+function initScrollAffordance(container) {
+  if (!container) return;
+  
+  if (container._scrollAffordanceInitialized) {
+    if (container._updateScrollAffordance) {
+      container._updateScrollAffordance();
+    }
+    return;
+  }
+  
+  const checkScroll = () => {
+    const scrollLeft = container.scrollLeft;
+    const maxScroll = container.scrollWidth - container.clientWidth;
+    
+    if (container.scrollWidth > container.clientWidth + 1) {
+      if (scrollLeft > 5) {
+        container.classList.add('has-scroll-left');
+      } else {
+        container.classList.remove('has-scroll-left');
+      }
+      
+      if (scrollLeft < maxScroll - 5) {
+        container.classList.add('has-scroll-right');
+      } else {
+        container.classList.remove('has-scroll-right');
+      }
+    } else {
+      container.classList.remove('has-scroll-left', 'has-scroll-right');
+    }
+  };
+
+  container.addEventListener('scroll', checkScroll, { passive: true });
+  window.addEventListener('resize', checkScroll, { passive: true });
+  
+  container._updateScrollAffordance = checkScroll;
+  container._scrollAffordanceInitialized = true;
+  
+  setTimeout(checkScroll, 100);
+}
+window.initScrollAffordance = initScrollAffordance;
+
 // Set up UI Event listeners
 function setupGlobalListeners() {
   // Level Tabs click
@@ -631,6 +880,9 @@ function setupGlobalListeners() {
   // State Selector change
   document.getElementById('stateSelector').addEventListener('change', async (e) => {
     AppState.selectedState = e.target.value;
+    if (CutoffExplorer && CutoffExplorer.setSelectedState) {
+      CutoffExplorer.setSelectedState(e.target.value);
+    }
     await loadStateDetails(AppState.selectedState);
   });
 
@@ -650,6 +902,11 @@ function setupGlobalListeners() {
     tab.addEventListener('click', (e) => {
       document.querySelectorAll('.panel-tab').forEach(t => t.classList.remove('active'));
       e.currentTarget.classList.add('active');
+      e.currentTarget.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'nearest'
+      });
       
       // Hide all panels
       document.querySelectorAll('.panel-view').forEach(view => view.classList.remove('active'));
@@ -660,6 +917,7 @@ function setupGlobalListeners() {
       if (targetView === 'analytics') document.getElementById('viewAnalytics').classList.add('active');
       if (targetView === 'sankey') document.getElementById('viewSankey').classList.add('active');
       if (targetView === 'compare') document.getElementById('viewCompare').classList.add('active');
+      if (targetView === 'cutoffs') document.getElementById('viewCutoffs').classList.add('active');
 
       updateExplorerViews();
     });
@@ -687,7 +945,14 @@ function setupGlobalListeners() {
     // Activate the Compare Tab
     document.querySelectorAll('.panel-tab').forEach(t => t.classList.remove('active'));
     const compareTabBtn = document.querySelector('.panel-tab[data-tab="compare"]');
-    if (compareTabBtn) compareTabBtn.classList.add('active');
+    if (compareTabBtn) {
+      compareTabBtn.classList.add('active');
+      compareTabBtn.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'nearest'
+      });
+    }
     
     document.querySelectorAll('.panel-view').forEach(view => view.classList.remove('active'));
     const viewCompare = document.getElementById('viewCompare');
@@ -757,10 +1022,10 @@ function setupGlobalListeners() {
   // Helper to show rotate prompt with an auto-hide timeout
   const showRotatePromptWithTimeout = (rotatePrompt) => {
     if (!rotatePrompt) return;
-    rotatePrompt.style.display = 'flex';
+    rotatePrompt.classList.add('is-visible');
     clearTimeout(AppState.rotatePromptTimeout);
     AppState.rotatePromptTimeout = setTimeout(() => {
-      rotatePrompt.style.display = 'none';
+      rotatePrompt.classList.remove('is-visible');
     }, 5000);
   };
 
@@ -781,7 +1046,7 @@ function setupGlobalListeners() {
         document.body.classList.add('compare-fullscreen-active');
       }
       AppState.fullscreenActive = true;
-      if (exitBtn) exitBtn.style.display = 'flex';
+      if (exitBtn) exitBtn.classList.add('is-visible');
       
       // Only show rotate prompt if device is in portrait mode on mobile
       if (rotatePrompt && window.innerHeight > window.innerWidth) {
@@ -792,8 +1057,8 @@ function setupGlobalListeners() {
       document.body.classList.remove('compare-fullscreen-active');
       AppState.fullscreenActive = false;
       AppState.fullscreenDismissed = true;
-      if (exitBtn) exitBtn.style.display = 'none';
-      if (rotatePrompt) rotatePrompt.style.display = 'none';
+      if (exitBtn) exitBtn.classList.remove('is-visible');
+      if (rotatePrompt) rotatePrompt.classList.remove('is-visible');
       clearTimeout(AppState.rotatePromptTimeout);
       
       // Scroll to the end of the page on exit
@@ -859,13 +1124,13 @@ function setupGlobalListeners() {
       AppState.fullscreenDismissed = false;
     }
 
-    if (window.innerWidth > 768) return; // Only mobile
+    if (window.innerWidth > 768 && window.innerHeight > 500) return; // Only mobile (portrait or landscape)
 
     const activeTabBtn = document.querySelector('.panel-tab.active');
     if (!activeTabBtn) return;
     
     const activeTab = activeTabBtn.getAttribute('data-tab');
-    if (activeTab !== 'table' && activeTab !== 'compare') return;
+    if (activeTab !== 'table' && activeTab !== 'compare' && activeTab !== 'cutoffs') return;
 
     if (AppState.fullscreenDismissed || AppState.fullscreenActive) return;
 
@@ -876,6 +1141,16 @@ function setupGlobalListeners() {
         const selRect = selectors.getBoundingClientRect();
         // Auto trigger fullscreen when scrolling past category selectors (panel tabs)
         if (selRect.bottom < 10) {
+          toggleFullscreen(true, 'table');
+        }
+      }
+    } else if (activeTab === 'cutoffs') {
+      const card = document.querySelector('.cutoff-controls-card');
+      if (card) {
+        const rect = card.getBoundingClientRect();
+        const cardMidpoint = rect.top + (rect.height / 2);
+        // Auto trigger fullscreen when MIDPOINT of predictor/control card reaches top of viewport (<= 0)
+        if (cardMidpoint <= 0) {
           toggleFullscreen(true, 'table');
         }
       }
@@ -892,12 +1167,14 @@ function setupGlobalListeners() {
     }
   });
 
+
+
   // Hide rotate prompt dynamically if screen orientation is changed to landscape
   window.addEventListener('resize', () => {
     const rotatePrompt = document.getElementById('rotatePrompt');
     if (rotatePrompt) {
       if (AppState.fullscreenActive && window.innerWidth > window.innerHeight) {
-        rotatePrompt.style.display = 'none';
+        rotatePrompt.classList.remove('is-visible');
         clearTimeout(AppState.rotatePromptTimeout);
       } else if (AppState.fullscreenActive && window.innerHeight > window.innerWidth) {
         showRotatePromptWithTimeout(rotatePrompt);
@@ -956,18 +1233,19 @@ function setupGlobalListeners() {
 
 // Display College Details Modal Popover
 async function showCollegeDetailsModal(collegeId) {
+  window.showCollegeDetailsModal = showCollegeDetailsModal;
   const modal = document.getElementById('detailsModal');
   if (!modal) return;
 
   // Set modal to loading state for instant visual feedback
   document.getElementById('modalCollegeName').textContent = "Loading College Details...";
   const codeBadge = document.getElementById('modalCollegeCode');
-  codeBadge.style.display = 'none';
+  codeBadge.classList.add('is-hidden');
 
   const container = document.getElementById('modalBodyContent');
   container.innerHTML = `
-    <div style="display: flex; justify-content: center; align-items: center; min-height: 200px; color: var(--text-secondary);">
-      <div class="loader" style="width: 32px; height: 32px; border: 3px solid rgba(255,255,255,0.1); border-radius: 50%; border-top-color: var(--accent-blue); animation: spin 1s ease-in-out infinite;"></div>
+    <div class="modal-loader-container">
+      <div class="loader loader-md"></div>
     </div>
   `;
 
@@ -989,8 +1267,8 @@ async function showCollegeDetailsModal(collegeId) {
   if (!details) {
     document.getElementById('modalCollegeName').textContent = "Details Not Available";
     container.innerHTML = `
-      <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 200px; color: var(--text-secondary); gap: 1rem;">
-        <i data-lucide="alert-circle" style="width: 48px; height: 48px; color: var(--accent-red);"></i>
+      <div class="modal-error-container">
+        <i data-lucide="alert-circle" class="modal-error-icon"></i>
         <span>College details could not be retrieved from the server.</span>
       </div>
     `;
@@ -1008,9 +1286,9 @@ async function showCollegeDetailsModal(collegeId) {
   
   if (details.college_code) {
     codeBadge.textContent = `Code: ${details.college_code}`;
-    codeBadge.style.display = 'inline-block';
+    codeBadge.classList.remove('is-hidden');
   } else {
-    codeBadge.style.display = 'none';
+    codeBadge.classList.add('is-hidden');
   }
 
   // Format Contacts
@@ -1037,18 +1315,87 @@ async function showCollegeDetailsModal(collegeId) {
       `;
     });
   } else {
-    contactsHtml = '<p class="placeholder-text" style="padding: 1rem !important;">No administrative contact details available.</p>';
+    contactsHtml = '<p class="placeholder-text pad-1">No administrative contact details available.</p>';
   }
 
   // Format Status details
   let statusHtml = '';
   if (details.status_text) {
     statusHtml = `
-      <div class="details-section" style="grid-column: span 2;">
+      <div class="details-section col-span-2">
         <h4><i data-lucide="shield-check"></i> NMC Recognition & Approval Status</h4>
         <div class="status-text-box">${details.status_text}</div>
       </div>
     `;
+  }
+
+  // Check if MCC Cutoff data is available for this college (using deterministic ugMappingData)
+  let cutoffsHtml = '';
+  try {
+    let mappingList = CutoffExplorer.state.ugMappingData;
+    if ((!mappingList || mappingList.length === 0) && window.fetch) {
+      const cRes = await fetch('data/ug_colleges_aiq_mapping.json');
+      mappingList = await cRes.json();
+      CutoffExplorer.state.ugMappingData = mappingList;
+    }
+
+    const colMatch = mappingList ? mappingList.find(c => c.college_id === collegeId) : null;
+    if (colMatch) {
+      if (colMatch.mcc_status === 'Matched' && colMatch.aiq_cutoffs_raw && colMatch.aiq_cutoffs_raw.length > 0) {
+        const matchedCutoffs = colMatch.aiq_cutoffs_raw;
+        cutoffsHtml = `
+          <div class="details-section col-span-2">
+            <h4><i data-lucide="target"></i> MCC Cutoff Ranks (All India Counselling)</h4>
+            <div class="cutoff-table-scroll">
+              <table class="cutoff-table cutoff-modal-table">
+                <thead>
+                  <tr>
+                    <th>Quota</th>
+                    <th>Category</th>
+                    <th class="text-right">R1 Closing</th>
+                    <th class="text-right">R2 Closing</th>
+                    <th class="text-right">R3 Closing</th>
+                    <th class="text-right">Final Closing</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${matchedCutoffs.slice(0, 10).map(c => `
+                    <tr>
+                      <td>${c.quota}</td>
+                      <td><span class="badge badge-code">${c.category}</span></td>
+                      <td class="text-right">${c.r1_closing_rank !== '-' ? c.r1_closing_rank.toLocaleString() : '-'}</td>
+                      <td class="text-right">${c.r2_closing_rank !== '-' ? c.r2_closing_rank.toLocaleString() : '-'}</td>
+                      <td class="text-right">${c.r3_closing_rank !== '-' ? c.r3_closing_rank.toLocaleString() : '-'}</td>
+                      <td class="text-right"><strong class="text-blue">${c.final_closing_rank !== '-' ? c.final_closing_rank.toLocaleString() : '-'}</strong></td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        `;
+      } else if (colMatch.mcc_status === 'New') {
+        cutoffsHtml = `
+          <div class="details-section col-span-2">
+            <h4><i data-lucide="target"></i> MCC Counselling Status</h4>
+            <p class="text-warning text-sm margin-y-sm">
+              <strong>New / Recently Established MCC College:</strong> Participates in MCC counselling but lacks historical 2025 cutoff allotment data.
+            </p>
+          </div>
+        `;
+      } else if (colMatch.mcc_status === 'Non AIQ') {
+        cutoffsHtml = `
+          <div class="details-section col-span-2">
+            <h4><i data-lucide="target"></i> MCC Counselling Status</h4>
+            <p class="text-muted text-sm margin-y-sm">
+              <strong>Non AIQ College:</strong> Admissions are conducted strictly through State Quota Counselling.
+            </p>
+          </div>
+        `;
+      }
+    }
+  } catch (err) {
+    console.warn("Cutoff lookup in modal failed:", err);
   }
 
   container.innerHTML = `
@@ -1071,7 +1418,7 @@ async function showCollegeDetailsModal(collegeId) {
           </div>
           <div class="details-item">
             <span class="details-label">NMC Registry Status</span>
-            <span class="details-value" style="font-weight: 700; color: var(--accent-green);">${details.status || 'Active'}</span>
+            <span class="details-value text-bold text-green">${details.status || 'Active'}</span>
           </div>
         </div>
       </div>
@@ -1082,7 +1429,7 @@ async function showCollegeDetailsModal(collegeId) {
         <div class="details-list">
           <div class="details-item">
             <span class="details-label">Postal Address</span>
-            <span class="details-value" style="white-space: pre-line;">${details.address || 'N/A'}</span>
+            <span class="details-value text-preline">${details.address || 'N/A'}</span>
           </div>
           ${details.website ? `
           <div class="details-item">
@@ -1105,14 +1452,17 @@ async function showCollegeDetailsModal(collegeId) {
       </div>
 
       <!-- Section 3: Administrative Contacts -->
-      <div class="details-section" style="grid-column: span 2;">
+      <div class="details-section col-span-2">
         <h4><i data-lucide="users"></i> Administrative & Key Officials</h4>
         <div class="contacts-grid">
           ${contactsHtml}
         </div>
       </div>
 
-      <!-- Section 4: NMC status text -->
+      <!-- Section 4: AIQ Cutoffs (if available) -->
+      ${cutoffsHtml}
+
+      <!-- Section 5: NMC status text -->
       ${statusHtml}
     </div>
   `;
@@ -1126,6 +1476,12 @@ async function showCollegeDetailsModal(collegeId) {
       node: container
     });
   }
+
+  // Initialize scroll indicators on inner modal table if it overflows
+  const cutoffScroll = container.querySelector('.cutoff-table-scroll');
+  if (cutoffScroll && window.initScrollAffordance) {
+    window.initScrollAffordance(cutoffScroll);
+  }
 }
 
 // Close College Details Modal
@@ -1134,6 +1490,7 @@ function closeCollegeDetailsModal() {
 }
 
 // Launch Application
+window.showCollegeDetailsModal = showCollegeDetailsModal;
 if (document.readyState === 'loading') {
   window.addEventListener('DOMContentLoaded', init);
 } else {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MIT License - NexDoc | NEET Seat Explorer</title>
+  <title>Data Disclosure - NexDoc | NEET Seat Explorer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
       min-height: 100vh;
       box-sizing: border-box;
     }
-    .license-card {
+    .disclosure-card {
       background: var(--glass-bg);
       backdrop-filter: var(--glass-blur);
       border: 1px solid var(--border-glass);
@@ -62,20 +62,16 @@
       padding-bottom: 1rem;
       font-size: 2.25rem;
     }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 1.5rem;
+    }
     p {
       line-height: 1.6;
       color: var(--text-muted);
     }
     strong {
       color: #fff;
-    }
-    ul {
-      padding-left: 1.5rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-    li {
-      margin-bottom: 0.5rem;
     }
     a {
       color: var(--accent-blue);
@@ -125,7 +121,7 @@
     html[data-theme="light"] h1 {
       border-bottom-color: rgba(0, 163, 224, 0.15);
     }
-    html[data-theme="light"] .license-card {
+    html[data-theme="light"] .disclosure-card {
       box-shadow: 0 20px 50px rgba(0, 119, 200, 0.08);
     }
     html[data-theme="light"] .back-btn {
@@ -141,15 +137,25 @@
 </head>
 <body>
 
-  <div class="license-card">
-    <h1>MIT License</h1>
-    <p>Copyright (c) 2026 <strong>Deekshith Vodela</strong></p>
+  <div class="disclosure-card">
+    <h1>Data Disclosure</h1>
     
-    <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+    <p>Last updated: July 2026</p>
+    <p>NexDoc is designed to aggregate and simplify complex medical counseling datasets. All seat counts, cutoff closing ranks, mapping statistics, and college directories shown are derived from public datasets.</p>
     
-    <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+    <h2>1. Data Sources</h2>
+    <p>The core data is sourced from public declarations and official documents published by government agencies:
+      <ul>
+        <li><strong>National Medical Commission (NMC)</strong> (<a href="https://www.nmc.org.in/" target="_blank" rel="noopener noreferrer">nmc.org.in</a>): Officially approved MBBS seat counts, college inclusion directories, university affiliations, year of establishment, and NMC registration/recognition statuses.</li>
+        <li><strong>Medical Counselling Committee (MCC)</strong> (<a href="https://mcc.nic.in/" target="_blank" rel="noopener noreferrer">mcc.nic.in</a>): Official seat allotment matrices, counseling guidelines, and seat allocation cutoff closing ranks for Round 1, Round 2, Round 3, and stray vacancy allocation levels.</li>
+      </ul>
+    </p>
     
-    <p style="text-transform: uppercase; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.</p>
+    <h2>2. Interpretation & Mappings</h2>
+    <p>NexDoc consolidates multiple discrete CSV/JSON tables into a unified search layout. The correlation of state-level code names to All India Quota (AIQ) college identification numbers has been mapped using historical data matching. While mapping accuracy is prioritized, minor code mapping variances may arise.</p>
+    
+    <h2>3. Disclaimer & Unofficial Status</h2>
+    <p>NexDoc is an <strong>unofficial, independent educational dashboard</strong>. It is not affiliated, authorized, endorsed, or in any way officially associated with the NMC, the MCC, the Ministry of Health and Family Welfare, or any state medical counseling authority. Aspirants must cross-reference actual numbers with current-year official portals and choice filling guidelines before finalizing submissions.</p>
 
     <a href="index.html" class="back-btn">Back to Explorer</a>
   </div>
