@@ -1,4 +1,8 @@
 {
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --directory public"
+  },
   "dependencies": {
     "jsdom": "^24.1.1",
     "playwright": "^1.61.1"
