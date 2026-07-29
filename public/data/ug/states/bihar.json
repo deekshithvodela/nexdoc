@@ -790,5 +790,17 @@
     "seats": 23,
     "seats_prev": 8,
     "seats_inc": 15
+  },
+  {
+    "college_id": "ug_ini_aiims_patna",
+    "college_name": "AIIMS Patna",
+    "college_type": "Government",
+    "state": "Bihar",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

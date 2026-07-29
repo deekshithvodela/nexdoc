@@ -178,5 +178,17 @@
     "seats": 102,
     "seats_prev": 102,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_bilaspur",
+    "college_name": "AIIMS Bilaspur",
+    "college_type": "Government",
+    "state": "Himachal Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0
   }
 ]

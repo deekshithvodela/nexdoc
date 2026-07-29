@@ -48,7 +48,7 @@ export const SearchFilters = {
             <i data-lucide="filter"></i>
             <input type="text" id="stateFilterSearch" placeholder="Filter states..." value="${activeFilters.stateQuery || ''}">
           </div>
-          <div class="filter-options" style="max-height: 150px; overflow-y: auto; margin-top: 0.5rem; padding-right: 0.25rem;">
+          <div class="filter-options scrollable-filter-list">
       `;
 
       const filteredStates = states.filter(s =>
@@ -56,7 +56,7 @@ export const SearchFilters = {
       );
 
       if (filteredStates.length === 0) {
-        html += `<span class="placeholder-text" style="font-size: 0.8rem; padding: 0.5rem 0;">No states match</span>`;
+        html += `<span class="placeholder-text text-sm-pad">No states match</span>`;
       } else {
         filteredStates.forEach(state => {
           const isChecked = activeFilters.states.includes(state) ? 'checked' : '';
@@ -64,7 +64,7 @@ export const SearchFilters = {
             <label class="checkbox-label">
               <input type="checkbox" class="filter-state-checkbox" value="${state}" ${isChecked}>
               <div class="checkbox-custom"><i data-lucide="check"></i></div>
-              <span style="font-size: 0.85rem;">${state}</span>
+              <span class="filter-item-text">${state}</span>
             </label>
           `;
         });
@@ -144,7 +144,7 @@ export const SearchFilters = {
           <i data-lucide="filter"></i>
           <input type="text" id="courseSearch" placeholder="Filter courses..." value="${activeFilters.courseQuery || ''}">
         </div>
-        <div class="filter-options" style="max-height: 150px; overflow-y: auto; margin-top: 0.5rem; padding-right: 0.25rem;">
+        <div class="filter-options scrollable-filter-list">
     `;
 
     const filteredCourses = courses.filter(c => 
@@ -152,7 +152,7 @@ export const SearchFilters = {
     );
 
     if (filteredCourses.length === 0) {
-      html += `<span class="placeholder-text" style="font-size: 0.8rem; padding: 0.5rem 0;">No courses match</span>`;
+      html += `<span class="placeholder-text text-sm-pad">No courses match</span>`;
     } else {
       filteredCourses.forEach(course => {
         const isChecked = activeFilters.courses.includes(course) ? 'checked' : '';
@@ -160,7 +160,7 @@ export const SearchFilters = {
           <label class="checkbox-label">
             <input type="checkbox" class="filter-course-checkbox" value="${course}" ${isChecked}>
             <div class="checkbox-custom"><i data-lucide="check"></i></div>
-            <span style="font-size: 0.85rem;">${course}</span>
+            <span class="filter-item-text">${course}</span>
           </label>
         `;
       });

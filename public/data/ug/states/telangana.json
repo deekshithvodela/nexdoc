@@ -1942,5 +1942,17 @@
     "seats": 23,
     "seats_prev": 23,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_bibinagar",
+    "college_name": "AIIMS Bibinagar",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0
   }
 ]

@@ -33,12 +33,14 @@ Thumbs.db
 *.sln
 *.sw?
 
-# Temporary files and logs
+# Temporary files, logs, and test artifacts
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+playwright-report/
+test-results/
 
 # Build and local server
 dist/
@@ -47,12 +49,10 @@ build/
 tmp/
 temp/
 
-# Non-runtime raw data, scaffolding, and documentation
+# Non-runtime scaffolding and internal scratch dumps
 nmc-data/
 colleges-list/
 recheck/
-scripts/
-fundamentals.md
-architecture.md
-LICENSE-OPEN-ACCESS.md
-
+aiq-counselling-data/
+aiq-cutoff-data/
+scratch/

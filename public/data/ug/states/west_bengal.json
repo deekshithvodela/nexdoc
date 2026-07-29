@@ -1174,5 +1174,17 @@
     "seats": 128,
     "seats_prev": 85,
     "seats_inc": 43
+  },
+  {
+    "college_id": "ug_ini_aiims_kalyani",
+    "college_name": "AIIMS Kalyani",
+    "college_type": "Government",
+    "state": "West Bengal",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

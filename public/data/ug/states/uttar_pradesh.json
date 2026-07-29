@@ -2578,5 +2578,29 @@
     "seats": 38,
     "seats_prev": 38,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_gorakhpur",
+    "college_name": "AIIMS Gorakhpur",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_raebareli",
+    "college_name": "AIIMS Raebareli",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0
   }
 ]

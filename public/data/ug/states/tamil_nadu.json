@@ -2362,5 +2362,17 @@
     "seats": 30,
     "seats_prev": 23,
     "seats_inc": 8
+  },
+  {
+    "college_id": "ug_ini_aiims_madurai",
+    "college_name": "AIIMS Madurai",
+    "college_type": "Government",
+    "state": "Tamil Nadu",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 50,
+    "seats_prev": 50,
+    "seats_inc": 0
   }
 ]

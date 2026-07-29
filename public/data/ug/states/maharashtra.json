@@ -2590,5 +2590,17 @@
     "seats": 23,
     "seats_prev": 23,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_nagpur",
+    "college_name": "AIIMS Nagpur",
+    "college_type": "Government",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

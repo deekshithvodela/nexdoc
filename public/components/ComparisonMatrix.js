@@ -55,82 +55,82 @@ export const ComparisonMatrix = {
       const ugPgSsSeatsSs = Object.values(colleges).filter(c => c.pg > 0 && c.ss > 0).reduce((acc, c) => acc + c.ss, 0);
 
       statsHtml = `
-        <div class="mapping-stats-dashboard" style="margin-top: 1.5rem; padding: 1.5rem; background: rgba(255,255,255,0.01); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
-          <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1.25rem;">
-            <i data-lucide="git-merge" style="color: var(--accent-blue); width: 22px; height: 22px;"></i>
-            <h3 style="margin: 0; font-size: 1.2rem; font-weight: 600; font-family: var(--font-header);">Institutional Cross-Level Mapping & Statistics</h3>
+        <div class="mapping-stats-dashboard">
+          <div class="matrix-header-group">
+            <i data-lucide="git-merge" class="matrix-icon-blue"></i>
+            <h3 class="matrix-title">Institutional Cross-Level Mapping & Statistics</h3>
           </div>
           
-          <div class="stats-cards-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
+          <div class="stats-cards-grid">
             <!-- Card 1: UG Only -->
-            <div class="stats-card-glass" style="padding: 1.25rem; background: rgba(255,255,255,0.02); border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 0.4rem;">
-              <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 500;">UG Only (MBBS)</span>
-                <span class="badge badge-govt" style="background: rgba(59, 130, 246, 0.1) !important; color: var(--accent-blue) !important; border-color: rgba(59, 130, 246, 0.2) !important;">Level 1</span>
+            <div class="stats-card-glass">
+              <div class="matrix-card-header">
+                <span class="matrix-card-title">UG Only (MBBS)</span>
+                <span class="badge badge-govt badge-level-1">Level 1</span>
               </div>
-              <strong style="font-size: 1.6rem; color: var(--text-primary); font-family: var(--font-header);">${ugOnlyCount} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-secondary);">colleges</span></strong>
-              <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: auto; display: flex; flex-direction: column; gap: 0.2rem; border-top: 1px solid rgba(255,255,255,0.03); padding-top: 0.5rem;">
-                <div style="display: flex; justify-content: space-between;">
+              <strong class="matrix-stat-val">${ugOnlyCount} <span class="matrix-stat-unit">colleges</span></strong>
+              <div class="matrix-stat-footer">
+                <div class="matrix-stat-row">
                   <span>MBBS Seats:</span>
-                  <strong style="color: var(--accent-green);">${ugOnlySeats}</strong>
+                  <strong class="text-green">${ugOnlySeats}</strong>
                 </div>
               </div>
             </div>
 
             <!-- Card 2: UG + PG -->
-            <div class="stats-card-glass" style="padding: 1.25rem; background: rgba(255,255,255,0.02); border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 0.4rem;">
-              <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 500;">UG + PG (MD/MS)</span>
-                <span class="badge badge-private" style="background: rgba(168, 85, 247, 0.1) !important; color: var(--accent-purple) !important; border-color: rgba(168, 85, 247, 0.2) !important;">Level 2</span>
+            <div class="stats-card-glass">
+              <div class="matrix-card-header">
+                <span class="matrix-card-title">UG + PG (MD/MS)</span>
+                <span class="badge badge-private badge-level-2">Level 2</span>
               </div>
-              <strong style="font-size: 1.6rem; color: var(--text-primary); font-family: var(--font-header);">${ugPgCount} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-secondary);">colleges</span></strong>
-              <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: auto; display: flex; flex-direction: column; gap: 0.2rem; border-top: 1px solid rgba(255,255,255,0.03); padding-top: 0.5rem;">
-                <div style="display: flex; justify-content: space-between;">
+              <strong class="matrix-stat-val">${ugPgCount} <span class="matrix-stat-unit">colleges</span></strong>
+              <div class="matrix-stat-footer">
+                <div class="matrix-stat-row">
                   <span>MBBS Seats:</span>
-                  <strong style="color: var(--text-primary);">${ugPgSeatsUg}</strong>
+                  <strong class="text-primary">${ugPgSeatsUg}</strong>
                 </div>
-                <div style="display: flex; justify-content: space-between;">
+                <div class="matrix-stat-row">
                   <span>PG MD/MS Seats:</span>
-                  <strong style="color: var(--accent-blue);">${ugPgSeatsPg}</strong>
+                  <strong class="text-blue">${ugPgSeatsPg}</strong>
                 </div>
               </div>
             </div>
 
             <!-- Card 3: UG + PG + SS -->
-            <div class="stats-card-glass" style="padding: 1.25rem; background: rgba(255,255,255,0.02); border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 0.4rem;">
-              <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 500;">UG + PG + SS (DM/MCh)</span>
-                <span class="badge badge-deemed" style="background: rgba(236, 72, 153, 0.1) !important; color: var(--accent-pink) !important; border-color: rgba(236, 72, 153, 0.2) !important;">Level 3</span>
+            <div class="stats-card-glass">
+              <div class="matrix-card-header">
+                <span class="matrix-card-title">UG + PG + SS (DM/MCh)</span>
+                <span class="badge badge-deemed badge-level-3">Level 3</span>
               </div>
-              <strong style="font-size: 1.6rem; color: var(--text-primary); font-family: var(--font-header);">${ugPgSsCount} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-secondary);">colleges</span></strong>
-              <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: auto; display: flex; flex-direction: column; gap: 0.2rem; border-top: 1px solid rgba(255,255,255,0.03); padding-top: 0.5rem;">
-                <div style="display: flex; justify-content: space-between;">
+              <strong class="matrix-stat-val">${ugPgSsCount} <span class="matrix-stat-unit">colleges</span></strong>
+              <div class="matrix-stat-footer">
+                <div class="matrix-stat-row">
                   <span>MBBS / MD Seats:</span>
-                  <strong style="color: var(--text-primary);">${ugPgSsSeatsUg} / ${ugPgSsSeatsPg}</strong>
+                  <strong class="text-primary">${ugPgSsSeatsUg} / ${ugPgSsSeatsPg}</strong>
                 </div>
-                <div style="display: flex; justify-content: space-between;">
+                <div class="matrix-stat-row">
                   <span>SS DM/MCh Seats:</span>
-                  <strong style="color: var(--accent-pink);">${ugPgSsSeatsSs}</strong>
+                  <strong class="text-pink">${ugPgSsSeatsSs}</strong>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Mapped seat ratios and distribution bar -->
-          <div style="margin-top: 1rem;">
-            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+          <div class="matrix-distribution-container">
+            <div class="matrix-distribution-meta">
               <span>Institutional Distribution</span>
               <span>Total Mapped: ${totalColleges} Colleges</span>
             </div>
-            <div style="display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: rgba(255,255,255,0.05);">
-              <div style="width: ${(ugOnlyCount / totalColleges * 100).toFixed(1)}%; background: var(--accent-blue);" title="UG Only: ${ugOnlyCount} colleges (${(ugOnlyCount / totalColleges * 100).toFixed(1)}%)"></div>
-              <div style="width: ${(ugPgCount / totalColleges * 100).toFixed(1)}%; background: var(--accent-purple);" title="UG + PG: ${ugPgCount} colleges (${(ugPgCount / totalColleges * 100).toFixed(1)}%)"></div>
-              <div style="width: ${(ugPgSsCount / totalColleges * 100).toFixed(1)}%; background: var(--accent-pink);" title="UG + PG + SS: ${ugPgSsCount} colleges (${(ugPgSsCount / totalColleges * 100).toFixed(1)}%)"></div>
+            <div class="matrix-distribution-bar">
+              <div class="bar-seg bar-seg-blue" style="width: ${(ugOnlyCount / totalColleges * 100).toFixed(1)}%;" title="UG Only: ${ugOnlyCount} colleges (${(ugOnlyCount / totalColleges * 100).toFixed(1)}%)"></div>
+              <div class="bar-seg bar-seg-purple" style="width: ${(ugPgCount / totalColleges * 100).toFixed(1)}%;" title="UG + PG: ${ugPgCount} colleges (${(ugPgCount / totalColleges * 100).toFixed(1)}%)"></div>
+              <div class="bar-seg bar-seg-pink" style="width: ${(ugPgSsCount / totalColleges * 100).toFixed(1)}%;" title="UG + PG + SS: ${ugPgSsCount} colleges (${(ugPgSsCount / totalColleges * 100).toFixed(1)}%)"></div>
             </div>
-            <div style="display: flex; justify-content: flex-start; gap: 1.25rem; font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.5rem;">
-              <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent-blue);"></span> UG Only (${(ugOnlyCount / totalColleges * 100).toFixed(1)}%)</span>
-              <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent-purple);"></span> UG + PG (${(ugPgCount / totalColleges * 100).toFixed(1)}%)</span>
-              <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent-pink);"></span> UG + PG + SS (${(ugPgSsCount / totalColleges * 100).toFixed(1)}%)</span>
+            <div class="matrix-legend-list">
+              <span class="matrix-legend-item"><span class="matrix-legend-dot bg-blue"></span> UG Only (${(ugOnlyCount / totalColleges * 100).toFixed(1)}%)</span>
+              <span class="matrix-legend-item"><span class="matrix-legend-dot bg-purple"></span> UG + PG (${(ugPgCount / totalColleges * 100).toFixed(1)}%)</span>
+              <span class="matrix-legend-item"><span class="matrix-legend-dot bg-pink"></span> UG + PG + SS (${(ugPgSsCount / totalColleges * 100).toFixed(1)}%)</span>
             </div>
           </div>
         </div>
@@ -139,9 +139,9 @@ export const ComparisonMatrix = {
 
     if (comparisonList.length === 0) {
       container.innerHTML = `
-        <div class="placeholder-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem 1.5rem; gap: 1rem; text-align: center;">
-          <i data-lucide="columns-3" style="width: 48px; height: 48px; color: var(--text-secondary); opacity: 0.5;"></i>
-          <p style="margin: 0; max-width: 500px;">No colleges selected for comparison. Use the search explorer table and click the "Compare" buttons to add colleges here.</p>
+        <div class="placeholder-text matrix-placeholder">
+          <i data-lucide="columns-3" class="matrix-placeholder-icon"></i>
+          <p class="matrix-placeholder-text">No colleges selected for comparison. Use the search explorer table and click the "Compare" buttons to add colleges here.</p>
         </div>
         ${statsHtml}
       `;
@@ -194,10 +194,10 @@ export const ComparisonMatrix = {
     html += `<div class="matrix-cell matrix-header-cell matrix-cell-sticky">Attribute / Metric</div>`;
     collegeData.forEach(col => {
       html += `
-        <div class="matrix-cell matrix-header-cell" style="position: relative;">
+        <div class="matrix-cell matrix-header-cell pos-relative">
           <span class="matrix-college-header">${col.name}</span>
           <button class="matrix-remove-btn" data-remove-id="${col.id}">
-            <i data-lucide="trash-2" style="width: 14px; height: 14px;"></i> Remove
+            <i data-lucide="trash-2" class="icon-sm"></i> Remove
           </button>
         </div>
       `;
@@ -211,7 +211,7 @@ export const ComparisonMatrix = {
       if (col.type === 'Private') badgeClass = 'badge-private';
       html += `
         <div class="matrix-cell">
-          <span class="badge ${badgeClass}" style="width: fit-content;">${col.type}</span>
+          <span class="badge ${badgeClass} fit-content">${col.type}</span>
         </div>
       `;
     });
@@ -225,7 +225,7 @@ export const ComparisonMatrix = {
     // Row 4: Total Seats
     html += `<div class="matrix-cell matrix-cell-sticky"><span class="matrix-row-label">Aggregate Seats</span></div>`;
     collegeData.forEach(col => {
-      html += `<div class="matrix-cell"><strong style="font-size: 1.25rem; color: var(--accent-green);">${col.totalSeats}</strong></div>`;
+      html += `<div class="matrix-cell"><strong class="matrix-total-seats">${col.totalSeats}</strong></div>`;
     });
 
     // Row 5: Detailed Seat Mix / Quotas
@@ -236,7 +236,7 @@ export const ComparisonMatrix = {
         quotaItems += `
           <div class="matrix-seats-item">
             <span>${quota}</span>
-            <strong style="color: var(--accent-blue);">${seats}</strong>
+            <strong class="text-blue">${seats}</strong>
           </div>
         `;
       });
@@ -261,13 +261,13 @@ export const ComparisonMatrix = {
       });
       if (col.isUG) {
         courseItems += `
-          <div class="matrix-seats-item" style="border-top: 1px dashed rgba(255, 255, 255, 0.1); margin-top: 0.5rem; padding-top: 0.5rem;">
-            <span style="color: var(--accent-blue);">PG Seats (MD/MS)</span>
-            <strong style="color: var(--accent-blue);">${col.pgSeats || '0'}</strong>
+          <div class="matrix-seats-item matrix-seat-divider">
+            <span class="text-blue">PG Seats (MD/MS)</span>
+            <strong class="text-blue">${col.pgSeats || '0'}</strong>
           </div>
           <div class="matrix-seats-item">
-            <span style="color: var(--accent-pink);">SS Seats (DM/MCh)</span>
-            <strong style="color: var(--accent-pink);">${col.ssSeats || '0'}</strong>
+            <span class="text-pink">SS Seats (DM/MCh)</span>
+            <strong class="text-pink">${col.ssSeats || '0'}</strong>
           </div>
         `;
       }

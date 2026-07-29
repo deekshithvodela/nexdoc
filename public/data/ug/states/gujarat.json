@@ -1234,5 +1234,17 @@
     "seats": 30,
     "seats_prev": 30,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_rajkot",
+    "college_name": "AIIMS Rajkot",
+    "college_type": "Government",
+    "state": "Gujarat",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 75,
+    "seats_prev": 75,
+    "seats_inc": 0
   }
 ]

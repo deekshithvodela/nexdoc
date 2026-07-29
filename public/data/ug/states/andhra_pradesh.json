@@ -1210,5 +1210,17 @@
     "seats": 38,
     "seats_prev": 38,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_mangalagiri",
+    "college_name": "AIIMS Mangalagiri",
+    "college_type": "Government",
+    "state": "Andhra Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

@@ -7,12 +7,15 @@ export const SankeyChart = {
     svg.selectAll('*').remove(); // Clear previous drawings
     
     if (filteredData.length === 0) {
-      container.style.display = 'none';
+      container.classList.add('is-hidden');
       return;
     }
-    container.style.display = 'block';
+    container.classList.remove('is-hidden');
 
-    const width = Math.max(900, container.clientWidth || 0);
+    const paddingLeft = parseFloat(window.getComputedStyle(container).paddingLeft) || 0;
+    const paddingRight = parseFloat(window.getComputedStyle(container).paddingRight) || 0;
+    const contentWidth = container.clientWidth - paddingLeft - paddingRight;
+    const width = Math.max(900, contentWidth);
     const height = 500;
     svg.attr('width', width).attr('height', height);
 

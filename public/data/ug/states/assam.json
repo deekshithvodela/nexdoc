@@ -358,5 +358,17 @@
     "seats": 85,
     "seats_prev": 85,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_guwahati",
+    "college_name": "AIIMS Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0
   }
 ]

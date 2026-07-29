@@ -265,7 +265,7 @@
   },
   {
     "college_id": "ug_od010p3",
-    "college_name": "Institute Of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_name": "Institute Of Medical Sciences & SUM Hospital, Campus 2, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "MBBS",
@@ -277,7 +277,7 @@
   },
   {
     "college_id": "ug_od010p3",
-    "college_name": "Institute Of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_name": "Institute Of Medical Sciences & SUM Hospital, Campus 2, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "MBBS",
@@ -289,7 +289,7 @@
   },
   {
     "college_id": "ug_od010p3",
-    "college_name": "Institute Of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_name": "Institute Of Medical Sciences & SUM Hospital, Campus 2, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "MBBS",
@@ -550,5 +550,17 @@
     "seats": 213,
     "seats_prev": 170,
     "seats_inc": 43
+  },
+  {
+    "college_id": "ug_ini_aiims_bhubaneswar",
+    "college_name": "AIIMS Bhubaneswar",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

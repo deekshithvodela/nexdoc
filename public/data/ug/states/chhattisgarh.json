@@ -574,5 +574,17 @@
     "seats": 107,
     "seats_prev": 107,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_raipur",
+    "college_name": "AIIMS Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

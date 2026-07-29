@@ -274,5 +274,53 @@
     "seats": 30,
     "seats_prev": 23,
     "seats_inc": 8
+  },
+  {
+    "college_id": "ug_ini_jipmer_karaikal",
+    "college_name": "JIPMER Karaikal",
+    "college_type": "Government",
+    "state": "Puducherry",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 45,
+    "seats_prev": 45,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_jipmer_karaikal",
+    "college_name": "JIPMER Karaikal",
+    "college_type": "Government",
+    "state": "Puducherry",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 16,
+    "seats_prev": 16,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_jipmer_puducherry",
+    "college_name": "JIPMER Puducherry",
+    "college_type": "Government",
+    "state": "Puducherry",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 134,
+    "seats_prev": 134,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_jipmer_puducherry",
+    "college_name": "JIPMER Puducherry",
+    "college_type": "Government",
+    "state": "Puducherry",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 48,
+    "seats_prev": 48,
+    "seats_inc": 0
   }
 ]

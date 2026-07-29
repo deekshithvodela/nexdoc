@@ -262,5 +262,17 @@
     "seats": 128,
     "seats_prev": 128,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_rishikesh",
+    "college_name": "AIIMS Rishikesh",
+    "college_type": "Government",
+    "state": "Uttarakhand",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]

@@ -262,5 +262,17 @@
     "seats": 145,
     "seats_prev": 145,
     "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ini_aiims_newdelhi",
+    "college_name": "AIIMS New Delhi",
+    "college_type": "Government",
+    "state": "Delhi",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 132,
+    "seats_prev": 132,
+    "seats_inc": 0
   }
 ]

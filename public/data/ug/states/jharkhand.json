@@ -286,5 +286,17 @@
     "seats": 15,
     "seats_prev": 0,
     "seats_inc": 15
+  },
+  {
+    "college_id": "ug_ini_aiims_deoghar",
+    "college_name": "AIIMS Deoghar",
+    "college_type": "Government",
+    "state": "Jharkhand",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0
   }
 ]
