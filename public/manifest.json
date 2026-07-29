@@ -2,7 +2,7 @@
   "name": "NexDoc | NEET Seat & Cutoff Explorer",
   "short_name": "NexDoc",
   "description": "High-performance zero-backend NEET medical seat matrix and AIQ cutoff explorer for UG, PG, and Super Specialty.",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#070c19",

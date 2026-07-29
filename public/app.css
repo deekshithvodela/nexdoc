@@ -250,8 +250,12 @@ body {
 
 .modal-details-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-xxl);
+}
+
+.col-span-2 {
+  grid-column: span 2;
 }
 
 .cutoff-inputs-grid {
@@ -313,11 +317,15 @@ body {
   }
 
   .modal-details-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
 
     .details-section {
       grid-column: span 1;
     }
+  }
+
+  .col-span-2 {
+    grid-column: span 1 !important;
   }
 
   .contacts-grid {
@@ -371,6 +379,25 @@ body {
     border: none;
     border-bottom: 1px solid var(--border-glass);
     box-shadow: var(--shadow-md);
+  }
+}
+
+.global-selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-xl);
+  padding: var(--space-md) var(--space-3xl);
+  background: rgba(13, 21, 39, 0.45);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--space-lg);
+
+  [data-theme="light"] & {
+    background: #ffffff;
+    border: 1px solid var(--border-glass);
+    box-shadow: var(--shadow-sm);
   }
 }
 
@@ -1527,41 +1554,48 @@ body {
 
   th:nth-child(2),
   td:nth-child(2) {
-    min-width: 260px;
+    width: 100%;
+    min-width: 185px;
   }
 
   th:nth-child(3),
   td:nth-child(3) {
-    min-width: 90px;
+    min-width: 80px; /* Longest word: Government / Private */
   }
 
   th:nth-child(4),
   td:nth-child(4) {
-    min-width: 80px;
+    min-width: 75px; /* Longest word: specialties / MBBS */
   }
 
   th:nth-child(5),
   td:nth-child(5) {
-    min-width: 95px;
+    min-width: 85px; /* Longest word: Counselling */
   }
 
   th:nth-child(6),
   td:nth-child(6) {
-    min-width: 95px;
+    min-width: 80px; /* Longest word: Management / Deemed */
   }
 
   th:nth-child(7),
-  td:nth-child(7),
+  td:nth-child(7) {
+    min-width: 50px; /* Longest word: Seats / Prev */
+  }
+
   th:nth-child(8),
-  td:nth-child(8),
+  td:nth-child(8) {
+    min-width: 65px; /* Longest word: Increased */
+  }
+
   th:nth-child(9),
   td:nth-child(9) {
-    min-width: 65px;
+    min-width: 50px; /* Longest word: Seats / Total */
   }
 
   th:nth-child(10),
   td:nth-child(10) {
-    min-width: 45px;
+    min-width: 42px; /* Compare action button width */
   }
 }
 
@@ -2305,9 +2339,6 @@ body {
 }
 
 .matrix-cell-sticky {
-  position: sticky;
-  left: 0;
-  z-index: 2;
   background: var(--bg-secondary);
   border-right: 1.5px solid var(--border-glass);
 
@@ -2338,8 +2369,7 @@ body {
 .matrix-header-cell.matrix-cell-sticky {
   position: sticky;
   top: 0;
-  left: 0;
-  z-index: 6;
+  z-index: 5;
   background: rgba(13, 21, 39, 0.95);
   border-right: 1.5px solid var(--border-glass);
   border-bottom: 2.5px solid var(--border-glass);
@@ -2377,6 +2407,12 @@ body {
   background: rgba(0, 0, 0, 0.2);
   padding: 0.3rem 0.45rem;
   border-radius: var(--radius-xs);
+
+  [data-theme="light"] & {
+    background: rgba(0, 119, 200, 0.07);
+    color: #1e293b;
+    border: 1px solid rgba(0, 119, 200, 0.12);
+  }
 }
 
 .matrix-remove-btn {
@@ -2800,6 +2836,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-lg);
+  min-width: 0;
+  width: 100%;
 
   [data-theme="light"] & {
     background: rgba(240, 247, 255, 0.7);
@@ -2929,6 +2967,9 @@ body {
   font-size: 0.875rem;
   line-height: 1.5;
   color: var(--text-primary);
+  word-break: break-all;
+  overflow-wrap: break-word;
+  white-space: normal;
 
   [data-theme="light"] & {
     background: #ffffff;
@@ -2968,6 +3009,7 @@ body {
 
 .cutoff-modal-table {
   width: 100%;
+  min-width: 600px;
   font-size: 0.85rem;
 }
 
@@ -3305,13 +3347,10 @@ body {
     }
   }
 
-  .header-right-group {
-    display: contents;
-  }
-
   .header-controls {
-    grid-area: controls;
-    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
   }
 
   .btn-header-control {
@@ -3322,8 +3361,13 @@ body {
     }
   }
 
+  .global-selectors {
+    flex-direction: column;
+    padding: var(--space-md) var(--space-lg);
+    gap: var(--space-md);
+  }
+
   .level-tabs {
-    grid-area: levels;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
@@ -3342,7 +3386,6 @@ body {
   }
 
   .state-select-container {
-    grid-area: region;
     width: 100%;
   }
 
@@ -4019,8 +4062,7 @@ body {
 .panel-tabs,
 .table-container,
 .sankey-container,
-.comparison-container,
-.cutoff-table-scroll {
+.comparison-container {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior-x: contain;
@@ -4029,15 +4071,42 @@ body {
   transition: box-shadow 0.3s ease;
 }
 
+.cutoff-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  touch-action: pan-x pan-y;
+  scrollbar-width: thin;
+  transition: box-shadow 0.3s ease;
+}
+
 /* Hide scrollbars for Webkit browsers */
 .panel-tabs::-webkit-scrollbar,
 .table-container::-webkit-scrollbar,
 .sankey-container::-webkit-scrollbar,
-.comparison-container::-webkit-scrollbar,
-.cutoff-table-scroll::-webkit-scrollbar {
+.comparison-container::-webkit-scrollbar {
   display: none;
   width: 0;
   height: 0;
+}
+
+.cutoff-table-scroll::-webkit-scrollbar {
+  height: 6px;
+  display: block;
+}
+
+.cutoff-table-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-full);
+}
+
+.cutoff-table-scroll::-webkit-scrollbar-thumb {
+  background: var(--border-glass-active);
+  border-radius: var(--radius-full);
+}
+
+.cutoff-table-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue-semi);
 }
 
 /* Inset Box Shadow Scroll Indicators */

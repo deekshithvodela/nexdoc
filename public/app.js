@@ -1014,10 +1014,18 @@ function setupGlobalListeners() {
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      updateExplorerViews();
+      // Only re-render views from tabs that are sensitive to resize (analytics showing SVG/D3 graphics)
+      const activeTabBtn = document.querySelector('.panel-tab.active');
+      if (activeTabBtn) {
+        const activeTab = activeTabBtn.getAttribute('data-tab');
+        if (activeTab === 'analytics' || activeTab === 'sankey') {
+          updateExplorerViews();
+        }
+      }
       repositionFilterButton();
     }, 250);
   });
+
 
   // Helper to show rotate prompt with an auto-hide timeout
   const showRotatePromptWithTimeout = (rotatePrompt) => {

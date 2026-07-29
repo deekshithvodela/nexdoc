@@ -76,6 +76,22 @@
         </div>
       </div>
 
+      <div class="header-controls">
+        <button id="installPwaBtn" class="btn-header-control btn-install-pwa" title="Install NexDoc PWA"
+          aria-label="Install NexDoc PWA">
+          <i data-lucide="download"></i>
+          <span class="btn-label">Install</span>
+        </button>
+        <button id="themeToggleBtn" class="btn-header-control btn-theme-toggle" title="Toggle Theme"
+          aria-label="Toggle Dark/Light Theme">
+          <i data-lucide="moon" class="theme-icon-dark"></i>
+          <i data-lucide="sun" class="theme-icon-light"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Global Selectors Bar -->
+    <div class="global-selectors card-glass">
       <!-- Level Switcher -->
       <div class="level-tabs">
         <button class="level-tab active" data-level="ug">
@@ -92,28 +108,14 @@
         </button>
       </div>
 
-      <!-- State Selector Dropdown & Header Controls -->
-      <div class="header-right-group">
-        <div class="header-controls">
-          <button id="installPwaBtn" class="btn-header-control btn-install-pwa" title="Install NexDoc PWA"
-            aria-label="Install NexDoc PWA">
-            <i data-lucide="download"></i>
-            <span class="btn-label">Install</span>
-          </button>
-          <button id="themeToggleBtn" class="btn-header-control btn-theme-toggle" title="Toggle Theme"
-            aria-label="Toggle Dark/Light Theme">
-            <i data-lucide="moon" class="theme-icon-dark"></i>
-            <i data-lucide="sun" class="theme-icon-light"></i>
-          </button>
-        </div>
-        <div class="state-select-container">
-          <label for="stateSelector"><i data-lucide="map-pin"></i> Region</label>
-          <select id="stateSelector">
-            <option value="" disabled selected>Select Region / State</option>
-          </select>
-        </div>
+      <!-- State Selector Dropdown -->
+      <div class="state-select-container">
+        <label for="stateSelector"><i data-lucide="map-pin"></i> Region</label>
+        <select id="stateSelector">
+          <option value="" disabled selected>Select Region / State</option>
+        </select>
       </div>
-    </header>
+    </div>
 
     <!-- Global Dataset Disclaimer Banner -->
     <div class="global-disclaimer-banner">

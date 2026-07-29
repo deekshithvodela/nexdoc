@@ -20,15 +20,19 @@ export const CutoffExplorer = {
     
     // Available Dropdown Options
     categoriesList: ['Open', 'Open PwD', 'OBC', 'OBC PwD', 'EWS', 'EWS PwD', 'SC', 'SC PwD', 'ST', 'ST PwD', 'NRI'],
-    quotasList: []
+    quotasList: [],
+    selectedStateVal: 'all',
+    statesList: [],
+    selectedStates: [],
+    stateSearchQuery: ''
   },
 
   setSelectedState(stateVal) {
-    if (!stateVal || stateVal === 'all') {
-      this.state.searchQuery = '';
-    } else {
-      this.state.searchQuery = stateVal.replace(/_/g, ' ');
-    }
+    this.state.selectedStateVal = stateVal || 'all';
+    this.state.selectedStates = [];
+    this.state.stateSearchQuery = '';
+    const sidebar = document.getElementById('filterSidebar');
+    if (sidebar) this.renderSidebarFilters('filterSidebar');
     const container = document.getElementById('viewCutoffs');
     if (container && this.state.loaded) this.render(container);
   },
@@ -45,14 +49,17 @@ export const CutoffExplorer = {
         const res = await fetch('data/ug_colleges_aiq_mapping.json');
         this.state.ugMappingData = await res.json();
         
-        // Extract quotas list
+        // Extract quotas and states list
         const qSet = new Set();
+        const sSet = new Set();
         this.state.ugMappingData.forEach(c => {
+          if (c.state) sSet.add(c.state);
           (c.aiq_cutoffs_raw || []).forEach(cutoff => {
             if (cutoff.quota) qSet.add(cutoff.quota);
           });
         });
         this.state.quotasList = Array.from(qSet).sort();
+        this.state.statesList = Array.from(sSet).sort();
 
         this.state.loaded = true;
         this.state.loading = false;
@@ -109,6 +116,14 @@ export const CutoffExplorer = {
     // 1. Hide Non-AIQ colleges by default unless showNonAiq is true
     if (!this.state.showNonAiq) {
       colleges = colleges.filter(c => c.mcc_status !== 'Non AIQ');
+    }
+
+    // Region Filter (from global top-of-page state selector or checkboxes)
+    if (this.state.selectedStateVal && this.state.selectedStateVal !== 'all') {
+      const cleanVal = this.state.selectedStateVal.toLowerCase().replace(/_/g, ' ');
+      colleges = colleges.filter(c => c.state && c.state.toLowerCase() === cleanVal);
+    } else if (this.state.selectedStates && this.state.selectedStates.length > 0) {
+      colleges = colleges.filter(c => c.state && this.state.selectedStates.includes(c.state));
     }
 
     // 2. College Search Filter
@@ -272,6 +287,38 @@ export const CutoffExplorer = {
         </div>
       </div>
 
+      <!-- Checklist-Style State Filter (Only if selectedStateVal is 'all') -->
+      ${this.state.selectedStateVal === 'all' ? `
+      <div class="filter-group">
+        <h4 class="cutoff-filter-header">
+          <span>State / Region Filter</span>
+          <button id="clearSidebarStateFilterBtn" class="btn-link-action">Clear</button>
+        </h4>
+        <div class="search-box-container margin-bottom-sm">
+          <i data-lucide="filter"></i>
+          <input type="text" id="sidebarStateSearch" placeholder="Filter states..." value="${this.state.stateSearchQuery || ''}">
+        </div>
+        <div class="filter-options scrollable-checklist-list">
+          ${(() => {
+            const stateQueryLow = (this.state.stateSearchQuery || '').toLowerCase().trim();
+            const filteredStates = this.state.statesList.filter(s =>
+              !stateQueryLow || s.toLowerCase().includes(stateQueryLow)
+            );
+            if (filteredStates.length === 0) {
+              return `<span class="placeholder-text text-sm-pad">No states match</span>`;
+            }
+            return filteredStates.map(state => `
+              <label class="checkbox-label checkbox-item-row">
+                <input type="checkbox" class="sidebar-state-cb" value="${state}" ${this.state.selectedStates.includes(state) ? 'checked' : ''}>
+                <div class="checkbox-custom"><i data-lucide="check"></i></div>
+                <span class="checkbox-item-text">${state}</span>
+              </label>
+            `).join('');
+          })()}
+        </div>
+      </div>
+      ` : ''}
+
       <!-- Checklist-Style Category Filter Window -->
       <div class="filter-group">
         <h4 class="cutoff-filter-header">
@@ -356,6 +403,44 @@ export const CutoffExplorer = {
       submitRankBtn.addEventListener('click', applyRankFilter);
     }
 
+    if (this.state.selectedStateVal === 'all') {
+      const stateSearchInput = container.querySelector('#sidebarStateSearch');
+      if (stateSearchInput) {
+        stateSearchInput.addEventListener('input', (e) => {
+          if (this.state.stateSearchTimeout) clearTimeout(this.state.stateSearchTimeout);
+          this.state.stateSearchTimeout = setTimeout(() => {
+            this.state.stateSearchQuery = e.target.value;
+            this.renderSidebarFilters(containerId);
+            const input = document.getElementById('sidebarStateSearch');
+            if (input) {
+              input.focus();
+              input.setSelectionRange(input.value.length, input.value.length);
+            }
+          }, 150);
+        });
+      }
+
+      container.querySelectorAll('.sidebar-state-cb').forEach(cb => {
+        cb.addEventListener('change', () => {
+          const checked = Array.from(container.querySelectorAll('.sidebar-state-cb:checked')).map(el => el.value);
+          this.state.selectedStates = checked;
+          const targetView = document.getElementById('viewCutoffs');
+          if (targetView) this.render(targetView);
+        });
+      });
+
+      const clearStateBtn = container.querySelector('#clearSidebarStateFilterBtn');
+      if (clearStateBtn) {
+        clearStateBtn.addEventListener('click', () => {
+          this.state.selectedStates = [];
+          this.state.stateSearchQuery = '';
+          this.renderSidebarFilters(containerId);
+          const targetView = document.getElementById('viewCutoffs');
+          if (targetView) this.render(targetView);
+        });
+      }
+    }
+
     container.querySelectorAll('.sidebar-category-cb').forEach(cb => {
       cb.addEventListener('change', () => {
         const checked = Array.from(container.querySelectorAll('.sidebar-category-cb:checked')).map(el => el.value);
@@ -411,6 +496,8 @@ export const CutoffExplorer = {
         this.state.showNonAiq = false;
         this.state.selectedCategories = [];
         this.state.selectedQuotas = [];
+        this.state.selectedStates = [];
+        this.state.stateSearchQuery = '';
         this.state.selectedCategory = 'ALL';
         this.state.selectedQuota = 'ALL';
         this.state.selectedChance = 'ALL';

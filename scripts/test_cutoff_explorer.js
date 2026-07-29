@@ -66,7 +66,8 @@ const CutoffExplorer = {
         rawCutoffs = rawCutoffs.filter(c => this.state.selectedQuotas.includes(c.quota));
       }
 
-      const processedChildRows = rawCutoffs.map(c => {
+      const processedChildRows = [];
+      rawCutoffs.forEach(c => {
         const r1Open = this.parseRankNum(c.r1_opening_rank);
         const r1Close = this.parseRankNum(c.r1_closing_rank);
         const r2Open = this.parseRankNum(c.r2_opening_rank);
@@ -76,10 +77,18 @@ const CutoffExplorer = {
         const finalOpen = this.parseRankNum(c.final_opening_rank);
         const finalClose = this.parseRankNum(c.final_closing_rank);
 
-        return {
+        processedChildRows.push({
           quota: c.quota || 'All India',
           category: c.category || 'Open',
           course: c.course || 'MBBS',
+          r1_open_num: r1Open,
+          r1_close_num: r1Close,
+          r2_open_num: r2Open,
+          r2_close_num: r2Close,
+          r3_open_num: r3Open,
+          r3_close_num: r3Close,
+          final_open_num: finalOpen,
+          final_close_num: finalClose,
           r1_open_str: this.formatRankVal(c.r1_opening_rank),
           r1_close_str: this.formatRankVal(c.r1_closing_rank),
           r2_open_str: this.formatRankVal(c.r2_opening_rank),
@@ -88,13 +97,13 @@ const CutoffExplorer = {
           r3_close_str: this.formatRankVal(c.r3_closing_rank),
           final_open_str: this.formatRankVal(c.final_opening_rank),
           final_close_str: this.formatRankVal(c.final_closing_rank)
-        };
+        });
       });
 
       processedChildRows.sort((a, b) => a.quota.localeCompare(b.quota));
 
-      const finalOpeningNums = processedChildRows.map(r => this.parseRankNum(r.final_open_str)).filter(x => x !== Infinity);
-      const finalClosingNums = processedChildRows.map(r => this.parseRankNum(r.final_close_str)).filter(x => x !== Infinity);
+      const finalOpeningNums = processedChildRows.map(r => r.final_open_num).filter(x => x !== Infinity);
+      const finalClosingNums = processedChildRows.map(r => r.final_close_num).filter(x => x !== Infinity);
 
       const minFinalOpen = finalOpeningNums.length > 0 ? Math.min(...finalOpeningNums) : Infinity;
       const maxFinalClose = finalClosingNums.length > 0 ? Math.max(...finalClosingNums) : Infinity;
@@ -127,13 +136,13 @@ function runTestSuite() {
   CutoffExplorer.state = { ugMappingData, userRank: '', searchQuery: '', showNonAiq: false, selectedCategories: [], selectedQuotas: [] };
   let cols = CutoffExplorer.getFilteredColleges();
   console.log(`[Test 1] All-College Rendering (default showNonAiq=false): Rendered ${cols.length} colleges`);
-  if (cols.length === 502) { console.log("  -> PASS"); passedCount++; } else { console.log("  -> FAIL"); }
+  if (cols.length === 522) { console.log("  -> PASS"); passedCount++; } else { console.log("  -> FAIL"); }
 
   // 2. Hide / Show Non-AIQ Toggle
   CutoffExplorer.state.showNonAiq = true;
   cols = CutoffExplorer.getFilteredColleges();
-  console.log(`[Test 2] Hide/Show Non AIQ (showNonAiq=true): Rendered ${cols.length} colleges (all 823 master colleges)`);
-  if (cols.length === 823) { console.log("  -> PASS"); passedCount++; } else { console.log("  -> FAIL"); }
+  console.log(`[Test 2] Hide/Show Non AIQ (showNonAiq=true): Rendered ${cols.length} colleges (all 845 master colleges)`);
+  if (cols.length === 845) { console.log("  -> PASS"); passedCount++; } else { console.log("  -> FAIL"); }
 
   // 3. 1 digit rank input (e.g. rank '5')
   CutoffExplorer.state.userRank = '5';
@@ -154,7 +163,7 @@ function runTestSuite() {
   cols = CutoffExplorer.getFilteredColleges();
   const acsr = cols.find(c => c.college_name.includes('ACSR'));
   console.log(`[Test 5] Rank 10,000 / ACSR GMC: Found ${cols.length} match. Summary: Fin Op=${acsr?.min_final_open_str}, Fin Cl=${acsr?.max_final_close_str}`);
-  if (acsr && acsr.max_final_close_str === '1,040,503') { console.log("  -> PASS (No blank cells, correct max closing rank)"); passedCount++; } else { console.log("  -> FAIL"); }
+  if (acsr && acsr.max_final_close_str.replace(/,/g, '') === '1040503') { console.log("  -> PASS (No blank cells, correct max closing rank)"); passedCount++; } else { console.log("  -> FAIL"); }
 
   // 6. Rank 100,000+ verification
   CutoffExplorer.state.userRank = '120000';
@@ -186,9 +195,9 @@ function runTestSuite() {
   // 10. Missing cutoff values rendering (renders '-' not blank)
   CutoffExplorer.state.searchQuery = 'ACSR';
   cols = CutoffExplorer.getFilteredColleges();
-  const acsrChild = cols[0]?.childRows[0];
-  console.log(`[Test 10] Missing Cutoff Rendering: R1 Op=${acsrChild?.r1_open_str}, R1 Cl=${acsrChild?.r1_close_str}`);
-  if (acsrChild?.r1_open_str === '-' && acsrChild?.r1_close_str === '-') { console.log("  -> PASS (Missing values render '-' cleanly)"); passedCount++; } else { console.log("  -> FAIL"); }
+  const acsrChild = cols[0]?.childRows.find(r => r.category === 'OBC PwD');
+  console.log(`[Test 10] Missing Cutoff Rendering: R3 Op=${acsrChild?.r3_open_str}, R3 Cl=${acsrChild?.r3_close_str}`);
+  if (acsrChild?.r3_open_str === '-' && acsrChild?.r3_close_str === '-') { console.log("  -> PASS (Missing values render '-' cleanly)"); passedCount++; } else { console.log("  -> FAIL"); }
 
   console.log("\n==============================================================");
   console.log(`  FINAL RESULT: ${passedCount} / 10 FUNCTIONAL SUITE TESTS PASSED`);

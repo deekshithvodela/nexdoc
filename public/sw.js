@@ -1,5 +1,5 @@
 // NexDoc Service Worker (PWA)
-const CACHE_NAME = 'nexdoc-v1.0.2';
+const CACHE_NAME = 'nexdoc-v1.0.3';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -29,7 +29,10 @@ const STATIC_ASSETS = [
   './data/pg/summary.json',
   './data/pg/all.json',
   './data/ss/summary.json',
-  './data/ss/all.json'
+  './data/ss/all.json',
+  'https://cdn.jsdelivr.net/npm/chart.js',
+  'https://cdn.jsdelivr.net/npm/d3@7',
+  'https://unpkg.com/lucide@latest'
 ];
 
 // Install Event
@@ -65,6 +68,11 @@ self.addEventListener('fetch', (event) => {
   // Ignore cross-origin non-GET requests or browser extension requests
   if (event.request.method !== 'GET') return;
 
+  // Exclude analytics tracking
+  if (url.hostname.includes('goatcounter.com') || url.pathname.includes('count.js')) {
+    return;
+  }
+
   // Handle data requests (e.g., JSON files under data/) with Stale-While-Revalidate
   if (url.pathname.includes('/data/')) {
     event.respondWith(
@@ -99,6 +107,36 @@ self.addEventListener('fetch', (event) => {
         }).catch(() => {});
         return cachedResponse;
       }
+
+      // Root/Directory redirect paths normalization
+      if (url.origin === self.location.origin) {
+        const scopeUrl = new URL(self.registration.scope);
+        const scopePath = scopeUrl.pathname;
+        const scopePathNoSlash = scopePath.endsWith('/') ? scopePath.slice(0, -1) : scopePath;
+        const cleanPath = url.pathname.endsWith('/index.html') ? url.pathname.slice(0, -10) : url.pathname;
+
+        if (cleanPath === scopePath || cleanPath === scopePathNoSlash) {
+          return caches.match('./').then((rootResponse) => {
+            if (rootResponse) return rootResponse;
+            return fetch(event.request);
+          });
+        }
+      }
+
+      // Caching dynamic external assets (CDNs, Google Fonts, etc.) on the fly
+      if (url.origin !== self.location.origin && (url.pathname.endsWith('.js') || url.pathname.includes('/css') || url.hostname.includes('gstatic.com') || url.hostname.includes('googleapis.com'))) {
+        return fetch(event.request).then((networkResponse) => {
+          if (networkResponse.status === 200) {
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, networkResponse.clone());
+            });
+          }
+          return networkResponse;
+        }).catch(() => {
+          return caches.match(event.request);
+        });
+      }
+
       return fetch(event.request);
     })
   );
