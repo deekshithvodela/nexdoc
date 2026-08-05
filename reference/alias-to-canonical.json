@@ -64,7 +64,7 @@
     "original_display": "AIIMS, Nagpur, PLOT NO 2 SECTOR 20 MIHAN NAGPUR, Maharashtra, 441108"
   },
   "aiims new delhi aiims ansari nagar east aurobindo marg new delhi 110029 delhi nct 110029": {
-    "canonical": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "canonical": "All India Institute of Medical Sciences, New Delhi",
     "original_display": "AIIMS, New Delhi, AIIMS ANSARI NAGAR EAST AUROBINDO MARG NEW DELHI 110029, Delhi (NCT), 110029"
   },
   "aiims patna phulwarisharif patna bihar 801507 bihar 801507": {
@@ -92,7 +92,7 @@
     "original_display": "ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE, GAYA, SHERGHATIROAD, GAYAJI, Bihar, 823001"
   },
   "atal bihari vajpayee government medical college vidisha nh 86 infront of khel parisar sanchi road vidisha madhya pradesh 464001": {
-    "canonical": "Shri Atal Bihari Vajpayee Government Medical College, Faridabad",
+    "canonical": "Atal Bihari Vajpayee Government Medical College, Vidisha",
     "original_display": "ATAL BIHARI VAJPAYEE GOVERNMENT MEDICAL COLLEGE, VIDISHA, NH 86 INFRONT OF KHEL PARISAR SANCHI ROAD VIDISHA, Madhya Pradesh, 464001"
   },
   "aarupadai veedu medical college and hospt puducherry pondy cuddalore main road kirumampakkam puducherry puducherry 607403": {
@@ -176,7 +176,7 @@
     "original_display": "Autonomous state Medical College, Sehud, Auraiya, Sehud Auraiya, Uttar Pradesh, 206122"
   },
   "bj government medical college pune sassoon hospital compound near pune railway station jp narayan road pune maharashtra 411001": {
-    "canonical": "B. J. Government Medical College, Pune",
+    "canonical": "BJ Medical College, Pune",
     "original_display": "B.J. Government Medical College, Pune, Sassoon Hospital Compound, Near Pune Railway station J.P. Narayan Road, Pune, Maharashtra, 411001"
   },
   "bj medical college ahmedabad bj medical college new civil hospital campus asarwa ahmedabad 380016 gujarat 380016": {
@@ -392,11 +392,11 @@
     "original_display": "ESIC Medical College, Gulbarga, ESIC MEDICAL COLLEGE SEDAM ROAD GULBARGA, Karnataka, 585106"
   },
   "esic medical college hyderbad sanathnagar hyderabad telangana 500038": {
-    "canonical": "ESIC Medical College, Ludhiana",
+    "canonical": "ESIC Medical College, Sanathnagar, Hyderabad",
     "original_display": "ESIC Medical College, Hyderbad, Sanathnagar, Hyderabad, Telangana, 500038"
   },
   "esic pgimsr joka kolkata wb diamond harbour road post office joka kolkata 700104 west bengal 700104": {
-    "canonical": "Employees State Insurance Corporation Medical College, Joka, Kolkata",
+    "canonical": "ESIC Medical College and PGIMSR, Joka, Kolkata",
     "original_display": "ESIC PGIMSR, Joka, Kolkata, WB, DIAMOND HARBOUR ROAD POST OFFICE JOKA KOLKATA 700104, West Bengal, 700104"
   },
   "esic medical college and hospital indore esic medical college and hospital nanda nagar indore madhya pradesh": {
@@ -448,7 +448,7 @@
     "original_display": "GMC, Azamgarh, UP, Government Medical College and Super Facility Hospital Chakrapanpur Post Office-Kanaila, Azamgarh, Uttar Pradesh, 276128"
   },
   "gmc manjeri kerala government medical college manjeri malappuram kerala 676121": {
-    "canonical": "Government Medical College, Tonk",
+    "canonical": "Government Medical College, Manjeri",
     "original_display": "GMC, Manjeri, Kerala, GOVERNMENT MEDICAL COLLEGE, MANJERI, MALAPPURAM, Kerala, 676121"
   },
   "gmc rajamahendravaram government medical college d no 55 4 1 central jail road near ctri rajamahendravaram andhra pradesh 533105": {
@@ -456,11 +456,11 @@
     "original_display": "GMC, Rajamahendravaram, Government Medical College, D.No.55-4-1, Central Jail Road, Near CTRI, Rajamahendravaram., Andhra Pradesh, 533105"
   },
   "gmc shahjhanpur autonomous state medical college allied pandit ram prasad bismil hospital shahjahanpur uttar pradesh uttar pradesh 242001": {
-    "canonical": "Government Medical College, Shahjahanpur",
+    "canonical": "Autonomous State Medical College Society, Shahjahanpur",
     "original_display": "GMC, Shahjhanpur, AUTONOMOUS STATE MEDICAL COLLEGE ALLIED PANDIT RAM PRASAD BISMIL HOSPITAL SHAHJAHANPUR UTTAR PRADESH, Uttar Pradesh, 242001"
   },
   "gmers medical college morbi gibson middle school opp railway station morbi gujarat 363641": {
-    "canonical": "GMERS Medical College, Valsad",
+    "canonical": "GMERS Medical College, Morbi",
     "original_display": "GMERS Medical College, Morbi, Gibson middle school, Opp railway station, Morbi, Gujarat, 363641"
   },
   "gmers medical college navsari adarsh nivasi shala campus at khambhlav po sultanpur via abrama ta jalalpore dist navsar gujarat 396406": {
@@ -648,7 +648,7 @@
     "original_display": "GVMC, VILLUPURAM, THE DEAN, GOVERNMENT VILLUPURAM MEDICAL COLLEGE, TRICHY TRUNK ROAD, MUNDIYAMPAKKAM, VILLUPURAM, Tamil Nadu, 605601"
   },
   "gadag institute of medical sciences gadag institute of medical sciences gadag mallasamudra gadag 582103 karnataka 582103": {
-    "canonical": "K.H. Patil Institute of Medical Sciences, Gadag",
+    "canonical": "Gadag Institute of Medical Sciences, Gadag",
     "original_display": "Gadag Institute of Medical Sciences, GADAG INSTITUTE OF MEDICAL SCIENCES GADAG Mallasamudra, Gadag-582103, Karnataka, 582103"
   },
   "gmc bahraich kdc road bahraich 271801 uttar pradesh 271801": {
@@ -900,7 +900,7 @@
     "original_display": "Government Medical College, Nashik, Hindu Hruday Samrat Vandaniya Balasaheb Thakare Hospital and Bytco Hospital Near Durga mata mandir M, Maharashtra, 422214"
   },
   "government medical college nilgiris no 1 indu nagar mysore road udhagamandalam nilgiris district tamil nadu 643005": {
-    "canonical": "Government Medical College, The Nilgiris",
+    "canonical": "Government Medical College, Nilgiris",
     "original_display": "Government Medical College, Nilgiris, No. 1, INDU NAGAR, MYSORE ROAD, UDHAGAMANDALAM, NILGIRIS DISTRICT, Tamil Nadu, 643005"
   },
   "government medical college nizamabad rp road near bustand khaleelwadi nizamabad telangana 503001": {
@@ -1232,7 +1232,7 @@
     "original_display": "KANYAKUMARI GOVT. MED. COLL., ASARIPALLAM, ASARIPALLAM, KANYAKUMARI DISTRICT-629201, Tamil Nadu, 629201"
   },
   "karnatak inst of medical sc hubli vidyanagar hubballi karnataka 580021": {
-    "canonical": "Karnataka Medical College and Research Institute, Hubballi, Karnataka",
+    "canonical": "Karnatak Institute of Medical Sciences, Hubli",
     "original_display": "KARNATAK INST. OF MEDICAL SC., HUBLI, VIDYANAGAR HUBBALLI, Karnataka, 580021"
   },
   "kgmc lucknow shahmina road chowk lucknow uttar pradesh 226003": {
@@ -1344,7 +1344,7 @@
     "original_display": "MANDYA INST. OF MEDICAL SCI., MANDYA, BANGALORE-MYSORE MAIN ROAD, MANDYA, Karnataka, 571401"
   },
   "medical college baroda government medical college baroda anandpura vadodara pin no 390001 gujarat 390001": {
-    "canonical": "Medical College, Baroda",
+    "canonical": "Government Medical College, Baroda",
     "original_display": "MEDICAL COLLEGE, BARODA, Government Medical College Baroda, Anandpura, Vadodara Pin No 390001, Gujarat, 390001"
   },
   "medical college bhavnagar near st bus stand jail road bhavnagar gujarat 364001": {
@@ -1360,7 +1360,7 @@
     "original_display": "MG Inst. of Medical Sciences, Sevagram Wardha, VILLAGE AND PO SEVAGRAM DISTRICT WARDHA MAHARASHTRA 442102, Maharashtra, 442102"
   },
   "mgm medical college aurangabad n 6 cidco chhatrapati sambhajinagar aurangabad maharashtra 431003": {
-    "canonical": "Mahatma Gandhi Missions Medical College, Aurangabad",
+    "canonical": "MGM Medical College, Aurangabad",
     "original_display": "MGM Medical College, Aurangabad, N-6, Cidco, Chhatrapati Sambhajinagar - Aurangabad, Maharashtra, 431003"
   },
   "mgm medical college navi mumbai mgm medical college plot no 1 2 sector 1 kamothe navi mumbai 410 209 maharashtra 410209": {
@@ -1432,7 +1432,7 @@
     "original_display": "Meenakshi Medical College Hospital and Research Institute, Kanchipuram, Enathur, Karaipettai Post, Kanchipuram, Tamil Nadu, 631552"
   },
   "mursidabad mc hospital mursidabad station road po and ps berhampore dist murshidabad west bengal 742101": {
-    "canonical": "Murshidabad Medical College & Hospitals, Murshidabad",
+    "canonical": "Murshidabad Medical College & Hospital, Murshidabad",
     "original_display": "Mursidabad M C & Hospital, Mursidabad, STATION ROAD, P.O. AND P.S. BERHAMPORE, DIST. MURSHIDABAD, West Bengal, 742101"
   },
   "nalanda medical college patna old byepass road kankerbagh patna bihar 800026": {
@@ -1612,7 +1612,7 @@
     "original_display": "SHEIKH BHIKHARI MEDICAL COLLEGE & HOSPITAL, HAZARIBAG ( Formerly called as- Hazaribagh Medical College, Hazaribag), NEAR CENTRAL JAIL, HAZARIBAG, Jharkhand, 825301"
   },
   "shilong medical college meghalaya pasteur hills lawmali road shilong east khasi hills meghalaya": {
-    "canonical": "Shillong Medical College",
+    "canonical": "Shillong Medical College, Shillong",
     "original_display": "SHILONG MEDICAL COLLEGE, MEGHALAYA, Pasteur Hills, Lawmali Road, Shilong, East Khasi Hills, Meghalaya"
   },
   "shimoga inst of medical sci shimoga sagar road mcgann hospital campus shivamogga karnataka 577201": {
@@ -1652,7 +1652,7 @@
     "original_display": "SOBAN SINGH JEENA GOVERNMENT INSTITUTE OF MEDICAL SCIENCE & RESEARCH, ALMORA, Near Vikas Bhawan Pandeykhola Almora, Uttarakhand, 263601"
   },
   "sri krishna medical college muzaffarpur umanagar muzaffarpur bihar 842004": {
-    "canonical": "Shri Krishna Medical College, Muzzafarpur",
+    "canonical": "Sri Krishna Medical College, Muzaffarpur",
     "original_display": "SRI KRISHNA MEDICAL COLLEGE, MUZAFFARPUR, UMANAGAR MUZAFFARPUR, Bihar, 842004"
   },
   "sri lalithambigai medical college hospital faculty of medicine sri lalithambigai medical college and hospital 1 periyar evr high road ada tamil nadu 600095": {
@@ -1676,7 +1676,7 @@
     "original_display": "SVIMS - Sri Padmavathi Medical College for Women, Tirupati, SVIMS, ALIPIRI ROAD, TIRUPATI, Andhra Pradesh, 517507 (Female Seat only )"
   },
   "swami ramanand tirth rural mc ambajogai swami ramnand teerth rural government medical college ambajogai dist beed maharashtra pin 431517 maharashtra 431517": {
-    "canonical": "SRTR Medical College, Ambajogai",
+    "canonical": "Swami Ramanand Teerth Rural Medical College, Ambajogai",
     "original_display": "SWAMI RAMANAND TiRTH RURAL M.C, AMBAJOGAI, SWAMI RAMNAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI DIST BEED MAHARASHTRA PIN-431517, Maharashtra, 431517"
   },
   "symbiosis medical college for women pune gram lavale tal mulshi pune maharashtra 412115 female seat only": {
@@ -1688,7 +1688,7 @@
     "original_display": "Sagar Dutta Medical College & Hospital, Kolkata, 578, B.T. Road, Kamarhati, Kolkata, West Bengal, 700058"
   },
   "sarat chandra chattopadhyay govt medical college hospital uluberia uluberia dist howrah west bengal 711315": {
-    "canonical": "Sarat Chandra Chattopadhyay Government Medical College & Hospital",
+    "canonical": "Sarat Chandra Chattopadhyay Government Medical College & Hospital, Uluberia",
     "original_display": "Sarat Chandra Chattopadhyay Govt. Medical College & Hospital, Uluberia, ULUBERIA, DIST-HOWRAH, West Bengal, 711315"
   },
   "saveetha medical college chennai saveetha nagar thandalam chennai tamil nadu 602105": {
@@ -1704,7 +1704,7 @@
     "original_display": "Shri Sathya Sai Medical College and Research Institute, Chennai, SBV Chennai Campus, Shri Sathya Sai Nagar, Ammapettai, Chennai, Tamil Nadu, 603108"
   },
   "siddartha medical college vijayawada beside new government general hospital gunadala vijayawada andhra pradesh 520008": {
-    "canonical": "Government Siddhartha Medical College, Vijaywada",
+    "canonical": "Siddhartha Medical College, Vijayawada",
     "original_display": "Siddartha Medical College, Vijayawada, Beside New Government General Hospital Gunadala Vijayawada, Andhra Pradesh, 520008"
   },
   "sree balaji medical college and hospital chennai no 7 works road chromepet chennai tamil nadu 600044": {
@@ -1928,7 +1928,7 @@
     "original_display": "MRA MEDICAL COLLEGE AMBEDKAR NAGAR, UP, VILLAGE SADDARPUR POST SURAPUR DISTRICT AMBEDKAR NAGAR, Uttar Pradesh, 224227"
   },
   "bhima bhoi medical college and hospital balangir po rajendra college district balangir odisha odisha 767002": {
-    "canonical": "Government Medical College, Tonk",
+    "canonical": "Bhima Bhoi Medical College and Hospital, Balangir",
     "original_display": "Bhima Bhoi Medical College and Hospital, Balangir, PO - Rajendra College, District- Balangir, Odisha., Odisha, 767002"
   },
   "esic medical college and hospital ludhiana bharat nagar chowk ludhiana": {
@@ -1948,7 +1948,7 @@
     "original_display": "Govt. Pudukkottai Medical College Hopt., Pudukkott, MULLUR PUDUKKOTTAI PO PUDUKKOTTAI, Tamil Nadu, 622004"
   },
   "chhindwara institute of medical sciences teachers colony chhindwara madhya pradesh 480001 madhya pradesh 480001": {
-    "canonical": "Government Medical College, Chhindwara",
+    "canonical": "Chhindwara Institute of Medical Sciences, Chhindwara",
     "original_display": "Chhindwara Institute of Medical Sciences, Teachers Colony, Chhindwara, Madhya Pradesh 480001, Madhya Pradesh, 480001"
   },
   "chandulal chandrakar memorial government medical college durg chandulal chandrakar memorial government medical college kurud road near rungta college kachandur chhattisgarh 490024": {
@@ -1968,7 +1968,7 @@
     "original_display": "Jannayak Karpoori Thakur Medical college and Hospital, Madhepura, JAJHAT SABAILA SINGHESHWAR ROAD DISTRICT MADHEPURA, Bihar, 852128"
   },
   "autonomous state medical college society mirzapur maa vindhyavasini autonomous state medical college pipardarh vishunderpur mirzapur uttar pradesh 231001": {
-    "canonical": "Autonomous State Society Medical College, Mirzapur",
+    "canonical": "Maa Vindhyavasini Autonomous State Medical College, Mirzapur",
     "original_display": "Autonomous State Medical College Society, Mirzapur, MAA VINDHYAVASINI AUTONOMOUS STATE MEDICAL COLLEGE PIPARDARH, VISHUNDERPUR, MIRZAPUR, Uttar Pradesh, 231001"
   },
   "rajmata shrimati devendra kumari singhdeo government medical college ambikapur surguja kanyaparisar road gangapur ambikapur district surguja chhattisgarh 497001": {

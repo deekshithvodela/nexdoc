@@ -54,6 +54,7 @@ def expand_abbreviations(text):
 
 # Specific manual overrides for shorthand raw MCC allotment strings
 MCC_MANUAL_OVERRIDES = {
+    "aiims new delhi aiims ansari nagar east aurobindo marg new delhi 110029 delhi nct 110029": "All India Institute of Medical Sciences, New Delhi",
     "atal bihari vajpayee government medical college vidisha nh 86 infront of khel parisar sanchi road vidisha madhya pradesh 464001": "Atal Bihari Vajpayee Government Medical College, Vidisha",
     "autonomous state medical college lalitpur up amarpur galla mandi jhansi road lalitpur uttar pradesh 284403": "Autonomous State Medical College, Lalitpur",
     "bj government medical college pune sassoon hospital compound near pune railway station jp narayan road pune maharashtra 411001": "BJ Medical College, Pune",
