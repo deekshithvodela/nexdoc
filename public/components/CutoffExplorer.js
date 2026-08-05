@@ -225,8 +225,8 @@ export const CutoffExplorer = {
         });
       });
 
-      // If active dropdown filter leaves 0 child rows, skip college
-      const isFilterActive = (this.state.selectedCategory !== 'ALL') || (this.state.selectedQuota !== 'ALL') || (this.state.selectedChance !== 'ALL');
+      // If active dropdown or sidebar checkbox filter leaves 0 child rows, skip college
+      const isFilterActive = (this.state.selectedCategory !== 'ALL') || (this.state.selectedQuota !== 'ALL') || (this.state.selectedChance !== 'ALL') || (this.state.selectedCategories && this.state.selectedCategories.length > 0) || (this.state.selectedQuotas && this.state.selectedQuotas.length > 0);
       if (isFilterActive && processedChildRows.length === 0) {
         return;
       }
@@ -640,7 +640,7 @@ export const CutoffExplorer = {
                 </tr>
               ` : filteredColleges.map(group => {
                 const isExpanded = this.state.expandedCollegeIds.has(group.college_id);
-                const typeBadgeClass = group.college_type === 'Government' ? 'badge-govt' : (group.college_type === 'Deemed' ? 'badge-deemed' : 'badge-private');
+                const typeBadgeClass = group.college_type === 'INI' ? 'badge-ini' : (group.college_type === 'Government' ? 'badge-govt' : (group.college_type === 'Deemed' ? 'badge-deemed' : 'badge-private'));
                 
                 const categoriesCount = group.childRows.length;
 

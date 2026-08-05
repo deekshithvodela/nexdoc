@@ -1,10 +1,10 @@
 [
   {
-    "college_id": "ug_aiq_001",
+    "college_id": "ug_in014i1",
     "college_name": "All India Institute of Medical Sciences, New Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, New Delhi",
@@ -175,7 +175,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_002",
+    "college_id": "ug_in093g1",
     "college_name": "Vardhman Mahavir Medical College & Safdarjung Hospital, Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -494,11 +494,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_003",
+    "college_id": "ug_in022i1",
     "college_name": "Jawaharlal Institute of Postgraduate Medical Education and Research, Puducherry",
     "city": "Puducherry",
     "state": "Puducherry",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Jawaharlal Institute of Postgraduate Medical Education and Research, Puducherry",
@@ -777,7 +777,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_004",
+    "college_id": "ug_in073g1",
     "college_name": "Maulana Azad Medical College, New Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -1420,11 +1420,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_005",
+    "college_id": "ug_in009i1",
     "college_name": "All India Institute of Medical Sciences, Jodhpur",
     "city": "Jodhpur",
     "state": "Rajasthan",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Jodhpur",
@@ -1613,11 +1613,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_006",
+    "college_id": "ug_in003i1",
     "college_name": "All India Institute of Medical Sciences, Bhubaneswar",
     "city": "Bhubaneswar",
     "state": "Odisha",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Bhubaneswar",
@@ -1824,7 +1824,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_007",
+    "college_id": "ug_in050g1",
     "college_name": "Government Medical College, Surat",
     "city": "Surat",
     "state": "Gujarat",
@@ -1945,7 +1945,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_008",
+    "college_id": "ug_mh007g1",
     "college_name": "ESI-PGIMSR, ESI- Hospital, Parel, Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -2048,7 +2048,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_009",
+    "college_id": "ug_wb011g1",
     "college_name": "Diamond Harbour Government Medical College and Hospital, West Bengal",
     "city": "West Bengal",
     "state": "West Bengal",
@@ -2187,11 +2187,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_010",
+    "college_id": "ug_in013i1",
     "college_name": "All India Institute of Medical Sciences, Nagpur",
     "city": "Nagpur",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Nagpur",
@@ -2362,7 +2362,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_011",
+    "college_id": "ug_in002g1",
     "college_name": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr. RML Hospital, New Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -2627,11 +2627,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_012",
+    "college_id": "ug_in002i1",
     "college_name": "All India Institute of Medical Sciences, Bhopal",
     "city": "Bhopal",
     "state": "Madhya Pradesh",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Bhopal",
@@ -2820,7 +2820,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_013",
+    "college_id": "ug_up014g1",
     "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
     "city": "Lucknow",
     "state": "Uttar Pradesh",
@@ -2959,11 +2959,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_014",
+    "college_id": "ug_kl006p3",
     "college_name": "Dr. Somervel Memorial CSI Hospital & Medical College, Karakonam, Thiruvananthapuram",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Dr. Somervel Memorial CSI Hospital & Medical College, Karakonam, Thiruvananthapuram",
@@ -3080,7 +3080,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_015",
+    "college_id": "ug_in091g1",
     "college_name": "University College of Medical Sciences & GTB Hospital, New Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -3399,7 +3399,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_016",
+    "college_id": "ug_in003g1",
     "college_name": "B J Medical College, Ahmedabad",
     "city": "Ahmedabad",
     "state": "Gujarat",
@@ -3520,11 +3520,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_017",
+    "college_id": "ug_in019i1",
     "college_name": "All India Institute of Medical Sciences, Rishikesh",
     "city": "Rishikesh",
     "state": "Uttarakhand",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Rishikesh",
@@ -3659,7 +3659,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_018",
+    "college_id": "ug_in071g1",
     "college_name": "Madras Medical College, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
@@ -3798,7 +3798,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_019",
+    "college_id": "ug_in069g1",
     "college_name": "Lady Hardinge Medical College, New Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -4225,7 +4225,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_020",
+    "college_id": "ug_rj028g1",
     "college_name": "SMS Medical College, Jaipur",
     "city": "Jaipur",
     "state": "Rajasthan",
@@ -4364,7 +4364,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_021",
+    "college_id": "ug_tn017g1",
     "college_name": "Madurai Medical College, Madurai",
     "city": "Madurai",
     "state": "Tamil Nadu",
@@ -4485,7 +4485,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_022",
+    "college_id": "ug_in036g1",
     "college_name": "Government Medical College, Kozhikode, Calicut",
     "city": "Kozhikode",
     "state": "Kerala",
@@ -4624,7 +4624,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_023",
+    "college_id": "ug_wb013g1",
     "college_name": "Medical College, Kolkata",
     "city": "Kolkata",
     "state": "West Bengal",
@@ -4763,7 +4763,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_024",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "city": "Bhopal",
     "state": "Madhya Pradesh",
@@ -4902,7 +4902,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_025",
+    "college_id": "ug_in078g1",
     "college_name": "Osmania Medical College, Hyderabad",
     "city": "Hyderabad",
     "state": "Telangana",
@@ -5059,11 +5059,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_026",
+    "college_id": "ug_in015i1",
     "college_name": "All India Institute of Medical Sciences, Patna",
     "city": "Patna",
     "state": "Bihar",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Patna",
@@ -5234,7 +5234,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_027",
+    "college_id": "ug_in012g1",
     "college_name": "Dr. Baba Saheb Ambedkar Medical College, Rohini, Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -5337,11 +5337,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_028",
+    "college_id": "ug_in008i1",
     "college_name": "All India Institute of Medical Sciences, Guwahati",
     "city": "Guwahati",
     "state": "Assam",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Guwahati",
@@ -5602,7 +5602,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_029",
+    "college_id": "ug_cg012g1",
     "college_name": "Late Shri Baliram Kashyap Memorial NDMC Government Medical College, Jagdalpur",
     "city": "Jagdalpur",
     "state": "Chhattisgarh",
@@ -5723,11 +5723,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_030",
+    "college_id": "ug_in005i1",
     "college_name": "All India Institute of Medical Sciences, Bilaspur",
     "city": "Bilaspur",
     "state": "Himachal Pradesh",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Bilaspur",
@@ -5880,7 +5880,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_031",
+    "college_id": "ug_in049g1",
     "college_name": "Government Medical College, Srinagar",
     "city": "Srinagar",
     "state": "Jammu and Kashmir",
@@ -6001,7 +6001,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_032",
+    "college_id": "ug_in011g1",
     "college_name": "Coimbatore Medical College, Coimbatore",
     "city": "Coimbatore",
     "state": "Tamil Nadu",
@@ -6122,7 +6122,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_033",
+    "college_id": "ug_in087g1",
     "college_name": "Stanley Medical College, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
@@ -6261,11 +6261,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_034",
+    "college_id": "ug_in017i1",
     "college_name": "All India Institute of Medical Sciences, Raipur",
     "city": "Raipur",
     "state": "Chhattisgarh",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Raipur",
@@ -6436,11 +6436,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_035",
+    "college_id": "ug_in007i1",
     "college_name": "All India Institute of Medical Sciences, Gorakhpur",
     "city": "Gorakhpur",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Gorakhpur",
@@ -6611,11 +6611,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_036",
+    "college_id": "ug_in010i1",
     "college_name": "All India Institute of Medical Sciences, Kalyani",
     "city": "Kalyani",
     "state": "West Bengal",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Kalyani",
@@ -6804,7 +6804,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_037",
+    "college_id": "ug_up033g1",
     "college_name": "Jawaharlal Nehru Medical College, Aligarh",
     "city": "Aligarh",
     "state": "Uttar Pradesh",
@@ -6907,11 +6907,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_038",
+    "college_id": "ug_ka022p3",
     "college_name": "Kasturba Medical College, Manipal",
     "city": "Manipal",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Kasturba Medical College, Manipal",
@@ -6956,7 +6956,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_039",
+    "college_id": "ug_ka032g1",
     "college_name": "Shri Atal Bihari Vajapayee Medical College and Research Institute, Bengaluru",
     "city": "Bengaluru",
     "state": "Karnataka",
@@ -7077,11 +7077,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_040",
+    "college_id": "ug_in020i1",
     "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
     "city": "Jammu",
     "state": "Jammu and Kashmir",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
@@ -7270,7 +7270,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_041",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "city": "Cuttack",
     "state": "Odisha",
@@ -7463,7 +7463,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_042",
+    "college_id": "ug_rj018g1",
     "college_name": "Government Medical College, Kota",
     "city": "Kota",
     "state": "Rajasthan",
@@ -7638,7 +7638,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_043",
+    "college_id": "ug_gj009g1",
     "college_name": "Government Medical College, Bhavnagar",
     "city": "Bhavnagar",
     "state": "Gujarat",
@@ -7777,7 +7777,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_044",
+    "college_id": "ug_in067g1",
     "college_name": "Kilpauk Medical College, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
@@ -8073,7 +8073,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_046",
+    "college_id": "ug_wb015g1",
     "college_name": "Institute of Postgraduate Medical Education & Research, Kolkata",
     "city": "Kolkata",
     "state": "West Bengal",
@@ -8212,7 +8212,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_047",
+    "college_id": "ug_in023g1",
     "college_name": "Gandhi Medical College, Secunderabad",
     "city": "Secunderabad",
     "state": "Telangana",
@@ -8315,7 +8315,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_048",
+    "college_id": "ug_mh035g1",
     "college_name": "Grant Medical College, Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -8472,7 +8472,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_049",
+    "college_id": "ug_mp004g1",
     "college_name": "ESIC Medical College and Hospital, Indore",
     "city": "Indore",
     "state": "Madhya Pradesh",
@@ -8701,7 +8701,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_050",
+    "college_id": "ug_in080g1",
     "college_name": "RUHS College of Medical Sciences, Jaipur",
     "city": "Jaipur",
     "state": "Rajasthan",
@@ -8930,7 +8930,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_051",
+    "college_id": "ug_rj029g1",
     "college_name": "Sardar Patel Medical College, Bikaner",
     "city": "Bikaner",
     "state": "Rajasthan",
@@ -9033,7 +9033,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_052",
+    "college_id": "ug_tn023g1",
     "college_name": "Tirunelveli Medical College, Tirunelveli",
     "city": "Tirunelveli",
     "state": "Tamil Nadu",
@@ -9154,7 +9154,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_053",
+    "college_id": "ug_mh051g1",
     "college_name": "Topiwala National Medical College, Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -9275,7 +9275,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_054",
+    "college_id": "ug_in008g1",
     "college_name": "Chengalpattu Medical College, Chengalpattu",
     "city": "Chengalpattu",
     "state": "Tamil Nadu",
@@ -9378,7 +9378,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_055",
+    "college_id": "ug_ka026g1",
     "college_name": "Mysore Medical College and Research Institute, Mysore",
     "city": "Mysuru",
     "state": "Karnataka",
@@ -9517,11 +9517,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_056",
+    "college_id": "ug_in028p3",
     "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "city": "Udaipur",
     "state": "Rajasthan",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Geetanjali Medical College & Hospital, Udaipur",
@@ -9638,7 +9638,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_057",
+    "college_id": "ug_ap011g1",
     "college_name": "Guntur Medical College, Guntur",
     "city": "Guntur",
     "state": "Andhra Pradesh",
@@ -9777,11 +9777,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_058",
+    "college_id": "ug_in021i1",
     "college_name": "Jawaharlal Institute of Postgraduate Medical Education and Research, Karaikal",
     "city": "Karaikal",
     "state": "Puducherry",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Jawaharlal Institute of Postgraduate Medical Education and Research, Karaikal",
@@ -9988,7 +9988,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_059",
+    "college_id": "ug_hr004g1",
     "college_name": "Kalpana Chawala Government Medical College, Karnal, Haryana",
     "city": "Karnal",
     "state": "Haryana",
@@ -10145,7 +10145,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_060",
+    "college_id": "ug_as001g1",
     "college_name": "Assam Medial College, Dibrugarh",
     "city": "Dibrugarh",
     "state": "Assam",
@@ -10266,7 +10266,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_061",
+    "college_id": "ug_hr007g1",
     "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "city": "Rohtak",
     "state": "Haryana",
@@ -10369,7 +10369,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_062",
+    "college_id": "ug_jh006g1",
     "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
     "city": "Ranchi",
     "state": "Jharkhand",
@@ -10598,7 +10598,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_063",
+    "college_id": "ug_kl012g1",
     "college_name": "Government Medical College, Thrissur",
     "city": "Thrissur",
     "state": "Kerala",
@@ -10737,7 +10737,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_064",
+    "college_id": "ug_in088g1",
     "college_name": "Thanjavur Medical College, Thanjavur",
     "city": "Thanjavur",
     "state": "Tamil Nadu",
@@ -10858,7 +10858,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_065",
+    "college_id": "ug_pb003g1",
     "college_name": "Government Medical College, Amritsar",
     "city": "Amritsar",
     "state": "Punjab",
@@ -10979,7 +10979,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_066",
+    "college_id": "ug_or007g1",
     "college_name": "MKCG Medical College, Berhampur",
     "city": "Berhampur",
     "state": "Odisha",
@@ -11082,7 +11082,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_067",
+    "college_id": "ug_hp005g1",
     "college_name": "Indira Gandhi Medical College, Shimla",
     "city": "Shimla",
     "state": "Himachal Pradesh",
@@ -11203,11 +11203,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_068",
+    "college_id": "ug_in006i1",
     "college_name": "All India Institute of Medical Sciences, Deoghar",
     "city": "Deoghar",
     "state": "Jharkhand",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Deoghar",
@@ -11360,11 +11360,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_069",
+    "college_id": "ug_in016i1",
     "college_name": "All India Institute of Medical Sciences, Raebareli",
     "city": "Raebareli",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Raebareli",
@@ -11535,7 +11535,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_070",
+    "college_id": "ug_mh036g1",
     "college_name": "H.B.T. Medical College & Dr. R.N. Cooper Municipal General Hospital, Juhu, Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -11674,7 +11674,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_071",
+    "college_id": "ug_ka034g1",
     "college_name": "Vijaynagar Institute of Medical Sciences, Bellary",
     "city": "Bellary",
     "state": "Karnataka",
@@ -11795,11 +11795,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_072",
+    "college_id": "ug_in011i1",
     "college_name": "All India Institute of Medical Sciences, Madurai",
     "city": "Madurai",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "INI",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "All India Institute of Medical Sciences, Madurai",
@@ -11934,7 +11934,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_073",
+    "college_id": "ug_rj025g1",
     "college_name": "Jawaharlal Nehru Medical College, Ajmer",
     "city": "Ajmer",
     "state": "Rajasthan",
@@ -12055,7 +12055,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_074",
+    "college_id": "ug_in021g1",
     "college_name": "Gajra Raja Medical College, Gwalior",
     "city": "Gwalior",
     "state": "Madhya Pradesh",
@@ -12176,7 +12176,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_075",
+    "college_id": "ug_pb001g1",
     "college_name": "Dr B R Ambedkar State Institute of Medical Sciences, SAS Nagar, Mohali",
     "city": "Mohali",
     "state": "Punjab",
@@ -12279,7 +12279,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_076",
+    "college_id": "ug_mp015g1",
     "college_name": "MP Shah Medical College, Jamnagar",
     "city": "Jamnagar",
     "state": "Gujarat",
@@ -12400,7 +12400,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_077",
+    "college_id": "ug_mh027g1",
     "college_name": "Government Medical College, Nagpur",
     "city": "Nagpur",
     "state": "Maharashtra",
@@ -12539,7 +12539,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_078",
+    "college_id": "ug_br010g1",
     "college_name": "Patna Medical College, Patna",
     "city": "Patna",
     "state": "Bihar",
@@ -12678,7 +12678,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_079",
+    "college_id": "ug_ap016g1",
     "college_name": "SVIMS - Sri Padmavathi Medical College for Women, Alipiri Road, Tirupati",
     "city": "Tirupati",
     "state": "Andhra Pradesh",
@@ -12817,7 +12817,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_080",
+    "college_id": "ug_mh016g1",
     "college_name": "Government Medical College, Aurangabad",
     "city": "Aurangabad",
     "state": "Maharashtra",
@@ -12920,11 +12920,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_081",
+    "college_id": "ug_br002p3",
     "college_name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura, Patna",
     "city": "Patna",
     "state": "Bihar",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura, Patna",
@@ -13023,7 +13023,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_082",
+    "college_id": "ug_cg014g1",
     "college_name": "Pt. J N M Medical College, Raipur",
     "city": "Raipur",
     "state": "Chhattisgarh",
@@ -13144,7 +13144,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_083",
+    "college_id": "ug_in014g1",
     "college_name": "ESIC Medical College, PGIMSR & Model Hospital, Basaidarapur, New Delhi",
     "city": "New Delhi",
     "state": "Delhi (NCT)",
@@ -13373,7 +13373,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_084",
+    "college_id": "ug_up044g1",
     "college_name": "S N Medical College, Agra",
     "city": "Agra",
     "state": "Uttar Pradesh",
@@ -13476,7 +13476,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_085",
+    "college_id": "ug_ap002g1",
     "college_name": "Andhra Medical College, Visakhapatnam",
     "city": "Visakhapatnam",
     "state": "Andhra Pradesh",
@@ -13579,7 +13579,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_086",
+    "college_id": "ug_ap013g1",
     "college_name": "Kurnool Medical College, Kurnool",
     "city": "Kurnool",
     "state": "Andhra Pradesh",
@@ -13736,7 +13736,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_087",
+    "college_id": "ug_wb026g1",
     "college_name": "RG Kar Medical College, Kolkata",
     "city": "Kolkata",
     "state": "West Bengal",
@@ -14104,7 +14104,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_089",
+    "college_id": "ug_kl011g1",
     "college_name": "Government Medical College, Pariyaram, Kannur",
     "city": "Kannur",
     "state": "Kerala",
@@ -14207,7 +14207,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_090",
+    "college_id": "ug_uk001g1",
     "college_name": "Government Doon Medical College, Dehradun, Uttarakhand",
     "city": "Dehradun",
     "state": "Uttarakhand",
@@ -14346,7 +14346,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_091",
+    "college_id": "ug_kl018g1",
     "college_name": "T D Medical College, Alleppey (Allappuzha)",
     "city": "Alleppey (Allappuzha)",
     "state": "",
@@ -14449,7 +14449,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_092",
+    "college_id": "ug_up023g1",
     "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
     "city": "Noida",
     "state": "Uttar Pradesh",
@@ -14552,7 +14552,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_093",
+    "college_id": "ug_in057g1",
     "college_name": "Government Vellore Medical College, Vellore",
     "city": "Vellore",
     "state": "Tamil Nadu",
@@ -14655,7 +14655,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_094",
+    "college_id": "ug_mh010g1",
     "college_name": "Government Medical College L.T. Marg, Near L.T. Marg Police Station, Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -14740,7 +14740,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_095",
+    "college_id": "ug_up035g1",
     "college_name": "LLRM Medical College, Meerut",
     "city": "Meerut",
     "state": "Uttar Pradesh",
@@ -14843,7 +14843,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_096",
+    "college_id": "ug_wb022g1",
     "college_name": "Nilratan Sircar Medical College, Kolkata",
     "city": "Kolkata",
     "state": "West Bengal",
@@ -15018,7 +15018,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_097",
+    "college_id": "ug_kl004g1",
     "college_name": "Government Medical College, Ernakulam",
     "city": "Ernakulam",
     "state": "Kerala",
@@ -15139,7 +15139,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_098",
+    "college_id": "ug_up021g1",
     "college_name": "GSVM Medical College, Kanpur",
     "city": "Kanpur",
     "state": "Uttar Pradesh",
@@ -15278,7 +15278,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_099",
+    "college_id": "ug_mh037g1",
     "college_name": "Indira Gandhi Medical College & Hospital, Nagpur",
     "city": "Nagpur",
     "state": "Maharashtra",
@@ -15507,7 +15507,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_100",
+    "college_id": "ug_cg011g1",
     "college_name": "Govt. Medical College, Manendragarh",
     "city": "Manendragarh",
     "state": "Chhattisgarh",
@@ -15628,7 +15628,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_101",
+    "college_id": "ug_tn014g1",
     "college_name": "Government Medical College, Thiruvallur",
     "city": "Thiruvallur",
     "state": "Tamil Nadu",
@@ -15749,7 +15749,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_102",
+    "college_id": "ug_mn003g1",
     "college_name": "Regional Institute of Medical Sciences, Imphal",
     "city": "Imphal",
     "state": "Manipur",
@@ -15870,7 +15870,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_103",
+    "college_id": "ug_hp003g1",
     "college_name": "Dr. Rajendar Prasad Government Medical College, Tanda, H.P",
     "city": "Tanda",
     "state": "Himachal Pradesh",
@@ -16009,7 +16009,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_104",
+    "college_id": "ug_hp004g1",
     "college_name": "Government Medical College, Nahan, Sirmour",
     "city": "Nahan",
     "state": "Himachal Pradesh",
@@ -16112,7 +16112,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_105",
+    "college_id": "ug_wb005g1",
     "college_name": "Calcutta National Medical College, Kolkata",
     "city": "Kolkata",
     "state": "West Bengal",
@@ -16251,7 +16251,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_106",
+    "college_id": "ug_tn006g1",
     "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
     "city": "Coimbatore",
     "state": "Tamil Nadu",
@@ -16480,7 +16480,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_107",
+    "college_id": "ug_pb004g1",
     "college_name": "Guru Govind Singh Medical College, Faridkot",
     "city": "Faridkot",
     "state": "Punjab",
@@ -16619,7 +16619,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_108",
+    "college_id": "ug_rj020g1",
     "college_name": "Government Medical College, Pali, Rajasthan",
     "city": "Rajasthan",
     "state": "Rajasthan",
@@ -16722,7 +16722,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_109",
+    "college_id": "ug_in065g1",
     "college_name": "Kakatiya Medical College, Warangal",
     "city": "Warangal",
     "state": "Telangana",
@@ -16843,7 +16843,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_110",
+    "college_id": "ug_ga001g1",
     "college_name": "Goa Medical College, Panaji",
     "city": "Panaji",
     "state": "Goa",
@@ -16964,7 +16964,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_111",
+    "college_id": "ug_ka004g1",
     "college_name": "Chamarajanagar Institute of Medical Sciences, Chamarajanagar",
     "city": "Chamarajanagar",
     "state": "Karnataka",
@@ -17085,7 +17085,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_112",
+    "college_id": "ug_hr009g1",
     "college_name": "Shri Atal Bihari Vajpayee Government Medical College, Faridabad",
     "city": "Faridabad",
     "state": "Haryana",
@@ -17206,7 +17206,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_113",
+    "college_id": "ug_mh046g1",
     "college_name": "Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital, Thane",
     "city": "Thane",
     "state": "Maharashtra",
@@ -17327,7 +17327,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_114",
+    "college_id": "ug_rj004g1",
     "college_name": "Government Medical College, Alwar",
     "city": "Alwar",
     "state": "Rajasthan",
@@ -17430,7 +17430,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_115",
+    "college_id": "ug_in089g1",
     "college_name": "Theni Government Medical College, Theni",
     "city": "Theni",
     "state": "Tamil Nadu",
@@ -17533,7 +17533,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_116",
+    "college_id": "ug_rj030g1",
     "college_name": "Shri Kalyan Government Medical College, Sikar, Rajasthan",
     "city": "Rajasthan",
     "state": "Rajasthan",
@@ -17654,7 +17654,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_117",
+    "college_id": "ug_kl005g1",
     "college_name": "Government Medical College, Idukki",
     "city": "Idukki",
     "state": "Kerala",
@@ -17775,7 +17775,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_118",
+    "college_id": "ug_kl014g1",
     "college_name": "Government Medical College, Yakkara, Palakkad",
     "city": "Palakkad",
     "state": "Kerala",
@@ -17878,7 +17878,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_119",
+    "college_id": "ug_hp007g1",
     "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi",
     "city": "Mandi",
     "state": "Himachal Pradesh",
@@ -18071,7 +18071,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_120",
+    "college_id": "ug_tn016g1",
     "college_name": "Kanyakumari Government Medical College, Asaripallam",
     "city": "Asaripallam",
     "state": "Tamil Nadu",
@@ -18210,7 +18210,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_121",
+    "college_id": "ug_ap004g1",
     "college_name": "Government Medical College, Ananthapuram",
     "city": "Ananthapuram",
     "state": "Andhra Pradesh",
@@ -18313,7 +18313,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_122",
+    "college_id": "ug_in082g1",
     "college_name": "Rajiv Gandhi Institute of Medical Sciences, Adilabad",
     "city": "adilabad",
     "state": "Telangana",
@@ -18416,11 +18416,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_123",
+    "college_id": "ug_tn005p3",
     "college_name": "Institute of Ophthalmology Joseph Eye Hospital, Tiruchirapalli",
     "city": "Tiruchirappalli",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Institute of Ophthalmology Joseph Eye Hospital, Tiruchirapalli",
@@ -18519,7 +18519,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_124",
+    "college_id": "ug_br004g1",
     "college_name": "Darbhanga Medical College, Lehriasarai",
     "city": "Darbhanga",
     "state": "Bihar",
@@ -18640,7 +18640,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_125",
+    "college_id": "ug_or016g1",
     "college_name": "Veer Surendra Sai Institute of Medical Sciences and Research, Burla",
     "city": "Burla",
     "state": "Odisha",
@@ -18779,7 +18779,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_126",
+    "college_id": "ug_in034g1",
     "college_name": "Government Medical College, Kathua",
     "city": "Kathua",
     "state": "Jammu and Kashmir",
@@ -18900,7 +18900,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_127",
+    "college_id": "ug_hr001g1",
     "college_name": "BPS Government Medical College for Women, Sonepat",
     "city": "Sonepat",
     "state": "Haryana",
@@ -19021,7 +19021,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_128",
+    "college_id": "ug_up019g1",
     "college_name": "ESIC Medical College and Hospital, Noida",
     "city": "Noida",
     "state": "Uttar Pradesh",
@@ -19214,7 +19214,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_129",
+    "college_id": "ug_in030g1",
     "college_name": "Government Medical College, Kallakurichi",
     "city": "Kallakurichi",
     "state": "Tamil Nadu",
@@ -19317,7 +19317,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_130",
+    "college_id": "ug_rj009g1",
     "college_name": "Government Medical College, Bhilwara, Rajasthan",
     "city": "Rajasthan",
     "state": "Rajasthan",
@@ -19438,7 +19438,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_131",
+    "college_id": "ug_jh008g1",
     "college_name": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad",
     "city": "Dhanbad",
     "state": "Jharkhand",
@@ -19541,7 +19541,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_132",
+    "college_id": "ug_br008g1",
     "college_name": "Jawaharlal Nehru Medical College, Bhagalpur",
     "city": "Bhagalpur",
     "state": "Bihar",
@@ -19662,7 +19662,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_133",
+    "college_id": "ug_br002g1",
     "college_name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri",
     "city": "Pawapuri",
     "state": "Bihar",
@@ -19801,7 +19801,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_134",
+    "college_id": "ug_hp002g1",
     "college_name": "Dr. Radhakrishnan Government Medical College, Hamirpur, H.P",
     "city": "Hamirpur",
     "state": "Himachal Pradesh",
@@ -19922,7 +19922,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_135",
+    "college_id": "ug_jh004g1",
     "college_name": "M G M Medical College, Jamshedpur",
     "city": "Jamshedpur",
     "state": "Jharkhand",
@@ -20025,7 +20025,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_136",
+    "college_id": "ug_an001g1",
     "college_name": "Andaman & Nicobar Islands Institute of Medical Sciences, Port Blair",
     "city": "Port Blair",
     "state": "Andaman and Nicobar Islands",
@@ -20128,11 +20128,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_137",
+    "college_id": "ug_mh021p3",
     "college_name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha",
     "city": "Wardha",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha",
@@ -20267,7 +20267,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_138",
+    "college_id": "ug_tn005g1",
     "college_name": "Government Erode Medical College & Hospital, Perundurai",
     "city": "Erode",
     "state": "Tamil Nadu",
@@ -20370,7 +20370,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_139",
+    "college_id": "ug_wb023g1",
     "college_name": "North Bengal Medical College, Darjeeling",
     "city": "Darjeeling",
     "state": "West Bengal",
@@ -20563,7 +20563,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_140",
+    "college_id": "ug_jk004g1",
     "college_name": "Veer Chandra Singh Garhwali Government Medical Science & Research Institute, Srinagar, Pauri Garhwal",
     "city": "Srinagar",
     "state": "Jammu and Kashmir",
@@ -20702,7 +20702,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_141",
+    "college_id": "ug_rj021g1",
     "college_name": "Government Medical College, Sawai Madhopur",
     "city": "Sawai Madhopur",
     "state": "Rajasthan",
@@ -20841,7 +20841,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_142",
+    "college_id": "ug_uk003g1",
     "college_name": "Government Medical College, Haridwar",
     "city": "Haridwar",
     "state": "Uttarakhand",
@@ -20944,7 +20944,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_143",
+    "college_id": "ug_ka013g1",
     "college_name": "Hassan Institute of Medical Sciences, Hassan",
     "city": "Hassan",
     "state": "Karnataka",
@@ -21065,7 +21065,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_144",
+    "college_id": "ug_ml001g1",
     "college_name": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences, Shillong",
     "city": "Shillong",
     "state": "Meghalaya",
@@ -21096,7 +21096,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_145",
+    "college_id": "ug_in090g1",
     "college_name": "Thoothukudi Medical College, Thoothukudi",
     "city": "Thoothukudi",
     "state": "Tamil Nadu",
@@ -21199,7 +21199,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_146",
+    "college_id": "ug_mp016g1",
     "college_name": "Shyam Shah Medical College, Rewa",
     "city": "Rewa",
     "state": "Madhya Pradesh",
@@ -21302,7 +21302,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_147",
+    "college_id": "ug_hp006g1",
     "college_name": "Pt. Jawahar Lal Nehru Government Medical College, Chamba",
     "city": "Chamba",
     "state": "Himachal Pradesh",
@@ -21423,7 +21423,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_148",
+    "college_id": "ug_hr008g1",
     "college_name": "Shaheed Hasan Khan Mewati Government Medical College, Nalhar",
     "city": "Nalhar",
     "state": "Haryana",
@@ -21544,7 +21544,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_149",
+    "college_id": "ug_rj012g1",
     "college_name": "Government Medical College, Churu",
     "city": "Churu",
     "state": "Rajasthan",
@@ -21647,7 +21647,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_150",
+    "college_id": "ug_dn001g1",
     "college_name": "NAMO Medical Education and Research Institute, Silvassa",
     "city": "Silvassa",
     "state": "Dadra and Nagar Haveli and Daman and Diu",
@@ -21822,7 +21822,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_151",
+    "college_id": "ug_in048g1",
     "college_name": "Government Medical College, Satna",
     "city": "Satna",
     "state": "Madhya Pradesh",
@@ -21979,7 +21979,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_152",
+    "college_id": "ug_rj014g1",
     "college_name": "Government Medical College, Dungarpur",
     "city": "Dungarpur",
     "state": "Rajasthan",
@@ -22118,7 +22118,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_153",
+    "college_id": "ug_in047g1",
     "college_name": "Government Medical College, Ramanathapuram",
     "city": "Ramanathapuram",
     "state": "Tamil Nadu",
@@ -22239,11 +22239,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_154",
+    "college_id": "ug_in090p3",
     "college_name": "Sri Ramachandra Medical College & Research Institute, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Sri Ramachandra Medical College & Research Institute, Chennai",
@@ -22360,7 +22360,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_155",
+    "college_id": "ug_rj023g1",
     "college_name": "Government Medical College, Sri Ganganagar",
     "city": "Sri Ganganagar",
     "state": "Rajasthan",
@@ -22481,7 +22481,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_156",
+    "college_id": "ug_or015g1",
     "college_name": "Sri Jagannath Medical College & Hospital, Puri",
     "city": "Puri",
     "state": "Odisha",
@@ -22584,7 +22584,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_157",
+    "college_id": "ug_in024g1",
     "college_name": "Government Medical College, Anantnag",
     "city": "Anantnag",
     "state": "Jammu and Kashmir",
@@ -22723,7 +22723,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_158",
+    "college_id": "ug_up034g1",
     "college_name": "Kalyan Singh Government Medical College",
     "city": "Bulandshahr",
     "state": "Uttar Pradesh",
@@ -22826,7 +22826,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_159",
+    "college_id": "ug_up043g1",
     "college_name": "Rajkiya Medical College, Saddarpur, Ambedkar Nagar",
     "city": "Ambedkar Nagar",
     "state": "Uttar Pradesh",
@@ -22947,7 +22947,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_160",
+    "college_id": "ug_tn004g1",
     "college_name": "Government Dharmapuri Medical College, Dharmapuri",
     "city": "Dharmapuri",
     "state": "Tamil Nadu",
@@ -23153,7 +23153,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_162",
+    "college_id": "ug_tn010g1",
     "college_name": "Government Medical College, Krishnagiri",
     "city": "Krishnagiri",
     "state": "Tamil Nadu",
@@ -23274,7 +23274,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_163",
+    "college_id": "ug_or008g1",
     "college_name": "Mahraja Jajati Keshari Medical College, Jajpur, Odhisha",
     "city": "Odhisha",
     "state": "Odisha",
@@ -23377,7 +23377,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_164",
+    "college_id": "ug_mh005g1",
     "college_name": "Dr Vaishampayan Memorial Medical College, Solapur",
     "city": "Solapur",
     "state": "Maharashtra",
@@ -23480,7 +23480,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_165",
+    "college_id": "ug_ap001g1",
     "college_name": "ACSR Government Medical College, Nellore",
     "city": "Nellore",
     "state": "Andhra Pradesh",
@@ -23619,7 +23619,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_166",
+    "college_id": "ug_up017g1",
     "college_name": "Dr. Bhimrao Ramji Ambedkar Government Medical College, Kannauj, Uttar Pradesh",
     "city": "Uttar Pradesh",
     "state": "Uttar Pradesh",
@@ -23740,7 +23740,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_167",
+    "college_id": "ug_rj017g1",
     "college_name": "Government Medical College, Jhunjhunu",
     "city": "Jhunjhunu",
     "state": "Rajasthan",
@@ -23861,7 +23861,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_168",
+    "college_id": "ug_up024g1",
     "college_name": "Government Medical College & Super Facility Hospital, Azamgarh",
     "city": "Azamgarh",
     "state": "Uttar Pradesh",
@@ -23982,7 +23982,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_169",
+    "college_id": "ug_tn008g1",
     "college_name": "Government Medical College, Dindigul",
     "city": "Dindigul",
     "state": "Tamil Nadu",
@@ -24121,7 +24121,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_170",
+    "college_id": "ug_mh012g1",
     "college_name": "Government Medical College, Akola",
     "city": "Akola",
     "state": "Maharashtra",
@@ -24278,11 +24278,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_171",
+    "college_id": "ug_in010p3",
     "college_name": "Autonomous State Medical College Society, Fatehpur",
     "city": "Fatehpur",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Autonomous State Medical College Society, Fatehpur",
@@ -24381,7 +24381,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_172",
+    "college_id": "ug_mh023g1",
     "college_name": "Government Medical College, Jalgaon",
     "city": "Jalgaon",
     "state": "Maharashtra",
@@ -24484,7 +24484,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_173",
+    "college_id": "ug_in005g1",
     "college_name": "Bundelkhand Medical College, Sagar",
     "city": "Sagar",
     "state": "Madhya Pradesh",
@@ -24587,7 +24587,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_174",
+    "college_id": "ug_in056g1",
     "college_name": "Government Thiruvannamalai Medical College, Thiruvannamalai",
     "city": "Thiruvannamalai",
     "state": "Tamil Nadu",
@@ -25004,7 +25004,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_177",
+    "college_id": "ug_mp008g1",
     "college_name": "Government Medical College, Seoni",
     "city": "Seoni",
     "state": "Madhya Pradesh",
@@ -25107,7 +25107,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_178",
+    "college_id": "ug_cg003g1",
     "college_name": "Chhattisgarh Institute of Medical Sciences, Bilaspur",
     "city": "Bilaspur",
     "state": "Himachal Pradesh",
@@ -25228,7 +25228,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_179",
+    "college_id": "ug_up005g1",
     "college_name": "Autonomous State Medical College, Akbarpur, Kanpur",
     "city": "Kanpur",
     "state": "Uttar Pradesh",
@@ -25331,7 +25331,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_180",
+    "college_id": "ug_in051g1",
     "college_name": "Government Medical College, Suryapet",
     "city": "Suryapet",
     "state": "Telangana",
@@ -25488,7 +25488,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_181",
+    "college_id": "ug_pb002g1",
     "college_name": "ESIC Medical College, Ludhiana",
     "city": "Ludhiana",
     "state": "Punjab",
@@ -25681,7 +25681,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_182",
+    "college_id": "ug_up003g1",
     "college_name": "Autonomous State Medical College and Hospital, Kaushambi",
     "city": "Kaushambi",
     "state": "Uttar Pradesh",
@@ -25784,7 +25784,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_183",
+    "college_id": "ug_mh048g1",
     "college_name": "Shri Vasant Rao Naik Government Medical College, Yavatmal",
     "city": "Yavatmal",
     "state": "Maharashtra",
@@ -25959,7 +25959,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_184",
+    "college_id": "ug_mh028g1",
     "college_name": "Government Medical College, Nandurbar",
     "city": "Nandurbar",
     "state": "Maharashtra",
@@ -26080,7 +26080,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_185",
+    "college_id": "ug_wb007g1",
     "college_name": "College of Medicine and JNM Hospital, Kalyani, Nadia",
     "city": "Kalyani",
     "state": "West Bengal",
@@ -26201,7 +26201,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_186",
+    "college_id": "ug_gj011g1",
     "college_name": "Government Medical College, Panchmahal Godhra",
     "city": "Panchmahal Godhra",
     "state": "Gujarat",
@@ -26304,7 +26304,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_187",
+    "college_id": "ug_in039g1",
     "college_name": "Government Medical College, Namakkal",
     "city": "Namakkal",
     "state": "Tamil Nadu",
@@ -26425,7 +26425,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_188",
+    "college_id": "ug_up026g1",
     "college_name": "Government Medical College, Faizabad",
     "city": "Faizabad",
     "state": "Uttar Pradesh",
@@ -26528,7 +26528,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_189",
+    "college_id": "ug_br001g1",
     "college_name": "Anugrah Narayan Magadh Medical College, Gaya",
     "city": "Gaya",
     "state": "Bihar",
@@ -26649,7 +26649,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_190",
+    "college_id": "ug_up007g1",
     "college_name": "Autonomous State Medical College, Kushinagar",
     "city": "Kushinagar",
     "state": "Uttar Pradesh",
@@ -26734,7 +26734,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_191",
+    "college_id": "ug_in052g1",
     "college_name": "Government Medical College, Udhampur",
     "city": "Udhampur",
     "state": "Jammu and Kashmir",
@@ -26873,7 +26873,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_192",
+    "college_id": "ug_ka023g1",
     "college_name": "Kodagu Institute of Medical Sciences, Kodagu",
     "city": "Kodagu",
     "state": "Karnataka",
@@ -26994,7 +26994,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_193",
+    "college_id": "ug_in032g1",
     "college_name": "Government Medical College, Karauli",
     "city": "Karauli",
     "state": "Rajasthan",
@@ -27097,7 +27097,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_194",
+    "college_id": "ug_or013g1",
     "college_name": "Saheed Laxman Nayak Medical College & Hospital, Koraput",
     "city": "Koraput",
     "state": "Odisha",
@@ -27218,7 +27218,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_195",
+    "college_id": "ug_wb003g1",
     "college_name": "Barasat Government Medical College & Hospital",
     "city": "Barasat",
     "state": "West Bengal",
@@ -27321,7 +27321,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_196",
+    "college_id": "ug_or004g1",
     "college_name": "Government Medical College & Hospital, Balasore",
     "city": "Balasore",
     "state": "Odisha",
@@ -27442,7 +27442,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_197",
+    "college_id": "ug_tn007g1",
     "college_name": "Government Medical College, Ariyalur",
     "city": "Ariyalur",
     "state": "Tamil Nadu",
@@ -27545,7 +27545,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_198",
+    "college_id": "ug_rj010g1",
     "college_name": "Government Medical College, Bundi",
     "city": "Bundi",
     "state": "Rajasthan",
@@ -27666,7 +27666,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_199",
+    "college_id": "ug_tn012g1",
     "college_name": "Government Medical College, Pudukottai, Tamil Nadu",
     "city": "Tamil Nadu",
     "state": "Tamil Nadu",
@@ -27823,7 +27823,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_200",
+    "college_id": "ug_up042g1",
     "college_name": "Rajkiya Medical College Jalaun, Orai, Uttar Pradesh",
     "city": "Uttar Pradesh",
     "state": "Uttar Pradesh",
@@ -27926,7 +27926,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_201",
+    "college_id": "ug_jk001g1",
     "college_name": "Government Medical College, Doda, Kashmir",
     "city": "Doda",
     "state": "Jammu and Kashmir",
@@ -28047,7 +28047,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_202",
+    "college_id": "ug_ap006g1",
     "college_name": "Government Medical College, Ongole",
     "city": "Ongole",
     "state": "Andhra Pradesh",
@@ -28289,7 +28289,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_204",
+    "college_id": "ug_up037g1",
     "college_name": "Mahatma Vidur Autonomous State Medical College",
     "city": "Bijnor",
     "state": "Uttar Pradesh",
@@ -28392,7 +28392,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_205",
+    "college_id": "ug_jh003g1",
     "college_name": "Hazaribagh Medical College, Hazaribagh",
     "city": "Hazaribagh",
     "state": "Jharkhand",
@@ -28495,7 +28495,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_206",
+    "college_id": "ug_wb002g1",
     "college_name": "Bankura Sammilani Medical College, Bankura",
     "city": "Bankura",
     "state": "West Bengal",
@@ -28616,7 +28616,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_207",
+    "college_id": "ug_mp018g1",
     "college_name": "Virendra Kumar Sakhlecha Government Medical College",
     "city": "Neemuch",
     "state": "Madhya Pradesh",
@@ -28719,7 +28719,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_208",
+    "college_id": "ug_tn022g1",
     "college_name": "Thiruvarur Government Medical College, Thiruvarur",
     "city": "Thiruvarur",
     "state": "Tamil Nadu",
@@ -28840,11 +28840,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_209",
+    "college_id": "ug_up002p3",
     "college_name": "Autonomous State Medical College Society, Ghazipur",
     "city": "Ghazipur",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Autonomous State Medical College Society, Ghazipur",
@@ -28943,7 +28943,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_210",
+    "college_id": "ug_rj013g1",
     "college_name": "Government Medical College, Dholpur",
     "city": "Dholpur",
     "state": "Rajasthan",
@@ -29064,7 +29064,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_211",
+    "college_id": "ug_or011g1",
     "college_name": "Pt. Raghunath Murmu Medical College and Hospital, Baripada, Odisha",
     "city": "Odisha",
     "state": "Odisha",
@@ -29221,7 +29221,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_212",
+    "college_id": "ug_ka027g1",
     "college_name": "Chikkaballapura Institute of Medical Sciences",
     "city": "Chikkaballapura",
     "state": "Karnataka",
@@ -29342,7 +29342,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_213",
+    "college_id": "ug_in072g1",
     "college_name": "Maharshi Devraha Baba Autonomous State Medical College, Deoria",
     "city": "Deoria",
     "state": "Uttar Pradesh",
@@ -29463,7 +29463,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_214",
+    "college_id": "ug_up027g1",
     "college_name": "Government Medical College, Firozabad",
     "city": "Firozabad",
     "state": "Uttar Pradesh",
@@ -29602,7 +29602,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_215",
+    "college_id": "ug_hr006g1",
     "college_name": "PT Neki Ram Sharma Government Medical College, Bhiwani",
     "city": "Bhiwani",
     "state": "Haryana",
@@ -29723,11 +29723,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_216",
+    "college_id": "ug_up001p3",
     "college_name": "Autonomous State Medical College Society, Etah, Uttar Pradesh",
     "city": "Uttar Pradesh",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Autonomous State Medical College Society, Etah, Uttar Pradesh",
@@ -29844,7 +29844,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_217",
+    "college_id": "ug_mp007g1",
     "college_name": "Government Medical College, Khandwa",
     "city": "Khandwa",
     "state": "Madhya Pradesh",
@@ -29983,7 +29983,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_218",
+    "college_id": "ug_jh005g1",
     "college_name": "Palamu Medical College, Palamu",
     "city": "Palamu",
     "state": "Jharkhand",
@@ -30261,7 +30261,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_220",
+    "college_id": "ug_up028g1",
     "college_name": "Government Medical College, Rampur, Basti",
     "city": "Basti",
     "state": "Uttar Pradesh",
@@ -30400,7 +30400,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_221",
+    "college_id": "ug_up008g1",
     "college_name": "Autonomous State Medical College, Pilibhit",
     "city": "Pilibhit",
     "state": "Uttar Pradesh",
@@ -30503,7 +30503,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_222",
+    "college_id": "ug_up025g1",
     "college_name": "Government Medical College, Badaun",
     "city": "Badaun",
     "state": "Uttar Pradesh",
@@ -30727,7 +30727,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_224",
+    "college_id": "ug_cg002g1",
     "college_name": "Chandulal Chandrakar Memorial Medical College, Durg",
     "city": "Durg",
     "state": "Chhattisgarh",
@@ -30848,7 +30848,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_225",
+    "college_id": "ug_rj016g1",
     "college_name": "Government Medical College, Jaisalmer",
     "city": "Jaisalmer",
     "state": "Rajasthan",
@@ -30933,7 +30933,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_226",
+    "college_id": "ug_mh032g1",
     "college_name": "Government Medical College, Satara",
     "city": "Satara",
     "state": "Maharashtra",
@@ -31036,7 +31036,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_227",
+    "college_id": "ug_uk004g1",
     "college_name": "Soban Singh Jeena Government Institute of Medical Science & Research, Almora",
     "city": "Almora",
     "state": "Uttarakhand",
@@ -31157,7 +31157,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_228",
+    "college_id": "ug_tg014g1",
     "college_name": "Government Medical College, Nagarkurnool",
     "city": "Nagarkurnool",
     "state": "Telangana",
@@ -31296,7 +31296,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_229",
+    "college_id": "ug_rj006g1",
     "college_name": "Government Medical College, Baran",
     "city": "Baran",
     "state": "Rajasthan",
@@ -31417,7 +31417,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_230",
+    "college_id": "ug_ka003g1",
     "college_name": "Bidar Institute of Medical Sciences, Bidar",
     "city": "Bidar",
     "state": "Karnataka",
@@ -31538,7 +31538,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_231",
+    "college_id": "ug_mp006g1",
     "college_name": "Government Medical College, Datia",
     "city": "Datia",
     "state": "Madhya Pradesh",
@@ -31641,7 +31641,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_232",
+    "college_id": "ug_in042g1",
     "college_name": "Government Medical College, Nizamabad",
     "city": "Nizamabad",
     "state": "Telangana",
@@ -31744,7 +31744,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_233",
+    "college_id": "ug_kl013g1",
     "college_name": "Government Medical College, Wayanad",
     "city": "Wayanad",
     "state": "Kerala",
@@ -31829,7 +31829,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_234",
+    "college_id": "ug_as015g1",
     "college_name": "Silchar Medical College, Silchar",
     "city": "Silchar",
     "state": "Assam",
@@ -31932,7 +31932,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_235",
+    "college_id": "ug_in054g1",
     "college_name": "Government Medical College, Vizianagaram",
     "city": "vizianagaram",
     "state": "Andhra Pradesh",
@@ -32035,7 +32035,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_236",
+    "college_id": "ug_mh019g1",
     "college_name": "Government Medical College, Chandrapur",
     "city": "Chandrapur",
     "state": "Maharashtra",
@@ -32156,7 +32156,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_237",
+    "college_id": "ug_cg013g1",
     "college_name": "Late Shri Lakhi Ram Agrawal Memorial Government Medical College, Raigarh",
     "city": "Raigarh",
     "state": "Chhattisgarh",
@@ -32277,7 +32277,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_238",
+    "college_id": "ug_mp017g1",
     "college_name": "Sundarlal Patwa Government Medical College",
     "city": "Mandsaur",
     "state": "Madhya Pradesh",
@@ -32398,7 +32398,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_239",
+    "college_id": "ug_hr005g1",
     "college_name": "Maharishi Chyawan Medical College, Koriawas",
     "city": "Koriawas",
     "state": "Haryana",
@@ -32519,7 +32519,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_240",
+    "college_id": "ug_in045g1",
     "college_name": "Government Medical College, Purnea",
     "city": "Purnea",
     "state": "Bihar",
@@ -32658,7 +32658,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_241",
+    "college_id": "ug_mn002g1",
     "college_name": "Jawaharlal Nehru Institute of Medical Sciences, Porompet, Imphal",
     "city": "Imphal",
     "state": "Manipur",
@@ -32833,7 +32833,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_242",
+    "college_id": "ug_as008g1",
     "college_name": "Jorhat Medical College & Hospital, Jorhat",
     "city": "Jorhat",
     "state": "Assam",
@@ -32954,7 +32954,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_243",
+    "college_id": "ug_ap003g1",
     "college_name": "Fathima Institute of Medical Sciences, Kadapa",
     "city": "Kadapa",
     "state": "Andhra Pradesh",
@@ -33057,7 +33057,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_244",
+    "college_id": "ug_tn011g1",
     "college_name": "Government Medical College, Nagapattinam",
     "city": "Nagapattinam",
     "state": "Tamil Nadu",
@@ -33160,11 +33160,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_245",
+    "college_id": "ug_in094p3",
     "college_name": "Symbiosis Medical College for Women, Pune",
     "city": "Pune",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Symbiosis Medical College for Women, Pune",
@@ -33330,7 +33330,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_247",
+    "college_id": "ug_br007g1",
     "college_name": "Jannayak Karpoori Thakur Medical College & Hospital, Madhepura, Bihar",
     "city": "Bihar",
     "state": "Bihar",
@@ -33451,7 +33451,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_248",
+    "college_id": "ug_in025g1",
     "college_name": "Government Medical College, Baramulla",
     "city": "Baramulla",
     "state": "Jammu and Kashmir",
@@ -33554,7 +33554,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_249",
+    "college_id": "ug_tg009g1",
     "college_name": "Government Medical College, Mahabubnagar",
     "city": "Mahabubnagar",
     "state": "Telangana",
@@ -33675,7 +33675,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_250",
+    "college_id": "ug_ka021g1",
     "college_name": "Karwar Institute of Medical Sciences, Karwar",
     "city": "Karwar",
     "state": "Karnataka",
@@ -33778,7 +33778,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_251",
+    "college_id": "ug_ka014g1",
     "college_name": "Haveri Institute of Medical Sciences, Haveri",
     "city": "Haveri",
     "state": "Karnataka",
@@ -33881,7 +33881,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_252",
+    "college_id": "ug_tr001g1",
     "college_name": "Agartala Government Medical College, Agartala",
     "city": "Agartala",
     "state": "Tripura",
@@ -34038,7 +34038,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_253",
+    "college_id": "ug_up041g1",
     "college_name": "Rajkiya Allopathic Medical College, Bahraich",
     "city": "Bahraich",
     "state": "Uttar Pradesh",
@@ -34141,7 +34141,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_254",
+    "college_id": "ug_as016g1",
     "college_name": "Tezpur Medical College & Hospital, Tezpur",
     "city": "Tezpur",
     "state": "Assam",
@@ -34262,7 +34262,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_255",
+    "college_id": "ug_mh017g1",
     "college_name": "Government Medical College, Bhandara",
     "city": "Bhandara",
     "state": "Maharashtra",
@@ -34383,7 +34383,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_256",
+    "college_id": "ug_in027g1",
     "college_name": "Government Medical College, Eluru",
     "city": "Eluru",
     "state": "Andhra Pradesh",
@@ -34522,11 +34522,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_257",
+    "college_id": "ug_in098p3",
     "college_name": "Uma Nath Singh Autonomous State Medical College Society, Jaunpur",
     "city": "Jaunpur",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Uma Nath Singh Autonomous State Medical College Society, Jaunpur",
@@ -34764,7 +34764,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_259",
+    "college_id": "ug_cg016g1",
     "college_name": "Shrimati Indira Gandhi Memorial Government Medical College, Kanker, Chattisgarh",
     "city": "Chattisgarh",
     "state": "Chhattisgarh",
@@ -34903,7 +34903,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_260",
+    "college_id": "ug_up009g1",
     "college_name": "Autonomous State Medical College, Siddharthnagar",
     "city": "Siddharthnagar",
     "state": "Uttar Pradesh",
@@ -35024,7 +35024,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_261",
+    "college_id": "ug_in013g1",
     "college_name": "ESIC Medical College and Hospital, Varanasi",
     "city": "Varanasi",
     "state": "Uttar Pradesh",
@@ -35217,7 +35217,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_262",
+    "college_id": "ug_up040g1",
     "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya",
     "city": "Auraiya",
     "state": "Uttar Pradesh",
@@ -35338,7 +35338,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_263",
+    "college_id": "ug_in058g1",
     "college_name": "Government Villupuram Medical College, Villupuram",
     "city": "Villupuram",
     "state": "Tamil Nadu",
@@ -35459,7 +35459,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_264",
+    "college_id": "ug_mh034g1",
     "college_name": "Government Medical College, Washim",
     "city": "Washim",
     "state": "Maharashtra",
@@ -35580,7 +35580,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_265",
+    "college_id": "ug_mn001g1",
     "college_name": "Government Medical College, Churachandpur",
     "city": "Churachandpur",
     "state": "Manipur",
@@ -35701,7 +35701,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_266",
+    "college_id": "ug_ka007g1",
     "college_name": "Chikkamagaluru Institute of Medical Sciences, Chikkamagaluru",
     "city": "Chikkamagaluru",
     "state": "Karnataka",
@@ -35804,7 +35804,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_267",
+    "college_id": "ug_wb019g1",
     "college_name": "Malda Medical College & Hospital, Malda",
     "city": "Malda",
     "state": "West Bengal",
@@ -35907,7 +35907,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_268",
+    "college_id": "ug_mh030g1",
     "college_name": "Government Medical College, Osmanabad",
     "city": "Osmanabad",
     "state": "Maharashtra",
@@ -36010,7 +36010,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_269",
+    "college_id": "ug_up016g1",
     "college_name": "Dr Sonelal Patel Autonomous State Medical College, Pratapgarh",
     "city": "Pratapgarh",
     "state": "Uttar Pradesh",
@@ -36131,7 +36131,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_270",
+    "college_id": "ug_kl006g1",
     "college_name": "Government Medical College, Kasaragod",
     "city": "Kasaragod",
     "state": "Kerala",
@@ -36216,7 +36216,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_271",
+    "college_id": "ug_jk002g1",
     "college_name": "Government Medical College, Rajouri, J & K",
     "city": "Rajouri",
     "state": "Jammu and Kashmir",
@@ -36337,7 +36337,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_272",
+    "college_id": "ug_mh013g1",
     "college_name": "Government Medical College, Alibag",
     "city": "Alibag",
     "state": "Maharashtra",
@@ -36476,7 +36476,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_273",
+    "college_id": "ug_tg015g1",
     "college_name": "Government Medical College, Narayanpet",
     "city": "Narayanpet",
     "state": "Telangana",
@@ -36579,7 +36579,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_274",
+    "college_id": "ug_as013g1",
     "college_name": "Nalbari Medical College, Nalbari",
     "city": "Nalbari",
     "state": "Assam",
@@ -36700,7 +36700,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_275",
+    "college_id": "ug_or006g1",
     "college_name": "Government Medical College, Sundargarh",
     "city": "Sundargarh",
     "state": "Odisha",
@@ -36821,7 +36821,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_276",
+    "college_id": "ug_jh002g1",
     "college_name": "Dumka Medical College, Dighi Dumka",
     "city": "Dighi Dumka",
     "state": "Jharkhand",
@@ -36924,7 +36924,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_277",
+    "college_id": "ug_in081g1",
     "college_name": "Raiganj Government Medical College & Hospital, Raiganj",
     "city": "Raiganj",
     "state": "West Bengal",
@@ -37045,7 +37045,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_278",
+    "college_id": "ug_in035g1",
     "college_name": "Government Medical College, Khammam",
     "city": "Khammam",
     "state": "Telangana",
@@ -37148,7 +37148,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_279",
+    "college_id": "ug_cg015g1",
     "college_name": "Rajmata Shrimata Devendra Kumari Singhdeo Government Medical College, Ambikapur (Surguja), Chhattisgarh",
     "city": "Chhattisgarh",
     "state": "Chhattisgarh",
@@ -37251,11 +37251,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_280",
+    "college_id": "ug_ap005p3",
     "college_name": "Great Eastern Medical School and Hospital, Srikakulam",
     "city": "Srikakulam",
     "state": "Andhra Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Great Eastern Medical School and Hospital, Srikakulam",
@@ -37372,7 +37372,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_281",
+    "college_id": "ug_ka024g1",
     "college_name": "Koppal Institute of Medical Sciences, Koppal",
     "city": "Koppal",
     "state": "Karnataka",
@@ -37475,7 +37475,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_282",
+    "college_id": "ug_ka035g1",
     "college_name": "Yadgiri Institute of Medical Sciences, Yadgiri",
     "city": "Yadgiri",
     "state": "Karnataka",
@@ -37596,7 +37596,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_283",
+    "college_id": "ug_mh021g1",
     "college_name": "Government Medical College, Gondia",
     "city": "Gondia",
     "state": "Maharashtra",
@@ -37717,7 +37717,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_284",
+    "college_id": "ug_up011g1",
     "college_name": "Autonomous State Medical College, Sultanpur",
     "city": "Sultanpur",
     "state": "Uttar Pradesh",
@@ -37820,7 +37820,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_285",
+    "college_id": "ug_mh009g1",
     "college_name": "Government Medical College & Hospital, Baramati",
     "city": "Baramati",
     "state": "Maharashtra",
@@ -37923,7 +37923,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_286",
+    "college_id": "ug_tg016g1",
     "college_name": "Government Medical College, Narsampet",
     "city": "Narsampet",
     "state": "Telangana",
@@ -38044,7 +38044,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_287",
+    "college_id": "ug_mh031g1",
     "college_name": "Government Medical College, Parbhani",
     "city": "Parbhani",
     "state": "Maharashtra",
@@ -38165,7 +38165,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_288",
+    "college_id": "ug_in040g1",
     "college_name": "Government Medical College, Nandyal",
     "city": "Nandyal",
     "state": "Andhra Pradesh",
@@ -38286,7 +38286,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_289",
+    "college_id": "ug_rj024g1",
     "college_name": "Government Medical College, Tonk",
     "city": "tonk",
     "state": "Rajasthan",
@@ -38389,7 +38389,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_290",
+    "college_id": "ug_in009g1",
     "college_name": "Chitradurga Medical College and Research Institute",
     "city": "Chitradurga",
     "state": "Karnataka",
@@ -38492,7 +38492,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_291",
+    "college_id": "ug_in028g1",
     "college_name": "Government Medical College, Handwara",
     "city": "Handwara",
     "state": "Jammu and Kashmir",
@@ -38613,7 +38613,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_292",
+    "college_id": "ug_up013g1",
     "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital, Chandauli",
     "city": "Chandauli",
     "state": "Uttar Pradesh",
@@ -38752,7 +38752,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_293",
+    "college_id": "ug_tg020g1",
     "college_name": "Government Medical College, Siddipet",
     "city": "Siddipet",
     "state": "Telangana",
@@ -38855,11 +38855,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_294",
+    "college_id": "ug_ka016p3",
     "college_name": "JSS Medical College, Mysore",
     "city": "Mysuru",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "JSS Medical College, Mysore",
@@ -38904,7 +38904,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_295",
+    "college_id": "ug_tg003g1",
     "college_name": "Government Medical College, Jangaon",
     "city": "Jangaon",
     "state": "Telangana",
@@ -39025,7 +39025,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_296",
+    "college_id": "ug_as010g1",
     "college_name": "Lakhimpur Medical College",
     "city": "Lakhimpur",
     "state": "Assam",
@@ -39128,7 +39128,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_297",
+    "college_id": "ug_up010g1",
     "college_name": "Autonomous State Medical College, Sonebhadra",
     "city": "Sonebhadra",
     "state": "Uttar Pradesh",
@@ -39249,7 +39249,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_298",
+    "college_id": "ug_or014g1",
     "college_name": "Saheed Rendo Majhi Medical College and Hospital, Bhawanipatna, Kalahandi, Odisha",
     "city": "Odisha",
     "state": "Odisha",
@@ -39455,7 +39455,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_300",
+    "college_id": "ug_mh018g1",
     "college_name": "Government Medical College, Buldhana",
     "city": "Buldhana",
     "state": "Maharashtra",
@@ -39558,7 +39558,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_301",
+    "college_id": "ug_up002g1",
     "college_name": "Autonomous State Medical College and Hospital, Gonda",
     "city": "Gonda",
     "state": "Uttar Pradesh",
@@ -39679,7 +39679,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_302",
+    "college_id": "ug_up006g1",
     "college_name": "Autonomous State Medical College, Amethi",
     "city": "Amethi",
     "state": "Uttar Pradesh",
@@ -39800,7 +39800,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_303",
+    "college_id": "ug_as006g1",
     "college_name": "Fakhruddin Ali Ahmed Medical College, Barpeta, Assam",
     "city": "Assam",
     "state": "Assam",
@@ -39921,7 +39921,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_304",
+    "college_id": "ug_tg005g1",
     "college_name": "Government Medical College, Jogulumba Gadwal",
     "city": "Jogulumba Gadwal",
     "state": "Telangana",
@@ -40006,7 +40006,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_305",
+    "college_id": "ug_mh033g1",
     "college_name": "Government Medical College, Sindhudurg",
     "city": "Sindhudurg",
     "state": "Maharashtra",
@@ -40145,7 +40145,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_306",
+    "college_id": "ug_mp010g1",
     "college_name": "Government Medical College, Sheopur",
     "city": "Sheopur",
     "state": "Madhya Pradesh",
@@ -40266,7 +40266,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_307",
+    "college_id": "ug_mp012g1",
     "college_name": "Government Medical College, Singrauli",
     "city": "Singrauli",
     "state": "Madhya Pradesh",
@@ -40369,7 +40369,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_308",
+    "college_id": "ug_gj007g1",
     "college_name": "GMERS Medical College, Rajpipla",
     "city": "Rajpipla",
     "state": "Gujarat",
@@ -40472,7 +40472,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_309",
+    "college_id": "ug_tg008g1",
     "college_name": "Government Medical College, Mahabubabad",
     "city": "Mahabubabad",
     "state": "Telangana",
@@ -40593,7 +40593,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_310",
+    "college_id": "ug_ap009g1",
     "college_name": "Government Medical College, Rajamahendravaram",
     "city": "Rajamahendravaram",
     "state": "Andhra Pradesh",
@@ -40732,7 +40732,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_311",
+    "college_id": "ug_wb024g1",
     "college_name": "Prafulla Chandra Sen Government Medical College & Hospital",
     "city": "Arambagh",
     "state": "West Bengal",
@@ -40853,7 +40853,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_312",
+    "college_id": "ug_tg012g1",
     "college_name": "Government Medical College, Medak",
     "city": "Medak",
     "state": "Telangana",
@@ -40938,7 +40938,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_313",
+    "college_id": "ug_ar001g1",
     "college_name": "Tomo Riba Institute of Health & Medical Sciences, Naharlagun",
     "city": "Naharlagun",
     "state": "Arunachal Pradesh",
@@ -41041,7 +41041,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_314",
+    "college_id": "ug_mh020g1",
     "college_name": "Government Medical College, Gadchiroli",
     "city": "Gadchiroli",
     "state": "Maharashtra",
@@ -41144,7 +41144,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_315",
+    "college_id": "ug_tg013g1",
     "college_name": "Government Medical College, Mulugu",
     "city": "Mulugu",
     "state": "Telangana",
@@ -41247,7 +41247,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_316",
+    "college_id": "ug_ap007g1",
     "college_name": "Government Medical College, Paderu",
     "city": "Paderu",
     "state": "Andhra Pradesh",
@@ -41350,7 +41350,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_317",
+    "college_id": "ug_tg002g1",
     "college_name": "Government Medical College, Jagtial",
     "city": "Jagtial",
     "state": "Telangana",
@@ -41471,7 +41471,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_318",
+    "college_id": "ug_cg008g1",
     "college_name": "Government Medical College, Korba",
     "city": "Korba",
     "state": "Chhattisgarh",
@@ -41610,7 +41610,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_319",
+    "college_id": "ug_as012g1",
     "college_name": "Nagaon Medical College",
     "city": "Nagaon",
     "state": "Assam",
@@ -41767,7 +41767,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_320",
+    "college_id": "ug_tg018g1",
     "college_name": "Government Medical College, Ramagundam",
     "city": "Ramagundam",
     "state": "Telangana",
@@ -41888,11 +41888,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_321",
+    "college_id": "ug_in051p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Nerul, Navi Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Mahatma Gandhi Missions Medical College, Nerul, Navi Mumbai",
@@ -41937,7 +41937,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_322",
+    "college_id": "ug_as003g1",
     "college_name": "Diphu Medical College & Hospital, Diphu, Assam",
     "city": "Assam",
     "state": "Assam",
@@ -42040,7 +42040,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_323",
+    "college_id": "ug_tg021g1",
     "college_name": "Government Medical College, Vikarabad, Telangana",
     "city": "Telangana",
     "state": "Telangana",
@@ -42143,7 +42143,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_324",
+    "college_id": "ug_tg022g1",
     "college_name": "Government Medical College, Wanaparthy",
     "city": "Wanaparthy",
     "state": "Telangana",
@@ -42282,7 +42282,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_325",
+    "college_id": "ug_as017g1",
     "college_name": "Tinsukia Medical College, Assam",
     "city": "Assam",
     "state": "Assam",
@@ -42385,7 +42385,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_326",
+    "college_id": "ug_tg011g1",
     "college_name": "Government Medical College, Mancherial",
     "city": "Mancherial",
     "state": "Telangana",
@@ -42488,7 +42488,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_327",
+    "college_id": "ug_in031g1",
     "college_name": "Government Medical College, Kamareddy",
     "city": "Kamareddy",
     "state": "Telangana",
@@ -42591,7 +42591,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_328",
+    "college_id": "ug_as009g1",
     "college_name": "Kokrajhar Medical College",
     "city": "Kokrajhar",
     "state": "Assam",
@@ -42694,7 +42694,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_329",
+    "college_id": "ug_mz001g1",
     "college_name": "Zoram Medical College, Mizoram",
     "city": "Mizoram",
     "state": "Mizoram",
@@ -42833,7 +42833,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_330",
+    "college_id": "ug_nl001g1",
     "college_name": "Nagaland Institute of Medical Sciences & Research",
     "city": "Kohima",
     "state": "Nagaland",
@@ -42936,7 +42936,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_331",
+    "college_id": "ug_or009g1",
     "college_name": "Pabitra Mohan Pradhan Medical College, Talcher",
     "city": "Talcher",
     "state": "Odisha",
@@ -43039,11 +43039,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_332",
+    "college_id": "ug_ka049p3",
     "college_name": "Yenepoya Medical College, Mangalore",
     "city": "Mangaluru",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Yenepoya Medical College, Mangalore",
@@ -43106,11 +43106,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_333",
+    "college_id": "ug_or003p3",
     "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "city": "Bhubaneswar",
     "state": "Odisha",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
@@ -43155,11 +43155,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_334",
+    "college_id": "ug_in001p3",
     "college_name": "ACS Medical College and Hospital, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "ACS Medical College and Hospital, Chennai",
@@ -43204,11 +43204,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_335",
+    "college_id": "ug_mh007p3",
     "college_name": "Datta Meghe Medical College, Nagpur",
     "city": "Nagpur",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Datta Meghe Medical College, Nagpur",
@@ -43253,11 +43253,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_336",
+    "college_id": "ug_hr008p3",
     "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
     "city": "Ambala",
     "state": "Haryana",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
@@ -43302,7 +43302,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_337",
+    "college_id": "ug_mh041g1",
     "college_name": "Mahatma Gandhi Missions Medical College, Kamothe, Navi Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -43351,11 +43351,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_338",
+    "college_id": "ug_in005p3",
     "college_name": "Annapoorna Medical College & Hospital, Salem",
     "city": "Salem",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Annapoorna Medical College & Hospital, Salem",
@@ -43382,11 +43382,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_339",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
     "city": "Kochi",
     "state": "Kerala",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Amrita School of Medicine, Elamkara, Kochi",
@@ -43467,11 +43467,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_340",
+    "college_id": "ug_in086p3",
     "college_name": "Sree Balaji Medical College and Hospital, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Sree Balaji Medical College and Hospital, Chennai",
@@ -43534,11 +43534,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_341",
+    "college_id": "ug_hr003p3",
     "college_name": "Amrita School of Medicine, Faridabad",
     "city": "Faridabad",
     "state": "Haryana",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Amrita School of Medicine, Faridabad",
@@ -43583,7 +43583,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_342",
+    "college_id": "ug_ka002g1",
     "college_name": "Belagavi Institute of Medical Sciences, Belagavi",
     "city": "Belagavi",
     "state": "Karnataka",
@@ -43632,11 +43632,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_343",
+    "college_id": "ug_mh008p3",
     "college_name": "Dr. D Y Patil Medical College, Hospital and Research Centre, Pimpri, Pune",
     "city": "Pune",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Dr. D Y Patil Medical College, Hospital and Research Centre, Pimpri, Pune",
@@ -43717,11 +43717,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_344",
+    "college_id": "ug_in027p3",
     "college_name": "Gayathri Vidya Parishad Institute of Health Care & Medical Technology, Visakhapatnam",
     "city": "Visakhapatnam",
     "state": "Andhra Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Gayathri Vidya Parishad Institute of Health Care & Medical Technology, Visakhapatnam",
@@ -43766,11 +43766,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_345",
+    "college_id": "ug_or005p3",
     "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
     "city": "Bhubaneswar",
     "state": "Odisha",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
@@ -43833,11 +43833,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_346",
+    "college_id": "ug_uk002p3",
     "college_name": "Graphic Era Institute of Medical Sciences Dehradun, Uttrakhand",
     "city": "Dehradun",
     "state": "Uttarakhand",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Graphic Era Institute of Medical Sciences Dehradun, Uttrakhand",
@@ -43882,11 +43882,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_347",
+    "college_id": "ug_ka019p3",
     "college_name": "K S Hegde Medical Academy, Mangalore",
     "city": "Mangaluru",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "K S Hegde Medical Academy, Mangalore",
@@ -43967,11 +43967,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_348",
+    "college_id": "ug_or004p3",
     "college_name": "Institute of Medical Sciences & SUM Hospital, Campus 2, Bhubaneswar",
     "city": "Bhubaneswar",
     "state": "Odisha",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Institute of Medical Sciences & SUM Hospital, Campus 2, Bhubaneswar",
@@ -44016,11 +44016,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_349",
+    "college_id": "ug_mh028p3",
     "college_name": "Rural Medical College, Loni",
     "city": "Loni",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Rural Medical College, Loni",
@@ -44101,11 +44101,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_350",
+    "college_id": "ug_mh009p3",
     "college_name": "Dr. D Y Patil Medical College, Kolhapur",
     "city": "Kolhapur",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Dr. D Y Patil Medical College, Kolhapur",
@@ -44150,11 +44150,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_351",
+    "college_id": "ug_ka043p3",
     "college_name": "Sri Siddhartha Medical College, Tumkur",
     "city": "Tumkur",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Sri Siddhartha Medical College, Tumkur",
@@ -44235,11 +44235,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_352",
+    "college_id": "ug_in025p3",
     "college_name": "Faculty of Medicine, Sri Lalithambigai Medical College and Hospital",
     "city": "Sri Lalithambigai Medical College and Hospital",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Faculty of Medicine, Sri Lalithambigai Medical College and Hospital",
@@ -44284,11 +44284,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_353",
+    "college_id": "ug_mh016p3",
     "college_name": "Jawaharlal Nehru Medical College, Sawangi (Meghe), Wardha",
     "city": "Wardha",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Jawaharlal Nehru Medical College, Sawangi (Meghe), Wardha",
@@ -44333,11 +44333,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_354",
+    "college_id": "ug_up021p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "city": "Ghaziabad",
     "state": "Uttar Pradesh",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Santosh Medical College, Ghaziabad",
@@ -44400,11 +44400,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_355",
+    "college_id": "ug_ka040p3",
     "college_name": "Sri Devaraj URS Medical College, Kolar",
     "city": "Kolar",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Sri Devaraj URS Medical College, Kolar",
@@ -44449,11 +44449,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_356",
+    "college_id": "ug_mh005p3",
     "college_name": "Bharati Vidyapeeth University Medical College, Pune",
     "city": "Pune",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Bharati Vidyapeeth University Medical College, Pune",
@@ -44498,7 +44498,7 @@
     ]
   },
   {
-    "college_id": "ug_aiq_357",
+    "college_id": "ug_tn001g1",
     "college_name": "Bhaarath Medical College and Hospital, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
@@ -44529,11 +44529,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_358",
+    "college_id": "ug_in048p3",
     "college_name": "Madha Medical College and Hospital, Thandalam, Chennai",
     "city": "Chennai",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Madha Medical College and Hospital, Thandalam, Chennai",
@@ -44560,11 +44560,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_359",
+    "college_id": "ug_ka036p3",
     "college_name": "Shri B M Patil Medical College, Hospital & Research Centre, Vijayapura (Bijapur)",
     "city": "Bijapur",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Shri B M Patil Medical College, Hospital & Research Centre, Vijayapura (Bijapur)",
@@ -44609,11 +44609,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_360",
+    "college_id": "ug_in054p3",
     "college_name": "Malla Reddy Institute of Medical Sciences, Hyderabad",
     "city": "Hyderabad",
     "state": "Telangana",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Malla Reddy Institute of Medical Sciences, Hyderabad",
@@ -44676,11 +44676,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_361",
+    "college_id": "ug_in100p3",
     "college_name": "VELS Medical College & Hospital",
     "city": "Periyapalayam",
     "state": "Tamil Nadu",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "VELS Medical College & Hospital",
@@ -44725,11 +44725,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_362",
+    "college_id": "ug_ka017p3",
     "college_name": "Jagadguru Gangadhar Mahaswamigalu Moorusavirmath Medical College, Hubballi",
     "city": "Hubballi",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Jagadguru Gangadhar Mahaswamigalu Moorusavirmath Medical College, Hubballi",
@@ -44774,11 +44774,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_363",
+    "college_id": "ug_py007p3",
     "college_name": "Vinayaka Missions Medical College, Karaikal, Pondicherry",
     "city": "Karaikal",
     "state": "Puducherry",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Vinayaka Missions Medical College, Karaikal, Pondicherry",
@@ -44805,11 +44805,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_364",
+    "college_id": "ug_ka042p3",
     "college_name": "Sri Siddhartha Institute of Medical Sciences & Research Centre, Bangalore",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Sri Siddhartha Institute of Medical Sciences & Research Centre, Bangalore",
@@ -44854,11 +44854,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_365",
+    "college_id": "ug_py004p3",
     "college_name": "Sri Lakshmi Narayana Institute of Medical Sciences, Pondicherry",
     "city": "Pondicherry",
     "state": "Puducherry",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Sri Lakshmi Narayana Institute of Medical Sciences, Pondicherry",
@@ -44885,11 +44885,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_366",
+    "college_id": "ug_mh023p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Panvel",
     "city": "Panvel",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Mahatma Gandhi Missions Medical College, Panvel",
@@ -44934,11 +44934,11 @@
     ]
   },
   {
-    "college_id": "ug_aiq_367",
+    "college_id": "ug_mh034p3",
     "college_name": "Terna Medical College, Navi Mumbai",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "college_type": "Government",
+    "college_type": "Private",
     "counseling_route": "AIQ",
     "matched_in_aiq": true,
     "aiq_college_name": "Terna Medical College, Navi Mumbai",

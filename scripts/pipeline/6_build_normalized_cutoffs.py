@@ -383,17 +383,34 @@ def build_normalized_cutoffs():
     # Extract unique canonical college names directly from input cutoff dataset
     unique_input_canonical_colleges = list(college_cutoffs_lookup.keys())
 
+    # Load master colleges_details.json for accurate master college_id & college_type (INI, Govt, Deemed, Private)
+    details_path = os.path.join(workspace_dir, "public", "data", "colleges_details.json")
+    col_details = json.load(open(details_path, "r", encoding="utf-8")) if os.path.exists(details_path) else {}
+    
+    details_by_name = {}
+    for cid, d_item in col_details.items():
+        c_n = d_item.get("college_name", "").lower().strip()
+        if c_n: details_by_name[c_n] = d_item
+        for a in d_item.get("aliases", []):
+            details_by_name[str(a).lower().strip()] = d_item
+        for c in d_item.get("canonical_names", []):
+            details_by_name[str(c).lower().strip()] = d_item
+
     public_mapping = []
     for idx, c_name in enumerate(unique_input_canonical_colleges):
         cutoffs = college_cutoffs_lookup[c_name]
         city, state = resolve_location(c_name)
 
+        matched_det = details_by_name.get(c_name.lower().strip())
+        real_cid = matched_det.get("college_id") if matched_det else f"ug_aiq_{idx+1:03d}"
+        real_type = matched_det.get("college_type") if (matched_det and matched_det.get("college_type")) else ("Deemed" if "Deemed" in c_name or "Deemed" in (cutoffs[0]["quota"] if cutoffs else "") else ("Private" if "Private" in c_name else "Government"))
+
         public_mapping.append({
-            "college_id": f"ug_aiq_{idx+1:03d}",
+            "college_id": real_cid,
             "college_name": c_name,
             "city": city,
             "state": state,
-            "college_type": "Deemed" if "Deemed" in c_name or "Deemed" in (cutoffs[0]["quota"] if cutoffs else "") else ("Private" if "Private" in c_name else "Government"),
+            "college_type": real_type,
             "counseling_route": "AIQ",
             "matched_in_aiq": True,
             "aiq_college_name": c_name,

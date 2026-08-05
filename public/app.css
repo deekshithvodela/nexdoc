@@ -1919,6 +1919,18 @@ body {
   display: inline-block;
 }
 
+.badge-ini {
+  background: rgba(168, 85, 247, 0.18);
+  color: #c084fc;
+  border: 1px solid rgba(168, 85, 247, 0.35);
+
+  [data-theme="light"] & {
+    background: rgba(147, 51, 234, 0.14);
+    color: #7e22ce;
+    border: 1px solid rgba(147, 51, 234, 0.35);
+  }
+}
+
 .badge-govt {
   background: rgba(0, 210, 255, 0.15);
   color: var(--accent-blue);
