@@ -7,7 +7,7 @@ def check_ini_leakage():
     print("      PROGRAMMATIC AUDIT FOR INI DATA LEAKAGE IN DATASETS     ")
     print("=============================================================\n")
 
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'public', 'data'))
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'public', 'data'))
     
     ini_keywords = [
         r'\baiims\b',
