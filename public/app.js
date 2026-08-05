@@ -1370,38 +1370,44 @@ async function showCollegeDetailsModal(collegeId) {
     const colMatch = mappingList ? mappingList.find(c => c.college_id === collegeId) : null;
     if (colMatch) {
       if (colMatch.mcc_status === 'Matched' && colMatch.aiq_cutoffs_raw && colMatch.aiq_cutoffs_raw.length > 0) {
-        const matchedCutoffs = colMatch.aiq_cutoffs_raw;
-        cutoffsHtml = `
-          <div class="details-section col-span-2">
-            <h4><i data-lucide="target"></i> MCC Cutoff Ranks (All India Counselling)</h4>
-            <div class="cutoff-table-scroll">
-              <table class="cutoff-table cutoff-modal-table">
-                <thead>
-                  <tr>
-                    <th>Quota</th>
-                    <th>Category</th>
-                    <th class="text-right">R1 Closing</th>
-                    <th class="text-right">R2 Closing</th>
-                    <th class="text-right">R3 Closing</th>
-                    <th class="text-right">Final Closing</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${matchedCutoffs.slice(0, 10).map(c => `
+        const matchedCutoffs = (colMatch.aiq_cutoffs_raw || []).filter(c => {
+          const courseName = (c.course || '').toLowerCase();
+          const quotaName = (c.quota || '').toLowerCase();
+          return !courseName.includes('nursing') && !courseName.includes('bds') && !quotaName.includes('nursing') && !quotaName.includes('bsc');
+        });
+        if (matchedCutoffs.length > 0) {
+          cutoffsHtml = `
+            <div class="details-section col-span-2">
+              <h4><i data-lucide="target"></i> MCC Cutoff Ranks (All India Counselling)</h4>
+              <div class="cutoff-table-scroll">
+                <table class="cutoff-table cutoff-modal-table">
+                  <thead>
                     <tr>
-                      <td>${c.quota}</td>
-                      <td><span class="badge badge-code">${c.category}</span></td>
-                      <td class="text-right">${c.r1_closing_rank !== '-' ? c.r1_closing_rank.toLocaleString() : '-'}</td>
-                      <td class="text-right">${c.r2_closing_rank !== '-' ? c.r2_closing_rank.toLocaleString() : '-'}</td>
-                      <td class="text-right">${c.r3_closing_rank !== '-' ? c.r3_closing_rank.toLocaleString() : '-'}</td>
-                      <td class="text-right"><strong class="text-blue">${c.final_closing_rank !== '-' ? c.final_closing_rank.toLocaleString() : '-'}</strong></td>
+                      <th>Quota</th>
+                      <th>Category</th>
+                      <th class="text-right">R1 Closing</th>
+                      <th class="text-right">R2 Closing</th>
+                      <th class="text-right">R3 Closing</th>
+                      <th class="text-right">Final Closing</th>
                     </tr>
-                  `).join('')}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    ${matchedCutoffs.slice(0, 10).map(c => `
+                      <tr>
+                        <td>${c.quota}</td>
+                        <td><span class="badge badge-code">${c.category}</span></td>
+                        <td class="text-right">${c.r1_closing_rank !== '-' ? c.r1_closing_rank.toLocaleString() : '-'}</td>
+                        <td class="text-right">${c.r2_closing_rank !== '-' ? c.r2_closing_rank.toLocaleString() : '-'}</td>
+                        <td class="text-right">${c.r3_closing_rank !== '-' ? c.r3_closing_rank.toLocaleString() : '-'}</td>
+                        <td class="text-right"><strong class="text-blue">${c.final_closing_rank !== '-' ? c.final_closing_rank.toLocaleString() : '-'}</strong></td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-        `;
+          `;
+        }
       } else if (colMatch.mcc_status === 'New') {
         cutoffsHtml = `
           <div class="details-section col-span-2">
@@ -1424,6 +1430,17 @@ async function showCollegeDetailsModal(collegeId) {
     }
   } catch (err) {
     console.warn("Cutoff lookup in modal failed:", err);
+  }
+
+  let courseBadgesHtml = '';
+  const levelList = details.courses || ['UG'];
+  if (levelList && levelList.length > 0) {
+    courseBadgesHtml = levelList.map(lvl => {
+      let badgeStyle = 'background: rgba(59, 130, 246, 0.15); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.3);';
+      if (lvl === 'PG') badgeStyle = 'background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.3);';
+      if (lvl === 'SS') badgeStyle = 'background: rgba(249, 115, 22, 0.15); color: #f97316; border: 1px solid rgba(249, 115, 22, 0.3);';
+      return `<span class="badge" style="${badgeStyle} font-weight: 600; font-size: 0.75rem; border-radius: 4px; padding: 3px 8px;">${lvl}</span>`;
+    }).join(' ');
   }
 
   let canonicalsHtml = '';
@@ -1464,6 +1481,10 @@ async function showCollegeDetailsModal(collegeId) {
           <div class="details-item">
             <span class="details-label">NMC Registry Status</span>
             <span class="details-value text-bold text-green">${details.status || 'Active'}</span>
+          </div>
+          <div class="details-item">
+            <span class="details-label">Offered Academic Levels</span>
+            <span class="details-value" style="display: flex; gap: 6px; align-items: center; padding-top: 2px;">${courseBadgesHtml || 'UG'}</span>
           </div>
           ${canonicalsHtml}
         </div>

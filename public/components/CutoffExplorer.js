@@ -54,6 +54,11 @@ export const CutoffExplorer = {
         this.state.ugMappingData.forEach(c => {
           if (c.state) sSet.add(c.state);
           (c.aiq_cutoffs_raw || []).forEach(cutoff => {
+            const courseName = (cutoff.course || '').toLowerCase();
+            const quotaName = (cutoff.quota || '').toLowerCase();
+            if (courseName.includes('nursing') || courseName.includes('bds') || quotaName.includes('nursing') || quotaName.includes('bsc')) {
+              return;
+            }
             if (cutoff.quota) qSet.add(cutoff.quota);
           });
         });
@@ -132,7 +137,15 @@ export const CutoffExplorer = {
     const result = [];
 
     colleges.forEach(col => {
-      let rawCutoffs = col.aiq_cutoffs_raw || [];
+      // Omit non-MBBS courses (B.Sc. Nursing, BDS) at UI presentation layer per core MBBS focus
+      let rawCutoffs = (col.aiq_cutoffs_raw || []).filter(c => {
+        const courseName = (c.course || '').toLowerCase();
+        const quotaName = (c.quota || '').toLowerCase();
+        if (courseName.includes('nursing') || courseName.includes('bds') || quotaName.includes('nursing') || quotaName.includes('bsc')) {
+          return false;
+        }
+        return true;
+      });
 
       // Sidebar multi-select filter compatibility
       if (this.state.selectedCategories.length > 0) {
