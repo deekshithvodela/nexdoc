@@ -265,6 +265,9 @@ export const CutoffExplorer = {
       });
     });
 
+    // Ensure all filtered cutoff table records are strictly sorted alphabetically by college_name
+    result.sort((a, b) => (a.college_name || '').localeCompare(b.college_name || ''));
+
     return result;
   },
 

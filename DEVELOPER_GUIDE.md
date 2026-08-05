@@ -85,7 +85,11 @@ Before tagging or pushing any production release, developers must execute and ve
    - **ARIA Landmarks & Screen Reader Support**: Confirm `role="tablist"`, `role="tab"`, `aria-selected`, `aria-label`, and `aria-hidden` attributes across all components.
    - **Compliance Statement**: Ensure `public/disclosure.html` includes updated WCAG accessibility and data scope statements.
 
-5. **Automated Audit Suite Pass Rate**:
+5. **Strict Alphabetical Sorting Verification Rule**:
+   - **Cutoff Table Explorer**: Ensure `CutoffExplorer.js` `getFilteredColleges()` sorts all result records alphabetically by `college_name` before returning.
+   - **Pipeline Output Datasets**: Confirm `6_build_normalized_cutoffs.py` sorts `unique_input_canonical_colleges` alphabetically so `public/data/ug_colleges_aiq_mapping.json` is deterministically sorted from A to Z.
+
+6. **Automated Audit Suite Pass Rate**:
    - Run `python3 scripts/audit/audit_data_integrity.py` (confirm Category E = 0).
    - Run `python3 scripts/audit/check_ini_leakage.py`.
    - Run Playwright UI suite `node scripts/audit/ui/audit_full_suite.mjs`.

@@ -380,8 +380,8 @@ def build_normalized_cutoffs():
 
         return derived_city, derived_state
 
-    # Extract unique canonical college names directly from input cutoff dataset
-    unique_input_canonical_colleges = list(college_cutoffs_lookup.keys())
+    # Extract unique canonical college names directly from input cutoff dataset, sorted alphabetically
+    unique_input_canonical_colleges = sorted(list(college_cutoffs_lookup.keys()), key=lambda x: x.lower())
 
     # Load master colleges_details.json for accurate master college_id & college_type (INI, Govt, Deemed, Private)
     details_path = os.path.join(workspace_dir, "public", "data", "colleges_details.json")
