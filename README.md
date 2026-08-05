@@ -48,11 +48,12 @@ It features a deterministic, unpaginated MCC UG Cutoff Explorer and NEET Rank Pr
   - Client-side clean URL transformations (`replaceState`) stripping `.html` extensions.
   - `WebApplication` JSON-LD schema, OpenGraph, and Twitter Card rich media metadata.
 
-- **Web Content Accessibility Guidelines (WCAG 2.1 Level AA/AAA)**:
+- **Web Content Accessibility Guidelines (WCAG 2.1 Level AA/AAA) & Academic Scope**:
   - Built-in screen-reader skip link (`Skip to main content`).
   - Native HTML5 landmarks (`header`, `main`, `nav`, `aside`) and ARIA roles (`role="tablist"`, `role="tab"`, `aria-selected`, `aria-label`).
   - High-visibility focus rings (`:focus-visible`) and WCAG AAA color contrast ratios across dark/light modes.
-  - Public accessibility statement available at `public/disclosure.html`.
+  - **Core Medical Focus & Allied Course Exclusion**: Non-MBBS allotments (B.Sc Nursing, BDS, AYUSH) are excluded at the presentation layer, and institution badges present concise medical levels (`UG`, `PG`, `SS`).
+  - Public accessibility and data disclosure statement available at `public/disclosure.html`.
 
 ---
 

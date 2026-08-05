@@ -63,6 +63,35 @@ To prevent dataset corruption, unmapped MBBS strings, or improper data leakage i
 
 ---
 
+## 📌 Comprehensive Developer Release Audit Checklist
+
+Before tagging or pushing any production release, developers must execute and verify the following 5-point audit checklist:
+
+1. **Strict Allied & Non-Medical Course Exclusion Rule**:
+   - **Cutoff Explorer Filtering**: Ensure `CutoffExplorer.js` filters out all non-MBBS allotments (`B.Sc. Nursing`, `BDS`, `AYUSH`, `Paramedical`) at the UI presentation layer.
+   - **Modal Allied Course Filtering**: Verify `showCollegeDetailsModal()` in `public/app.js` filters `aiq_cutoffs_raw` to omit non-MBBS entries.
+   - **Offered Academic Level Badges**: Confirm the College Details modal renders concise academic level badges (`UG`, `PG`, `SS`) corresponding strictly to core medical programs (`MBBS`, `MD/MS/DNB`, `DM/MCh`), without parenthetical or allied course labels.
+
+2. **Master Institution Type Classification (`INI`, `Government`, `Deemed`, `Private`) Audit**:
+   - **INI Programmatic Mapping**: Verify `scripts/pipeline/6_build_normalized_cutoffs.py` matches colleges against `colleges_details.json` so all Institutes of National Importance (AIIMS institutes and JIPMER) are assigned `college_type = "INI"`.
+   - **INI Badge Styling**: Confirm `CutoffExplorer.js` assigns `typeBadgeClass = 'badge-ini'` and `app.css` applies the purple `.badge-ini` styling.
+
+3. **Quota Mapping & Foreign Country Quota Accuracy Audit**:
+   - **Foreign Quota Verification**: Verify that `FOREIGN` quota cutoffs (e.g. AIIMS New Delhi foreign national seats) map exclusively to eligible master institutions and do not collapse onto regional campuses (e.g. AIIMS Jammu).
+   - **Filter Active Check**: Ensure `CutoffExplorer.js` `isFilterActive` logic incorporates both top dropdown states and sidebar multi-select checkboxes (`selectedQuotas`, `selectedCategories`) so colleges with zero matching child rows are cleanly hidden when filters are active.
+
+4. **WCAG 2.1 Level AA/AAA Accessibility Audit**:
+   - **Keyboard Navigation & Skip Link**: Verify `:focus-visible` outline rings on interactive components and functional `#main-content` skip link.
+   - **ARIA Landmarks & Screen Reader Support**: Confirm `role="tablist"`, `role="tab"`, `aria-selected`, `aria-label`, and `aria-hidden` attributes across all components.
+   - **Compliance Statement**: Ensure `public/disclosure.html` includes updated WCAG accessibility and data scope statements.
+
+5. **Automated Audit Suite Pass Rate**:
+   - Run `python3 scripts/audit/audit_data_integrity.py` (confirm Category E = 0).
+   - Run `python3 scripts/audit/check_ini_leakage.py`.
+   - Run Playwright UI suite `node scripts/audit/ui/audit_full_suite.mjs`.
+
+---
+
 
 ## 📌 Dataset Generation & Reference Boundary Rule
 

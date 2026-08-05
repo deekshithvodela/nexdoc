@@ -1,21 +1,21 @@
 [
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "OPEN",
     "course": "MBBS",
     "r1_opening_rank": 1,
-    "r1_closing_rank": 3389,
-    "r1_total_allotted": 87,
-    "r2_opening_rank": 2813,
-    "r2_closing_rank": 3898,
-    "r2_total_allotted": 14,
-    "r3_opening_rank": 3709,
-    "r3_closing_rank": 3993,
-    "r3_total_allotted": 4,
+    "r1_closing_rank": 48,
+    "r1_total_allotted": 48,
+    "r2_opening_rank": null,
+    "r2_closing_rank": null,
+    "r2_total_allotted": 0,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
     "final_opening_rank": 1,
-    "final_closing_rank": 3993,
-    "final_total_seats": 93
+    "final_closing_rank": 48,
+    "final_total_seats": 48
   },
   {
     "college_name": "Vardhman Mahavir Medical College & Safdarjung Hospital, Delhi",
@@ -54,40 +54,40 @@
     "final_total_seats": 52
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "OBC",
     "course": "MBBS",
     "r1_opening_rank": 52,
-    "r1_closing_rank": 4085,
-    "r1_total_allotted": 59,
+    "r1_closing_rank": 206,
+    "r1_total_allotted": 33,
     "r2_opening_rank": 207,
-    "r2_closing_rank": 4314,
-    "r2_total_allotted": 12,
-    "r3_opening_rank": 4327,
-    "r3_closing_rank": 4335,
-    "r3_total_allotted": 2,
+    "r2_closing_rank": 207,
+    "r2_total_allotted": 1,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
     "final_opening_rank": 52,
-    "final_closing_rank": 4335,
-    "final_total_seats": 68
+    "final_closing_rank": 207,
+    "final_total_seats": 34
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "SC",
     "course": "MBBS",
     "r1_opening_rank": 53,
-    "r1_closing_rank": 32194,
-    "r1_total_allotted": 32,
-    "r2_opening_rank": 30468,
-    "r2_closing_rank": 36367,
-    "r2_total_allotted": 5,
-    "r3_opening_rank": 37853,
-    "r3_closing_rank": 51471,
-    "r3_total_allotted": 5,
+    "r1_closing_rank": 644,
+    "r1_total_allotted": 18,
+    "r2_opening_rank": null,
+    "r2_closing_rank": null,
+    "r2_total_allotted": 0,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
     "final_opening_rank": 53,
-    "final_closing_rank": 51471,
-    "final_total_seats": 34
+    "final_closing_rank": 644,
+    "final_total_seats": 18
   },
   {
     "college_name": "Maulana Azad Medical College, New Delhi",
@@ -144,22 +144,22 @@
     "final_total_seats": 50
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "EWS",
     "course": "MBBS",
     "r1_opening_rank": 67,
-    "r1_closing_rank": 4603,
-    "r1_total_allotted": 21,
-    "r2_opening_rank": 4113,
-    "r2_closing_rank": 4945,
-    "r2_total_allotted": 3,
-    "r3_opening_rank": 5308,
-    "r3_closing_rank": 5308,
-    "r3_total_allotted": 1,
+    "r1_closing_rank": 254,
+    "r1_total_allotted": 12,
+    "r2_opening_rank": null,
+    "r2_closing_rank": null,
+    "r2_total_allotted": 0,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
     "final_opening_rank": 67,
-    "final_closing_rank": 5308,
-    "final_total_seats": 22
+    "final_closing_rank": 254,
+    "final_total_seats": 12
   },
   {
     "college_name": "Government Medical College, Surat",
@@ -342,13 +342,13 @@
     "final_total_seats": 16
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "ST",
     "course": "MBBS",
     "r1_opening_rank": 197,
-    "r1_closing_rank": 43200,
-    "r1_total_allotted": 15,
+    "r1_closing_rank": 1405,
+    "r1_total_allotted": 9,
     "r2_opening_rank": null,
     "r2_closing_rank": null,
     "r2_total_allotted": 0,
@@ -356,8 +356,8 @@
     "r3_closing_rank": null,
     "r3_total_allotted": 0,
     "final_opening_rank": 197,
-    "final_closing_rank": 43200,
-    "final_total_seats": 15
+    "final_closing_rank": 1405,
+    "final_total_seats": 9
   },
   {
     "college_name": "Vardhman Mahavir Medical College & Safdarjung Hospital, Delhi",
@@ -1062,7 +1062,7 @@
     "final_total_seats": 93
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "FOREIGN",
     "category": "OPEN",
     "course": "MBBS",
@@ -1222,6 +1222,24 @@
     "final_opening_rank": 915,
     "final_closing_rank": 1520,
     "final_total_seats": 33
+  },
+  {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "OPEN",
+    "course": "MBBS",
+    "r1_opening_rank": 930,
+    "r1_closing_rank": 3389,
+    "r1_total_allotted": 39,
+    "r2_opening_rank": 2813,
+    "r2_closing_rank": 3898,
+    "r2_total_allotted": 14,
+    "r3_opening_rank": 3709,
+    "r3_closing_rank": 3993,
+    "r3_total_allotted": 4,
+    "final_opening_rank": 930,
+    "final_closing_rank": 3993,
+    "final_total_seats": 45
   },
   {
     "college_name": "All India Institute of Medical Sciences, Bhubaneswar",
@@ -3582,6 +3600,24 @@
     "final_total_seats": 5
   },
   {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "OBC",
+    "course": "MBBS",
+    "r1_opening_rank": 3405,
+    "r1_closing_rank": 4085,
+    "r1_total_allotted": 26,
+    "r2_opening_rank": 4119,
+    "r2_closing_rank": 4314,
+    "r2_total_allotted": 11,
+    "r3_opening_rank": 4327,
+    "r3_closing_rank": 4335,
+    "r3_total_allotted": 2,
+    "final_opening_rank": 3405,
+    "final_closing_rank": 4335,
+    "final_total_seats": 34
+  },
+  {
     "college_name": "T D Medical College, Alleppey (Allappuzha)",
     "quota": "AIQ",
     "category": "OBC",
@@ -3976,6 +4012,24 @@
     "final_opening_rank": 3915,
     "final_closing_rank": 14053,
     "final_total_seats": 14
+  },
+  {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "EWS",
+    "course": "MBBS",
+    "r1_opening_rank": 3918,
+    "r1_closing_rank": 4603,
+    "r1_total_allotted": 9,
+    "r2_opening_rank": 4113,
+    "r2_closing_rank": 4945,
+    "r2_total_allotted": 3,
+    "r3_opening_rank": 5308,
+    "r3_closing_rank": 5308,
+    "r3_total_allotted": 1,
+    "final_opening_rank": 3918,
+    "final_closing_rank": 5308,
+    "final_total_seats": 10
   },
   {
     "college_name": "Geetanjali Medical College & Hospital, Udaipur",
@@ -4428,22 +4482,22 @@
     "final_total_seats": 6
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "OPEN_PWD",
     "course": "MBBS",
     "r1_opening_rank": 4478,
-    "r1_closing_rank": 221837,
-    "r1_total_allotted": 4,
+    "r1_closing_rank": 4801,
+    "r1_total_allotted": 2,
     "r2_opening_rank": 22426,
-    "r2_closing_rank": 409125,
-    "r2_total_allotted": 2,
+    "r2_closing_rank": 22426,
+    "r2_total_allotted": 1,
     "r3_opening_rank": 314055,
     "r3_closing_rank": 314055,
     "r3_total_allotted": 1,
     "final_opening_rank": 4478,
-    "final_closing_rank": 409125,
-    "final_total_seats": 4
+    "final_closing_rank": 314055,
+    "final_total_seats": 2
   },
   {
     "college_name": "All India Institute of Medical Sciences, Bhubaneswar",
@@ -9144,6 +9198,24 @@
     "final_total_seats": 9
   },
   {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "SC",
+    "course": "MBBS",
+    "r1_opening_rank": 9805,
+    "r1_closing_rank": 32194,
+    "r1_total_allotted": 14,
+    "r2_opening_rank": 30468,
+    "r2_closing_rank": 36367,
+    "r2_total_allotted": 5,
+    "r3_opening_rank": 37853,
+    "r3_closing_rank": 51471,
+    "r3_total_allotted": 5,
+    "final_opening_rank": 9805,
+    "final_closing_rank": 51471,
+    "final_total_seats": 16
+  },
+  {
     "college_name": "Govt. Medical College, Manendragarh",
     "quota": "AIQ",
     "category": "EWS",
@@ -12958,6 +13030,24 @@
     "final_opening_rank": 14117,
     "final_closing_rank": 22819,
     "final_total_seats": 9
+  },
+  {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "ST",
+    "course": "MBBS",
+    "r1_opening_rank": 14131,
+    "r1_closing_rank": 43200,
+    "r1_total_allotted": 6,
+    "r2_opening_rank": null,
+    "r2_closing_rank": null,
+    "r2_total_allotted": 0,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
+    "final_opening_rank": 14131,
+    "final_closing_rank": 43200,
+    "final_total_seats": 6
   },
   {
     "college_name": "Assam Medial College, Dibrugarh",
@@ -20772,22 +20862,22 @@
     "final_total_seats": 8
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "OBC_PWD",
     "course": "MBBS",
     "r1_opening_rank": 31622,
-    "r1_closing_rank": 354680,
-    "r1_total_allotted": 2,
+    "r1_closing_rank": 31622,
+    "r1_total_allotted": 1,
     "r2_opening_rank": 230983,
-    "r2_closing_rank": 426229,
-    "r2_total_allotted": 2,
+    "r2_closing_rank": 230983,
+    "r2_total_allotted": 1,
     "r3_opening_rank": 351802,
     "r3_closing_rank": 351802,
     "r3_total_allotted": 1,
     "final_opening_rank": 31622,
-    "final_closing_rank": 426229,
-    "final_total_seats": 5
+    "final_closing_rank": 351802,
+    "final_total_seats": 3
   },
   {
     "college_name": "ESIC Medical College and PGIMSR, Joka, Kolkata",
@@ -32706,6 +32796,24 @@
     "final_total_seats": 2
   },
   {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "OPEN_PWD",
+    "course": "MBBS",
+    "r1_opening_rank": 168231,
+    "r1_closing_rank": 221837,
+    "r1_total_allotted": 2,
+    "r2_opening_rank": 409125,
+    "r2_closing_rank": 409125,
+    "r2_total_allotted": 1,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
+    "final_opening_rank": 168231,
+    "final_closing_rank": 409125,
+    "final_total_seats": 2
+  },
+  {
     "college_name": "Government Medical College, Anantnag",
     "quota": "AIQ",
     "category": "OPEN_PWD",
@@ -33750,13 +33858,13 @@
     "final_total_seats": 3
   },
   {
-    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "college_name": "All India Institute of Medical Sciences, New Delhi",
     "quota": "OPEN_SEAT",
     "category": "ST_PWD",
     "course": "MBBS",
     "r1_opening_rank": 296155,
-    "r1_closing_rank": 770273,
-    "r1_total_allotted": 2,
+    "r1_closing_rank": 296155,
+    "r1_total_allotted": 1,
     "r2_opening_rank": 785618,
     "r2_closing_rank": 785618,
     "r2_total_allotted": 1,
@@ -33765,7 +33873,7 @@
     "r3_total_allotted": 0,
     "final_opening_rank": 296155,
     "final_closing_rank": 785618,
-    "final_total_seats": 2
+    "final_total_seats": 1
   },
   {
     "college_name": "Sri Siddhartha Medical College, Tumkur",
@@ -34179,6 +34287,24 @@
     "r3_total_allotted": 0,
     "final_opening_rank": 354434,
     "final_closing_rank": 482498,
+    "final_total_seats": 2
+  },
+  {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "OBC_PWD",
+    "course": "MBBS",
+    "r1_opening_rank": 354680,
+    "r1_closing_rank": 354680,
+    "r1_total_allotted": 1,
+    "r2_opening_rank": 426229,
+    "r2_closing_rank": 426229,
+    "r2_total_allotted": 1,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
+    "final_opening_rank": 354680,
+    "final_closing_rank": 426229,
     "final_total_seats": 2
   },
   {
@@ -38320,6 +38446,24 @@
     "final_opening_rank": 767643,
     "final_closing_rank": 769009,
     "final_total_seats": 2
+  },
+  {
+    "college_name": "All India Institute of Medical Sciences, Vijaypur, Jammu",
+    "quota": "OPEN_SEAT",
+    "category": "ST_PWD",
+    "course": "MBBS",
+    "r1_opening_rank": 770273,
+    "r1_closing_rank": 770273,
+    "r1_total_allotted": 1,
+    "r2_opening_rank": null,
+    "r2_closing_rank": null,
+    "r2_total_allotted": 0,
+    "r3_opening_rank": null,
+    "r3_closing_rank": null,
+    "r3_total_allotted": 0,
+    "final_opening_rank": 770273,
+    "final_closing_rank": 770273,
+    "final_total_seats": 1
   },
   {
     "college_name": "Chandulal Chandrakar Memorial Medical College, Durg",
