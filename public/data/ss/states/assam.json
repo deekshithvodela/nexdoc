@@ -1,6 +1,6 @@
 [
   {
-    "college_id": "ss_assam_medial_college_dibrugarh_assam",
+    "college_id": "ug_as001g1",
     "college_name": "Assam Medial College, Dibrugarh",
     "college_type": "Government",
     "state": "Assam",
@@ -12,19 +12,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_assam_medial_college_dibrugarh_assam",
-    "college_name": "Assam Medial College, Dibrugarh",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_assam_medial_college_dibrugarh_assam",
+    "college_id": "ug_as001g1",
     "college_name": "Assam Medial College, Dibrugarh",
     "college_type": "Government",
     "state": "Assam",
@@ -36,23 +24,11 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_b_borooah_cancer_institute_regional_cancer_centre_guwahati_assam",
-    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre) Guwahati",
+    "college_id": "ug_as001g1",
+    "college_name": "Assam Medial College, Dibrugarh",
     "college_type": "Government",
     "state": "Assam",
-    "course": "M.Ch - Surgical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 5,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_dr_b_borooah_cancer_institute_regional_cancer_centre_guwahati_assam",
-    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre) Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "DM - Onco Pathology",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
@@ -60,8 +36,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_b_borooah_cancer_institute_regional_cancer_centre_guwahati_assam",
-    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre) Guwahati",
+    "college_id": "ug_as004g1",
+    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre), Guwahati",
     "college_type": "Government",
     "state": "Assam",
     "course": "DM - Medical Oncology",
@@ -72,20 +48,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_b_borooah_cancer_institute_regional_cancer_centre_guwahati_assam",
-    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre) Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "M.Ch - Gynaecological Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_dr_b_borooah_cancer_institute_regional_cancer_centre_guwahati_assam",
-    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre) Guwahati",
+    "college_id": "ug_as004g1",
+    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre), Guwahati",
     "college_type": "Government",
     "state": "Assam",
     "course": "DM - Medical Oncology",
@@ -96,8 +60,32 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dr_b_borooah_cancer_institute_regional_cancer_centre_guwahati_assam",
-    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre) Guwahati",
+    "college_id": "ug_as004g1",
+    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre), Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "DM - Onco Pathology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_as004g1",
+    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre), Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "M.Ch - Gynaecological Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_as004g1",
+    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre), Guwahati",
     "college_type": "Government",
     "state": "Assam",
     "course": "M.Ch - Head & Neck Surgery",
@@ -108,7 +96,19 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as004g1",
+    "college_name": "Dr. B. Borooah Cancer Institute (Regional Cancer Centre), Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 5,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
@@ -120,43 +120,7 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
-    "college_name": "Gauhati Medical College, Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "DM - Endocrinology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 4,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
-    "college_name": "Gauhati Medical College, Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 4,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
-    "college_name": "Gauhati Medical College, Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 2,
-    "seats_inc": 3
-  },
-  {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
@@ -168,7 +132,31 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
+    "college_name": "Gauhati Medical College, Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "DM - Endocrinology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 4,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_as007g1",
+    "college_name": "Gauhati Medical College, Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "DM - Medical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 2,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
@@ -180,43 +168,31 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 3,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
-    "college_name": "Gauhati Medical College, Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 4,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
-    "college_name": "Gauhati Medical College, Guwahati",
-    "college_type": "Government",
-    "state": "Assam",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "course": "DM - Neurology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 5,
-    "seats_prev": 3,
+    "seats_prev": 4,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_as007g1",
+    "college_name": "Gauhati Medical College, Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "DM - Onco Pathology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
     "seats_inc": 2
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
@@ -228,7 +204,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
+    "college_name": "Gauhati Medical College, Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 3,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
@@ -240,7 +228,19 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
+    "college_name": "Gauhati Medical College, Guwahati",
+    "college_type": "Government",
+    "state": "Assam",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 3,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
@@ -252,15 +252,15 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gauhati_medical_college_guwahati_assam",
+    "college_id": "ug_as007g1",
     "college_name": "Gauhati Medical College, Guwahati",
     "college_type": "Government",
     "state": "Assam",
-    "course": "DM - Onco Pathology",
+    "course": "M.Ch - Urology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
+    "seats": 6,
+    "seats_prev": 4,
     "seats_inc": 2
   }
 ]

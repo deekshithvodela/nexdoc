@@ -1,5 +1,19 @@
 [
   {
+    "college_id": "ug_in015i1",
+    "college_name": "All India Institute of Medical Sciences, Patna",
+    "college_type": "INI",
+    "state": "Bihar",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
     "college_id": "ug_br001g1",
     "college_name": "Anugrah Narayan Magadh Medical College, Gaya",
     "college_type": "Government",
@@ -9,7 +23,9 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_br001g1",
@@ -21,11 +37,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br023g1",
-    "college_name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri (formerly Vardhman Institute of Medical Sciences, Pawapuri, Nalanda)",
+    "college_id": "ug_br002g1",
+    "college_name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri",
     "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
@@ -33,11 +51,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br023g1",
-    "college_name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri (formerly Vardhman Institute of Medical Sciences, Pawapuri, Nalanda)",
+    "college_id": "ug_br002g1",
+    "college_name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri",
     "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
@@ -45,46 +65,54 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_buddha_hospital_and_research_institute_bihar",
+    "college_id": "ug_br003g1",
     "college_name": "Buddha Hospital and Research Institute",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_buddha_hospital_and_research_institute_bihar",
+    "college_id": "ug_br003g1",
     "college_name": "Buddha Hospital and Research Institute",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_buddha_hospital_and_research_institute_bihar",
+    "college_id": "ug_br003g1",
     "college_name": "Buddha Hospital and Research Institute",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br002g1",
+    "college_id": "ug_br004g1",
     "college_name": "Darbhanga Medical College, Lehriasarai",
     "college_type": "Government",
     "state": "Bihar",
@@ -93,10 +121,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 18,
-    "seats_inc": 4
+    "seats_inc": 4,
+    "pg_seats": 155,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br002g1",
+    "college_id": "ug_br004g1",
     "college_name": "Darbhanga Medical College, Lehriasarai",
     "college_type": "Government",
     "state": "Bihar",
@@ -105,10 +135,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 102,
-    "seats_inc": 26
+    "seats_inc": 26,
+    "pg_seats": 155,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br003g1",
+    "college_id": "ug_br005g1",
     "college_name": "Employees State Insurance Corporation Medical College, Patna",
     "college_type": "Government",
     "state": "Bihar",
@@ -117,10 +149,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br003g1",
+    "college_id": "ug_br005g1",
     "college_name": "Employees State Insurance Corporation Medical College, Patna",
     "college_type": "Government",
     "state": "Bihar",
@@ -129,10 +163,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br004g1",
+    "college_id": "ug_br006g1",
     "college_name": "Government Medical College, Bettiah",
     "college_type": "Government",
     "state": "Bihar",
@@ -141,10 +177,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br004g1",
+    "college_id": "ug_br006g1",
     "college_name": "Government Medical College, Bettiah",
     "college_type": "Government",
     "state": "Bihar",
@@ -153,10 +191,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br005g1",
+    "college_id": "ug_in045g1",
     "college_name": "Government Medical College, Purnea",
     "college_type": "Government",
     "state": "Bihar",
@@ -165,10 +205,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br005g1",
+    "college_id": "ug_in045g1",
     "college_name": "Government Medical College, Purnea",
     "college_type": "Government",
     "state": "Bihar",
@@ -177,10 +219,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br006p3",
+    "college_id": "ug_br001p3",
     "college_name": "Himalaya Medical College and Hospital, Patna, Bihar",
     "college_type": "Private",
     "state": "Bihar",
@@ -189,10 +233,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br006p3",
+    "college_id": "ug_br001p3",
     "college_name": "Himalaya Medical College and Hospital, Patna, Bihar",
     "college_type": "Private",
     "state": "Bihar",
@@ -201,10 +247,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br006p3",
+    "college_id": "ug_br001p3",
     "college_name": "Himalaya Medical College and Hospital, Patna, Bihar",
     "college_type": "Private",
     "state": "Bihar",
@@ -213,34 +261,40 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br007g1",
+    "college_id": "ug_br002p3",
     "college_name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura, Patna",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "MCC",
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 113,
+    "ss_seats": 40
   },
   {
-    "college_id": "ug_br007g1",
+    "college_id": "ug_br002p3",
     "college_name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura, Patna",
-    "college_type": "Government",
+    "college_type": "Deemed",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 113,
+    "ss_seats": 40
   },
   {
-    "college_id": "ug_br008g1",
+    "college_id": "ug_br007g1",
     "college_name": "Jannayak Karpoori Thakur Medical College & Hospital, Madhepura, Bihar",
     "college_type": "Government",
     "state": "Bihar",
@@ -249,10 +303,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br008g1",
+    "college_id": "ug_br007g1",
     "college_name": "Jannayak Karpoori Thakur Medical College & Hospital, Madhepura, Bihar",
     "college_type": "Government",
     "state": "Bihar",
@@ -261,10 +317,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br009g1",
+    "college_id": "ug_br008g1",
     "college_name": "Jawaharlal Nehru Medical College, Bhagalpur",
     "college_type": "Government",
     "state": "Bihar",
@@ -273,10 +331,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 18,
-    "seats_inc": 4
+    "seats_inc": 4,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br009g1",
+    "college_id": "ug_br008g1",
     "college_name": "Jawaharlal Nehru Medical College, Bhagalpur",
     "college_type": "Government",
     "state": "Bihar",
@@ -285,10 +345,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 102,
-    "seats_inc": 26
+    "seats_inc": 26,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br010p4",
+    "college_id": "ug_br003p3",
     "college_name": "Katihar Medical College, Katihar",
     "college_type": "Private",
     "state": "Bihar",
@@ -297,10 +359,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br010p4",
+    "college_id": "ug_br003p3",
     "college_name": "Katihar Medical College, Katihar",
     "college_type": "Private",
     "state": "Bihar",
@@ -309,10 +373,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br010p4",
+    "college_id": "ug_br003p3",
     "college_name": "Katihar Medical College, Katihar",
     "college_type": "Private",
     "state": "Bihar",
@@ -321,10 +387,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br011p4",
+    "college_id": "ug_br004p3",
     "college_name": "Lord Buddha Koshi Medical College and Hospital, Saharsa",
     "college_type": "Private",
     "state": "Bihar",
@@ -333,10 +401,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br011p4",
+    "college_id": "ug_br004p3",
     "college_name": "Lord Buddha Koshi Medical College and Hospital, Saharsa",
     "college_type": "Private",
     "state": "Bihar",
@@ -345,10 +415,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br011p4",
+    "college_id": "ug_br004p3",
     "college_name": "Lord Buddha Koshi Medical College and Hospital, Saharsa",
     "college_type": "Private",
     "state": "Bihar",
@@ -357,10 +429,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br012p3",
+    "college_id": "ug_br005p3",
     "college_name": "Madhubani Medical College, Madhubani",
     "college_type": "Private",
     "state": "Bihar",
@@ -369,10 +443,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br012p3",
+    "college_id": "ug_br005p3",
     "college_name": "Madhubani Medical College, Madhubani",
     "college_type": "Private",
     "state": "Bihar",
@@ -381,10 +457,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br012p3",
+    "college_id": "ug_br005p3",
     "college_name": "Madhubani Medical College, Madhubani",
     "college_type": "Private",
     "state": "Bihar",
@@ -393,10 +471,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br013p3",
+    "college_id": "ug_br006p3",
     "college_name": "Mahabodhi Medical College & Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -405,10 +485,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 50,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br013p3",
+    "college_id": "ug_br006p3",
     "college_name": "Mahabodhi Medical College & Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -417,10 +499,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 35,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br013p3",
+    "college_id": "ug_br006p3",
     "college_name": "Mahabodhi Medical College & Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -429,10 +513,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 15,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br014p3",
+    "college_id": "ug_br007p3",
     "college_name": "Mata Gujri Memorial Medical College, Kishanganj",
     "college_type": "Private",
     "state": "Bihar",
@@ -441,10 +527,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 112,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br014p3",
+    "college_id": "ug_br007p3",
     "college_name": "Mata Gujri Memorial Medical College, Kishanganj",
     "college_type": "Private",
     "state": "Bihar",
@@ -453,10 +541,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 112,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br014p3",
+    "college_id": "ug_br007p3",
     "college_name": "Mata Gujri Memorial Medical College, Kishanganj",
     "college_type": "Private",
     "state": "Bihar",
@@ -465,10 +555,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 112,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br015g1",
+    "college_id": "ug_br009g1",
     "college_name": "Nalanda Medical College, Patna",
     "college_type": "Government",
     "state": "Bihar",
@@ -477,10 +569,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 22,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 117,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br015g1",
+    "college_id": "ug_br009g1",
     "college_name": "Nalanda Medical College, Patna",
     "college_type": "Government",
     "state": "Bihar",
@@ -489,10 +583,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 128,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 117,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br016p3",
+    "college_id": "ug_br008p3",
     "college_name": "Narayan Medical College & Hospital, Sasaram",
     "college_type": "Private",
     "state": "Bihar",
@@ -501,10 +597,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 120,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br016p3",
+    "college_id": "ug_br008p3",
     "college_name": "Narayan Medical College & Hospital, Sasaram",
     "college_type": "Private",
     "state": "Bihar",
@@ -513,10 +611,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 120,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br016p3",
+    "college_id": "ug_br008p3",
     "college_name": "Narayan Medical College & Hospital, Sasaram",
     "college_type": "Private",
     "state": "Bihar",
@@ -525,10 +625,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 120,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br017p4",
+    "college_id": "ug_in064p3",
     "college_name": "Netaji Subhas Medical College & Hospital, Amhara, Bihta, Patna",
     "college_type": "Private",
     "state": "Bihar",
@@ -537,10 +639,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br017p4",
+    "college_id": "ug_in064p3",
     "college_name": "Netaji Subhas Medical College & Hospital, Amhara, Bihta, Patna",
     "college_type": "Private",
     "state": "Bihar",
@@ -549,10 +653,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br017p4",
+    "college_id": "ug_in064p3",
     "college_name": "Netaji Subhas Medical College & Hospital, Amhara, Bihta, Patna",
     "college_type": "Private",
     "state": "Bihar",
@@ -561,10 +667,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br018g1",
+    "college_id": "ug_br010g1",
     "college_name": "Patna Medical College, Patna",
     "college_type": "Government",
     "state": "Bihar",
@@ -573,10 +681,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 30,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 201,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_br018g1",
+    "college_id": "ug_br010g1",
     "college_name": "Patna Medical College, Patna",
     "college_type": "Government",
     "state": "Bihar",
@@ -585,10 +695,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 170,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 201,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_br019p4",
+    "college_id": "ug_br009p3",
     "college_name": "Radha Devi Jageshwari Memorial Medical College and Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -597,10 +709,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br019p4",
+    "college_id": "ug_br009p3",
     "college_name": "Radha Devi Jageshwari Memorial Medical College and Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -609,10 +723,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br019p4",
+    "college_id": "ug_br009p3",
     "college_name": "Radha Devi Jageshwari Memorial Medical College and Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -621,10 +737,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br020p3",
+    "college_id": "ug_br010p3",
     "college_name": "Shree Narayan Medical Institute and Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -633,10 +751,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 38,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br020p3",
+    "college_id": "ug_br010p3",
     "college_name": "Shree Narayan Medical Institute and Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -645,10 +765,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 38,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br020p3",
+    "college_id": "ug_br010p3",
     "college_name": "Shree Narayan Medical Institute and Hospital",
     "college_type": "Private",
     "state": "Bihar",
@@ -657,10 +779,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 38,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br021g1",
+    "college_id": "ug_br011g1",
     "college_name": "Shri Krishna Medical College, Muzzafarpur",
     "college_type": "Government",
     "state": "Bihar",
@@ -669,10 +793,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 18,
-    "seats_inc": 4
+    "seats_inc": 4,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br021g1",
+    "college_id": "ug_br011g1",
     "college_name": "Shri Krishna Medical College, Muzzafarpur",
     "college_type": "Government",
     "state": "Bihar",
@@ -681,10 +807,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 102,
-    "seats_inc": 26
+    "seats_inc": 26,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_shrinivas_g_educational_research_institute_of_medical_sciences_bihar",
+    "college_id": "ug_ka038p3",
     "college_name": "Shrinivas G Educational & Research Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Bihar",
@@ -693,10 +821,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_shrinivas_g_educational_research_institute_of_medical_sciences_bihar",
+    "college_id": "ug_ka038p3",
     "college_name": "Shrinivas G Educational & Research Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Bihar",
@@ -705,10 +835,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_shrinivas_g_educational_research_institute_of_medical_sciences_bihar",
+    "college_id": "ug_ka038p3",
     "college_name": "Shrinivas G Educational & Research Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Bihar",
@@ -717,46 +849,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br022p3",
+    "college_id": "ug_br012g1",
     "college_name": "Shyamlal Chandrashekhar Medical College & S P N M Hospital",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br022p3",
+    "college_id": "ug_br012g1",
     "college_name": "Shyamlal Chandrashekhar Medical College & S P N M Hospital",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br022p3",
+    "college_id": "ug_br012g1",
     "college_name": "Shyamlal Chandrashekhar Medical College & S P N M Hospital",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Bihar",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br024p5",
+    "college_id": "ug_br011p3",
     "college_name": "Viraat Ramayan Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Bihar",
@@ -765,10 +905,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 25,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br024p5",
+    "college_id": "ug_br011p3",
     "college_name": "Viraat Ramayan Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Bihar",
@@ -777,10 +919,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 17,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_br024p5",
+    "college_id": "ug_br011p3",
     "college_name": "Viraat Ramayan Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Bihar",
@@ -789,18 +933,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 8,
-    "seats_inc": 15
-  },
-  {
-    "college_id": "ug_ini_aiims_patna",
-    "college_name": "AIIMS Patna",
-    "college_type": "Government",
-    "state": "Bihar",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   }
 ]

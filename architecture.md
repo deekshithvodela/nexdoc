@@ -6,10 +6,13 @@ This document defines the system architecture, data flow, component layout, and 
 
 ## 1. System Overview & Core Objectives
 
-The goal is to build an interactive, data-rich explorer for Indian medical seat matrices (MBBS, BDS, MD, MS, DM, MCh, DrNB) that helps students research colleges, courses, quotas, and seat availability.
+The goal is to build an interactive, data-rich explorer for Indian medical seat matrices that helps students research colleges, courses, quotas, and seat availability.
 
-### Architecture Core Constraints
+### Architecture Core Constraints & Principles
 
+* **MBBS & Medical Pathways Primary Scope**: `NexDoc` is strictly designed for **MBBS** (Undergraduate) and further medical study pathways (**MD / MS / DNB** Postgraduate & **DM / MCh** Super Speciality).
+* **Backend Pipeline vs UI View Layer Filtering**: All raw dataset files (including BDS, B.Sc Nursing, AYUSH) **MUST be fully ingested and processed** by backend python scripts to maintain 100% data integrity and prevent index corruption. Non-MBBS courses are **filtered out exclusively at the UI / presentation layer** (in `public/app.js` display logic).
+* **Human-in-the-Loop Alias Verification**: Discovered raw institute strings from allotment PDFs must **NEVER** be auto-committed to `reference/alias-to-canonical.json` if there is any doubt or ambiguity. Any proposed alias mapping under uncertainty requires explicit user confirmation before committing.
 * **GitHub Pages Ready (`github.io`)**: The entire application runs client-side. There are no server-side databases (such as PostgreSQL or MongoDB) or active server backends (such as Node.js/Express or Python/Django).
 * **Zero Backend Costs**: By storing data in optimized JSON files, hosting is entirely free, scale-proof, and fast.
 * **Premium Design & Micro-animations**: Modern visual system utilizing dark themes, glassmorphism, responsive CSS grid layouts, and seamless transitions.

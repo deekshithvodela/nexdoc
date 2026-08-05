@@ -8,7 +8,6 @@ export const CutoffExplorer = {
     // Filters & Inputs
     userRank: '',            // Entered NEET Rank (digits strictly restricted)
     searchQuery: '',         // Top college search query (words strictly restricted)
-    showNonAiq: false,       // Default FALSE: Hide Non-AIQ colleges by default
     selectedCategory: 'ALL', // Category dropdown filter ('ALL' or specific category)
     selectedQuota: 'ALL',    // Quota dropdown filter ('ALL' or specific quota)
     selectedChance: 'ALL',   // Chance predictor selection ('ALL', 'HIGH', 'BORDERLINE', 'LOW')
@@ -112,11 +111,6 @@ export const CutoffExplorer = {
     const hasRank = !isNaN(userRankNum) && userRankNum > 0;
 
     let colleges = [...this.state.ugMappingData];
-
-    // 1. Hide Non-AIQ colleges by default unless showNonAiq is true
-    if (!this.state.showNonAiq) {
-      colleges = colleges.filter(c => c.mcc_status !== 'Non AIQ');
-    }
 
     // Region Filter (from global top-of-page state selector or checkboxes)
     if (this.state.selectedStateVal && this.state.selectedStateVal !== 'all') {
@@ -353,15 +347,6 @@ export const CutoffExplorer = {
         </div>
       </div>
 
-      <!-- Show Non AIQ Colleges Checkbox Control -->
-      <div class="filter-group group-divider-top">
-        <label class="checkbox-label checkbox-item-row">
-          <input type="checkbox" id="sidebarShowNonAiqCb" ${this.state.showNonAiq ? 'checked' : ''}>
-          <div class="checkbox-custom"><i data-lucide="check"></i></div>
-          <span class="text-subtle-sm">Include Non AIQ Colleges</span>
-        </label>
-      </div>
-
       <button class="btn-reset-filters margin-top-sm" id="sidebarResetCutoffFiltersBtn">
         <i data-lucide="refresh-cw"></i> Reset All Predictor Filters
       </button>
@@ -479,21 +464,11 @@ export const CutoffExplorer = {
       });
     }
 
-    const showNonAiqCb = container.querySelector('#sidebarShowNonAiqCb');
-    if (showNonAiqCb) {
-      showNonAiqCb.addEventListener('change', (e) => {
-        this.state.showNonAiq = e.target.checked;
-        const targetView = document.getElementById('viewCutoffs');
-        if (targetView) this.render(targetView);
-      });
-    }
-
     const resetBtn = container.querySelector('#sidebarResetCutoffFiltersBtn');
     if (resetBtn) {
       resetBtn.addEventListener('click', () => {
         this.state.userRank = '';
         this.state.searchQuery = '';
-        this.state.showNonAiq = false;
         this.state.selectedCategories = [];
         this.state.selectedQuotas = [];
         this.state.selectedStates = [];
@@ -542,26 +517,16 @@ export const CutoffExplorer = {
 
           <!-- Line 2: Responsive Inputs Grid (Rank Input & Top Search Input) -->
           <div class="top-inputs-grid">
-            <!-- Rank Input with compact submit icon button (Digits restricted) -->
-            <div class="top-rank-container">
-              <div class="top-input-relative">
-                <i data-lucide="award" class="top-rank-icon"></i>
-                <input type="text" id="cutoffTopRankInput" placeholder="Enter NEET Rank (e.g. 10000)" value="${this.state.userRank}" inputmode="numeric" class="top-input-field">
-              </div>
-              <button id="submitTopRankBtn" title="Apply Rank Filter" class="btn-rank-submit">
-                <i data-lucide="search" class="icon-sm"></i>
-              </button>
+            <!-- Rank Input (Digits restricted) -->
+            <div class="top-input-relative">
+              <i data-lucide="award" class="top-rank-icon" aria-hidden="true"></i>
+              <input type="text" id="cutoffTopRankInput" placeholder="Enter NEET Rank (e.g. 10000)" value="${this.state.userRank}" inputmode="numeric" class="top-input-field" aria-label="Enter NEET All India Rank">
             </div>
 
-            <!-- College Search Bar with compact submit icon button (Words restricted) -->
-            <div class="top-search-container">
-              <div class="top-input-relative">
-                <i data-lucide="search" class="top-search-icon"></i>
-                <input type="text" id="cutoffTopSearchInput" placeholder="Search college, city, state..." value="${this.state.searchQuery}" class="top-input-field top-search-field">
-              </div>
-              <button id="submitTopSearchBtn" title="Apply Search Filter" class="btn-rank-submit">
-                <i data-lucide="search" class="icon-sm"></i>
-              </button>
+            <!-- College Search Bar (Words restricted) -->
+            <div class="top-input-relative">
+              <i data-lucide="search" class="top-search-icon" aria-hidden="true"></i>
+              <input type="text" id="cutoffTopSearchInput" placeholder="Search college, city, state..." value="${this.state.searchQuery}" class="top-input-field top-search-field" aria-label="Search college, city, or state cutoffs">
             </div>
           </div>
 
@@ -612,27 +577,13 @@ export const CutoffExplorer = {
 
           </div>
 
-          <!-- Line 3: Compact Toolbar (Include Non-AIQ, Collapse All, Export CSV, Master College Count) -->
+          <!-- Line 4: Toolbar (Collapse All & Master College Count) -->
           <div class="top-toolbar-row">
-            
             <div class="top-toolbar-actions">
-              <!-- Non AIQ Checkbox -->
-              <label class="checkbox-label checkbox-item-row top-non-aiq-label">
-                <input type="checkbox" id="topShowNonAiqCb" ${this.state.showNonAiq ? 'checked' : ''}>
-                <div class="checkbox-custom checkbox-sm"><i data-lucide="check" class="icon-xs"></i></div>
-                <span>Include Non-AIQ</span>
-              </label>
-
               <!-- Collapse All Button -->
-              <button id="collapseAllRowsBtn" class="panel-tab btn-compact-tab">
+              <button id="collapseAllRowsBtn" class="btn-action-standard">
                 <i data-lucide="fold-vertical" class="icon-xs"></i>
                 <span>Collapse All</span>
-              </button>
-
-              <!-- Export CSV Button -->
-              <button class="panel-tab btn-export-csv" id="exportCutoffCsvBtn">
-                <i data-lucide="download" class="icon-xs"></i>
-                <span>Export CSV</span>
               </button>
             </div>
 
@@ -640,7 +591,6 @@ export const CutoffExplorer = {
             <span class="badge badge-govt badge-master-count">
               Showing ${totalColleges.toLocaleString()} Colleges
             </span>
-
           </div>
 
         </div>
@@ -829,9 +779,8 @@ export const CutoffExplorer = {
   },
 
   attachEvents(container) {
-    // 1. Top Search Input with Search Submit Button & Character Restriction
+    // 1. Top Search Input with Character Restriction
     const topSearch = container.querySelector('#cutoffTopSearchInput');
-    const submitTopSearchBtn = container.querySelector('#submitTopSearchBtn');
 
     const applySearchFilter = () => {
       if (!topSearch) return;
@@ -857,13 +806,8 @@ export const CutoffExplorer = {
       });
     }
 
-    if (submitTopSearchBtn) {
-      submitTopSearchBtn.addEventListener('click', applySearchFilter);
-    }
-
-    // 2. Top Rank Input & Submit Icon Button with Digits-Only Restriction
+    // 2. Top Rank Input with Digits-Only Restriction
     const topRankInput = container.querySelector('#cutoffTopRankInput');
-    const submitTopRankBtn = container.querySelector('#submitTopRankBtn');
 
     const applyTopRankFilter = () => {
       if (!topRankInput) return;
@@ -889,10 +833,6 @@ export const CutoffExplorer = {
       });
     }
 
-    if (submitTopRankBtn) {
-      submitTopRankBtn.addEventListener('click', applyTopRankFilter);
-    }
-
     // 3. Dropdowns: Category, Quota, Chance Predictor
     const categorySelect = container.querySelector('#cutoffCategorySelect');
     if (categorySelect) {
@@ -914,15 +854,6 @@ export const CutoffExplorer = {
     if (chanceSelect) {
       chanceSelect.addEventListener('change', (e) => {
         this.state.selectedChance = e.target.value;
-        this.render(container);
-      });
-    }
-
-    // 4. Top Show Non AIQ Checkbox
-    const topShowNonAiqCb = container.querySelector('#topShowNonAiqCb');
-    if (topShowNonAiqCb) {
-      topShowNonAiqCb.addEventListener('change', (e) => {
-        this.state.showNonAiq = e.target.checked;
         this.render(container);
       });
     }
@@ -970,15 +901,7 @@ export const CutoffExplorer = {
       });
     }
 
-    // 7. Export CSV Button
-    const exportBtn = container.querySelector('#exportCutoffCsvBtn');
-    if (exportBtn) {
-      exportBtn.addEventListener('click', () => {
-        this.exportToCsv();
-      });
-    }
-
-    // 8. Back to Top Button
+    // 7. Back to Top Button
     const goToTopCutoffsBtn = container.querySelector('#goToTopCutoffsBtn');
     if (goToTopCutoffsBtn) {
       goToTopCutoffsBtn.addEventListener('click', () => {

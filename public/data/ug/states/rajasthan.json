@@ -1,6 +1,20 @@
 [
   {
-    "college_id": "ug_rj001p5",
+    "college_id": "ug_in009i1",
+    "college_name": "All India Institute of Medical Sciences, Jodhpur",
+    "college_type": "INI",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 150,
+    "seats_prev": 150,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_rj002p3",
     "college_name": "American International Institute of Medical Sciences, Bedwas",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -9,10 +23,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_rj001p5",
+    "college_id": "ug_rj002p3",
     "college_name": "American International Institute of Medical Sciences, Bedwas",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -21,10 +37,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_rj001p5",
+    "college_id": "ug_rj002p3",
     "college_name": "American International Institute of Medical Sciences, Bedwas",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -33,10 +51,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_rj002p4",
+    "college_id": "ug_rj003p3",
     "college_name": "Ananta Institute of Medical Sciences & Research Centre, Rajsamand",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -45,10 +65,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 102,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj002p4",
+    "college_id": "ug_rj003p3",
     "college_name": "Ananta Institute of Medical Sciences & Research Centre, Rajsamand",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -57,10 +79,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 102,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj002p4",
+    "college_id": "ug_rj003p3",
     "college_name": "Ananta Institute of Medical Sciences & Research Centre, Rajsamand",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -69,10 +93,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 102,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj003p3",
+    "college_id": "ug_rj004p3",
     "college_name": "Arya Medical College and Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -81,10 +107,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 25,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj003p3",
+    "college_id": "ug_rj004p3",
     "college_name": "Arya Medical College and Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -93,10 +121,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 17,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj003p3",
+    "college_id": "ug_rj004p3",
     "college_name": "Arya Medical College and Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -105,10 +135,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 8,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj004p3",
+    "college_id": "ug_rj005p3",
     "college_name": "Balvir Singh Tomar Institute of Medical Sciences and Research",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -117,10 +149,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj004p3",
+    "college_id": "ug_rj005p3",
     "college_name": "Balvir Singh Tomar Institute of Medical Sciences and Research",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -129,10 +163,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj004p3",
+    "college_id": "ug_rj005p3",
     "college_name": "Balvir Singh Tomar Institute of Medical Sciences and Research",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -141,10 +177,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_bharat_vikas_institute_of_medical_sciences_rajasthan",
+    "college_id": "ug_or001p3",
     "college_name": "Bharat Vikas Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -153,10 +191,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 0,
-    "seats_inc": 75
+    "seats_inc": 75,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_bharat_vikas_institute_of_medical_sciences_rajasthan",
+    "college_id": "ug_or001p3",
     "college_name": "Bharat Vikas Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -165,10 +205,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 0,
-    "seats_inc": 52
+    "seats_inc": 52,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_bharat_vikas_institute_of_medical_sciences_rajasthan",
+    "college_id": "ug_or001p3",
     "college_name": "Bharat Vikas Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -177,10 +219,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 0,
-    "seats_inc": 23
+    "seats_inc": 23,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj005p3",
+    "college_id": "ug_rj006p3",
     "college_name": "Dr S S Tantia Medical College Hospital & Research Centre",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -189,10 +233,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj005p3",
+    "college_id": "ug_rj006p3",
     "college_name": "Dr S S Tantia Medical College Hospital & Research Centre",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -201,10 +247,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj005p3",
+    "college_id": "ug_rj006p3",
     "college_name": "Dr S S Tantia Medical College Hospital & Research Centre",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -213,34 +261,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj006g1",
-    "college_name": "Dr SN Medical College, Jodhpur",
-    "college_type": "Government",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 37,
-    "seats_prev": 37,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_rj006g1",
-    "college_name": "Dr SN Medical College, Jodhpur",
-    "college_type": "Government",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 213,
-    "seats_prev": 213,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_dr_b_s_tomar_institute_of_medical_sciences_and_research_rajasthan",
+    "college_id": "ug_rj007p3",
     "college_name": "Dr. B. S. Tomar Institute of Medical Sciences and Research",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -249,10 +275,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 0,
-    "seats_inc": 75
+    "seats_inc": 75,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_dr_b_s_tomar_institute_of_medical_sciences_and_research_rajasthan",
+    "college_id": "ug_rj007p3",
     "college_name": "Dr. B. S. Tomar Institute of Medical Sciences and Research",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -261,10 +289,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 0,
-    "seats_inc": 52
+    "seats_inc": 52,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_dr_b_s_tomar_institute_of_medical_sciences_and_research_rajasthan",
+    "college_id": "ug_rj007p3",
     "college_name": "Dr. B. S. Tomar Institute of Medical Sciences and Research",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -273,10 +303,40 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 0,
-    "seats_inc": 23
+    "seats_inc": 23,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj007g1",
+    "college_id": "ug_rj001g1",
+    "college_name": "Dr. S.N. Medical College, Jodhpur",
+    "college_type": "Government",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 37,
+    "seats_prev": 37,
+    "seats_inc": 0,
+    "pg_seats": 219,
+    "ss_seats": 20
+  },
+  {
+    "college_id": "ug_rj001g1",
+    "college_name": "Dr. S.N. Medical College, Jodhpur",
+    "college_type": "Government",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 213,
+    "seats_prev": 213,
+    "seats_inc": 0,
+    "pg_seats": 219,
+    "ss_seats": 20
+  },
+  {
+    "college_id": "ug_rj003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Alwar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -285,10 +345,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj007g1",
+    "college_id": "ug_rj003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Alwar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -297,10 +359,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj008g1",
+    "college_id": "ug_rj002g1",
     "college_name": "ESIC Medical College and Hospital, Jaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -309,10 +373,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj008g1",
+    "college_id": "ug_rj002g1",
     "college_name": "ESIC Medical College and Hospital, Jaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -321,10 +387,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj009p3",
+    "college_id": "ug_rj008p3",
     "college_name": "Geetanjali Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -333,10 +401,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj009p3",
+    "college_id": "ug_rj008p3",
     "college_name": "Geetanjali Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -345,10 +415,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj009p3",
+    "college_id": "ug_rj008p3",
     "college_name": "Geetanjali Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -357,10 +429,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj010p3",
+    "college_id": "ug_in028p3",
     "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -369,10 +443,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 193,
+    "ss_seats": 39
   },
   {
-    "college_id": "ug_rj010p3",
+    "college_id": "ug_in028p3",
     "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -381,10 +457,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 193,
+    "ss_seats": 39
   },
   {
-    "college_id": "ug_rj010p3",
+    "college_id": "ug_in028p3",
     "college_name": "Geetanjali Medical College & Hospital, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -393,10 +471,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 193,
+    "ss_seats": 39
   },
   {
-    "college_id": "ug_rj011g5",
+    "college_id": "ug_rj004g1",
     "college_name": "Government Medical College, Alwar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -405,10 +485,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj011g5",
+    "college_id": "ug_rj004g1",
     "college_name": "Government Medical College, Alwar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -417,10 +499,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj012g1",
+    "college_id": "ug_rj005g1",
     "college_name": "Government Medical College, Banswara",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -429,10 +513,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj012g1",
+    "college_id": "ug_rj005g1",
     "college_name": "Government Medical College, Banswara",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -441,10 +527,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj013g1",
+    "college_id": "ug_rj006g1",
     "college_name": "Government Medical College, Baran",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -453,10 +541,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj013g1",
+    "college_id": "ug_rj006g1",
     "college_name": "Government Medical College, Baran",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -465,10 +555,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj014g1",
+    "college_id": "ug_rj007g1",
     "college_name": "Government Medical College, Barmer",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -477,10 +569,12 @@
     "quota_type": "All India Quota",
     "seats": 19,
     "seats_prev": 19,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj014g1",
+    "college_id": "ug_rj007g1",
     "college_name": "Government Medical College, Barmer",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -489,10 +583,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 111,
     "seats_prev": 111,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj015g1",
+    "college_id": "ug_rj008g1",
     "college_name": "Government Medical College, Bharatpur, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -501,10 +597,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj015g1",
+    "college_id": "ug_rj008g1",
     "college_name": "Government Medical College, Bharatpur, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -513,10 +611,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj016g1",
+    "college_id": "ug_rj009g1",
     "college_name": "Government Medical College, Bhilwara, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -525,10 +625,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 22,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj016g1",
+    "college_id": "ug_rj009g1",
     "college_name": "Government Medical College, Bhilwara, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -537,10 +639,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 22,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj017g1",
+    "college_id": "ug_rj010g1",
     "college_name": "Government Medical College, Bundi",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -549,10 +653,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj017g1",
+    "college_id": "ug_rj010g1",
     "college_name": "Government Medical College, Bundi",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -561,10 +667,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj018g1",
+    "college_id": "ug_rj011g1",
     "college_name": "Government Medical College, Chittorgarh",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -573,10 +681,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj018g1",
+    "college_id": "ug_rj011g1",
     "college_name": "Government Medical College, Chittorgarh",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -585,10 +695,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj019g1",
+    "college_id": "ug_rj012g1",
     "college_name": "Government Medical College, Churu",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -597,10 +709,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 7,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj019g1",
+    "college_id": "ug_rj012g1",
     "college_name": "Government Medical College, Churu",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -609,10 +723,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 7,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj020g1",
+    "college_id": "ug_in026g1",
     "college_name": "Government Medical College, Dausa",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -621,10 +737,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj020g1",
+    "college_id": "ug_in026g1",
     "college_name": "Government Medical College, Dausa",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -633,10 +751,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj021g1",
+    "college_id": "ug_rj013g1",
     "college_name": "Government Medical College, Dholpur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -645,10 +765,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj021g1",
+    "college_id": "ug_rj013g1",
     "college_name": "Government Medical College, Dholpur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -657,10 +779,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj022g1",
+    "college_id": "ug_rj014g1",
     "college_name": "Government Medical College, Dungarpur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -669,10 +793,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj022g1",
+    "college_id": "ug_rj014g1",
     "college_name": "Government Medical College, Dungarpur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -681,10 +807,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj023g1",
+    "college_id": "ug_rj015g1",
     "college_name": "Government Medical College, Hanumangarh",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -693,10 +821,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj023g1",
+    "college_id": "ug_rj015g1",
     "college_name": "Government Medical College, Hanumangarh",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -705,10 +835,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj024g5",
+    "college_id": "ug_rj016g1",
     "college_name": "Government Medical College, Jaisalmer",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -717,10 +849,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj024g5",
+    "college_id": "ug_rj016g1",
     "college_name": "Government Medical College, Jaisalmer",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -729,10 +863,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj025g1",
+    "college_id": "ug_rj017g1",
     "college_name": "Government Medical College, Jhunjhunu",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -741,10 +877,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj025g1",
+    "college_id": "ug_rj017g1",
     "college_name": "Government Medical College, Jhunjhunu",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -753,10 +891,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj026g1",
+    "college_id": "ug_in032g1",
     "college_name": "Government Medical College, Karauli",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -765,10 +905,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj026g1",
+    "college_id": "ug_in032g1",
     "college_name": "Government Medical College, Karauli",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -777,10 +919,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj027g1",
+    "college_id": "ug_rj018g1",
     "college_name": "Government Medical College, Kota",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -789,10 +933,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 195,
+    "ss_seats": 18
   },
   {
-    "college_id": "ug_rj027g1",
+    "college_id": "ug_rj018g1",
     "college_name": "Government Medical College, Kota",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -801,10 +947,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 195,
+    "ss_seats": 18
   },
   {
-    "college_id": "ug_rj028g1",
+    "college_id": "ug_rj019g1",
     "college_name": "Government Medical College, Nagaur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -813,10 +961,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj028g1",
+    "college_id": "ug_rj019g1",
     "college_name": "Government Medical College, Nagaur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -825,10 +975,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj029g1",
+    "college_id": "ug_rj020g1",
     "college_name": "Government Medical College, Pali, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -837,10 +989,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 37,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj029g1",
+    "college_id": "ug_rj020g1",
     "college_name": "Government Medical College, Pali, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -849,10 +1003,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 37,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj001g1",
+    "college_id": "ug_rj021g1",
     "college_name": "Government Medical College, Sawai Madhopur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -861,10 +1017,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj001g1",
+    "college_id": "ug_rj021g1",
     "college_name": "Government Medical College, Sawai Madhopur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -873,10 +1031,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj030g1",
+    "college_id": "ug_rj022g1",
     "college_name": "Government Medical College, Sirohi",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -885,10 +1045,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj030g1",
+    "college_id": "ug_rj022g1",
     "college_name": "Government Medical College, Sirohi",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -897,10 +1059,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj031g1",
+    "college_id": "ug_rj023g1",
     "college_name": "Government Medical College, Sri Ganganagar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -909,10 +1073,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj031g1",
+    "college_id": "ug_rj023g1",
     "college_name": "Government Medical College, Sri Ganganagar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -921,11 +1087,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj032g1",
-    "college_name": "Government medical college, tonk",
+    "college_id": "ug_rj024g1",
+    "college_name": "Government Medical College, Tonk",
     "college_type": "Government",
     "state": "Rajasthan",
     "course": "MBBS",
@@ -933,11 +1101,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj032g1",
-    "college_name": "Government medical college, tonk",
+    "college_id": "ug_rj024g1",
+    "college_name": "Government Medical College, Tonk",
     "college_type": "Government",
     "state": "Rajasthan",
     "course": "MBBS",
@@ -945,10 +1115,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj033p4",
+    "college_id": "ug_rj010p3",
     "college_name": "Jaipur National University Institute for Medical Sciences and Research Centre, Jagatpura, Jaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -957,10 +1129,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 125,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj033p4",
+    "college_id": "ug_rj010p3",
     "college_name": "Jaipur National University Institute for Medical Sciences and Research Centre, Jagatpura, Jaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -969,10 +1143,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 125,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj033p4",
+    "college_id": "ug_rj010p3",
     "college_name": "Jaipur National University Institute for Medical Sciences and Research Centre, Jagatpura, Jaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -981,10 +1157,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 125,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj034g1",
+    "college_id": "ug_rj025g1",
     "college_name": "Jawaharlal Nehru Medical College, Ajmer",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -993,10 +1171,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 250,
+    "ss_seats": 15
   },
   {
-    "college_id": "ug_rj034g1",
+    "college_id": "ug_rj025g1",
     "college_name": "Jawaharlal Nehru Medical College, Ajmer",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1005,10 +1185,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 250,
+    "ss_seats": 15
   },
   {
-    "college_id": "ug_rj035g1",
+    "college_id": "ug_rj026g1",
     "college_name": "Jhalawar Medical College, Jhalawar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1017,10 +1199,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj035g1",
+    "college_id": "ug_rj026g1",
     "college_name": "Jhalawar Medical College, Jhalawar",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1029,10 +1213,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj036p3",
+    "college_id": "ug_rj009p3",
     "college_name": "JIET Medical College and Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1041,10 +1227,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj036p3",
+    "college_id": "ug_rj009p3",
     "college_name": "JIET Medical College and Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1053,10 +1241,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj036p3",
+    "college_id": "ug_rj009p3",
     "college_name": "JIET Medical College and Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1065,10 +1255,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj037p3",
+    "college_id": "ug_in049p3",
     "college_name": "Mahatma Gandhi Medical College and Hospital, Sitapur, Jaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1077,10 +1269,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 235,
+    "ss_seats": 64
   },
   {
-    "college_id": "ug_rj037p3",
+    "college_id": "ug_in049p3",
     "college_name": "Mahatma Gandhi Medical College and Hospital, Sitapur, Jaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1089,10 +1283,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 235,
+    "ss_seats": 64
   },
   {
-    "college_id": "ug_rj037p3",
+    "college_id": "ug_in049p3",
     "college_name": "Mahatma Gandhi Medical College and Hospital, Sitapur, Jaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1101,11 +1297,55 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 235,
+    "ss_seats": 64
   },
   {
-    "college_id": "ug_rj038p3",
+    "college_id": "ug_rj011p3",
     "college_name": "National Institute of Medical Science & Research, Jaipur",
+    "college_type": "Deemed",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 220,
+    "ss_seats": 71
+  },
+  {
+    "college_id": "ug_rj011p3",
+    "college_name": "National Institute of Medical Science & Research, Jaipur",
+    "college_type": "Deemed",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Management Quota",
+    "seats": 87,
+    "seats_prev": 87,
+    "seats_inc": 0,
+    "pg_seats": 220,
+    "ss_seats": 71
+  },
+  {
+    "college_id": "ug_rj011p3",
+    "college_name": "National Institute of Medical Science & Research, Jaipur",
+    "college_type": "Deemed",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "NRI / Minority Quota",
+    "seats": 38,
+    "seats_prev": 38,
+    "seats_inc": 0,
+    "pg_seats": 220,
+    "ss_seats": 71
+  },
+  {
+    "college_id": "ug_in067p3",
+    "college_name": "Pacific Institute of Medical Sciences, Umarda, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
     "course": "MBBS",
@@ -1113,46 +1353,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 225,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj038p3",
-    "college_name": "National Institute of Medical Science & Research, Jaipur",
-    "college_type": "Private",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Management Quota",
-    "seats": 87,
-    "seats_prev": 87,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_rj038p3",
-    "college_name": "National Institute of Medical Science & Research, Jaipur",
-    "college_type": "Private",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "NRI / Minority Quota",
-    "seats": 38,
-    "seats_prev": 38,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_rj039p4",
-    "college_name": "Pacific Institute of Medical Sciences, Umarda, Udaipur",
-    "college_type": "Private",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_rj039p4",
+    "college_id": "ug_in067p3",
     "college_name": "Pacific Institute of Medical Sciences, Umarda, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1161,10 +1367,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 225,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj039p4",
+    "college_id": "ug_in067p3",
     "college_name": "Pacific Institute of Medical Sciences, Umarda, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1173,10 +1381,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 225,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj040p3",
+    "college_id": "ug_rj012p3",
     "college_name": "Pacific Medical College & Hospital, Bhilo Ka Bedla, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1185,10 +1395,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 202,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj040p3",
+    "college_id": "ug_rj012p3",
     "college_name": "Pacific Medical College & Hospital, Bhilo Ka Bedla, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1197,10 +1409,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 202,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj040p3",
+    "college_id": "ug_rj012p3",
     "college_name": "Pacific Medical College & Hospital, Bhilo Ka Bedla, Udaipur",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1209,10 +1423,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 202,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_prince_medical_college_hospital_rajasthan",
+    "college_id": "ug_up017p3",
     "college_name": "Prince Medical College & Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1221,10 +1437,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 25,
     "seats_prev": 0,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_prince_medical_college_hospital_rajasthan",
+    "college_id": "ug_up017p3",
     "college_name": "Prince Medical College & Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1233,10 +1451,12 @@
     "quota_type": "Management Quota",
     "seats": 17,
     "seats_prev": 0,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_prince_medical_college_hospital_rajasthan",
+    "college_id": "ug_up017p3",
     "college_name": "Prince Medical College & Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1245,10 +1465,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 8,
     "seats_prev": 0,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj041g1",
+    "college_id": "ug_rj027g1",
     "college_name": "R N T Medical College, Udaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1257,10 +1479,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 226,
+    "ss_seats": 23
   },
   {
-    "college_id": "ug_rj041g1",
+    "college_id": "ug_rj027g1",
     "college_name": "R N T Medical College, Udaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1269,10 +1493,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 226,
+    "ss_seats": 23
   },
   {
-    "college_id": "ug_rj042g1",
+    "college_id": "ug_in080g1",
     "college_name": "RUHS College of Medical Sciences, Jaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1281,10 +1507,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 59,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj042g1",
+    "college_id": "ug_in080g1",
     "college_name": "RUHS College of Medical Sciences, Jaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1293,10 +1521,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 59,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj043g1",
+    "college_id": "ug_rj029g1",
     "college_name": "Sardar Patel Medical College, Bikaner",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1305,10 +1535,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 205,
+    "ss_seats": 20
   },
   {
-    "college_id": "ug_rj043g1",
+    "college_id": "ug_rj029g1",
     "college_name": "Sardar Patel Medical College, Bikaner",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1317,10 +1549,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 205,
+    "ss_seats": 20
   },
   {
-    "college_id": "ug_rj044g1",
+    "college_id": "ug_rj030g1",
     "college_name": "Shri Kalyan Government Medical College, Sikar, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1329,10 +1563,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj044g1",
+    "college_id": "ug_rj030g1",
     "college_name": "Shri Kalyan Government Medical College, Sikar, Rajasthan",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1341,10 +1577,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj045g1",
+    "college_id": "ug_rj028g1",
     "college_name": "SMS Medical College, Jaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1353,10 +1591,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 643,
+    "ss_seats": 110
   },
   {
-    "college_id": "ug_rj045g1",
+    "college_id": "ug_rj028g1",
     "college_name": "SMS Medical College, Jaipur",
     "college_type": "Government",
     "state": "Rajasthan",
@@ -1365,10 +1605,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 643,
+    "ss_seats": 110
   },
   {
-    "college_id": "ug_rj046p4",
+    "college_id": "ug_rj014p3",
     "college_name": "Sudha Medical College, Kota, Rajasthan",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1377,10 +1619,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 50,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj046p4",
+    "college_id": "ug_rj014p3",
     "college_name": "Sudha Medical College, Kota, Rajasthan",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1389,10 +1633,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 35,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj046p4",
+    "college_id": "ug_rj014p3",
     "college_name": "Sudha Medical College, Kota, Rajasthan",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1401,10 +1647,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 15,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj047p5",
+    "college_id": "ug_rj015p3",
     "college_name": "Vyas Medical College & Hospital Jodhpur, Rajasthan",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1413,10 +1661,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj047p5",
+    "college_id": "ug_rj015p3",
     "college_name": "Vyas Medical College & Hospital Jodhpur, Rajasthan",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1425,10 +1675,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_rj047p5",
+    "college_id": "ug_rj015p3",
     "college_name": "Vyas Medical College & Hospital Jodhpur, Rajasthan",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -1437,18 +1689,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_jodhpur",
-    "college_name": "AIIMS Jodhpur",
-    "college_type": "Government",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 150,
-    "seats_prev": 150,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   }
 ]

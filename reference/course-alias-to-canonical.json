@@ -1,0 +1,1267 @@
+{
+  "canonical_courses": {
+    "B.Sc. Nursing": {
+      "canonical_name": "B.Sc. Nursing",
+      "level": "UG",
+      "aliases": [
+        "B.Sc. Nursing",
+        "b sc nursing",
+        "b.sc nursing",
+        "b.sc. nursing",
+        "bachelor of science in nursing",
+        "bsc nursing"
+      ]
+    },
+    "BDS": {
+      "canonical_name": "BDS",
+      "level": "UG",
+      "aliases": [
+        "BDS",
+        "b.d.s",
+        "b.d.s.",
+        "bachelor of dental surgery",
+        "bds"
+      ]
+    },
+    "DM - Cardiac Anaesthesia": {
+      "canonical_name": "DM - Cardiac Anaesthesia",
+      "level": "SS",
+      "aliases": [
+        "DM - Cardiac Anaesthesia",
+        "dm - cardiac anaesthesia",
+        "dm cardiac anaesthesia"
+      ]
+    },
+    "DM - Cardiology": {
+      "canonical_name": "DM - Cardiology",
+      "level": "SS",
+      "aliases": [
+        "DM - Cardiology",
+        "dm - cardiology",
+        "dm cardiology"
+      ]
+    },
+    "DM - Clinical Hematology": {
+      "canonical_name": "DM - Clinical Hematology",
+      "level": "SS",
+      "aliases": [
+        "DM - Clinical Hematology",
+        "dm - clinical hematology",
+        "dm clinical hematology"
+      ]
+    },
+    "DM - Clinical Immunology & Rheumatology": {
+      "canonical_name": "DM - Clinical Immunology & Rheumatology",
+      "level": "SS",
+      "aliases": [
+        "DM - Clinical Immunology & Rheumatology",
+        "dm - clinical immunology & rheumatology",
+        "dm clinical immunology rheumatology"
+      ]
+    },
+    "DM - Clinical Pharmacology": {
+      "canonical_name": "DM - Clinical Pharmacology",
+      "level": "SS",
+      "aliases": [
+        "DM - Clinical Pharmacology",
+        "dm - clinical pharmacology",
+        "dm clinical pharmacology"
+      ]
+    },
+    "DM - Critical Care Medicine": {
+      "canonical_name": "DM - Critical Care Medicine",
+      "level": "SS",
+      "aliases": [
+        "DM - Critical Care Medicine",
+        "dm - critical care medicine",
+        "dm critical care medicine"
+      ]
+    },
+    "DM - Endocrinology": {
+      "canonical_name": "DM - Endocrinology",
+      "level": "SS",
+      "aliases": [
+        "DM - Endocrinology",
+        "dm - endocrinology",
+        "dm endocrinology"
+      ]
+    },
+    "DM - Geriatric Mental Health": {
+      "canonical_name": "DM - Geriatric Mental Health",
+      "level": "SS",
+      "aliases": [
+        "DM - Geriatric Mental Health",
+        "dm - geriatric mental health",
+        "dm geriatric mental health"
+      ]
+    },
+    "DM - Hepatology": {
+      "canonical_name": "DM - Hepatology",
+      "level": "SS",
+      "aliases": [
+        "DM - Hepatology",
+        "dm - hepatology",
+        "dm hepatology"
+      ]
+    },
+    "DM - Infectious Disease": {
+      "canonical_name": "DM - Infectious Disease",
+      "level": "SS",
+      "aliases": [
+        "DM - Infectious Disease",
+        "dm - infectious disease",
+        "dm infectious disease"
+      ]
+    },
+    "DM - Interventional Radiology": {
+      "canonical_name": "DM - Interventional Radiology",
+      "level": "SS",
+      "aliases": [
+        "DM - Interventional Radiology",
+        "dm - interventional radiology",
+        "dm interventional radiology"
+      ]
+    },
+    "DM - Medical Gastroenterology": {
+      "canonical_name": "DM - Medical Gastroenterology",
+      "level": "SS",
+      "aliases": [
+        "DM - Medical Gastroenterology",
+        "dm - medical gastroenterology",
+        "dm gastro",
+        "dm gastroenterology",
+        "dm medical gastroenterology"
+      ]
+    },
+    "DM - Medical Genetics": {
+      "canonical_name": "DM - Medical Genetics",
+      "level": "SS",
+      "aliases": [
+        "DM - Medical Genetics",
+        "dm - medical genetics",
+        "dm medical genetics"
+      ]
+    },
+    "DM - Medical Oncology": {
+      "canonical_name": "DM - Medical Oncology",
+      "level": "SS",
+      "aliases": [
+        "DM - Medical Oncology",
+        "dm - medical oncology",
+        "dm medical oncology",
+        "dm oncology"
+      ]
+    },
+    "DM - Neonatology": {
+      "canonical_name": "DM - Neonatology",
+      "level": "SS",
+      "aliases": [
+        "DM - Neonatology",
+        "dm - neonatology",
+        "dm neonatology"
+      ]
+    },
+    "DM - Nephrology": {
+      "canonical_name": "DM - Nephrology",
+      "level": "SS",
+      "aliases": [
+        "DM - Nephrology",
+        "dm - nephrology",
+        "dm nephrology"
+      ]
+    },
+    "DM - Neuro Anaesthesia": {
+      "canonical_name": "DM - Neuro Anaesthesia",
+      "level": "SS",
+      "aliases": [
+        "DM - Neuro Anaesthesia",
+        "dm - neuro anaesthesia",
+        "dm neuro anaesthesia"
+      ]
+    },
+    "DM - Neurology": {
+      "canonical_name": "DM - Neurology",
+      "level": "SS",
+      "aliases": [
+        "DM - Neurology",
+        "dm - neurology",
+        "dm neurology"
+      ]
+    },
+    "DM - Neuroradiology": {
+      "canonical_name": "DM - Neuroradiology",
+      "level": "SS",
+      "aliases": [
+        "DM - Neuroradiology",
+        "dm - neuroradiology",
+        "dm neuroradiology"
+      ]
+    },
+    "DM - Onco Pathology": {
+      "canonical_name": "DM - Onco Pathology",
+      "level": "SS",
+      "aliases": [
+        "DM - Onco Pathology",
+        "dm - onco pathology",
+        "dm onco pathology"
+      ]
+    },
+    "DM - Oncology": {
+      "canonical_name": "DM - Oncology",
+      "level": "SS",
+      "aliases": [
+        "DM - Oncology",
+        "dm - oncology",
+        "dm oncology"
+      ]
+    },
+    "DM - Organ Transplant Anaesthesia & Critical Care": {
+      "canonical_name": "DM - Organ Transplant Anaesthesia & Critical Care",
+      "level": "SS",
+      "aliases": [
+        "DM - Organ Transplant Anaesthesia & Critical Care",
+        "dm - organ transplant anaesthesia & critical care",
+        "dm organ transplant anaesthesia critical care"
+      ]
+    },
+    "DM - Paediatric & Neonatal Anaesthesia": {
+      "canonical_name": "DM - Paediatric & Neonatal Anaesthesia",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric & Neonatal Anaesthesia",
+        "dm - paediatric & neonatal anaesthesia",
+        "dm paediatric neonatal anaesthesia"
+      ]
+    },
+    "DM - Paediatric Cardiology": {
+      "canonical_name": "DM - Paediatric Cardiology",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric Cardiology",
+        "dm - paediatric cardiology",
+        "dm paediatric cardiology"
+      ]
+    },
+    "DM - Paediatric Gastroenterology": {
+      "canonical_name": "DM - Paediatric Gastroenterology",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric Gastroenterology",
+        "dm - paediatric gastroenterology",
+        "dm paediatric gastroenterology"
+      ]
+    },
+    "DM - Paediatric Hepatology": {
+      "canonical_name": "DM - Paediatric Hepatology",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric Hepatology",
+        "dm - paediatric hepatology",
+        "dm paediatric hepatology"
+      ]
+    },
+    "DM - Paediatric Nephrology": {
+      "canonical_name": "DM - Paediatric Nephrology",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric Nephrology",
+        "dm - paediatric nephrology",
+        "dm paediatric nephrology"
+      ]
+    },
+    "DM - Paediatric Neurology": {
+      "canonical_name": "DM - Paediatric Neurology",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric Neurology",
+        "dm - paediatric neurology",
+        "dm paediatric neurology"
+      ]
+    },
+    "DM - Paediatric Oncology": {
+      "canonical_name": "DM - Paediatric Oncology",
+      "level": "SS",
+      "aliases": [
+        "DM - Paediatric Oncology",
+        "dm - paediatric oncology",
+        "dm paediatric oncology"
+      ]
+    },
+    "DM - Pulmonary & Critical Care Medicine": {
+      "canonical_name": "DM - Pulmonary & Critical Care Medicine",
+      "level": "SS",
+      "aliases": [
+        "DM - Pulmonary & Critical Care Medicine",
+        "dm - pulmonary & critical care medicine",
+        "dm pulmonary critical care medicine"
+      ]
+    },
+    "DM - Pulmonary Medicine": {
+      "canonical_name": "DM - Pulmonary Medicine",
+      "level": "SS",
+      "aliases": [
+        "DM - Pulmonary Medicine",
+        "dm - pulmonary medicine",
+        "dm pulmonary medicine"
+      ]
+    },
+    "DM - Virology": {
+      "canonical_name": "DM - Virology",
+      "level": "SS",
+      "aliases": [
+        "DM - Virology",
+        "dm - virology",
+        "dm virology"
+      ]
+    },
+    "DM/M.Ch - Reproductive Medicine & Surgery": {
+      "canonical_name": "DM/M.Ch - Reproductive Medicine & Surgery",
+      "level": "SS",
+      "aliases": [
+        "DM/M.Ch - Reproductive Medicine & Surgery",
+        "dm m ch reproductive medicine surgery",
+        "dm/m.ch - reproductive medicine & surgery"
+      ]
+    },
+    "Diploma - Anaesthesiology": {
+      "canonical_name": "Diploma - Anaesthesiology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Anaesthesiology",
+        "diploma - anaesthesiology",
+        "diploma anaesthesiology"
+      ]
+    },
+    "Diploma - Community Medicine": {
+      "canonical_name": "Diploma - Community Medicine",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Community Medicine",
+        "diploma - community medicine",
+        "diploma community medicine"
+      ]
+    },
+    "Diploma - Dermatology, Venereology & Leprosy": {
+      "canonical_name": "Diploma - Dermatology, Venereology & Leprosy",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Dermatology, Venereology & Leprosy",
+        "diploma - dermatology, venereology & leprosy",
+        "diploma dermatology venereology leprosy"
+      ]
+    },
+    "Diploma - Diabetology": {
+      "canonical_name": "Diploma - Diabetology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Diabetology",
+        "diploma - diabetology",
+        "diploma diabetology"
+      ]
+    },
+    "Diploma - Forensic Medicine & Toxicology": {
+      "canonical_name": "Diploma - Forensic Medicine & Toxicology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Forensic Medicine & Toxicology",
+        "diploma - forensic medicine & toxicology",
+        "diploma forensic medicine toxicology"
+      ]
+    },
+    "Diploma - Hospital Administration": {
+      "canonical_name": "Diploma - Hospital Administration",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Hospital Administration",
+        "diploma - hospital administration",
+        "diploma hospital administration"
+      ]
+    },
+    "Diploma - Immunohematology & Blood Transfusion": {
+      "canonical_name": "Diploma - Immunohematology & Blood Transfusion",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Immunohematology & Blood Transfusion",
+        "diploma - immunohematology & blood transfusion",
+        "diploma immunohematology blood transfusion"
+      ]
+    },
+    "Diploma - Marine Medicine": {
+      "canonical_name": "Diploma - Marine Medicine",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Marine Medicine",
+        "diploma - marine medicine",
+        "diploma marine medicine"
+      ]
+    },
+    "Diploma - Obstetrics & Gynaecology": {
+      "canonical_name": "Diploma - Obstetrics & Gynaecology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Obstetrics & Gynaecology",
+        "diploma - obstetrics & gynaecology",
+        "diploma obstetrics gynaecology"
+      ]
+    },
+    "Diploma - Ophthalmology": {
+      "canonical_name": "Diploma - Ophthalmology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Ophthalmology",
+        "diploma - ophthalmology",
+        "diploma ophthalmology"
+      ]
+    },
+    "Diploma - Orthopaedics": {
+      "canonical_name": "Diploma - Orthopaedics",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Orthopaedics",
+        "diploma - orthopaedics",
+        "diploma orthopaedics"
+      ]
+    },
+    "Diploma - Otorhinolaryngology (ENT)": {
+      "canonical_name": "Diploma - Otorhinolaryngology (ENT)",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Otorhinolaryngology (ENT)",
+        "diploma - otorhinolaryngology (ent)",
+        "diploma otorhinolaryngology ent"
+      ]
+    },
+    "Diploma - Paediatrics": {
+      "canonical_name": "Diploma - Paediatrics",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Paediatrics",
+        "diploma - paediatrics",
+        "diploma paediatrics"
+      ]
+    },
+    "Diploma - Pathology": {
+      "canonical_name": "Diploma - Pathology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Pathology",
+        "diploma - pathology",
+        "diploma pathology"
+      ]
+    },
+    "Diploma - Psychiatry": {
+      "canonical_name": "Diploma - Psychiatry",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Psychiatry",
+        "diploma - psychiatry",
+        "diploma psychiatry"
+      ]
+    },
+    "Diploma - Public Health": {
+      "canonical_name": "Diploma - Public Health",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Public Health",
+        "diploma - public health",
+        "diploma public health"
+      ]
+    },
+    "Diploma - Radiation Medicine": {
+      "canonical_name": "Diploma - Radiation Medicine",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Radiation Medicine",
+        "diploma - radiation medicine",
+        "diploma radiation medicine"
+      ]
+    },
+    "Diploma - Radiation Oncology": {
+      "canonical_name": "Diploma - Radiation Oncology",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Radiation Oncology",
+        "diploma - radiation oncology",
+        "diploma radiation oncology"
+      ]
+    },
+    "Diploma - Radio Diagnosis": {
+      "canonical_name": "Diploma - Radio Diagnosis",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Radio Diagnosis",
+        "diploma - radio diagnosis",
+        "diploma radio diagnosis"
+      ]
+    },
+    "Diploma - Sports Medicine": {
+      "canonical_name": "Diploma - Sports Medicine",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Sports Medicine",
+        "diploma - sports medicine",
+        "diploma sports medicine"
+      ]
+    },
+    "Diploma - Tuberculosis & Respiratory Diseases": {
+      "canonical_name": "Diploma - Tuberculosis & Respiratory Diseases",
+      "level": "PG",
+      "aliases": [
+        "Diploma - Tuberculosis & Respiratory Diseases",
+        "diploma - tuberculosis & respiratory diseases",
+        "diploma tuberculosis respiratory diseases"
+      ]
+    },
+    "M.Ch - Cardiovascular & Thoracic Surgery": {
+      "canonical_name": "M.Ch - Cardiovascular & Thoracic Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Cardiovascular & Thoracic Surgery",
+        "m ch cardiovascular thoracic surgery",
+        "m.ch - cardiovascular & thoracic surgery",
+        "mch cvts"
+      ]
+    },
+    "M.Ch - Endocrine Surgery": {
+      "canonical_name": "M.Ch - Endocrine Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Endocrine Surgery",
+        "m ch endocrine surgery",
+        "m.ch - endocrine surgery"
+      ]
+    },
+    "M.Ch - Gynaecological Oncology": {
+      "canonical_name": "M.Ch - Gynaecological Oncology",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Gynaecological Oncology",
+        "m ch gynaecological oncology",
+        "m.ch - gynaecological oncology"
+      ]
+    },
+    "M.Ch - Hand Surgery": {
+      "canonical_name": "M.Ch - Hand Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Hand Surgery",
+        "m ch hand surgery",
+        "m.ch - hand surgery"
+      ]
+    },
+    "M.Ch - Head & Neck Surgery": {
+      "canonical_name": "M.Ch - Head & Neck Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Head & Neck Surgery",
+        "m ch head neck surgery",
+        "m.ch - head & neck surgery"
+      ]
+    },
+    "M.Ch - Hepato Pancreato Biliary Surgery": {
+      "canonical_name": "M.Ch - Hepato Pancreato Biliary Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Hepato Pancreato Biliary Surgery",
+        "m ch hepato pancreato biliary surgery",
+        "m.ch - hepato pancreato biliary surgery"
+      ]
+    },
+    "M.Ch - Neuro Surgery": {
+      "canonical_name": "M.Ch - Neuro Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Neuro Surgery",
+        "m ch neuro surgery",
+        "m.ch - neuro surgery",
+        "mch neuro surgery",
+        "mch neurosurgery"
+      ]
+    },
+    "M.Ch - Paediatric Orthopaedics": {
+      "canonical_name": "M.Ch - Paediatric Orthopaedics",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Paediatric Orthopaedics",
+        "m ch paediatric orthopaedics",
+        "m.ch - paediatric orthopaedics"
+      ]
+    },
+    "M.Ch - Paediatric Surgery": {
+      "canonical_name": "M.Ch - Paediatric Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Paediatric Surgery",
+        "m ch paediatric surgery",
+        "m.ch - paediatric surgery"
+      ]
+    },
+    "M.Ch - Plastic & Reconstructive Surgery": {
+      "canonical_name": "M.Ch - Plastic & Reconstructive Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Plastic & Reconstructive Surgery",
+        "m ch plastic reconstructive surgery",
+        "m.ch - plastic & reconstructive surgery",
+        "mch plastic surgery"
+      ]
+    },
+    "M.Ch - Surgical Gastroenterology": {
+      "canonical_name": "M.Ch - Surgical Gastroenterology",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Surgical Gastroenterology",
+        "m ch surgical gastroenterology",
+        "m.ch - surgical gastroenterology",
+        "mch surgical gastroenterology"
+      ]
+    },
+    "M.Ch - Surgical Oncology": {
+      "canonical_name": "M.Ch - Surgical Oncology",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Surgical Oncology",
+        "m ch surgical oncology",
+        "m.ch - surgical oncology",
+        "mch surgical oncology"
+      ]
+    },
+    "M.Ch - Thoracic Surgery": {
+      "canonical_name": "M.Ch - Thoracic Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Thoracic Surgery",
+        "m ch thoracic surgery",
+        "m.ch - thoracic surgery"
+      ]
+    },
+    "M.Ch - Urology": {
+      "canonical_name": "M.Ch - Urology",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Urology",
+        "m ch urology",
+        "m.ch - urology",
+        "mch urology"
+      ]
+    },
+    "M.Ch - Vascular Surgery": {
+      "canonical_name": "M.Ch - Vascular Surgery",
+      "level": "SS",
+      "aliases": [
+        "M.Ch - Vascular Surgery",
+        "m ch vascular surgery",
+        "m.ch - vascular surgery"
+      ]
+    },
+    "MBBS": {
+      "canonical_name": "MBBS",
+      "level": "UG",
+      "aliases": [
+        "MBBS",
+        "bachelor of medicine & bachelor of surgery",
+        "bachelor of medicine and bachelor of surgery",
+        "m.b.b.s",
+        "m.b.b.s.",
+        "mbbs"
+      ]
+    },
+    "MD - Aerospace Medicine": {
+      "canonical_name": "MD - Aerospace Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Aerospace Medicine",
+        "md - aerospace medicine",
+        "md aerospace medicine"
+      ]
+    },
+    "MD - Anaesthesiology": {
+      "canonical_name": "MD - Anaesthesiology",
+      "level": "PG",
+      "aliases": [
+        "MD - Anaesthesiology",
+        "md - anaesthesiology",
+        "md anaesthesiology",
+        "md anesthesia"
+      ]
+    },
+    "MD - Anatomy": {
+      "canonical_name": "MD - Anatomy",
+      "level": "PG",
+      "aliases": [
+        "MD - Anatomy",
+        "md - anatomy",
+        "md anatomy"
+      ]
+    },
+    "MD - Biochemistry": {
+      "canonical_name": "MD - Biochemistry",
+      "level": "PG",
+      "aliases": [
+        "MD - Biochemistry",
+        "md - biochemistry",
+        "md biochem",
+        "md biochemistry"
+      ]
+    },
+    "MD - Biophysics": {
+      "canonical_name": "MD - Biophysics",
+      "level": "PG",
+      "aliases": [
+        "MD - Biophysics",
+        "md - biophysics",
+        "md biophysics"
+      ]
+    },
+    "MD - Community Health Administration": {
+      "canonical_name": "MD - Community Health Administration",
+      "level": "PG",
+      "aliases": [
+        "MD - Community Health Administration",
+        "md - community health administration",
+        "md community health administration"
+      ]
+    },
+    "MD - Community Medicine": {
+      "canonical_name": "MD - Community Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Community Medicine",
+        "md - community medicine",
+        "md community medicine",
+        "md psm",
+        "md spm"
+      ]
+    },
+    "MD - Dermatology, Venereology & Leprosy": {
+      "canonical_name": "MD - Dermatology, Venereology & Leprosy",
+      "level": "PG",
+      "aliases": [
+        "MD - Dermatology, Venereology & Leprosy",
+        "md - dermatology, venereology & leprosy",
+        "md derm",
+        "md dermatology",
+        "md dermatology venereology leprosy",
+        "md dvl"
+      ]
+    },
+    "MD - Emergency Medicine": {
+      "canonical_name": "MD - Emergency Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Emergency Medicine",
+        "md - emergency medicine",
+        "md emergency medicine"
+      ]
+    },
+    "MD - Family Medicine": {
+      "canonical_name": "MD - Family Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Family Medicine",
+        "md - family medicine",
+        "md family medicine"
+      ]
+    },
+    "MD - Forensic Medicine & Toxicology": {
+      "canonical_name": "MD - Forensic Medicine & Toxicology",
+      "level": "PG",
+      "aliases": [
+        "MD - Forensic Medicine & Toxicology",
+        "md - forensic medicine & toxicology",
+        "md fmt",
+        "md forensic medicine",
+        "md forensic medicine toxicology"
+      ]
+    },
+    "MD - General Medicine": {
+      "canonical_name": "MD - General Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - General Medicine",
+        "m.d. general medicine",
+        "md - general medicine",
+        "md gen med",
+        "md general medicine"
+      ]
+    },
+    "MD - General Surgery": {
+      "canonical_name": "MD - General Surgery",
+      "level": "PG",
+      "aliases": [
+        "MD - General Surgery",
+        "md - general surgery",
+        "md general surgery"
+      ]
+    },
+    "MD - Geriatrics": {
+      "canonical_name": "MD - Geriatrics",
+      "level": "PG",
+      "aliases": [
+        "MD - Geriatrics",
+        "md - geriatrics",
+        "md geriatrics"
+      ]
+    },
+    "MD - Hospital Administration": {
+      "canonical_name": "MD - Hospital Administration",
+      "level": "PG",
+      "aliases": [
+        "MD - Hospital Administration",
+        "md - hospital administration",
+        "md hospital administration"
+      ]
+    },
+    "MD - Immunohematology & Blood Transfusion": {
+      "canonical_name": "MD - Immunohematology & Blood Transfusion",
+      "level": "PG",
+      "aliases": [
+        "MD - Immunohematology & Blood Transfusion",
+        "md - immunohematology & blood transfusion",
+        "md immunohematology blood transfusion"
+      ]
+    },
+    "MD - Interventional Radiology": {
+      "canonical_name": "MD - Interventional Radiology",
+      "level": "PG",
+      "aliases": [
+        "MD - Interventional Radiology",
+        "md - interventional radiology",
+        "md interventional radiology"
+      ]
+    },
+    "MD - Laboratory Medicine": {
+      "canonical_name": "MD - Laboratory Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Laboratory Medicine",
+        "md - laboratory medicine",
+        "md laboratory medicine"
+      ]
+    },
+    "MD - Microbiology": {
+      "canonical_name": "MD - Microbiology",
+      "level": "PG",
+      "aliases": [
+        "MD - Microbiology",
+        "md - microbiology",
+        "md micro",
+        "md microbiology"
+      ]
+    },
+    "MD - Nuclear Medicine": {
+      "canonical_name": "MD - Nuclear Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Nuclear Medicine",
+        "md - nuclear medicine",
+        "md nuclear medicine"
+      ]
+    },
+    "MD - Obstetrics & Gynaecology": {
+      "canonical_name": "MD - Obstetrics & Gynaecology",
+      "level": "PG",
+      "aliases": [
+        "MD - Obstetrics & Gynaecology",
+        "md - obstetrics & gynaecology",
+        "md obstetrics gynaecology"
+      ]
+    },
+    "MD - Ophthalmology": {
+      "canonical_name": "MD - Ophthalmology",
+      "level": "PG",
+      "aliases": [
+        "MD - Ophthalmology",
+        "md - ophthalmology",
+        "md ophthalmology"
+      ]
+    },
+    "MD - Orthopaedics": {
+      "canonical_name": "MD - Orthopaedics",
+      "level": "PG",
+      "aliases": [
+        "MD - Orthopaedics",
+        "md - orthopaedics",
+        "md orthopaedics"
+      ]
+    },
+    "MD - Paediatrics": {
+      "canonical_name": "MD - Paediatrics",
+      "level": "PG",
+      "aliases": [
+        "MD - Paediatrics",
+        "md - paediatrics",
+        "md paediatrics",
+        "md ped",
+        "md pediatrics"
+      ]
+    },
+    "MD - Palliative Medicine": {
+      "canonical_name": "MD - Palliative Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Palliative Medicine",
+        "md - palliative medicine",
+        "md palliative medicine"
+      ]
+    },
+    "MD - Pathology": {
+      "canonical_name": "MD - Pathology",
+      "level": "PG",
+      "aliases": [
+        "MD - Pathology",
+        "md - pathology",
+        "md path",
+        "md pathology"
+      ]
+    },
+    "MD - Pharmacology": {
+      "canonical_name": "MD - Pharmacology",
+      "level": "PG",
+      "aliases": [
+        "MD - Pharmacology",
+        "md - pharmacology",
+        "md pharm",
+        "md pharmacology"
+      ]
+    },
+    "MD - Physical Medicine & Rehabilitation": {
+      "canonical_name": "MD - Physical Medicine & Rehabilitation",
+      "level": "PG",
+      "aliases": [
+        "MD - Physical Medicine & Rehabilitation",
+        "md - physical medicine & rehabilitation",
+        "md physical medicine rehabilitation"
+      ]
+    },
+    "MD - Physiology": {
+      "canonical_name": "MD - Physiology",
+      "level": "PG",
+      "aliases": [
+        "MD - Physiology",
+        "md - physiology",
+        "md physio",
+        "md physiology"
+      ]
+    },
+    "MD - Psychiatry": {
+      "canonical_name": "MD - Psychiatry",
+      "level": "PG",
+      "aliases": [
+        "MD - Psychiatry",
+        "md - psychiatry",
+        "md psych",
+        "md psychiatry"
+      ]
+    },
+    "MD - Public Health": {
+      "canonical_name": "MD - Public Health",
+      "level": "PG",
+      "aliases": [
+        "MD - Public Health",
+        "md - public health",
+        "md public health"
+      ]
+    },
+    "MD - Radiation Oncology": {
+      "canonical_name": "MD - Radiation Oncology",
+      "level": "PG",
+      "aliases": [
+        "MD - Radiation Oncology",
+        "md - radiation oncology",
+        "md radiation oncology"
+      ]
+    },
+    "MD - Radio Diagnosis": {
+      "canonical_name": "MD - Radio Diagnosis",
+      "level": "PG",
+      "aliases": [
+        "MD - Radio Diagnosis",
+        "md - radio diagnosis",
+        "md radio diagnosis",
+        "md radiodiagnosis",
+        "md radiology"
+      ]
+    },
+    "MD - Sports Medicine": {
+      "canonical_name": "MD - Sports Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Sports Medicine",
+        "md - sports medicine",
+        "md sports medicine"
+      ]
+    },
+    "MD - Tropical Medicine": {
+      "canonical_name": "MD - Tropical Medicine",
+      "level": "PG",
+      "aliases": [
+        "MD - Tropical Medicine",
+        "md - tropical medicine",
+        "md tropical medicine"
+      ]
+    },
+    "MD - Tuberculosis & Respiratory Diseases": {
+      "canonical_name": "MD - Tuberculosis & Respiratory Diseases",
+      "level": "PG",
+      "aliases": [
+        "MD - Tuberculosis & Respiratory Diseases",
+        "md - tuberculosis & respiratory diseases",
+        "md tuberculosis respiratory diseases"
+      ]
+    },
+    "MD/MS - Anatomy": {
+      "canonical_name": "MD/MS - Anatomy",
+      "level": "PG",
+      "aliases": [
+        "MD/MS - Anatomy",
+        "md ms anatomy",
+        "md/ms - anatomy"
+      ]
+    },
+    "MD/MS - Ophthalmology": {
+      "canonical_name": "MD/MS - Ophthalmology",
+      "level": "PG",
+      "aliases": [
+        "MD/MS - Ophthalmology",
+        "md ms ophthalmology",
+        "md/ms - ophthalmology"
+      ]
+    },
+    "MS - Anatomy": {
+      "canonical_name": "MS - Anatomy",
+      "level": "PG",
+      "aliases": [
+        "MS - Anatomy",
+        "ms - anatomy",
+        "ms anatomy"
+      ]
+    },
+    "MS - General Surgery": {
+      "canonical_name": "MS - General Surgery",
+      "level": "PG",
+      "aliases": [
+        "MS - General Surgery",
+        "m.s. general surgery",
+        "ms - general surgery",
+        "ms gen surg",
+        "ms general surgery"
+      ]
+    },
+    "MS - Obstetrics & Gynaecology": {
+      "canonical_name": "MS - Obstetrics & Gynaecology",
+      "level": "PG",
+      "aliases": [
+        "MS - Obstetrics & Gynaecology",
+        "md/ms obstetrics & gynaecology",
+        "ms - obstetrics & gynaecology",
+        "ms obgy",
+        "ms obstetrics & gynaecology",
+        "ms obstetrics gynaecology"
+      ]
+    },
+    "MS - Ophthalmology": {
+      "canonical_name": "MS - Ophthalmology",
+      "level": "PG",
+      "aliases": [
+        "MS - Ophthalmology",
+        "ms - ophthalmology",
+        "ms eye",
+        "ms ophthalmology"
+      ]
+    },
+    "MS - Orthopaedics": {
+      "canonical_name": "MS - Orthopaedics",
+      "level": "PG",
+      "aliases": [
+        "MS - Orthopaedics",
+        "ms - orthopaedics",
+        "ms ortho",
+        "ms orthopaedics"
+      ]
+    },
+    "MS - Otorhinolaryngology (ENT)": {
+      "canonical_name": "MS - Otorhinolaryngology (ENT)",
+      "level": "PG",
+      "aliases": [
+        "MS - Otorhinolaryngology (ENT)",
+        "ms - otorhinolaryngology (ent)",
+        "ms ent",
+        "ms otorhinolaryngology",
+        "ms otorhinolaryngology ent"
+      ]
+    },
+    "MS - Traumatology & Surgery": {
+      "canonical_name": "MS - Traumatology & Surgery",
+      "level": "PG",
+      "aliases": [
+        "MS - Traumatology & Surgery",
+        "ms - traumatology & surgery",
+        "ms traumatology surgery"
+      ]
+    }
+  },
+  "alias_map": {
+    "b sc nursing": "B.Sc. Nursing",
+    "bachelor of science in nursing": "B.Sc. Nursing",
+    "bsc nursing": "B.Sc. Nursing",
+    "bds": "BDS",
+    "b d s": "BDS",
+    "bachelor of dental surgery": "BDS",
+    "dm cardiac anaesthesia": "DM - Cardiac Anaesthesia",
+    "dm cardiology": "DM - Cardiology",
+    "dm clinical hematology": "DM - Clinical Hematology",
+    "dm clinical immunology rheumatology": "DM - Clinical Immunology & Rheumatology",
+    "dm clinical pharmacology": "DM - Clinical Pharmacology",
+    "dm critical care medicine": "DM - Critical Care Medicine",
+    "dm endocrinology": "DM - Endocrinology",
+    "dm geriatric mental health": "DM - Geriatric Mental Health",
+    "dm hepatology": "DM - Hepatology",
+    "dm infectious disease": "DM - Infectious Disease",
+    "dm interventional radiology": "DM - Interventional Radiology",
+    "dm medical gastroenterology": "DM - Medical Gastroenterology",
+    "dm gastro": "DM - Medical Gastroenterology",
+    "dm gastroenterology": "DM - Medical Gastroenterology",
+    "dm medical genetics": "DM - Medical Genetics",
+    "dm medical oncology": "DM - Medical Oncology",
+    "dm oncology": "DM - Oncology",
+    "dm neonatology": "DM - Neonatology",
+    "dm nephrology": "DM - Nephrology",
+    "dm neuro anaesthesia": "DM - Neuro Anaesthesia",
+    "dm neurology": "DM - Neurology",
+    "dm neuroradiology": "DM - Neuroradiology",
+    "dm onco pathology": "DM - Onco Pathology",
+    "dm organ transplant anaesthesia critical care": "DM - Organ Transplant Anaesthesia & Critical Care",
+    "dm paediatric neonatal anaesthesia": "DM - Paediatric & Neonatal Anaesthesia",
+    "dm paediatric cardiology": "DM - Paediatric Cardiology",
+    "dm paediatric gastroenterology": "DM - Paediatric Gastroenterology",
+    "dm paediatric hepatology": "DM - Paediatric Hepatology",
+    "dm paediatric nephrology": "DM - Paediatric Nephrology",
+    "dm paediatric neurology": "DM - Paediatric Neurology",
+    "dm paediatric oncology": "DM - Paediatric Oncology",
+    "dm pulmonary critical care medicine": "DM - Pulmonary & Critical Care Medicine",
+    "dm pulmonary medicine": "DM - Pulmonary Medicine",
+    "dm virology": "DM - Virology",
+    "dm m ch reproductive medicine surgery": "DM/M.Ch - Reproductive Medicine & Surgery",
+    "diploma anaesthesiology": "Diploma - Anaesthesiology",
+    "diploma community medicine": "Diploma - Community Medicine",
+    "diploma dermatology venereology leprosy": "Diploma - Dermatology, Venereology & Leprosy",
+    "diploma diabetology": "Diploma - Diabetology",
+    "diploma forensic medicine toxicology": "Diploma - Forensic Medicine & Toxicology",
+    "diploma hospital administration": "Diploma - Hospital Administration",
+    "diploma immunohematology blood transfusion": "Diploma - Immunohematology & Blood Transfusion",
+    "diploma marine medicine": "Diploma - Marine Medicine",
+    "diploma obstetrics gynaecology": "Diploma - Obstetrics & Gynaecology",
+    "diploma ophthalmology": "Diploma - Ophthalmology",
+    "diploma orthopaedics": "Diploma - Orthopaedics",
+    "diploma otorhinolaryngology ent": "Diploma - Otorhinolaryngology (ENT)",
+    "diploma paediatrics": "Diploma - Paediatrics",
+    "diploma pathology": "Diploma - Pathology",
+    "diploma psychiatry": "Diploma - Psychiatry",
+    "diploma public health": "Diploma - Public Health",
+    "diploma radiation medicine": "Diploma - Radiation Medicine",
+    "diploma radiation oncology": "Diploma - Radiation Oncology",
+    "diploma radio diagnosis": "Diploma - Radio Diagnosis",
+    "diploma sports medicine": "Diploma - Sports Medicine",
+    "diploma tuberculosis respiratory diseases": "Diploma - Tuberculosis & Respiratory Diseases",
+    "m ch cardiovascular thoracic surgery": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "mch cvts": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "m ch endocrine surgery": "M.Ch - Endocrine Surgery",
+    "m ch gynaecological oncology": "M.Ch - Gynaecological Oncology",
+    "m ch hand surgery": "M.Ch - Hand Surgery",
+    "m ch head neck surgery": "M.Ch - Head & Neck Surgery",
+    "m ch hepato pancreato biliary surgery": "M.Ch - Hepato Pancreato Biliary Surgery",
+    "m ch neuro surgery": "M.Ch - Neuro Surgery",
+    "mch neuro surgery": "M.Ch - Neuro Surgery",
+    "mch neurosurgery": "M.Ch - Neuro Surgery",
+    "m ch paediatric orthopaedics": "M.Ch - Paediatric Orthopaedics",
+    "m ch paediatric surgery": "M.Ch - Paediatric Surgery",
+    "m ch plastic reconstructive surgery": "M.Ch - Plastic & Reconstructive Surgery",
+    "mch plastic surgery": "M.Ch - Plastic & Reconstructive Surgery",
+    "m ch surgical gastroenterology": "M.Ch - Surgical Gastroenterology",
+    "mch surgical gastroenterology": "M.Ch - Surgical Gastroenterology",
+    "m ch surgical oncology": "M.Ch - Surgical Oncology",
+    "mch surgical oncology": "M.Ch - Surgical Oncology",
+    "m ch thoracic surgery": "M.Ch - Thoracic Surgery",
+    "m ch urology": "M.Ch - Urology",
+    "mch urology": "M.Ch - Urology",
+    "m ch vascular surgery": "M.Ch - Vascular Surgery",
+    "mbbs": "MBBS",
+    "bachelor of medicine bachelor of surgery": "MBBS",
+    "bachelor of medicine and bachelor of surgery": "MBBS",
+    "m b b s": "MBBS",
+    "md aerospace medicine": "MD - Aerospace Medicine",
+    "md anaesthesiology": "MD - Anaesthesiology",
+    "md anesthesia": "MD - Anaesthesiology",
+    "md anatomy": "MD - Anatomy",
+    "md biochemistry": "MD - Biochemistry",
+    "md biochem": "MD - Biochemistry",
+    "md biophysics": "MD - Biophysics",
+    "md community health administration": "MD - Community Health Administration",
+    "md community medicine": "MD - Community Medicine",
+    "md psm": "MD - Community Medicine",
+    "md spm": "MD - Community Medicine",
+    "md dermatology venereology leprosy": "MD - Dermatology, Venereology & Leprosy",
+    "md derm": "MD - Dermatology, Venereology & Leprosy",
+    "md dermatology": "MD - Dermatology, Venereology & Leprosy",
+    "md dvl": "MD - Dermatology, Venereology & Leprosy",
+    "md emergency medicine": "MD - Emergency Medicine",
+    "md family medicine": "MD - Family Medicine",
+    "md forensic medicine toxicology": "MD - Forensic Medicine & Toxicology",
+    "md fmt": "MD - Forensic Medicine & Toxicology",
+    "md forensic medicine": "MD - Forensic Medicine & Toxicology",
+    "md general medicine": "MD - General Medicine",
+    "m d general medicine": "MD - General Medicine",
+    "md gen med": "MD - General Medicine",
+    "md general surgery": "MD - General Surgery",
+    "md geriatrics": "MD - Geriatrics",
+    "md hospital administration": "MD - Hospital Administration",
+    "md immunohematology blood transfusion": "MD - Immunohematology & Blood Transfusion",
+    "md interventional radiology": "MD - Interventional Radiology",
+    "md laboratory medicine": "MD - Laboratory Medicine",
+    "md microbiology": "MD - Microbiology",
+    "md micro": "MD - Microbiology",
+    "md nuclear medicine": "MD - Nuclear Medicine",
+    "md obstetrics gynaecology": "MD - Obstetrics & Gynaecology",
+    "md ophthalmology": "MD - Ophthalmology",
+    "md orthopaedics": "MD - Orthopaedics",
+    "md paediatrics": "MD - Paediatrics",
+    "md ped": "MD - Paediatrics",
+    "md pediatrics": "MD - Paediatrics",
+    "md palliative medicine": "MD - Palliative Medicine",
+    "md pathology": "MD - Pathology",
+    "md path": "MD - Pathology",
+    "md pharmacology": "MD - Pharmacology",
+    "md pharm": "MD - Pharmacology",
+    "md physical medicine rehabilitation": "MD - Physical Medicine & Rehabilitation",
+    "md physiology": "MD - Physiology",
+    "md physio": "MD - Physiology",
+    "md psychiatry": "MD - Psychiatry",
+    "md psych": "MD - Psychiatry",
+    "md public health": "MD - Public Health",
+    "md radiation oncology": "MD - Radiation Oncology",
+    "md radio diagnosis": "MD - Radio Diagnosis",
+    "md radiodiagnosis": "MD - Radio Diagnosis",
+    "md radiology": "MD - Radio Diagnosis",
+    "md sports medicine": "MD - Sports Medicine",
+    "md tropical medicine": "MD - Tropical Medicine",
+    "md tuberculosis respiratory diseases": "MD - Tuberculosis & Respiratory Diseases",
+    "md ms anatomy": "MD/MS - Anatomy",
+    "md ms ophthalmology": "MD/MS - Ophthalmology",
+    "ms anatomy": "MS - Anatomy",
+    "ms general surgery": "MS - General Surgery",
+    "m s general surgery": "MS - General Surgery",
+    "ms gen surg": "MS - General Surgery",
+    "ms obstetrics gynaecology": "MS - Obstetrics & Gynaecology",
+    "md ms obstetrics gynaecology": "MS - Obstetrics & Gynaecology",
+    "ms obgy": "MS - Obstetrics & Gynaecology",
+    "ms ophthalmology": "MS - Ophthalmology",
+    "ms eye": "MS - Ophthalmology",
+    "ms orthopaedics": "MS - Orthopaedics",
+    "ms ortho": "MS - Orthopaedics",
+    "ms otorhinolaryngology ent": "MS - Otorhinolaryngology (ENT)",
+    "ms ent": "MS - Otorhinolaryngology (ENT)",
+    "ms otorhinolaryngology": "MS - Otorhinolaryngology (ENT)",
+    "ms traumatology surgery": "MS - Traumatology & Surgery"
+  }
+}

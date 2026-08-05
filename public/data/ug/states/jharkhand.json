@@ -1,6 +1,20 @@
 [
   {
-    "college_id": "ug_jh001g1",
+    "college_id": "ug_in006i1",
+    "college_name": "All India Institute of Medical Sciences, Deoghar",
+    "college_type": "INI",
+    "state": "Jharkhand",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_jh002g1",
     "college_name": "Dumka Medical College, Dighi Dumka",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -9,10 +23,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh001g1",
+    "college_id": "ug_jh002g1",
     "college_name": "Dumka Medical College, Dighi Dumka",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -21,10 +37,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh002g1",
+    "college_id": "ug_jh003g1",
     "college_name": "Hazaribagh Medical College, Hazaribagh",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -33,10 +51,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh002g1",
+    "college_id": "ug_jh003g1",
     "college_name": "Hazaribagh Medical College, Hazaribagh",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -45,10 +65,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh003p3",
+    "college_id": "ug_jh001p3",
     "college_name": "Laxmi Chandravansi Medical College & Hospital",
     "college_type": "Private",
     "state": "Jharkhand",
@@ -57,10 +79,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 50,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh003p3",
+    "college_id": "ug_jh001p3",
     "college_name": "Laxmi Chandravansi Medical College & Hospital",
     "college_type": "Private",
     "state": "Jharkhand",
@@ -69,10 +93,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 35,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh003p3",
+    "college_id": "ug_jh001p3",
     "college_name": "Laxmi Chandravansi Medical College & Hospital",
     "college_type": "Private",
     "state": "Jharkhand",
@@ -81,7 +107,9 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 15,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_jh004g1",
@@ -93,7 +121,9 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_jh004g1",
@@ -105,47 +135,55 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh005p3",
+    "college_id": "ug_in058p3",
     "college_name": "Manipal Tata Medical College, Baridih Jameshedpur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Jharkhand",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh005p3",
+    "college_id": "ug_in058p3",
     "college_name": "Manipal Tata Medical College, Baridih Jameshedpur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Jharkhand",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh005p3",
+    "college_id": "ug_in058p3",
     "college_name": "Manipal Tata Medical College, Baridih Jameshedpur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Jharkhand",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh006p4",
-    "college_name": "Netaji Subhas Medical College and Hospital",
+    "college_id": "ug_jh002p3",
+    "college_name": "Netaji Subhas Medical College and Hospital, Jharkhand",
     "college_type": "Private",
     "state": "Jharkhand",
     "course": "MBBS",
@@ -153,11 +191,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 50,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh006p4",
-    "college_name": "Netaji Subhas Medical College and Hospital",
+    "college_id": "ug_jh002p3",
+    "college_name": "Netaji Subhas Medical College and Hospital, Jharkhand",
     "college_type": "Private",
     "state": "Jharkhand",
     "course": "MBBS",
@@ -165,11 +205,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 35,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh006p4",
-    "college_name": "Netaji Subhas Medical College and Hospital",
+    "college_id": "ug_jh002p3",
+    "college_name": "Netaji Subhas Medical College and Hospital, Jharkhand",
     "college_type": "Private",
     "state": "Jharkhand",
     "course": "MBBS",
@@ -177,10 +219,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 15,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh007g1",
+    "college_id": "ug_jh005g1",
     "college_name": "Palamu Medical College, Palamu",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -189,10 +233,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh007g1",
+    "college_id": "ug_jh005g1",
     "college_name": "Palamu Medical College, Palamu",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -201,10 +247,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh008g1",
+    "college_id": "ug_jh006g1",
     "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -213,10 +261,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 27,
-    "seats_inc": 10
+    "seats_inc": 10,
+    "pg_seats": 176,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_jh008g1",
+    "college_id": "ug_jh006g1",
     "college_name": "Rajendra Institute of Medical Sciences, Ranchi",
     "college_type": "Government",
     "state": "Jharkhand",
@@ -225,11 +275,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 153,
-    "seats_inc": 60
+    "seats_inc": 60,
+    "pg_seats": 176,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_jh009g1",
-    "college_name": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad (formely known as Patliputra Medical College, Dhanbad)",
+    "college_id": "ug_jh008g1",
+    "college_name": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad",
     "college_type": "Government",
     "state": "Jharkhand",
     "course": "MBBS",
@@ -237,11 +289,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 19,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_jh009g1",
-    "college_name": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad (formely known as Patliputra Medical College, Dhanbad)",
+    "college_id": "ug_jh008g1",
+    "college_name": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad",
     "college_type": "Government",
     "state": "Jharkhand",
     "course": "MBBS",
@@ -249,10 +303,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 19,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sido_kanhu_medical_college_and_hospital_jharkhand",
+    "college_id": "ug_jh003p3",
     "college_name": "Sido Kanhu Medical College and Hospital",
     "college_type": "Private",
     "state": "Jharkhand",
@@ -261,10 +317,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sido_kanhu_medical_college_and_hospital_jharkhand",
+    "college_id": "ug_jh003p3",
     "college_name": "Sido Kanhu Medical College and Hospital",
     "college_type": "Private",
     "state": "Jharkhand",
@@ -273,10 +331,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sido_kanhu_medical_college_and_hospital_jharkhand",
+    "college_id": "ug_jh003p3",
     "college_name": "Sido Kanhu Medical College and Hospital",
     "college_type": "Private",
     "state": "Jharkhand",
@@ -285,18 +345,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
-  },
-  {
-    "college_id": "ug_ini_aiims_deoghar",
-    "college_name": "AIIMS Deoghar",
-    "college_type": "Government",
-    "state": "Jharkhand",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   }
 ]

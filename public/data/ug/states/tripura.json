@@ -9,7 +9,9 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 22,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 95,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_tr001g1",
@@ -21,10 +23,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 128,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 95,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tr002p4",
+    "college_id": "ug_tr001p3",
     "college_name": "Tripura Medical College and Dr. B R A M Teaching Hospital, Agartala",
     "college_type": "Private",
     "state": "Tripura",
@@ -33,10 +37,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tr002p4",
+    "college_id": "ug_tr001p3",
     "college_name": "Tripura Medical College and Dr. B R A M Teaching Hospital, Agartala",
     "college_type": "Private",
     "state": "Tripura",
@@ -45,10 +51,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tr002p4",
+    "college_id": "ug_tr001p3",
     "college_name": "Tripura Medical College and Dr. B R A M Teaching Hospital, Agartala",
     "college_type": "Private",
     "state": "Tripura",
@@ -57,10 +65,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tr003p3",
+    "college_id": "ug_tr002p3",
     "college_name": "Tripura Santiniketan Medical College, Dist- West Tripura",
     "college_type": "Private",
     "state": "Tripura",
@@ -69,10 +79,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tr003p3",
+    "college_id": "ug_tr002p3",
     "college_name": "Tripura Santiniketan Medical College, Dist- West Tripura",
     "college_type": "Private",
     "state": "Tripura",
@@ -81,10 +93,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tr003p3",
+    "college_id": "ug_tr002p3",
     "college_name": "Tripura Santiniketan Medical College, Dist- West Tripura",
     "college_type": "Private",
     "state": "Tripura",
@@ -93,6 +107,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   }
 ]

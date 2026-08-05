@@ -1,6 +1,18 @@
 [
   {
-    "college_id": "ss_employees_state_insurance_corporation_medical_college_faridabad_haryana",
+    "college_id": "ug_hr003g1",
+    "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
+    "college_type": "Government",
+    "state": "Haryana",
+    "course": "DM - Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -12,7 +24,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_employees_state_insurance_corporation_medical_college_faridabad_haryana",
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -24,7 +36,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_employees_state_insurance_corporation_medical_college_faridabad_haryana",
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -36,7 +48,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_employees_state_insurance_corporation_medical_college_faridabad_haryana",
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -48,21 +60,21 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_employees_state_insurance_corporation_medical_college_faridabad_haryana",
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
-    "course": "DM - Cardiology",
+    "course": "M.Ch - Urology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
   },
   {
-    "college_id": "ss_maharishi_markandeshwar_institute_of_medical_sciences_research_mullana_ambala_haryana",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "DM - Cardiology",
     "counseling_route": "MCC",
@@ -72,9 +84,9 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_maharishi_markandeshwar_institute_of_medical_sciences_research_mullana_ambala_haryana",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "DM - Medical Gastroenterology",
     "counseling_route": "MCC",
@@ -84,9 +96,9 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_maharishi_markandeshwar_institute_of_medical_sciences_research_mullana_ambala_haryana",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
@@ -96,9 +108,9 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_maharishi_markandeshwar_institute_of_medical_sciences_research_mullana_ambala_haryana",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "M.Ch - Urology",
     "counseling_route": "MCC",
@@ -108,8 +120,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "DM - Cardiac Anaesthesia",
@@ -120,8 +132,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "DM - Cardiology",
@@ -132,80 +144,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
-    "college_type": "Government",
-    "state": "Haryana",
-    "course": "DM - Pulmonary & Critical Care Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
-    "college_type": "Government",
-    "state": "Haryana",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
-    "college_type": "Government",
-    "state": "Haryana",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
-    "college_type": "Government",
-    "state": "Haryana",
-    "course": "M.Ch - Paediatric Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
-    "college_type": "Government",
-    "state": "Haryana",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
-    "college_type": "Government",
-    "state": "Haryana",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 1,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "DM - Neonatology",
@@ -216,8 +156,68 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_pt_b_d_sharma_postgraduate_institute_of_medical_sciences_rohtak_haryana_haryana",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
+    "college_type": "Government",
+    "state": "Haryana",
+    "course": "DM - Pulmonary & Critical Care Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
+    "college_type": "Government",
+    "state": "Haryana",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
+    "college_type": "Government",
+    "state": "Haryana",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
+    "college_type": "Government",
+    "state": "Haryana",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
+    "college_type": "Government",
+    "state": "Haryana",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 1,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "M.Ch - Surgical Oncology",
@@ -228,15 +228,15 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_employees_state_insurance_corporation_medical_college_faridabad_haryana",
-    "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "M.Ch - Urology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 0,
-    "seats_inc": 1
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
   }
 ]

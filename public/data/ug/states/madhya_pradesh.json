@@ -1,6 +1,20 @@
 [
   {
-    "college_id": "ug_mp001p4",
+    "college_id": "ug_in002i1",
+    "college_name": "All India Institute of Medical Sciences, Bhopal",
+    "college_type": "INI",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in003p3",
     "college_name": "Amaltas Institute of Medical Sciences, Dewas",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -9,10 +23,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp001p4",
+    "college_id": "ug_in003p3",
     "college_name": "Amaltas Institute of Medical Sciences, Dewas",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -21,10 +37,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp001p4",
+    "college_id": "ug_in003p3",
     "college_name": "Amaltas Institute of Medical Sciences, Dewas",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -33,10 +51,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp002g1",
+    "college_id": "ug_in005g1",
     "college_name": "Bundelkhand Medical College, Sagar",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -45,10 +65,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 81,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp002g1",
+    "college_id": "ug_in005g1",
     "college_name": "Bundelkhand Medical College, Sagar",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -57,10 +79,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 81,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp003p4",
+    "college_id": "ug_in017p3",
     "college_name": "Chirayu Medical College and Hospital, Bairagarh, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -69,10 +93,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 161,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp003p4",
+    "college_id": "ug_in017p3",
     "college_name": "Chirayu Medical College and Hospital, Bairagarh, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -81,10 +107,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 161,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp003p4",
+    "college_id": "ug_in017p3",
     "college_name": "Chirayu Medical College and Hospital, Bairagarh, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -93,11 +121,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 161,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp012g1",
-    "college_name": "Dr. Laxminarayan Pandey Government Medical College, Ratlam (M.P.)",
+    "college_id": "ug_mp003g1",
+    "college_name": "Dr. Laxminarayan Pandey Government Medical College, Ratlam, Madhya Pradesh",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -105,11 +135,13 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 27,
-    "seats_inc": 3
+    "seats_inc": 3,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp012g1",
-    "college_name": "Dr. Laxminarayan Pandey Government Medical College, Ratlam (M.P.)",
+    "college_id": "ug_mp003g1",
+    "college_name": "Dr. Laxminarayan Pandey Government Medical College, Ratlam, Madhya Pradesh",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -117,7 +149,9 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 153,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_mp004g1",
@@ -129,7 +163,9 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_mp004g1",
@@ -141,10 +177,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp005g1",
+    "college_id": "ug_in021g1",
     "college_name": "Gajra Raja Medical College, Gwalior",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -153,10 +191,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 30,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 178,
+    "ss_seats": 17
   },
   {
-    "college_id": "ug_mp005g1",
+    "college_id": "ug_in021g1",
     "college_name": "Gajra Raja Medical College, Gwalior",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -165,10 +205,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 170,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 178,
+    "ss_seats": 17
   },
   {
-    "college_id": "ug_mp006g1",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -177,10 +219,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 266,
+    "ss_seats": 14
   },
   {
-    "college_id": "ug_mp006g1",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -189,59 +233,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 266,
+    "ss_seats": 14
   },
   {
-    "college_id": "ug_mp007g1",
-    "college_name": "Government Medical College, Sheopur",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mp007g1",
-    "college_name": "Government Medical College, Sheopur",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mp008g1",
-    "college_name": "Government Medical College Singrauli",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mp008g1",
-    "college_name": "Government Medical College Singrauli",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mp009g1",
-    "college_name": "Government Medical College, Chhindwara, MP",
+    "college_id": "ug_mp005g1",
+    "college_name": "Government Medical College, Chhindwara",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -249,11 +247,13 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp009g1",
-    "college_name": "Government Medical College, Chhindwara, MP",
+    "college_id": "ug_mp005g1",
+    "college_name": "Government Medical College, Chhindwara",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -261,11 +261,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp010g1",
-    "college_name": "Government Medical College, Datia, MP",
+    "college_id": "ug_mp006g1",
+    "college_name": "Government Medical College, Datia",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -273,11 +275,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp010g1",
-    "college_name": "Government Medical College, Datia, MP",
+    "college_id": "ug_mp006g1",
+    "college_name": "Government Medical College, Datia",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -285,11 +289,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp011g1",
-    "college_name": "Government Medical College, Khandwa, MP",
+    "college_id": "ug_mp007g1",
+    "college_name": "Government Medical College, Khandwa",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -297,11 +303,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp011g1",
-    "college_name": "Government Medical College, Khandwa, MP",
+    "college_id": "ug_mp007g1",
+    "college_name": "Government Medical College, Khandwa",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -309,10 +317,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp013g1",
+    "college_id": "ug_in048g1",
     "college_name": "Government Medical College, Satna",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -321,10 +331,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp013g1",
+    "college_id": "ug_in048g1",
     "college_name": "Government Medical College, Satna",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -333,10 +345,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp014g1",
+    "college_id": "ug_mp008g1",
     "college_name": "Government Medical College, Seoni",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -345,10 +359,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp014g1",
+    "college_id": "ug_mp008g1",
     "college_name": "Government Medical College, Seoni",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -357,11 +373,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp015g1",
-    "college_name": "Government Medical College, Shahdol, MP",
+    "college_id": "ug_mp009g1",
+    "college_name": "Government Medical College, Shahdol",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -369,11 +387,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp015g1",
-    "college_name": "Government Medical College, Shahdol, MP",
+    "college_id": "ug_mp009g1",
+    "college_name": "Government Medical College, Shahdol",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -381,11 +401,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp016g1",
-    "college_name": "Government Medical College, Shivpuri, MP",
+    "college_id": "ug_mp010g1",
+    "college_name": "Government Medical College, Sheopur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -393,11 +415,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp016g1",
-    "college_name": "Government Medical College, Shivpuri, MP",
+    "college_id": "ug_mp010g1",
+    "college_name": "Government Medical College, Sheopur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -405,11 +429,69 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp017g1",
-    "college_name": "Government Medical College, Vidisha, MP",
+    "college_id": "ug_mp011g1",
+    "college_name": "Government Medical College, Shivpuri",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 33,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp011g1",
+    "college_name": "Government Medical College, Shivpuri",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 33,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp012g1",
+    "college_name": "Government Medical College, Singrauli",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp012g1",
+    "college_name": "Government Medical College, Singrauli",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp013g1",
+    "college_name": "Government Medical College, Vidisha",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -417,11 +499,13 @@
     "quota_type": "All India Quota",
     "seats": 27,
     "seats_prev": 27,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 66,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp017g1",
-    "college_name": "Government Medical College, Vidisha, MP",
+    "college_id": "ug_mp013g1",
+    "college_name": "Government Medical College, Vidisha",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "MBBS",
@@ -429,10 +513,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 153,
     "seats_prev": 153,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 66,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp018p4",
+    "college_id": "ug_in033p3",
     "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -441,10 +527,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mp018p4",
+    "college_id": "ug_in033p3",
     "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -453,10 +541,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mp018p4",
+    "college_id": "ug_in033p3",
     "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -465,10 +555,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mp019p3",
+    "college_id": "ug_in046p3",
     "college_name": "L.N. Medical College and Research Centre, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -477,10 +569,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 174,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_mp019p3",
+    "college_id": "ug_in046p3",
     "college_name": "L.N. Medical College and Research Centre, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -489,10 +583,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 174,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_mp019p3",
+    "college_id": "ug_in046p3",
     "college_name": "L.N. Medical College and Research Centre, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -501,10 +597,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 174,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_mp020p4",
+    "college_id": "ug_mp001p3",
     "college_name": "LNCT Medical College & Sewakunj Hospital, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -513,10 +611,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 12,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp020p4",
+    "college_id": "ug_mp001p3",
     "college_name": "LNCT Medical College & Sewakunj Hospital, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -525,10 +625,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 12,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp020p4",
+    "college_id": "ug_mp001p3",
     "college_name": "LNCT Medical College & Sewakunj Hospital, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -537,10 +639,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 12,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp021g1",
+    "college_id": "ug_in070g1",
     "college_name": "M G M Medical College, Indore",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -549,10 +653,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 283,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mp021g1",
+    "college_id": "ug_in070g1",
     "college_name": "M G M Medical College, Indore",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -561,10 +667,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 283,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mp022p4",
+    "college_id": "ug_in052p3",
     "college_name": "Mahaveer Institute of Medical Sciences & Research, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -573,10 +681,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp022p4",
+    "college_id": "ug_in052p3",
     "college_name": "Mahaveer Institute of Medical Sciences & Research, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -585,10 +695,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp022p4",
+    "college_id": "ug_in052p3",
     "college_name": "Mahaveer Institute of Medical Sciences & Research, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -597,10 +709,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp023p4",
+    "college_id": "ug_mp002p3",
     "college_name": "Mansarovar Medical College and MGU Hospital",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -609,10 +723,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp023p4",
+    "college_id": "ug_mp002p3",
     "college_name": "Mansarovar Medical College and MGU Hospital",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -621,10 +737,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp023p4",
+    "college_id": "ug_mp002p3",
     "college_name": "Mansarovar Medical College and MGU Hospital",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -633,10 +751,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp024g1",
+    "college_id": "ug_in076g1",
     "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -645,10 +765,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 193,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_mp024g1",
+    "college_id": "ug_in076g1",
     "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -657,10 +779,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 193,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_mp025p3",
+    "college_id": "ug_in070p3",
     "college_name": "Peoples College of Medical Sciences & Research Centre, Bhanpur, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -669,10 +793,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 146,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp025p3",
+    "college_id": "ug_in070p3",
     "college_name": "Peoples College of Medical Sciences & Research Centre, Bhanpur, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -681,10 +807,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 146,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp025p3",
+    "college_id": "ug_in070p3",
     "college_name": "Peoples College of Medical Sciences & Research Centre, Bhanpur, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -693,10 +821,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 146,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp026p4",
+    "college_id": "ug_in072p3",
     "college_name": "Ram Krishna College Hospital & Research Centre, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -705,10 +835,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 67,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp026p4",
+    "college_id": "ug_in072p3",
     "college_name": "Ram Krishna College Hospital & Research Centre, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -717,10 +849,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 67,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp026p4",
+    "college_id": "ug_in072p3",
     "college_name": "Ram Krishna College Hospital & Research Centre, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -729,10 +863,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 67,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp027p4",
+    "college_id": "ug_in071p3",
     "college_name": "RKDF Medical College Hospital & Research Centre, Jatkhedi, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -741,10 +877,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp027p4",
+    "college_id": "ug_in071p3",
     "college_name": "RKDF Medical College Hospital & Research Centre, Jatkhedi, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -753,10 +891,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp027p4",
+    "college_id": "ug_in071p3",
     "college_name": "RKDF Medical College Hospital & Research Centre, Jatkhedi, Bhopal",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -765,10 +905,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp028p3",
+    "college_id": "ug_mp003p3",
     "college_name": "Ruxmaniben Deepchand Gardi Medical College, Ujjain",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -777,10 +919,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp028p3",
+    "college_id": "ug_mp003p3",
     "college_name": "Ruxmaniben Deepchand Gardi Medical College, Ujjain",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -789,10 +933,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp028p3",
+    "college_id": "ug_mp003p3",
     "college_name": "Ruxmaniben Deepchand Gardi Medical College, Ujjain",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -801,10 +947,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp029p4",
+    "college_id": "ug_mp004p3",
     "college_name": "School of Medical Sciences, Sri Satya Sai University of Technology and Medical Sciences",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -813,10 +961,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp029p4",
+    "college_id": "ug_mp004p3",
     "college_name": "School of Medical Sciences, Sri Satya Sai University of Technology and Medical Sciences",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -825,10 +975,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp029p4",
+    "college_id": "ug_mp004p3",
     "college_name": "School of Medical Sciences, Sri Satya Sai University of Technology and Medical Sciences",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -837,10 +989,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp030g1",
+    "college_id": "ug_mp016g1",
     "college_name": "Shyam Shah Medical College, Rewa",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -849,10 +1003,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 22,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 132,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_mp030g1",
+    "college_id": "ug_mp016g1",
     "college_name": "Shyam Shah Medical College, Rewa",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -861,10 +1017,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 128,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 132,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_mp031p4",
+    "college_id": "ug_in088p3",
     "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -873,10 +1031,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 231,
+    "ss_seats": 29
   },
   {
-    "college_id": "ug_mp031p4",
+    "college_id": "ug_in088p3",
     "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -885,10 +1045,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 231,
+    "ss_seats": 29
   },
   {
-    "college_id": "ug_mp031p4",
+    "college_id": "ug_in088p3",
     "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -897,10 +1059,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 231,
+    "ss_seats": 29
   },
   {
-    "college_id": "ug_mp032p3",
+    "college_id": "ug_mp005p3",
     "college_name": "Sukh Sagar Medical College & Hospital, Jabalpur",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -909,10 +1073,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp032p3",
+    "college_id": "ug_mp005p3",
     "college_name": "Sukh Sagar Medical College & Hospital, Jabalpur",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -921,10 +1087,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp032p3",
+    "college_id": "ug_mp005p3",
     "college_name": "Sukh Sagar Medical College & Hospital, Jabalpur",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -933,10 +1101,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp033g1",
+    "college_id": "ug_mp017g1",
     "college_name": "Sundarlal Patwa Government Medical College",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -945,10 +1115,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp033g1",
+    "college_id": "ug_mp017g1",
     "college_name": "Sundarlal Patwa Government Medical College",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -957,10 +1129,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp034g1",
+    "college_id": "ug_mp018g1",
     "college_name": "Virendra Kumar Sakhlecha Government Medical College",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -969,10 +1143,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mp034g1",
+    "college_id": "ug_mp018g1",
     "college_name": "Virendra Kumar Sakhlecha Government Medical College",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -981,18 +1157,8 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_bhopal",
-    "college_name": "AIIMS Bhopal",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   }
 ]

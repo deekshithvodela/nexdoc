@@ -1,7 +1,7 @@
 [
   {
-    "college_id": "ss_bhopal_memorial_hospital_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "Bhopal Memorial Hospital and research Centre, Bhopal",
+    "college_id": "ug_mp001g1",
+    "college_name": "Bhopal Memorial Hospital and Research Centre, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "DM - Cardiology",
@@ -12,8 +12,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_bhopal_memorial_hospital_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "Bhopal Memorial Hospital and research Centre, Bhopal",
+    "college_id": "ug_mp001g1",
+    "college_name": "Bhopal Memorial Hospital and Research Centre, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "M.Ch - Cardiovascular & Thoracic Surgery",
@@ -24,8 +24,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_bhopal_memorial_hospital_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "Bhopal Memorial Hospital and research Centre, Bhopal",
+    "college_id": "ug_mp001g1",
+    "college_name": "Bhopal Memorial Hospital and Research Centre, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "M.Ch - Neuro Surgery",
@@ -36,8 +36,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_bhopal_memorial_hospital_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "Bhopal Memorial Hospital and research Centre, Bhopal",
+    "college_id": "ug_mp001g1",
+    "college_name": "Bhopal Memorial Hospital and Research Centre, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
     "course": "M.Ch - Urology",
@@ -48,7 +48,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gajra_raja_medical_college_gwalior_madhya_pradesh",
+    "college_id": "ug_in021g1",
     "college_name": "Gajra Raja Medical College, Gwalior",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -60,7 +60,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gajra_raja_medical_college_gwalior_madhya_pradesh",
+    "college_id": "ug_in021g1",
+    "college_name": "Gajra Raja Medical College, Gwalior",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in021g1",
     "college_name": "Gajra Raja Medical College, Gwalior",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -72,19 +84,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gajra_raja_medical_college_gwalior_madhya_pradesh",
-    "college_name": "Gajra Raja Medical College, Gwalior",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_gajra_raja_medical_college_gwalior_madhya_pradesh",
+    "college_id": "ug_in021g1",
     "college_name": "Gajra Raja Medical College, Gwalior",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -96,7 +96,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gandhi_medical_college_bhopal_madhya_pradesh",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -108,19 +108,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gandhi_medical_college_bhopal_madhya_pradesh",
-    "college_name": "Gandhi Medical College, Bhopal",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_gandhi_medical_college_bhopal_madhya_pradesh",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -132,11 +120,11 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gandhi_medical_college_bhopal_madhya_pradesh",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
-    "course": "M.Ch - Urology",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 3,
@@ -144,7 +132,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_gandhi_medical_college_bhopal_madhya_pradesh",
+    "college_id": "ug_in022g1",
     "college_name": "Gandhi Medical College, Bhopal",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -156,7 +144,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_id": "ug_in022g1",
+    "college_name": "Gandhi Medical College, Bhopal",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in033p3",
     "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -168,31 +168,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
-    "college_name": "Index Medical College Hospital & Research Centre, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_id": "ug_in033p3",
     "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -204,7 +180,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_index_medical_college_hospital_research_centre_indore_madhya_pradesh",
+    "college_id": "ug_in033p3",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in033p3",
     "college_name": "Index Medical College Hospital & Research Centre, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
@@ -216,31 +204,67 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_m_g_m_medical_college_indore_madhya_pradesh",
-    "college_name": "M G M Medical College, Indore",
-    "college_type": "Government",
+    "college_id": "ug_in033p3",
+    "college_name": "Index Medical College Hospital & Research Centre, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in046p3",
+    "college_name": "L.N. Medical College and Research Centre, Bhopal",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 0,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_in046p3",
+    "college_name": "L.N. Medical College and Research Centre, Bhopal",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Critical Care Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 0,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_in046p3",
+    "college_name": "L.N. Medical College and Research Centre, Bhopal",
+    "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "DM - Neurology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
   },
   {
-    "college_id": "ss_m_g_m_medical_college_indore_madhya_pradesh",
-    "college_name": "M G M Medical College, Indore",
-    "college_type": "Government",
+    "college_id": "ug_in046p3",
+    "college_name": "L.N. Medical College and Research Centre, Bhopal",
+    "college_type": "Private",
     "state": "Madhya Pradesh",
-    "course": "M.Ch - Paediatric Surgery",
+    "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
   },
   {
-    "college_id": "ss_m_g_m_medical_college_indore_madhya_pradesh",
+    "college_id": "ug_in070g1",
     "college_name": "M G M Medical College, Indore",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -252,7 +276,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_m_g_m_medical_college_indore_madhya_pradesh",
+    "college_id": "ug_in070g1",
+    "college_name": "M G M Medical College, Indore",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in070g1",
     "college_name": "M G M Medical College, Indore",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -264,11 +300,11 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
-    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
+    "college_id": "ug_in070g1",
+    "college_name": "M G M Medical College, Indore",
     "college_type": "Government",
     "state": "Madhya Pradesh",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "course": "M.Ch - Paediatric Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
@@ -276,31 +312,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
+    "college_id": "ug_in076g1",
     "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 8,
-    "seats_prev": 8,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
-    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "course": "DM - Cardiology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
+    "seats_prev": 0,
+    "seats_inc": 2
   },
   {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
+    "college_id": "ug_in076g1",
     "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -312,139 +336,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
-    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
-    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Paediatric Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Surgical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Medical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 6,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Cardiology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_sri_aurobindo_medical_college_and_post_graduate_institute_indore_madhya_pradesh",
-    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Endocrinology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
+    "college_id": "ug_in076g1",
     "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -456,43 +348,67 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_ln_medical_college_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "L.N. Medical College and Research Centre Bhopal",
-    "college_type": "Private",
+    "college_id": "ug_in076g1",
+    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
+    "college_type": "Government",
     "state": "Madhya Pradesh",
-    "course": "DM - Critical Care Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 0,
-    "seats_inc": 3
-  },
-  {
-    "college_id": "ss_ln_medical_college_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "L.N. Medical College and Research Centre Bhopal",
-    "college_type": "Private",
-    "state": "Madhya Pradesh",
-    "course": "DM - Neurology",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
+    "seats_prev": 2,
+    "seats_inc": 0
   },
   {
-    "college_id": "ss_ln_medical_college_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "L.N. Medical College and Research Centre Bhopal",
-    "college_type": "Private",
+    "college_id": "ug_in076g1",
+    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
+    "college_type": "Government",
     "state": "Madhya Pradesh",
-    "course": "DM - Cardiology",
+    "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 0,
-    "seats_inc": 3
+    "seats": 8,
+    "seats_prev": 8,
+    "seats_inc": 0
   },
   {
-    "college_id": "ss_shyam_shah_medical_college_rewa_madhya_pradesh",
+    "college_id": "ug_in076g1",
+    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in076g1",
+    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in076g1",
+    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_mp016g1",
     "college_name": "Shyam Shah Medical College, Rewa",
     "college_type": "Government",
     "state": "Madhya Pradesh",
@@ -504,27 +420,111 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_ln_medical_college_and_research_centre_bhopal_madhya_pradesh",
-    "college_name": "L.N. Medical College and Research Centre Bhopal",
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Endocrinology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Medical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Medical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 6,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
     "college_type": "Private",
     "state": "Madhya Pradesh",
     "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 0,
-    "seats_inc": 1
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
   },
   {
-    "college_id": "ss_netaji_subhash_chandra_bose_medical_college_jabalpur_madhya_pradesh",
-    "college_name": "Netaji Subhash Chandra Bose Medical College, Jabalpur",
-    "college_type": "Government",
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
     "state": "Madhya Pradesh",
-    "course": "DM - Cardiology",
+    "course": "M.Ch - Surgical Oncology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in088p3",
+    "college_name": "Sri Aurobindo Medical College and Post Graduate Institute, Indore",
+    "college_type": "Private",
+    "state": "Madhya Pradesh",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
   }
 ]

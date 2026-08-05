@@ -1,0 +1,256 @@
+{
+  "categories": [
+    {
+      "code": "OPEN",
+      "name": "Open / General",
+      "raw_variations": [
+        "Open",
+        "General"
+      ]
+    },
+    {
+      "code": "OPEN_PWD",
+      "name": "Open / General (PwD)",
+      "raw_variations": [
+        "Open PwD",
+        "General PwD",
+        "GNYes"
+      ]
+    },
+    {
+      "code": "EWS",
+      "name": "Economically Weaker Section (EWS)",
+      "raw_variations": [
+        "EWS"
+      ]
+    },
+    {
+      "code": "EWS_PWD",
+      "name": "Economically Weaker Section (EWS PwD)",
+      "raw_variations": [
+        "EWS PwD",
+        "EWSYes"
+      ]
+    },
+    {
+      "code": "OBC",
+      "name": "Other Backward Classes (OBC)",
+      "raw_variations": [
+        "OBC"
+      ]
+    },
+    {
+      "code": "OBC_PWD",
+      "name": "Other Backward Classes (OBC PwD)",
+      "raw_variations": [
+        "OBC PwD",
+        "OBCYes"
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "Scheduled Caste (SC)",
+      "raw_variations": [
+        "SC"
+      ]
+    },
+    {
+      "code": "SC_PWD",
+      "name": "Scheduled Caste (SC PwD)",
+      "raw_variations": [
+        "SC PwD",
+        "SCYes"
+      ]
+    },
+    {
+      "code": "ST",
+      "name": "Scheduled Tribe (ST)",
+      "raw_variations": [
+        "ST"
+      ]
+    },
+    {
+      "code": "ST_PWD",
+      "name": "Scheduled Tribe (ST PwD)",
+      "raw_variations": [
+        "ST PwD",
+        "STYes"
+      ]
+    },
+    {
+      "code": "NRI",
+      "name": "Non-Resident Indian (NRI)",
+      "raw_variations": [
+        "NRI"
+      ]
+    }
+  ],
+  "quotas": [
+    {
+      "code": "AIQ",
+      "name": "All India Quota (AIQ)",
+      "raw_variations": [
+        "All India"
+      ]
+    },
+    {
+      "code": "OPEN_SEAT",
+      "name": "Open Seat Quota (AIIMS / JIPMER / Central Institutes)",
+      "raw_variations": [
+        "Open Seat Quota"
+      ]
+    },
+    {
+      "code": "DEEMED",
+      "name": "Deemed / Paid Seats Quota",
+      "raw_variations": [
+        "Deemed/ Paid Seats Quota",
+        "Deemed/Paid Seats Quota"
+      ]
+    },
+    {
+      "code": "DU",
+      "name": "Delhi University Quota (DU)",
+      "raw_variations": [
+        "Delhi University Quota"
+      ]
+    },
+    {
+      "code": "IPU",
+      "name": "IP University Quota (IPU)",
+      "raw_variations": [
+        "IP University Quota"
+      ]
+    },
+    {
+      "code": "AMU",
+      "name": "Aligarh Muslim University (AMU) Quota",
+      "raw_variations": [
+        "Aligarh Muslim University (AMU) Quota"
+      ]
+    },
+    {
+      "code": "AMU_INTERNAL",
+      "name": "AMU Internal Quota",
+      "raw_variations": [
+        "(AMU)Self finance internal"
+      ]
+    },
+    {
+      "code": "AMU_SELF_FINANCE",
+      "name": "AMU Self Finance All India",
+      "raw_variations": [
+        "(AMU) Self finance All India"
+      ]
+    },
+    {
+      "code": "JAMIA_INTERNAL",
+      "name": "Jamia Internal Quota",
+      "raw_variations": [
+        "Jamia Internal Quota"
+      ]
+    },
+    {
+      "code": "ESI",
+      "name": "Employees State Insurance Scheme (ESI / ESI-IP)",
+      "raw_variations": [
+        "Employee s State Insurance Scheme( ESI)",
+        "Employees State Insurance Scheme(ESI)",
+        "Employee s State Insurance Scheme Nursing Quota (ESI-IP Quota Nursing)",
+        "Employees State Insurance Scheme Nursing Quota (ESI- IP Quota Nursing)"
+      ]
+    },
+    {
+      "code": "PUDUCHERRY_INTERNAL",
+      "name": "Internal - Puducherry UT Domicile Quota",
+      "raw_variations": [
+        "Internal - Puducher ry UT Domicile",
+        "Internal - Puducherry UT Domicile",
+        "Internal -Puducherry UT Domicile"
+      ]
+    },
+    {
+      "code": "JAIN_MINORITY",
+      "name": "Jain Minority Quota",
+      "raw_variations": [
+        "Jain Minority Quota"
+      ]
+    },
+    {
+      "code": "MUSLIM_MINORITY",
+      "name": "Muslim Minority / Quota",
+      "raw_variations": [
+        "Muslim Minority Quota",
+        "Muslim Quota",
+        "Muslim OBC Quota",
+        "Muslim ST Quota",
+        "Muslim Women Quota"
+      ]
+    },
+    {
+      "code": "NRI",
+      "name": "Non-Resident Indian (NRI) Quota",
+      "raw_variations": [
+        "Non- Resident Indian",
+        "Non-Resident Indian",
+        "Non-Resident Indian(AMU) Quota",
+        "Non-Resident Indian(AMU)Quota",
+        "Non-Resident Indian(Jamia)Quota"
+      ]
+    },
+    {
+      "code": "CW_ARMED_FORCES",
+      "name": "Children / Widows of Armed Forces Personnel (CW Quota)",
+      "raw_variations": [
+        "Delhi NCR Children/ Widows of Personnel of the Armed Forces (CW) IP Quota",
+        "Delhi NCR Children/Wid ows of Personnel of the Armed Forces (CW) DU Quota",
+        "Delhi NCR Children/Widows of Personnel of the Armed Forces (CW) DU Quota",
+        "Delhi NCR Children/Widows of Personnel of the Armed Forces (CW) IP Quota"
+      ]
+    },
+    {
+      "code": "BSC_NURSING",
+      "name": "B.Sc Nursing Quota (All India / Delhi NCR)",
+      "raw_variations": [
+        "B.Sc Nursing All India",
+        "B.Sc Nursing Delhi NCR",
+        "B.Sc Nursing Delhi NCR CW Quota",
+        "B.Sc Nursing IP CW Quota"
+      ]
+    },
+    {
+      "code": "FOREIGN",
+      "name": "Foreign Country Quota",
+      "raw_variations": [
+        "Foreign Country Quota"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "code": "MBBS",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+      "raw_variations": [
+        "MBBS",
+        "M.B.B.S."
+      ]
+    },
+    {
+      "code": "BDS",
+      "name": "Bachelor of Dental Surgery (BDS)",
+      "raw_variations": [
+        "BDS",
+        "B.D.S."
+      ]
+    },
+    {
+      "code": "BSC_NURSING",
+      "name": "B.Sc. Nursing",
+      "raw_variations": [
+        "B.Sc. Nursing",
+        "B.Sc Nursing",
+        "BSc Nursing"
+      ]
+    }
+  ]
+}

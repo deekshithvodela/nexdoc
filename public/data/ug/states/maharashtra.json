@@ -9,7 +9,9 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_mh001p3",
@@ -21,7 +23,9 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_mh001p3",
@@ -33,7 +37,23 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in013i1",
+    "college_name": "All India Institute of Medical Sciences, Nagpur",
+    "college_type": "INI",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_mh002g1",
@@ -45,7 +65,9 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 172,
+    "ss_seats": 10
   },
   {
     "college_id": "ug_mh002g1",
@@ -57,10 +79,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 172,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_mh003p3",
+    "college_id": "ug_mh002p3",
     "college_name": "Ashwini Rural Medical College, Hospital & Research Centre, Solapur",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -69,10 +93,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh003p3",
+    "college_id": "ug_mh002p3",
     "college_name": "Ashwini Rural Medical College, Hospital & Research Centre, Solapur",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -81,10 +107,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh003p3",
+    "college_id": "ug_mh002p3",
     "college_name": "Ashwini Rural Medical College, Hospital & Research Centre, Solapur",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -93,10 +121,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 62,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh004g1",
+    "college_id": "ug_mh003g1",
     "college_name": "B. J. Government Medical College, Pune",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -105,10 +135,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_mh004g1",
+    "college_id": "ug_mh003g1",
     "college_name": "B. J. Government Medical College, Pune",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -117,10 +149,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_mh005p3",
+    "college_id": "ug_mh003p3",
     "college_name": "B.K.L. Walawalkar Rural Medical College, Ratnagiri",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -129,10 +163,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh005p3",
+    "college_id": "ug_mh003p3",
     "college_name": "B.K.L. Walawalkar Rural Medical College, Ratnagiri",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -141,10 +177,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh005p3",
+    "college_id": "ug_mh003p3",
     "college_name": "B.K.L. Walawalkar Rural Medical College, Ratnagiri",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -153,10 +191,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_bsp_medical_college_and_hospital_maharashtra",
+    "college_id": "ug_hr004p3",
     "college_name": "B.S.P. Medical College and Hospital",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -165,10 +205,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 0,
-    "seats_inc": 75
+    "seats_inc": 75,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_bsp_medical_college_and_hospital_maharashtra",
+    "college_id": "ug_hr004p3",
     "college_name": "B.S.P. Medical College and Hospital",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -177,10 +219,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 0,
-    "seats_inc": 52
+    "seats_inc": 52,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_bsp_medical_college_and_hospital_maharashtra",
+    "college_id": "ug_hr004p3",
     "college_name": "B.S.P. Medical College and Hospital",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -189,10 +233,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 0,
-    "seats_inc": 23
+    "seats_inc": 23,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh006p3",
+    "college_id": "ug_mh004p3",
     "college_name": "Bharati Vidyapeeth Deemed University Medical College & Hospital, Sangli",
     "college_type": "Deemed",
     "state": "Maharashtra",
@@ -201,10 +247,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 119,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh006p3",
+    "college_id": "ug_mh004p3",
     "college_name": "Bharati Vidyapeeth Deemed University Medical College & Hospital, Sangli",
     "college_type": "Deemed",
     "state": "Maharashtra",
@@ -213,10 +261,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 119,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh006p3",
+    "college_id": "ug_mh004p3",
     "college_name": "Bharati Vidyapeeth Deemed University Medical College & Hospital, Sangli",
     "college_type": "Deemed",
     "state": "Maharashtra",
@@ -225,46 +275,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 119,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh007p3",
+    "college_id": "ug_mh005p3",
     "college_name": "Bharati Vidyapeeth University Medical College, Pune",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 185,
+    "ss_seats": 31
   },
   {
-    "college_id": "ug_mh007p3",
+    "college_id": "ug_mh005p3",
     "college_name": "Bharati Vidyapeeth University Medical College, Pune",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 185,
+    "ss_seats": 31
   },
   {
-    "college_id": "ug_mh007p3",
+    "college_id": "ug_mh005p3",
     "college_name": "Bharati Vidyapeeth University Medical College, Pune",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 185,
+    "ss_seats": 31
   },
   {
-    "college_id": "ug_mh008p3",
+    "college_id": "ug_in014p3",
     "college_name": "Bharatratna Atal Bihari Vajpayee Medical College, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -273,10 +331,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh008p3",
+    "college_id": "ug_in014p3",
     "college_name": "Bharatratna Atal Bihari Vajpayee Medical College, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -285,10 +345,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh008p3",
+    "college_id": "ug_in014p3",
     "college_name": "Bharatratna Atal Bihari Vajpayee Medical College, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -297,46 +359,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh009p3",
+    "college_id": "ug_mh007p3",
     "college_name": "Datta Meghe Medical College, Nagpur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh009p3",
+    "college_id": "ug_mh007p3",
     "college_name": "Datta Meghe Medical College, Nagpur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh009p3",
+    "college_id": "ug_mh007p3",
     "college_name": "Datta Meghe Medical College, Nagpur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh010g1",
+    "college_id": "ug_mh005g1",
     "college_name": "Dr Vaishampayan Memorial Medical College, Solapur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -345,10 +415,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh010g1",
+    "college_id": "ug_mh005g1",
     "college_name": "Dr Vaishampayan Memorial Medical College, Solapur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -357,82 +429,96 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh011p3",
+    "college_id": "ug_mh008p3",
     "college_name": "Dr. D Y Patil Medical College, Hospital and Research Centre, Pimpri, Pune",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 254,
+    "ss_seats": 34
   },
   {
-    "college_id": "ug_mh011p3",
+    "college_id": "ug_mh008p3",
     "college_name": "Dr. D Y Patil Medical College, Hospital and Research Centre, Pimpri, Pune",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 254,
+    "ss_seats": 34
   },
   {
-    "college_id": "ug_mh011p3",
+    "college_id": "ug_mh008p3",
     "college_name": "Dr. D Y Patil Medical College, Hospital and Research Centre, Pimpri, Pune",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 254,
+    "ss_seats": 34
   },
   {
-    "college_id": "ug_mh012p1",
+    "college_id": "ug_mh009p3",
     "college_name": "Dr. D Y Patil Medical College, Kolhapur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 77,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh012p1",
+    "college_id": "ug_mh009p3",
     "college_name": "Dr. D Y Patil Medical College, Kolhapur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 77,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh012p1",
+    "college_id": "ug_mh009p3",
     "college_name": "Dr. D Y Patil Medical College, Kolhapur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 77,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh013p3",
+    "college_id": "ug_in023p3",
     "college_name": "Dr. N Y Tasgaonkar Institute of Medical Science",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -441,10 +527,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 36,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh013p3",
+    "college_id": "ug_in023p3",
     "college_name": "Dr. N Y Tasgaonkar Institute of Medical Science",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -453,10 +541,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 36,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh013p3",
+    "college_id": "ug_in023p3",
     "college_name": "Dr. N Y Tasgaonkar Institute of Medical Science",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -465,10 +555,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 36,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh014p4",
+    "college_id": "ug_mh010p3",
     "college_name": "Dr. Panjabrao Alias Bhausaheb Deshmukh Memorial Medical College, Amravati",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -477,10 +569,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 57,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh014p4",
+    "college_id": "ug_mh010p3",
     "college_name": "Dr. Panjabrao Alias Bhausaheb Deshmukh Memorial Medical College, Amravati",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -489,10 +583,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 57,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh014p4",
+    "college_id": "ug_mh010p3",
     "college_name": "Dr. Panjabrao Alias Bhausaheb Deshmukh Memorial Medical College, Amravati",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -501,10 +597,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 57,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh015p4",
+    "college_id": "ug_mh011p3",
     "college_name": "Dr. Rajendra Gode Medical College, Amravati",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -513,10 +611,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh015p4",
+    "college_id": "ug_mh011p3",
     "college_name": "Dr. Rajendra Gode Medical College, Amravati",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -525,10 +625,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh015p4",
+    "college_id": "ug_mh011p3",
     "college_name": "Dr. Rajendra Gode Medical College, Amravati",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -537,10 +639,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh016g1",
+    "college_id": "ug_mh006g1",
     "college_name": "Dr. Shankarrao Chavan Government Medical College, Nanded",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -549,10 +653,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh016g1",
+    "college_id": "ug_mh006g1",
     "college_name": "Dr. Shankarrao Chavan Government Medical College, Nanded",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -561,10 +667,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh017p3",
+    "college_id": "ug_mh012p3",
     "college_name": "Dr. Ulhas Patil Medical College & Hospital, Jalgaon",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -573,10 +681,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 89,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_mh017p3",
+    "college_id": "ug_mh012p3",
     "college_name": "Dr. Ulhas Patil Medical College & Hospital, Jalgaon",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -585,10 +695,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 89,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_mh017p3",
+    "college_id": "ug_mh012p3",
     "college_name": "Dr. Ulhas Patil Medical College & Hospital, Jalgaon",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -597,11 +709,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 89,
+    "ss_seats": 11
   },
   {
-    "college_id": "ug_mh018p3",
-    "college_name": "Dr. Vasantrao Pawar Medical College Hosp. & Research Centre, Nasik (Prev. NDMVP Samaj Medical College)",
+    "college_id": "ug_mh013p3",
+    "college_name": "Dr. Vasantrao Pawar Medical College Hosp. & Research Centre, Nasik",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -609,11 +723,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh018p3",
-    "college_name": "Dr. Vasantrao Pawar Medical College Hosp. & Research Centre, Nasik (Prev. NDMVP Samaj Medical College)",
+    "college_id": "ug_mh013p3",
+    "college_name": "Dr. Vasantrao Pawar Medical College Hosp. & Research Centre, Nasik",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -621,11 +737,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh018p3",
-    "college_name": "Dr. Vasantrao Pawar Medical College Hosp. & Research Centre, Nasik (Prev. NDMVP Samaj Medical College)",
+    "college_id": "ug_mh013p3",
+    "college_name": "Dr. Vasantrao Pawar Medical College Hosp. & Research Centre, Nasik",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -633,10 +751,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh019p3",
+    "college_id": "ug_mh014p3",
     "college_name": "Dr. Vithalrao Vikhe Patil Foundations Medical College & Hospital, Ahmednagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -645,10 +765,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh019p3",
+    "college_id": "ug_mh014p3",
     "college_name": "Dr. Vithalrao Vikhe Patil Foundations Medical College & Hospital, Ahmednagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -657,10 +779,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh019p3",
+    "college_id": "ug_mh014p3",
     "college_name": "Dr. Vithalrao Vikhe Patil Foundations Medical College & Hospital, Ahmednagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -669,10 +793,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh020p3",
+    "college_id": "ug_in020p3",
     "college_name": "DY Patil University, School of Medicine",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -681,10 +807,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh020p3",
+    "college_id": "ug_in020p3",
     "college_name": "DY Patil University, School of Medicine",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -693,10 +821,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh020p3",
+    "college_id": "ug_in020p3",
     "college_name": "DY Patil University, School of Medicine",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -705,10 +835,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh021g1",
+    "college_id": "ug_mh008g1",
     "college_name": "ESIC Medical College and Hospital, Andheri",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -717,10 +849,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh021g1",
+    "college_id": "ug_mh008g1",
     "college_name": "ESIC Medical College and Hospital, Andheri",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -729,10 +863,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh022g1",
+    "college_id": "ug_mh009g1",
     "college_name": "Government Medical College & Hospital, Baramati",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -741,10 +877,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 27,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh022g1",
+    "college_id": "ug_mh009g1",
     "college_name": "Government Medical College & Hospital, Baramati",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -753,11 +891,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 27,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh023g1",
-    "college_name": "Government Medical college and District Hospital, Ratnagiri",
+    "college_id": "ug_mh011g1",
+    "college_name": "Government Medical College and District Hospital, Ratnagiri",
     "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -765,11 +905,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh023g1",
-    "college_name": "Government Medical college and District Hospital, Ratnagiri",
+    "college_id": "ug_mh011g1",
+    "college_name": "Government Medical College and District Hospital, Ratnagiri",
     "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -777,11 +919,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh024g1",
-    "college_name": "Government Medical College L.T. Marg, Near L.T. Marg Police Station, Mumbai - 400001",
+    "college_id": "ug_mh010g1",
+    "college_name": "Government Medical College L.T. Marg, Near L.T. Marg Police Station, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -789,11 +933,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh024g1",
-    "college_name": "Government Medical College L.T. Marg, Near L.T. Marg Police Station, Mumbai - 400001",
+    "college_id": "ug_mh010g1",
+    "college_name": "Government Medical College L.T. Marg, Near L.T. Marg Police Station, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -801,10 +947,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh025g1",
+    "college_id": "ug_mh012g1",
     "college_name": "Government Medical College, Akola",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -813,10 +961,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh025g1",
+    "college_id": "ug_mh012g1",
     "college_name": "Government Medical College, Akola",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -825,10 +975,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh026g1",
+    "college_id": "ug_mh013g1",
     "college_name": "Government Medical College, Alibag",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -837,10 +989,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh026g1",
+    "college_id": "ug_mh013g1",
     "college_name": "Government Medical College, Alibag",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -849,10 +1003,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh027g1",
+    "college_id": "ug_mh014g1",
     "college_name": "Government Medical College, Ambernath",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -861,10 +1017,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh027g1",
+    "college_id": "ug_mh014g1",
     "college_name": "Government Medical College, Ambernath",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -873,10 +1031,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh028g1",
+    "college_id": "ug_mh015g1",
     "college_name": "Government Medical College, Amravati",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -885,10 +1045,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh028g1",
+    "college_id": "ug_mh015g1",
     "college_name": "Government Medical College, Amravati",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -897,10 +1059,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh029g1",
+    "college_id": "ug_mh016g1",
     "college_name": "Government Medical College, Aurangabad",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -909,10 +1073,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 203,
+    "ss_seats": 30
   },
   {
-    "college_id": "ug_mh029g1",
+    "college_id": "ug_mh016g1",
     "college_name": "Government Medical College, Aurangabad",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -921,10 +1087,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 203,
+    "ss_seats": 30
   },
   {
-    "college_id": "ug_mh030g1",
+    "college_id": "ug_mh017g1",
     "college_name": "Government Medical College, Bhandara",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -933,10 +1101,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh030g1",
+    "college_id": "ug_mh017g1",
     "college_name": "Government Medical College, Bhandara",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -945,10 +1115,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh031g1",
+    "college_id": "ug_mh018g1",
     "college_name": "Government Medical College, Buldhana",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -957,10 +1129,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh031g1",
+    "college_id": "ug_mh018g1",
     "college_name": "Government Medical College, Buldhana",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -969,10 +1143,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh032g1",
+    "college_id": "ug_mh019g1",
     "college_name": "Government Medical College, Chandrapur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -981,10 +1157,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh032g1",
+    "college_id": "ug_mh019g1",
     "college_name": "Government Medical College, Chandrapur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -993,10 +1171,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh033g1",
+    "college_id": "ug_mh020g1",
     "college_name": "Government Medical College, Gadchiroli",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1005,10 +1185,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh033g1",
+    "college_id": "ug_mh020g1",
     "college_name": "Government Medical College, Gadchiroli",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1017,10 +1199,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh034g1",
+    "college_id": "ug_mh021g1",
     "college_name": "Government Medical College, Gondia",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1029,10 +1213,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh034g1",
+    "college_id": "ug_mh021g1",
     "college_name": "Government Medical College, Gondia",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1041,10 +1227,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh035g1",
+    "college_id": "ug_mh022g1",
     "college_name": "Government Medical College, Hingoli",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1053,10 +1241,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh035g1",
+    "college_id": "ug_mh022g1",
     "college_name": "Government Medical College, Hingoli",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1065,10 +1255,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh036g1",
+    "college_id": "ug_mh023g1",
     "college_name": "Government Medical College, Jalgaon",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1077,10 +1269,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 66,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh036g1",
+    "college_id": "ug_mh023g1",
     "college_name": "Government Medical College, Jalgaon",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1089,10 +1283,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 66,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh037g1",
+    "college_id": "ug_mh024g1",
     "college_name": "Government Medical College, Jalna",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1101,10 +1297,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh037g1",
+    "college_id": "ug_mh024g1",
     "college_name": "Government Medical College, Jalna",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1113,10 +1311,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh038g1",
+    "college_id": "ug_mh025g1",
     "college_name": "Government Medical College, Latur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1125,10 +1325,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh038g1",
+    "college_id": "ug_mh025g1",
     "college_name": "Government Medical College, Latur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1137,10 +1339,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh039g1",
+    "college_id": "ug_mh026g1",
     "college_name": "Government Medical College, Miraj",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1149,10 +1353,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh039g1",
+    "college_id": "ug_mh026g1",
     "college_name": "Government Medical College, Miraj",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1161,10 +1367,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh040g1",
+    "college_id": "ug_mh027g1",
     "college_name": "Government Medical College, Nagpur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1173,10 +1381,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 284,
+    "ss_seats": 18
   },
   {
-    "college_id": "ug_mh040g1",
+    "college_id": "ug_mh027g1",
     "college_name": "Government Medical College, Nagpur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1185,10 +1395,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 284,
+    "ss_seats": 18
   },
   {
-    "college_id": "ug_mh041g1",
+    "college_id": "ug_mh028g1",
     "college_name": "Government Medical College, Nandurbar",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1197,10 +1409,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 19,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh041g1",
+    "college_id": "ug_mh028g1",
     "college_name": "Government Medical College, Nandurbar",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1209,10 +1423,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 19,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh047g1",
+    "college_id": "ug_mh029g1",
     "college_name": "Government Medical College, Nashik",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1221,10 +1437,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 7,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh047g1",
+    "college_id": "ug_mh029g1",
     "college_name": "Government Medical College, Nashik",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1233,10 +1451,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 43,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh042g1",
+    "college_id": "ug_mh030g1",
     "college_name": "Government Medical College, Osmanabad",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1245,10 +1465,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh042g1",
+    "college_id": "ug_mh030g1",
     "college_name": "Government Medical College, Osmanabad",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1257,10 +1479,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh043g1",
+    "college_id": "ug_mh031g1",
     "college_name": "Government Medical College, Parbhani",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1269,10 +1493,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh043g1",
+    "college_id": "ug_mh031g1",
     "college_name": "Government Medical College, Parbhani",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1281,10 +1507,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh044g1",
+    "college_id": "ug_mh032g1",
     "college_name": "Government Medical College, Satara",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1293,10 +1521,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh044g1",
+    "college_id": "ug_mh032g1",
     "college_name": "Government Medical College, Satara",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1305,10 +1535,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh045g1",
+    "college_id": "ug_mh033g1",
     "college_name": "Government Medical College, Sindhudurg",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1317,10 +1549,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh045g1",
+    "college_id": "ug_mh033g1",
     "college_name": "Government Medical College, Sindhudurg",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1329,10 +1563,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh046g1",
+    "college_id": "ug_mh034g1",
     "college_name": "Government Medical College, Washim",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1341,10 +1577,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh046g1",
+    "college_id": "ug_mh034g1",
     "college_name": "Government Medical College, Washim",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1353,10 +1591,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh048g1",
+    "college_id": "ug_mh035g1",
     "college_name": "Grant Medical College, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1365,10 +1605,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 307,
+    "ss_seats": 36
   },
   {
-    "college_id": "ug_mh048g1",
+    "college_id": "ug_mh035g1",
     "college_name": "Grant Medical College, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1377,10 +1619,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 307,
+    "ss_seats": 36
   },
   {
-    "college_id": "ug_mh049g1",
+    "college_id": "ug_mh036g1",
     "college_name": "H.B.T. Medical College & Dr. R.N. Cooper Municipal General Hospital, Juhu, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1389,10 +1633,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh049g1",
+    "college_id": "ug_mh036g1",
     "college_name": "H.B.T. Medical College & Dr. R.N. Cooper Municipal General Hospital, Juhu, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1401,10 +1647,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh050p3",
+    "college_id": "ug_mh015p3",
     "college_name": "Indian Institute of Medical Science & Research, Jalna",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1413,10 +1661,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 57,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh050p3",
+    "college_id": "ug_mh015p3",
     "college_name": "Indian Institute of Medical Science & Research, Jalna",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1425,10 +1675,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 57,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh050p3",
+    "college_id": "ug_mh015p3",
     "college_name": "Indian Institute of Medical Science & Research, Jalna",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1437,10 +1689,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 57,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh051g1",
+    "college_id": "ug_mh037g1",
     "college_name": "Indira Gandhi Medical College & Hospital, Nagpur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1449,10 +1703,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh051g1",
+    "college_id": "ug_mh037g1",
     "college_name": "Indira Gandhi Medical College & Hospital, Nagpur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1461,46 +1717,54 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh052p3",
+    "college_id": "ug_mh016p3",
     "college_name": "Jawaharlal Nehru Medical College, Sawangi (Meghe), Wardha",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_mh052p3",
+    "college_id": "ug_mh016p3",
     "college_name": "Jawaharlal Nehru Medical College, Sawangi (Meghe), Wardha",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_mh052p3",
+    "college_id": "ug_mh016p3",
     "college_name": "Jawaharlal Nehru Medical College, Sawangi (Meghe), Wardha",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 216,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_mh053p3",
+    "college_id": "ug_mh017p3",
     "college_name": "KJ Somaiyya Medical College & Research Centre, Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1509,10 +1773,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh053p3",
+    "college_id": "ug_mh017p3",
     "college_name": "KJ Somaiyya Medical College & Research Centre, Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1521,10 +1787,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh053p3",
+    "college_id": "ug_mh017p3",
     "college_name": "KJ Somaiyya Medical College & Research Centre, Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1533,46 +1801,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh054p3",
+    "college_id": "ug_mh018p3",
     "college_name": "Krishna Institute of Medical Sciences, Karad",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 184,
+    "ss_seats": 17
   },
   {
-    "college_id": "ug_mh054p3",
+    "college_id": "ug_mh018p3",
     "college_name": "Krishna Institute of Medical Sciences, Karad",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 184,
+    "ss_seats": 17
   },
   {
-    "college_id": "ug_mh054p3",
+    "college_id": "ug_mh018p3",
     "college_name": "Krishna Institute of Medical Sciences, Karad",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 184,
+    "ss_seats": 17
   },
   {
-    "college_id": "ug_mh055g1",
+    "college_id": "ug_mh039g1",
     "college_name": "Lokmanya Tilak Municipal Medical College, Sion, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1581,10 +1857,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 219,
+    "ss_seats": 32
   },
   {
-    "college_id": "ug_mh055g1",
+    "college_id": "ug_mh039g1",
     "college_name": "Lokmanya Tilak Municipal Medical College, Sion, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -1593,10 +1871,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 219,
+    "ss_seats": 32
   },
   {
-    "college_id": "ug_mh056p3",
+    "college_id": "ug_mh019p3",
     "college_name": "Maharashtra Institute of Medical Education & Research, Talegaon, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1605,10 +1885,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 43,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh056p3",
+    "college_id": "ug_mh019p3",
     "college_name": "Maharashtra Institute of Medical Education & Research, Talegaon, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1617,10 +1899,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 43,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh056p3",
+    "college_id": "ug_mh019p3",
     "college_name": "Maharashtra Institute of Medical Education & Research, Talegaon, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1629,10 +1913,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 43,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh057p3",
+    "college_id": "ug_mh020p3",
     "college_name": "Maharashtra Institute of Medical Sciences & Research, Latur",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1641,10 +1927,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh057p3",
+    "college_id": "ug_mh020p3",
     "college_name": "Maharashtra Institute of Medical Sciences & Research, Latur",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1653,10 +1941,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh057p3",
+    "college_id": "ug_mh020p3",
     "college_name": "Maharashtra Institute of Medical Sciences & Research, Latur",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1665,10 +1955,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh058p4",
+    "college_id": "ug_mh021p3",
     "college_name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1677,10 +1969,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh058p4",
+    "college_id": "ug_mh021p3",
     "college_name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1689,10 +1983,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh058p4",
+    "college_id": "ug_mh021p3",
     "college_name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1701,10 +1997,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh059p3",
+    "college_id": "ug_in050p3",
     "college_name": "Mahatma Gandhi Mission Medical College, Vashi",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1713,10 +2011,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh059p3",
+    "college_id": "ug_in050p3",
     "college_name": "Mahatma Gandhi Mission Medical College, Vashi",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1725,10 +2025,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh059p3",
+    "college_id": "ug_in050p3",
     "college_name": "Mahatma Gandhi Mission Medical College, Vashi",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1737,10 +2039,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh060p3",
+    "college_id": "ug_mh022p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Aurangabad",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1749,10 +2053,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 126,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mh060p3",
+    "college_id": "ug_mh022p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Aurangabad",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1761,10 +2067,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 126,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mh060p3",
+    "college_id": "ug_mh022p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Aurangabad",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1773,118 +2081,138 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 126,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_mh061p3",
+    "college_id": "ug_mh041g1",
     "college_name": "Mahatma Gandhi Missions Medical College, Kamothe, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 157,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh061p3",
+    "college_id": "ug_mh041g1",
     "college_name": "Mahatma Gandhi Missions Medical College, Kamothe, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 157,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh061p3",
+    "college_id": "ug_mh041g1",
     "college_name": "Mahatma Gandhi Missions Medical College, Kamothe, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 157,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh062p3",
+    "college_id": "ug_in051p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Nerul, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 25,
     "seats_prev": 25,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_mh062p3",
+    "college_id": "ug_in051p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Nerul, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 17,
     "seats_prev": 17,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_mh062p3",
+    "college_id": "ug_in051p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Nerul, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 8,
     "seats_prev": 8,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_mh063p3",
+    "college_id": "ug_mh023p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Panvel",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh063p3",
+    "college_id": "ug_mh023p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Panvel",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh063p3",
+    "college_id": "ug_mh023p3",
     "college_name": "Mahatma Gandhi Missions Medical College, Panvel",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh064p4",
+    "college_id": "ug_or006p3",
     "college_name": "Malati Multispeciality Hospital and Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1893,10 +2221,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 25,
     "seats_prev": 25,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh064p4",
+    "college_id": "ug_or006p3",
     "college_name": "Malati Multispeciality Hospital and Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1905,10 +2235,12 @@
     "quota_type": "Management Quota",
     "seats": 17,
     "seats_prev": 17,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh064p4",
+    "college_id": "ug_or006p3",
     "college_name": "Malati Multispeciality Hospital and Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1917,10 +2249,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 8,
     "seats_prev": 8,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mauli_medical_college_hospital_research_center_maharashtra",
+    "college_id": "ug_mh024p3",
     "college_name": "Mauli Medical College Hospital & Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1929,10 +2263,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mauli_medical_college_hospital_research_center_maharashtra",
+    "college_id": "ug_mh024p3",
     "college_name": "Mauli Medical College Hospital & Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1941,10 +2277,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mauli_medical_college_hospital_research_center_maharashtra",
+    "college_id": "ug_mh024p3",
     "college_name": "Mauli Medical College Hospital & Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -1953,82 +2291,96 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh065p4",
+    "college_id": "ug_mh042g1",
     "college_name": "N. K. P. Salve Institute of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 152,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_mh065p4",
+    "college_id": "ug_mh042g1",
     "college_name": "N. K. P. Salve Institute of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 152,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_mh065p4",
+    "college_id": "ug_mh042g1",
     "college_name": "N. K. P. Salve Institute of Medical Sciences and Research Centre and Lata Mangeshkar Hospital, Nagpur",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 152,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_mh066p3",
+    "college_id": "ug_in068p3",
     "college_name": "Padmashree Dr. D.Y.Patil Medical College, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 199,
+    "ss_seats": 24
   },
   {
-    "college_id": "ug_mh066p3",
+    "college_id": "ug_in068p3",
     "college_name": "Padmashree Dr. D.Y.Patil Medical College, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 199,
+    "ss_seats": 24
   },
   {
-    "college_id": "ug_mh066p3",
+    "college_id": "ug_in068p3",
     "college_name": "Padmashree Dr. D.Y.Patil Medical College, Navi Mumbai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 199,
+    "ss_seats": 24
   },
   {
-    "college_id": "ug_mh067p4",
+    "college_id": "ug_in069p3",
     "college_name": "Parbhani Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2037,10 +2389,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh067p4",
+    "college_id": "ug_in069p3",
     "college_name": "Parbhani Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2049,10 +2403,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh067p4",
+    "college_id": "ug_in069p3",
     "college_name": "Parbhani Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2061,10 +2417,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh068p3",
+    "college_id": "ug_mh026p3",
     "college_name": "Prakash Institute of Medical Sciences & Research, Sangli",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2073,10 +2431,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh068p3",
+    "college_id": "ug_mh026p3",
     "college_name": "Prakash Institute of Medical Sciences & Research, Sangli",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2085,10 +2445,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh068p3",
+    "college_id": "ug_mh026p3",
     "college_name": "Prakash Institute of Medical Sciences & Research, Sangli",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2097,10 +2459,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh071p3",
+    "college_id": "ug_mh027p3",
     "college_name": "R K Damani Medical College Shri Ramchandra Institute of Medical Sciences, Chhatrapati Sambhajinagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2109,10 +2473,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh071p3",
+    "college_id": "ug_mh027p3",
     "college_name": "R K Damani Medical College Shri Ramchandra Institute of Medical Sciences, Chhatrapati Sambhajinagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2121,10 +2487,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh071p3",
+    "college_id": "ug_mh027p3",
     "college_name": "R K Damani Medical College Shri Ramchandra Institute of Medical Sciences, Chhatrapati Sambhajinagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2133,10 +2501,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh069g1",
+    "college_id": "ug_mh045g1",
     "college_name": "Rajashree Chatrapati Shahu Maharaj Government Medical College, Kolhapur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2145,10 +2515,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 7
   },
   {
-    "college_id": "ug_mh069g1",
+    "college_id": "ug_mh045g1",
     "college_name": "Rajashree Chatrapati Shahu Maharaj Government Medical College, Kolhapur",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2157,10 +2529,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 7
   },
   {
-    "college_id": "ug_mh070g1",
+    "college_id": "ug_mh046g1",
     "college_name": "Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital, Thane",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2169,10 +2543,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh070g1",
+    "college_id": "ug_mh046g1",
     "college_name": "Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital, Thane",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2181,47 +2557,55 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh072p3",
+    "college_id": "ug_mh028p3",
     "college_name": "Rural Medical College, Loni",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh072p3",
+    "college_id": "ug_mh028p3",
     "college_name": "Rural Medical College, Loni",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh072p3",
+    "college_id": "ug_mh028p3",
     "college_name": "Rural Medical College, Loni",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Maharashtra",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh073g1",
-    "college_name": "Seth GS Medical College, Mumbai",
+    "college_id": "ug_in086g1",
+    "college_name": "Seth GS Medical College and KEM Hospital, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -2229,11 +2613,13 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 230,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_mh073g1",
-    "college_name": "Seth GS Medical College, Mumbai",
+    "college_id": "ug_in086g1",
+    "college_name": "Seth GS Medical College and KEM Hospital, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -2241,10 +2627,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 230,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_mh074g1",
+    "college_id": "ug_mh048g1",
     "college_name": "Shri Vasant Rao Naik Government Medical College, Yavatmal",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2253,10 +2641,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh074g1",
+    "college_id": "ug_mh048g1",
     "college_name": "Shri Vasant Rao Naik Government Medical College, Yavatmal",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2265,11 +2655,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh075p4",
-    "college_name": "Sindhudurg Shikshan Prasarak Mandal (SSPM) Medical College & Lifetime Hospital, Padave, Sindhudurg",
+    "college_id": "ug_mh032p3",
+    "college_name": "Sindhudurg Shikshan Prasarak Mandal Medical College & Lifetime Hospital, Padave, Sindhudurg",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -2277,11 +2669,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 74,
     "seats_prev": 74,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh075p4",
-    "college_name": "Sindhudurg Shikshan Prasarak Mandal (SSPM) Medical College & Lifetime Hospital, Padave, Sindhudurg",
+    "college_id": "ug_mh032p3",
+    "college_name": "Sindhudurg Shikshan Prasarak Mandal Medical College & Lifetime Hospital, Padave, Sindhudurg",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -2289,11 +2683,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh075p4",
-    "college_name": "Sindhudurg Shikshan Prasarak Mandal (SSPM) Medical College & Lifetime Hospital, Padave, Sindhudurg",
+    "college_id": "ug_mh032p3",
+    "college_name": "Sindhudurg Shikshan Prasarak Mandal Medical College & Lifetime Hospital, Padave, Sindhudurg",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -2301,10 +2697,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh076p3",
+    "college_id": "ug_mh029p3",
     "college_name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills, Nashik",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2313,10 +2711,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_mh076p3",
+    "college_id": "ug_mh029p3",
     "college_name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills, Nashik",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2325,10 +2725,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_mh076p3",
+    "college_id": "ug_mh029p3",
     "college_name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills, Nashik",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2337,10 +2739,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_mh077p3",
+    "college_id": "ug_in085p3",
     "college_name": "Smt Sakhubai Narayanrao Katkade Medical College and Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2349,10 +2753,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh077p3",
+    "college_id": "ug_in085p3",
     "college_name": "Smt Sakhubai Narayanrao Katkade Medical College and Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2361,10 +2767,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh077p3",
+    "college_id": "ug_in085p3",
     "college_name": "Smt Sakhubai Narayanrao Katkade Medical College and Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2373,10 +2781,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh078p4",
+    "college_id": "ug_mh033p3",
     "college_name": "Smt. Kashibai Navale Medical College and General Hospital, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2385,10 +2795,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 89,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh078p4",
+    "college_id": "ug_mh033p3",
     "college_name": "Smt. Kashibai Navale Medical College and General Hospital, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2397,10 +2809,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 89,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh078p4",
+    "college_id": "ug_mh033p3",
     "college_name": "Smt. Kashibai Navale Medical College and General Hospital, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2409,10 +2823,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 89,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh079g1",
+    "college_id": "ug_mh049g1",
     "college_name": "Sri Bhausaheb Hire Government Medical College, Dhule",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2421,10 +2837,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 60,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh079g1",
+    "college_id": "ug_mh049g1",
     "college_name": "Sri Bhausaheb Hire Government Medical College, Dhule",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2433,10 +2851,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 60,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh080g1",
+    "college_id": "ug_mh047g1",
     "college_name": "SRTR Medical College, Ambajogai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2445,10 +2865,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 93,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh080g1",
+    "college_id": "ug_mh047g1",
     "college_name": "SRTR Medical College, Ambajogai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2457,11 +2879,55 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 93,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh081p3",
+    "college_id": "ug_in094p3",
     "college_name": "Symbiosis Medical College for Women, Pune",
+    "college_type": "Deemed",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 75,
+    "seats_prev": 75,
+    "seats_inc": 0,
+    "pg_seats": 64,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in094p3",
+    "college_name": "Symbiosis Medical College for Women, Pune",
+    "college_type": "Deemed",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Management Quota",
+    "seats": 52,
+    "seats_prev": 52,
+    "seats_inc": 0,
+    "pg_seats": 64,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in094p3",
+    "college_name": "Symbiosis Medical College for Women, Pune",
+    "college_type": "Deemed",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "NRI / Minority Quota",
+    "seats": 23,
+    "seats_prev": 23,
+    "seats_inc": 0,
+    "pg_seats": 64,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mh034p3",
+    "college_name": "Terna Medical College, Navi Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
     "course": "MBBS",
@@ -2469,46 +2935,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 43,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh081p3",
-    "college_name": "Symbiosis Medical College for Women, Pune",
-    "college_type": "Private",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Management Quota",
-    "seats": 52,
-    "seats_prev": 52,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mh081p3",
-    "college_name": "Symbiosis Medical College for Women, Pune",
-    "college_type": "Private",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "NRI / Minority Quota",
-    "seats": 23,
-    "seats_prev": 23,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mh082p3",
-    "college_name": "Terna Medical College, Navi Mumbai",
-    "college_type": "Private",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 75,
-    "seats_prev": 75,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_mh082p3",
+    "college_id": "ug_mh034p3",
     "college_name": "Terna Medical College, Navi Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2517,10 +2949,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 43,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh082p3",
+    "college_id": "ug_mh034p3",
     "college_name": "Terna Medical College, Navi Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2529,10 +2963,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 43,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh083g1",
+    "college_id": "ug_mh051g1",
     "college_name": "Topiwala National Medical College, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2541,10 +2977,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 169,
+    "ss_seats": 34
   },
   {
-    "college_id": "ug_mh083g1",
+    "college_id": "ug_mh051g1",
     "college_name": "Topiwala National Medical College, Mumbai",
     "college_type": "Government",
     "state": "Maharashtra",
@@ -2553,10 +2991,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 169,
+    "ss_seats": 34
   },
   {
-    "college_id": "ug_mh084p5",
+    "college_id": "ug_mh035p3",
     "college_name": "Vedantaa Institute of Medical Sciences, Palghar, Maharashtra",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2565,10 +3005,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh084p5",
+    "college_id": "ug_mh035p3",
     "college_name": "Vedantaa Institute of Medical Sciences, Palghar, Maharashtra",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2577,10 +3019,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_mh084p5",
+    "college_id": "ug_mh035p3",
     "college_name": "Vedantaa Institute of Medical Sciences, Palghar, Maharashtra",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -2589,18 +3033,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_nagpur",
-    "college_name": "AIIMS Nagpur",
-    "college_type": "Government",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 0
   }
 ]

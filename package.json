@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "start": "python3 -m http.server 8080 --directory public"
+    "start": "python3 -m http.server 8080 --directory public",
+    "dev": "python3 -m http.server 8080 --directory public"
   },
   "dependencies": {
     "jsdom": "^24.1.1",

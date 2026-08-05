@@ -1,67 +1,7 @@
 [
   {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
-    "college_type": "Government",
-    "state": "Goa",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
-    "college_type": "Government",
-    "state": "Goa",
-    "course": "DM - Cardiology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 2,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
-    "college_type": "Government",
-    "state": "Goa",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
-    "college_type": "Government",
-    "state": "Goa",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
-    "college_type": "Government",
-    "state": "Goa",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
     "college_type": "Government",
     "state": "Goa",
     "course": "DM - Cardiac Anaesthesia",
@@ -72,20 +12,20 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
     "college_type": "Government",
     "state": "Goa",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "course": "DM - Cardiology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 2,
+    "seats": 3,
     "seats_prev": 2,
-    "seats_inc": 0
+    "seats_inc": 1
   },
   {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
     "college_type": "Government",
     "state": "Goa",
     "course": "DM - Endocrinology",
@@ -96,8 +36,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
     "college_type": "Government",
     "state": "Goa",
     "course": "DM - Medical Oncology",
@@ -108,8 +48,20 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_goa_medical_college_goa",
-    "college_name": "Goa Medical College",
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
     "college_type": "Government",
     "state": "Goa",
     "course": "DM - Neurology",
@@ -118,5 +70,53 @@
     "seats": 2,
     "seats_prev": 0,
     "seats_inc": 2
+  },
+  {
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ga001g1",
+    "college_name": "Goa Medical College, Panaji",
+    "college_type": "Government",
+    "state": "Goa",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
   }
 ]

@@ -389,22 +389,27 @@ function applyFiltering() {
     data = data.filter(row => f.states.includes(row.state));
   }
 
-  // 1. Sidebar Keyword text search (matches college name)
+  // 1. Sidebar Keyword text search (matches college name or canonical names)
   if (f.query.trim()) {
     const keywords = f.query.toLowerCase().split(' ').filter(Boolean);
     data = data.filter(row => {
       const name = row.college_name.toLowerCase();
-      return keywords.every(kw => name.includes(kw));
+      const det = AppState.collegesDetails && AppState.collegesDetails[row.college_id];
+      const aliasList = det ? (det.aliases || det.canonical_names || []) : [];
+      const canonStr = aliasList.join(' ').toLowerCase();
+      return keywords.every(kw => name.includes(kw) || canonStr.includes(kw));
     });
   }
 
-  // 2. Table quick search input (matches college name or course name)
+  // 2. Table quick search input (matches college name, course name, or canonical names)
   const quickQuery = document.getElementById('tableSearchInput').value.toLowerCase().trim();
   if (quickQuery) {
-    data = data.filter(row => 
-      row.college_name.toLowerCase().includes(quickQuery) || 
-      row.course.toLowerCase().includes(quickQuery)
-    );
+    data = data.filter(row => {
+      if (row.college_name.toLowerCase().includes(quickQuery) || row.course.toLowerCase().includes(quickQuery)) return true;
+      const det = AppState.collegesDetails && AppState.collegesDetails[row.college_id];
+      const aliasList = det ? (det.aliases || det.canonical_names || []) : [];
+      return aliasList.some(cName => cName.toLowerCase().includes(quickQuery));
+    });
   }
 
   // 3. College Type check
@@ -802,9 +807,12 @@ function repositionFilterButton() {
   const drawer = document.getElementById('compareDrawer');
   if (!filterBtn || !drawer) return;
 
-  if (drawer.classList.contains('active') && window.innerWidth <= 1024) {
+  const isFullscreen = document.body.classList.contains('table-fullscreen-active') || document.body.classList.contains('compare-fullscreen-active');
+  const isMobile = window.innerWidth <= 1024;
+
+  if (drawer.classList.contains('active') && (isMobile || isFullscreen)) {
     const drawerHeight = drawer.getBoundingClientRect().height;
-    filterBtn.style.bottom = (drawerHeight + 16) + 'px';
+    filterBtn.style.bottom = (drawerHeight + 20) + 'px';
   } else {
     filterBtn.style.bottom = '';
   }
@@ -866,8 +874,12 @@ function setupGlobalListeners() {
   document.querySelectorAll('.level-tab').forEach(tab => {
     tab.addEventListener('click', async (e) => {
       const button = e.currentTarget;
-      document.querySelectorAll('.level-tab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.level-tab').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
       button.classList.add('active');
+      button.setAttribute('aria-selected', 'true');
       
       AppState.activeLevel = button.getAttribute('data-level');
       AppState.comparisonList = [];
@@ -889,8 +901,12 @@ function setupGlobalListeners() {
   // Statistics Toggle Buttons click
   document.querySelectorAll('.toggle-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.toggle-btn').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       e.currentTarget.classList.add('active');
+      e.currentTarget.setAttribute('aria-pressed', 'true');
       
       AppState.statsMode = e.currentTarget.getAttribute('data-mode');
       renderDashboardStats();
@@ -900,8 +916,12 @@ function setupGlobalListeners() {
   // Main Workspace panel Tabs click
   document.querySelectorAll('.panel-tab').forEach(tab => {
     tab.addEventListener('click', (e) => {
-      document.querySelectorAll('.panel-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.panel-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
       e.currentTarget.classList.add('active');
+      e.currentTarget.setAttribute('aria-selected', 'true');
       e.currentTarget.scrollIntoView({
         behavior: 'smooth',
         block: 'nearest',
@@ -1406,6 +1426,23 @@ async function showCollegeDetailsModal(collegeId) {
     console.warn("Cutoff lookup in modal failed:", err);
   }
 
+  let canonicalsHtml = '';
+  const aliasList = details.aliases || details.canonical_names || [];
+  if (aliasList && aliasList.length > 0) {
+    const mainName = String(details.college_name || '').toLowerCase().trim();
+    const alternates = aliasList.filter(c => String(c).toLowerCase().trim() !== mainName);
+    if (alternates.length > 0) {
+      canonicalsHtml = `
+        <div class="details-item col-span-2" style="grid-column: span 2; margin-top: 4px;">
+          <span class="details-label"><i data-lucide="tag"></i> Registered Aliases & Alternate Names</span>
+          <span class="details-value" style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 6px;">
+            ${alternates.map(alt => `<span class="badge badge-code" style="margin: 0; text-align: left; white-space: normal; height: auto; line-height: 1.4; font-size: 0.75rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 4px 8px; border-radius: 4px; color: var(--text-secondary, #94a3b8);">${alt}</span>`).join('')}
+          </span>
+        </div>
+      `;
+    }
+  }
+
   container.innerHTML = `
     <div class="modal-details-grid">
       <!-- Section 1: General Info -->
@@ -1428,6 +1465,7 @@ async function showCollegeDetailsModal(collegeId) {
             <span class="details-label">NMC Registry Status</span>
             <span class="details-value text-bold text-green">${details.status || 'Active'}</span>
           </div>
+          ${canonicalsHtml}
         </div>
       </div>
 

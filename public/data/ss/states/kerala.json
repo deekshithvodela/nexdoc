@@ -1,6 +1,6 @@
 [
   {
-    "college_id": "ss_academy_of_medical_sciences_pariyaram_kannur_kerala",
+    "college_id": "ug_kl001g1",
     "college_name": "Academy of Medical Sciences, Pariyaram, Kannur",
     "college_type": "Government",
     "state": "Kerala",
@@ -12,7 +12,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amala_institute_of_medical_sciences_thrissur_kerala",
+    "college_id": "ug_kl002p3",
     "college_name": "Amala Institute of Medical Sciences, Thrissur",
     "college_type": "Private",
     "state": "Kerala",
@@ -24,31 +24,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amala_institute_of_medical_sciences_thrissur_kerala",
-    "college_name": "Amala Institute of Medical Sciences, Thrissur",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amala_institute_of_medical_sciences_thrissur_kerala",
-    "college_name": "Amala Institute of Medical Sciences, Thrissur",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Pulmonary Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amala_institute_of_medical_sciences_thrissur_kerala",
+    "college_id": "ug_kl002p3",
     "college_name": "Amala Institute of Medical Sciences, Thrissur",
     "college_type": "Private",
     "state": "Kerala",
@@ -60,9 +36,33 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_id": "ug_kl002p3",
+    "college_name": "Amala Institute of Medical Sciences, Thrissur",
     "college_type": "Private",
+    "state": "Kerala",
+    "course": "DM - Pulmonary Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl002p3",
+    "college_name": "Amala Institute of Medical Sciences, Thrissur",
+    "college_type": "Private",
+    "state": "Kerala",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
     "state": "Kerala",
     "course": "DM - Cardiac Anaesthesia",
     "counseling_route": "MCC",
@@ -72,9 +72,9 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
     "course": "DM - Cardiology",
     "counseling_route": "MCC",
@@ -84,9 +84,9 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
     "course": "DM - Clinical Hematology",
     "counseling_route": "MCC",
@@ -96,105 +96,9 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Endocrinology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Medical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Paediatric Cardiology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Paediatric Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Pulmonary Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 2,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
     "course": "DM - Clinical Immunology & Rheumatology",
     "counseling_route": "MCC",
@@ -204,23 +108,47 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "course": "DM - Critical Care Medicine",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
-    "seats_prev": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "DM - Endocrinology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
-    "course": "M.Ch - Surgical Gastroenterology",
+    "course": "DM - Hepatology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "DM - Medical Gastroenterology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 4,
@@ -228,35 +156,11 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
-    "course": "M.Ch - Gynaecological Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "M.Ch - Head & Neck Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "M.Ch - Neuro Surgery",
+    "course": "DM - Medical Oncology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 4,
@@ -264,23 +168,35 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
-    "course": "M.Ch - Paediatric Surgery",
+    "course": "DM - Nephrology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
+    "seats": 3,
+    "seats_prev": 3,
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Kerala",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "DM - Paediatric Cardiology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
@@ -288,9 +204,33 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "DM - Paediatric Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "DM - Pulmonary Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 2,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
     "state": "Kerala",
     "course": "DM/M.Ch - Reproductive Medicine & Surgery",
     "counseling_route": "MCC",
@@ -300,9 +240,93 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
+    "college_id": "ug_kl003p3",
     "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Gynaecological Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Head & Neck Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
+    "state": "Kerala",
+    "course": "M.Ch - Surgical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl003p3",
+    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
+    "college_type": "Deemed",
     "state": "Kerala",
     "course": "M.Ch - Urology",
     "counseling_route": "MCC",
@@ -312,7 +336,7 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
@@ -324,43 +348,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
-    "college_name": "Government Medical College, Kottayam",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
-    "college_name": "Government Medical College, Kottayam",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
-    "college_name": "Government Medical College, Kottayam",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
@@ -372,23 +360,35 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
-    "course": "M.Ch - Neuro Surgery",
+    "course": "DM - Medical Gastroenterology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
+    "seats": 3,
+    "seats_prev": 3,
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
-    "course": "M.Ch - Paediatric Surgery",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl008g1",
+    "college_name": "Government Medical College, Kottayam",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Neurology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 1,
@@ -396,7 +396,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
@@ -408,19 +408,31 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
-    "course": "M.Ch - Urology",
+    "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
+    "seats": 4,
+    "seats_prev": 4,
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kottayam_kerala",
+    "college_id": "ug_kl008g1",
+    "college_name": "Government Medical College, Kottayam",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl008g1",
     "college_name": "Government Medical College, Kottayam",
     "college_type": "Government",
     "state": "Kerala",
@@ -432,7 +444,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
+    "college_id": "ug_kl008g1",
+    "college_name": "Government Medical College, Kottayam",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
     "college_name": "Government Medical College, Kozhikode, Calicut",
     "college_type": "Government",
     "state": "Kerala",
@@ -444,11 +468,11 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
+    "college_id": "ug_in036g1",
     "college_name": "Government Medical College, Kozhikode, Calicut",
     "college_type": "Government",
     "state": "Kerala",
-    "course": "M.Ch - Urology",
+    "course": "DM - Medical Gastroenterology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 4,
@@ -456,7 +480,91 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Pulmonary Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in036g1",
+    "college_name": "Government Medical College, Kozhikode, Calicut",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Surgical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_in036g1",
     "college_name": "Government Medical College, Kozhikode, Calicut",
     "college_type": "Government",
     "state": "Kerala",
@@ -468,11 +576,11 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
+    "college_id": "ug_in036g1",
     "college_name": "Government Medical College, Kozhikode, Calicut",
     "college_type": "Government",
     "state": "Kerala",
-    "course": "DM - Medical Gastroenterology",
+    "course": "M.Ch - Urology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 4,
@@ -480,79 +588,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Pulmonary Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Paediatric Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_government_medical_college_thrissur_kerala",
+    "college_id": "ug_kl012g1",
     "college_name": "Government Medical College, Thrissur",
     "college_type": "Government",
     "state": "Kerala",
@@ -564,7 +600,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_thrissur_kerala",
+    "college_id": "ug_kl012g1",
+    "college_name": "Government Medical College, Thrissur",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Neonatology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_kl012g1",
     "college_name": "Government Medical College, Thrissur",
     "college_type": "Government",
     "state": "Kerala",
@@ -576,8 +624,20 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_jubilee_mission_medical_college_research_institute_thrissur_kerala",
-    "college_name": "Jubilee Mission Medical College & Research Institute Thrissur",
+    "college_id": "ug_in037p3",
+    "college_name": "Jubilee Mission Medical College & Research Institute, Thrissur",
+    "college_type": "Private",
+    "state": "Kerala",
+    "course": "DM - Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_in037p3",
+    "college_name": "Jubilee Mission Medical College & Research Institute, Thrissur",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Critical Care Medicine",
@@ -588,20 +648,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_jubilee_mission_medical_college_research_institute_thrissur_kerala",
-    "college_name": "Jubilee Mission Medical College & Research Institute Thrissur",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Cardiology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_jubilee_mission_medical_college_research_institute_thrissur_kerala",
-    "college_name": "Jubilee Mission Medical College & Research Institute Thrissur",
+    "college_id": "ug_in037p3",
+    "college_name": "Jubilee Mission Medical College & Research Institute, Thrissur",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Neurology",
@@ -612,7 +660,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_m_e_s_medical_college_perintalmanna_malappuram_disttkerala_kerala",
+    "college_id": "ug_kl011p3",
     "college_name": "M E S Medical College, Perintalmanna Malappuram Distt.Kerala",
     "college_type": "Private",
     "state": "Kerala",
@@ -624,8 +672,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malabar_cancer_centre_post_graduate_institute_of_oncology_sciences_research_thalassery_kerala",
-    "college_name": "Malabar Cancer Centre \u2013 Post Graduate Institute of Oncology Sciences & Research, Thalassery",
+    "college_id": "ug_kl012p3",
+    "college_name": "Malabar Cancer Centre Post Graduate Institute of Oncology Sciences and Research",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Onco Pathology",
@@ -636,19 +684,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode, Calicut",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
+    "college_id": "ug_kl013p3",
     "college_name": "Malabar Medical College, Kozhikode, Calicut",
     "college_type": "Private",
     "state": "Kerala",
@@ -660,7 +696,31 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_malankara_orthodox_syrian_church_medical_college_kolenchery_kerala",
+    "college_id": "ug_kl013p3",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
+    "college_type": "Private",
+    "state": "Kerala",
+    "course": "DM - Medical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl013p3",
+    "college_name": "Malabar Medical College, Kozhikode, Calicut",
+    "college_type": "Private",
+    "state": "Kerala",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_kl014p3",
     "college_name": "Malankara Orthodox Syrian Church Medical College, Kolenchery",
     "college_type": "Private",
     "state": "Kerala",
@@ -672,7 +732,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -684,19 +744,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -708,7 +756,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -720,7 +768,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -732,7 +780,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -744,7 +792,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -756,91 +804,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 6,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Paediatric Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Paediatric Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 6,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM/M.Ch - Reproductive Medicine & Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Surgical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
-    "college_name": "Medical College, Thiruvananthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 6,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -852,7 +816,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_medical_college_thiruvananthapuram_kerala",
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Paediatric Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
     "college_name": "Medical College, Thiruvananthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -864,8 +840,92 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_pushpagiri_institute_of_medical_sciences_and_research_centre_tiruvalla_kerala",
-    "college_name": "Pushpagiri Institute Of Medical Sciences and Research Centre, Tiruvalla",
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM/M.Ch - Reproductive Medicine & Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Neuro Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 6,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 6,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Surgical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl015g1",
+    "college_name": "Medical College, Thiruvananthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 6,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl017p3",
+    "college_name": "Pushpagiri Institute of Medical Sciences and Research Centre, Tiruvalla",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Cardiology",
@@ -876,20 +936,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_pushpagiri_institute_of_medical_sciences_and_research_centre_tiruvalla_kerala",
-    "college_name": "Pushpagiri Institute Of Medical Sciences and Research Centre, Tiruvalla",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pushpagiri_institute_of_medical_sciences_and_research_centre_tiruvalla_kerala",
-    "college_name": "Pushpagiri Institute Of Medical Sciences and Research Centre, Tiruvalla",
+    "college_id": "ug_kl017p3",
+    "college_name": "Pushpagiri Institute of Medical Sciences and Research Centre, Tiruvalla",
     "college_type": "Private",
     "state": "Kerala",
     "course": "DM - Nephrology",
@@ -900,31 +948,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_cancer_centre_thiruvanthapuram_kerala",
-    "college_name": "Regional Cancer Centre, Thiruvanthapuram",
-    "college_type": "Government",
+    "college_id": "ug_kl017p3",
+    "college_name": "Pushpagiri Institute of Medical Sciences and Research Centre, Tiruvalla",
+    "college_type": "Private",
     "state": "Kerala",
-    "course": "M.Ch - Surgical Oncology",
+    "course": "DM - Neurology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 6,
+    "seats": 1,
+    "seats_prev": 1,
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_cancer_centre_thiruvanthapuram_kerala",
-    "college_name": "Regional Cancer Centre, Thiruvanthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Onco Pathology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_regional_cancer_centre_thiruvanthapuram_kerala",
+    "college_id": "ug_kl016g1",
     "college_name": "Regional Cancer Centre, Thiruvanthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -936,7 +972,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_cancer_centre_thiruvanthapuram_kerala",
+    "college_id": "ug_kl016g1",
+    "college_name": "Regional Cancer Centre, Thiruvanthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Onco Pathology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl016g1",
     "college_name": "Regional Cancer Centre, Thiruvanthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -948,19 +996,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_cancer_centre_thiruvanthapuram_kerala",
-    "college_name": "Regional Cancer Centre, Thiruvanthapuram",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Head & Neck Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_regional_cancer_centre_thiruvanthapuram_kerala",
+    "college_id": "ug_kl016g1",
     "college_name": "Regional Cancer Centre, Thiruvanthapuram",
     "college_type": "Government",
     "state": "Kerala",
@@ -972,7 +1008,31 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_t_d_medical_college_alleppey_allappuzha_kerala",
+    "college_id": "ug_kl016g1",
+    "college_name": "Regional Cancer Centre, Thiruvanthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Head & Neck Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl016g1",
+    "college_name": "Regional Cancer Centre, Thiruvanthapuram",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 6,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl018g1",
     "college_name": "T D Medical College, Alleppey (Allappuzha)",
     "college_type": "Government",
     "state": "Kerala",
@@ -984,19 +1044,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_t_d_medical_college_alleppey_allappuzha_kerala",
-    "college_name": "T D Medical College, Alleppey (Allappuzha)",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_t_d_medical_college_alleppey_allappuzha_kerala",
+    "college_id": "ug_kl018g1",
     "college_name": "T D Medical College, Alleppey (Allappuzha)",
     "college_type": "Government",
     "state": "Kerala",
@@ -1008,7 +1056,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_t_d_medical_college_alleppey_allappuzha_kerala",
+    "college_id": "ug_kl018g1",
+    "college_name": "T D Medical College, Alleppey (Allappuzha)",
+    "college_type": "Government",
+    "state": "Kerala",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_kl018g1",
     "college_name": "T D Medical College, Alleppey (Allappuzha)",
     "college_type": "Government",
     "state": "Kerala",
@@ -1020,7 +1080,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_t_d_medical_college_alleppey_allappuzha_kerala",
+    "college_id": "ug_kl018g1",
     "college_name": "T D Medical College, Alleppey (Allappuzha)",
     "college_type": "Government",
     "state": "Kerala",
@@ -1030,65 +1090,5 @@
     "seats": 2,
     "seats_prev": 2,
     "seats_inc": 0
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Hepatology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_amrita_school_of_medicine_elamkara_kochi_kerala",
-    "college_name": "Amrita School of Medicine, Elamkara, Kochi",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "DM - Critical Care Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_government_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Government Medical College, Kozhikode, Calicut",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "M.Ch - Surgical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_government_medical_college_thrissur_kerala",
-    "college_name": "Government Medical College, Thrissur",
-    "college_type": "Government",
-    "state": "Kerala",
-    "course": "DM - Neonatology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_malabar_medical_college_kozhikode_calicut_kerala",
-    "college_name": "Malabar Medical College, Kozhikode, Calicut",
-    "college_type": "Private",
-    "state": "Kerala",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
   }
 ]

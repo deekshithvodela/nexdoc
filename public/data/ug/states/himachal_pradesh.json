@@ -1,6 +1,20 @@
 [
   {
-    "college_id": "ug_hp001g1",
+    "college_id": "ug_in005i1",
+    "college_name": "All India Institute of Medical Sciences, Bilaspur",
+    "college_type": "INI",
+    "state": "Himachal Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_hp002g1",
     "college_name": "Dr. Radhakrishnan Government Medical College, Hamirpur, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -9,10 +23,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp001g1",
+    "college_id": "ug_hp002g1",
     "college_name": "Dr. Radhakrishnan Government Medical College, Hamirpur, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -21,10 +37,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp002g1",
+    "college_id": "ug_hp003g1",
     "college_name": "Dr. Rajendar Prasad Government Medical College, Tanda, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -33,10 +51,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp002g1",
+    "college_id": "ug_hp003g1",
     "college_name": "Dr. Rajendar Prasad Government Medical College, Tanda, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -45,11 +65,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 103,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp003g1",
-    "college_name": "Government Medical College, Nahan, Sirmour H.P.",
+    "college_id": "ug_hp004g1",
+    "college_name": "Government Medical College, Nahan, Sirmour",
     "college_type": "Government",
     "state": "Himachal Pradesh",
     "course": "MBBS",
@@ -57,11 +79,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 3,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp003g1",
-    "college_name": "Government Medical College, Nahan, Sirmour H.P.",
+    "college_id": "ug_hp004g1",
+    "college_name": "Government Medical College, Nahan, Sirmour",
     "college_type": "Government",
     "state": "Himachal Pradesh",
     "course": "MBBS",
@@ -69,10 +93,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 3,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp004g1",
+    "college_id": "ug_hp005g1",
     "college_name": "Indira Gandhi Medical College, Shimla",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -81,10 +107,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp004g1",
+    "college_id": "ug_hp005g1",
     "college_name": "Indira Gandhi Medical College, Shimla",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -93,10 +121,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp005p3",
+    "college_id": "ug_hp002p3",
     "college_name": "Maharishi Markandeshwar Medical College & Hospital, Solan",
     "college_type": "Private",
     "state": "Himachal Pradesh",
@@ -105,10 +135,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp005p3",
+    "college_id": "ug_hp002p3",
     "college_name": "Maharishi Markandeshwar Medical College & Hospital, Solan",
     "college_type": "Private",
     "state": "Himachal Pradesh",
@@ -117,10 +149,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hp005p3",
+    "college_id": "ug_hp002p3",
     "college_name": "Maharishi Markandeshwar Medical College & Hospital, Solan",
     "college_type": "Private",
     "state": "Himachal Pradesh",
@@ -129,7 +163,9 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hp006g1",
@@ -141,7 +177,9 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hp006g1",
@@ -153,11 +191,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 103,
     "seats_prev": 102,
-    "seats_inc": 1
+    "seats_inc": 1,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hp007g1",
-    "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi, HP",
+    "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi",
     "college_type": "Government",
     "state": "Himachal Pradesh",
     "course": "MBBS",
@@ -165,11 +205,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hp007g1",
-    "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi, HP",
+    "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi",
     "college_type": "Government",
     "state": "Himachal Pradesh",
     "course": "MBBS",
@@ -177,18 +219,8 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_bilaspur",
-    "college_name": "AIIMS Bilaspur",
-    "college_type": "Government",
-    "state": "Himachal Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 100,
-    "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   }
 ]

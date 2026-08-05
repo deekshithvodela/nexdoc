@@ -1,31 +1,21 @@
 [
   {
-    "college_id": "ug_uk001g1",
-    "college_name": "Doon Medical College, Dehradun, Uttarakhand",
-    "college_type": "Government",
+    "college_id": "ug_in019i1",
+    "college_name": "All India Institute of Medical Sciences, Rishikesh",
+    "college_type": "INI",
     "state": "Uttarakhand",
     "course": "MBBS",
     "counseling_route": "MCC",
     "quota_type": "All India Quota",
-    "seats": 22,
-    "seats_prev": 22,
-    "seats_inc": 0
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk001g1",
-    "college_name": "Doon Medical College, Dehradun, Uttarakhand",
-    "college_type": "Government",
-    "state": "Uttarakhand",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 128,
-    "seats_prev": 128,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_uk002p3",
-    "college_name": "Gautam Buddha Chikitsa Mahavidyalaya, Dehradum",
+    "college_id": "ug_uk001p3",
+    "college_name": "Gautam Buddha Chikitsa Mahavidhalaya, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -33,11 +23,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk002p3",
-    "college_name": "Gautam Buddha Chikitsa Mahavidyalaya, Dehradum",
+    "college_id": "ug_uk001p3",
+    "college_name": "Gautam Buddha Chikitsa Mahavidhalaya, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -45,11 +37,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk002p3",
-    "college_name": "Gautam Buddha Chikitsa Mahavidyalaya, Dehradum",
+    "college_id": "ug_uk001p3",
+    "college_name": "Gautam Buddha Chikitsa Mahavidhalaya, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -57,11 +51,41 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk003g1",
-    "college_name": "Government Medical College (Prev.Uttarakhand Forest Hospital Trust Med.Col.), Haldwani",
+    "college_id": "ug_uk001g1",
+    "college_name": "Government Doon Medical College, Dehradun, Uttarakhand",
+    "college_type": "Government",
+    "state": "Uttarakhand",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 22,
+    "seats_prev": 22,
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 2
+  },
+  {
+    "college_id": "ug_uk001g1",
+    "college_name": "Government Doon Medical College, Dehradun, Uttarakhand",
+    "college_type": "Government",
+    "state": "Uttarakhand",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 128,
+    "seats_prev": 128,
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 2
+  },
+  {
+    "college_id": "ug_uk002g1",
+    "college_name": "Government Medical College, Haldwani",
     "college_type": "Government",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -69,11 +93,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk003g1",
-    "college_name": "Government Medical College (Prev.Uttarakhand Forest Hospital Trust Med.Col.), Haldwani",
+    "college_id": "ug_uk002g1",
+    "college_name": "Government Medical College, Haldwani",
     "college_type": "Government",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -81,10 +107,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 107,
     "seats_prev": 107,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk004g1",
+    "college_id": "ug_uk003g1",
     "college_name": "Government Medical College, Haridwar",
     "college_type": "Government",
     "state": "Uttarakhand",
@@ -93,10 +121,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk004g1",
+    "college_id": "ug_uk003g1",
     "college_name": "Government Medical College, Haridwar",
     "college_type": "Government",
     "state": "Uttarakhand",
@@ -105,10 +135,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk005p4",
+    "college_id": "ug_uk002p3",
     "college_name": "Graphic Era Institute of Medical Sciences Dehradun, Uttrakhand",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -117,10 +149,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk005p4",
+    "college_id": "ug_uk002p3",
     "college_name": "Graphic Era Institute of Medical Sciences Dehradun, Uttrakhand",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -129,10 +163,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk005p4",
+    "college_id": "ug_uk002p3",
     "college_name": "Graphic Era Institute of Medical Sciences Dehradun, Uttrakhand",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -141,10 +177,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk006p4",
+    "college_id": "ug_uk003p3",
     "college_name": "Himalayan Institute of Medical Sciences, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -153,10 +191,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 131,
+    "ss_seats": 23
   },
   {
-    "college_id": "ug_uk006p4",
+    "college_id": "ug_uk003p3",
     "college_name": "Himalayan Institute of Medical Sciences, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -165,10 +205,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 131,
+    "ss_seats": 23
   },
   {
-    "college_id": "ug_uk006p4",
+    "college_id": "ug_uk003p3",
     "college_name": "Himalayan Institute of Medical Sciences, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -177,10 +219,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 131,
+    "ss_seats": 23
   },
   {
-    "college_id": "ug_uk007p4",
+    "college_id": "ug_uk004p3",
     "college_name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -189,10 +233,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 198,
+    "ss_seats": 29
   },
   {
-    "college_id": "ug_uk007p4",
+    "college_id": "ug_uk004p3",
     "college_name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -201,10 +247,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 198,
+    "ss_seats": 29
   },
   {
-    "college_id": "ug_uk007p4",
+    "college_id": "ug_uk004p3",
     "college_name": "Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun",
     "college_type": "Private",
     "state": "Uttarakhand",
@@ -213,11 +261,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 198,
+    "ss_seats": 29
   },
   {
-    "college_id": "ug_uk008g1",
-    "college_name": "Soban Singh jeena Government institute of Medical science & Research, Almora",
+    "college_id": "ug_uk004g1",
+    "college_name": "Soban Singh Jeena Government Institute of Medical Science & Research, Almora",
     "college_type": "Government",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -225,11 +275,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 35,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk008g1",
-    "college_name": "Soban Singh jeena Government institute of Medical science & Research, Almora",
+    "college_id": "ug_uk004g1",
+    "college_name": "Soban Singh Jeena Government Institute of Medical Science & Research, Almora",
     "college_type": "Government",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -237,11 +289,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 35,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk009g1",
-    "college_name": "Veer Chandra Singh Garhwali Govt. Medical Sc. & Research Institute, Srinagar, Pauri Garhwal",
+    "college_id": "ug_jk004g1",
+    "college_name": "Veer Chandra Singh Garhwali Government Medical Science & Research Institute, Srinagar, Pauri Garhwal",
     "college_type": "Government",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -249,11 +303,13 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_uk009g1",
-    "college_name": "Veer Chandra Singh Garhwali Govt. Medical Sc. & Research Institute, Srinagar, Pauri Garhwal",
+    "college_id": "ug_jk004g1",
+    "college_name": "Veer Chandra Singh Garhwali Government Medical Science & Research Institute, Srinagar, Pauri Garhwal",
     "college_type": "Government",
     "state": "Uttarakhand",
     "course": "MBBS",
@@ -261,18 +317,8 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_rishikesh",
-    "college_name": "AIIMS Rishikesh",
-    "college_type": "Government",
-    "state": "Uttarakhand",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 34,
+    "ss_seats": 0
   }
 ]

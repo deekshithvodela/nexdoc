@@ -9,37 +9,61 @@
         var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', theme);
       } catch (e) { }
+      try {
+        if (window.location.pathname.endsWith('.html')) {
+          var clean = window.location.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+          if (clean !== window.location.pathname) {
+            window.history.replaceState(null, '', clean + window.location.search + window.location.hash);
+          }
+        }
+      } catch (e) { }
     })();
   </script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>NexDoc | NEET Seat Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexDoc | NEET Medical Seat Explorer & MCC UG Cutoff Predictor</title>
   <meta name="description"
-    content="NexDoc is a high-performance, zero-backend explorer and analytics dashboard for Indian medical seat matrices (MBBS, MD, MS, DM, MCh) across UG, PG, and Super Specialty levels.">
+    content="NexDoc is a high-performance, client-side medical seat explorer and MCC NEET UG cutoff predictor for 926 Indian medical colleges across MBBS (UG), MD/MS (PG), and DM/MCh (SS) pathways.">
   <meta name="keywords"
-    content="NEET, seat matrix, MBBS, medical colleges, India, MCC, counselling, UG, PG, Super Specialty, NexDoc">
+    content="NEET, seat matrix, MBBS, medical colleges, India, MCC, counselling, AIQ cutoff, NEET rank predictor, UG, PG, Super Specialty, NexDoc">
   <meta name="author" content="Deekshith Vodela">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="theme-color" content="#070c19">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://deekshithvodela.github.io/nexdoc/">
 
   <!-- GoatCounter Analytics (Privacy-First) -->
   <script data-goatcounter="https://deekshithvodela.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-  <!-- Open Graph -->
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="NexDoc | NEET Seat Explorer">
+  <meta property="og:site_name" content="NexDoc">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="NexDoc | NEET Medical Seat Explorer & MCC UG Cutoff Predictor">
   <meta property="og:description"
-    content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
+    content="Search, filter, compare, and predict allotment probabilities for 926 Indian medical colleges across UG (MBBS), PG (MD/MS), and SS (DM/MCh) levels.">
   <meta property="og:url" content="https://deekshithvodela.github.io/nexdoc/">
+  <meta property="og:image" content="https://deekshithvodela.github.io/nexdoc/icons/icon-512.png">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NexDoc | NEET Seat Explorer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NexDoc | NEET Medical Seat Explorer & MCC UG Cutoff Predictor">
   <meta name="twitter:description"
-    content="Search, filter, compare, and visualize Indian medical seat matrices across UG, PG, and Super Specialty levels.">
+    content="Search, filter, compare, and predict allotment probabilities for 926 Indian medical colleges across UG (MBBS), PG (MD/MS), and SS (DM/MCh) levels.">
+  <meta name="twitter:image" content="https://deekshithvodela.github.io/nexdoc/icons/icon-512.png">
 
-  <!-- Premium Fonts -->
+  <!-- Resource Hints & Preconnects for High Performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+
+  <!-- Preload Critical CSS & JS Shell -->
+  <link rel="preload" href="app.css" as="style">
+  <link rel="modulepreload" href="app.js">
+
+  <!-- Premium Fonts (Optimized Swap) -->
   <link
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
@@ -53,6 +77,29 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="app.css">
 
+  <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "NexDoc",
+    "alternateName": "NexDoc Medical Seat Explorer",
+    "url": "https://deekshithvodela.github.io/nexdoc/",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "All",
+    "description": "High-performance client-side web application for researching Indian medical seat matrices (MBBS, MD, MS, DM, MCh) and predicting MCC NEET UG All India Quota cutoff allotments.",
+    "author": {
+      "@type": "Person",
+      "name": "Deekshith Vodela"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
   <!-- D3.js CDN for Sankey -->
@@ -63,13 +110,16 @@
 
 <body>
 
+  <!-- Keyboard Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <!-- App Wrapper -->
   <div class="app-container">
 
     <!-- Top Navigation Bar -->
-    <header class="app-header">
+    <header class="app-header" role="banner">
       <div class="brand">
-        <i data-lucide="stethoscope" class="brand-icon"></i>
+        <i data-lucide="stethoscope" class="brand-icon" aria-hidden="true"></i>
         <div class="brand-text">
           <h1>NexDoc</h1>
           <span class="brand-tagline">NEET Seat Explorer</span>
@@ -79,30 +129,30 @@
       <div class="header-controls">
         <button id="installPwaBtn" class="btn-header-control btn-install-pwa" title="Install NexDoc PWA"
           aria-label="Install NexDoc PWA">
-          <i data-lucide="download"></i>
+          <i data-lucide="download" aria-hidden="true"></i>
           <span class="btn-label">Install</span>
         </button>
         <button id="themeToggleBtn" class="btn-header-control btn-theme-toggle" title="Toggle Theme"
-          aria-label="Toggle Dark/Light Theme">
-          <i data-lucide="moon" class="theme-icon-dark"></i>
-          <i data-lucide="sun" class="theme-icon-light"></i>
+          aria-label="Toggle Dark or Light Theme">
+          <i data-lucide="moon" class="theme-icon-dark" aria-hidden="true"></i>
+          <i data-lucide="sun" class="theme-icon-light" aria-hidden="true"></i>
         </button>
       </div>
     </header>
 
     <!-- Global Selectors Bar -->
-    <div class="global-selectors card-glass">
+    <nav class="global-selectors card-glass" aria-label="Global Controls">
       <!-- Level Switcher -->
-      <div class="level-tabs">
-        <button class="level-tab active" data-level="ug">
+      <div class="level-tabs" role="tablist" aria-label="Select Course Level">
+        <button class="level-tab active" data-level="ug" role="tab" aria-selected="true" aria-controls="main-content">
           <span>UG</span>
           <small>Undergraduate</small>
         </button>
-        <button class="level-tab" data-level="pg">
+        <button class="level-tab" data-level="pg" role="tab" aria-selected="false" aria-controls="main-content">
           <span>PG</span>
           <small>Postgraduate</small>
         </button>
-        <button class="level-tab" data-level="ss">
+        <button class="level-tab" data-level="ss" role="tab" aria-selected="false" aria-controls="main-content">
           <span>SS</span>
           <small>Super Specialty</small>
         </button>
@@ -110,57 +160,57 @@
 
       <!-- State Selector Dropdown -->
       <div class="state-select-container">
-        <label for="stateSelector"><i data-lucide="map-pin"></i> Region</label>
-        <select id="stateSelector">
+        <label for="stateSelector"><i data-lucide="map-pin" aria-hidden="true"></i> Region</label>
+        <select id="stateSelector" aria-label="Select Region or State">
           <option value="" disabled selected>Select Region / State</option>
         </select>
       </div>
-    </div>
+    </nav>
 
     <!-- Global Dataset Disclaimer Banner -->
-    <div class="global-disclaimer-banner">
+    <div class="global-disclaimer-banner" role="note">
       <span>This portal does not contain Institutes of National Importance (INI) data (such as AIIMS, JIPMER, PGIMER,
         NIMHANS, etc.).</span>
     </div>
 
     <!-- Stat Dashboard Section -->
-    <section class="stats-dashboard card-glass">
+    <section class="stats-dashboard card-glass" aria-label="Region Overview Statistics">
       <div class="stats-header">
         <h2>Region Overview Dashboard</h2>
         <!-- Statistics Mode Toggle -->
         <div class="toggle-container">
-          <span class="toggle-label">Stats Mode:</span>
-          <div class="toggle-buttons">
-            <button class="toggle-btn active" data-mode="physical">Geographical Capacity</button>
-            <button class="toggle-btn" data-mode="counseling">Counseling Access</button>
+          <span class="toggle-label" id="statsModeLabel">Stats Mode:</span>
+          <div class="toggle-buttons" role="group" aria-labelledby="statsModeLabel">
+            <button class="toggle-btn active" data-mode="physical" aria-pressed="true">Geographical Capacity</button>
+            <button class="toggle-btn" data-mode="counseling" aria-pressed="false">Counseling Access</button>
           </div>
         </div>
       </div>
 
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-icon bg-blue"><i data-lucide="school"></i></div>
+          <div class="stat-icon bg-blue"><i data-lucide="school" aria-hidden="true"></i></div>
           <div class="stat-info">
             <h3 id="statColleges">-</h3>
             <p>Total Colleges</p>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon bg-green"><i data-lucide="award"></i></div>
+          <div class="stat-icon bg-green"><i data-lucide="award" aria-hidden="true"></i></div>
           <div class="stat-info">
             <h3 id="statSeats">-</h3>
             <p>Total Seats Available</p>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon bg-purple"><i data-lucide="shield"></i></div>
+          <div class="stat-icon bg-purple"><i data-lucide="shield" aria-hidden="true"></i></div>
           <div class="stat-info">
             <h3 id="statGovt">-</h3>
             <p id="statGovtLabel">Govt. Seats</p>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon bg-orange"><i data-lucide="building"></i></div>
+          <div class="stat-icon bg-orange"><i data-lucide="building" aria-hidden="true"></i></div>
           <div class="stat-info">
             <h3 id="statPrivate">-</h3>
             <p id="statPrivateLabel">Private / Deemed Seats</p>
@@ -170,10 +220,10 @@
     </section>
 
     <!-- Main Workspace Layout -->
-    <main class="app-workspace">
+    <main class="app-workspace" id="main-content" role="main">
 
       <!-- Left Sidebar Filters -->
-      <aside class="sidebar-filters card-glass" id="filterSidebar">
+      <aside class="sidebar-filters card-glass" id="filterSidebar" aria-label="Filters Sidebar">
         <!-- Rendered by SearchFilters.js -->
       </aside>
 
@@ -181,21 +231,21 @@
       <section class="main-panel">
 
         <!-- Tab Navigation -->
-        <div class="panel-tabs card-glass">
-          <button class="panel-tab active" data-tab="table">
-            <i data-lucide="table-properties"></i> Table Explorer
+        <div class="panel-tabs card-glass" role="tablist" aria-label="Explorer Panel Views" id="mainTabContainer">
+          <button class="panel-tab active" data-tab="table" role="tab" aria-selected="true" aria-controls="viewTable">
+            <i data-lucide="table-properties" aria-hidden="true"></i> Table Explorer
           </button>
-          <button class="panel-tab" data-tab="cutoffs">
-            <i data-lucide="target"></i> MCC UG Cutoffs & Predictor
+          <button class="panel-tab" data-tab="cutoffs" role="tab" aria-selected="false" aria-controls="viewCutoffs">
+            <i data-lucide="target" aria-hidden="true"></i> MCC UG Cutoffs & Predictor
           </button>
-          <button class="panel-tab" data-tab="analytics">
-            <i data-lucide="bar-chart-3"></i> Seat Analytics
+          <button class="panel-tab" data-tab="analytics" role="tab" aria-selected="false" aria-controls="viewAnalytics">
+            <i data-lucide="bar-chart-3" aria-hidden="true"></i> Seat Analytics
           </button>
-          <button class="panel-tab" data-tab="sankey">
-            <i data-lucide="git-branch"></i> Sankey Flowchart
+          <button class="panel-tab" data-tab="sankey" role="tab" aria-selected="false" aria-controls="viewSankey">
+            <i data-lucide="git-branch" aria-hidden="true"></i> Sankey Flowchart
           </button>
-          <button class="panel-tab" data-tab="compare">
-            <i data-lucide="columns-3"></i> Compare Colleges (<span id="compareCount">0</span>)
+          <button class="panel-tab" data-tab="compare" role="tab" aria-selected="false" aria-controls="viewCompare">
+            <i data-lucide="columns-3" aria-hidden="true"></i> Compare Colleges (<span id="compareCount">0</span>)
           </button>
         </div>
 

@@ -1,30 +1,18 @@
 [
   {
-    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_id": "ug_cg014g1",
     "college_name": "Pt. J N M Medical College, Raipur",
     "college_type": "Government",
     "state": "Chhattisgarh",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "course": "DM - Cardiology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
   },
   {
-    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
-    "college_name": "Pt. J N M Medical College, Raipur",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "M.Ch - Paediatric Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 3,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_id": "ug_cg014g1",
     "college_name": "Pt. J N M Medical College, Raipur",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -36,7 +24,31 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
+    "college_id": "ug_cg014g1",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_cg014g1",
+    "college_name": "Pt. J N M Medical College, Raipur",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 3,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_cg014g1",
     "college_name": "Pt. J N M Medical College, Raipur",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -46,17 +58,5 @@
     "seats": 3,
     "seats_prev": 3,
     "seats_inc": 0
-  },
-  {
-    "college_id": "ss_pt_j_n_m_medical_college_raipur_chhattisgarh",
-    "college_name": "Pt. J N M Medical College, Raipur",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "DM - Cardiology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
   }
 ]

@@ -1,18 +1,1 @@
-{
-  "version": "2.0.0-nmc-data",
-  "lastUpdated": "2026-07-19T10:40:32.119285Z",
-  "levels": {
-    "ug": {
-      "name": "Undergraduate (UG)",
-      "summaryPath": "ug/summary.json"
-    },
-    "pg": {
-      "name": "Postgraduate (PG)",
-      "summaryPath": "pg/summary.json"
-    },
-    "ss": {
-      "name": "Super Specialty (SS)",
-      "summaryPath": "ss/summary.json"
-    }
-  }
-}
+{"version":"2.0.0-nmc-data","lastUpdated":"2026-07-19T10:40:32.119285Z","levels":{"ug":{"name":"Undergraduate (UG)","summaryPath":"ug/summary.json"},"pg":{"name":"Postgraduate (PG)","summaryPath":"pg/summary.json"},"ss":{"name":"Super Specialty (SS)","summaryPath":"ss/summary.json"}}}

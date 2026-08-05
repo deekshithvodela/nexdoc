@@ -1,42 +1,62 @@
 [
   {
-    "college_id": "ug_tn001p3",
+    "college_id": "ug_in001p3",
     "college_name": "ACS Medical College and Hospital, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 122,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn001p3",
+    "college_id": "ug_in001p3",
     "college_name": "ACS Medical College and Hospital, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 122,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn001p3",
+    "college_id": "ug_in001p3",
     "college_name": "ACS Medical College and Hospital, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 122,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn003p3",
+    "college_id": "ug_in011i1",
+    "college_name": "All India Institute of Medical Sciences, Madurai",
+    "college_type": "INI",
+    "state": "Tamil Nadu",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 50,
+    "seats_prev": 50,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in005p3",
     "college_name": "Annapoorna Medical College & Hospital, Salem",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -45,10 +65,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn003p3",
+    "college_id": "ug_in005p3",
     "college_name": "Annapoorna Medical College & Hospital, Salem",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -57,10 +79,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn003p3",
+    "college_id": "ug_in005p3",
     "college_name": "Annapoorna Medical College & Hospital, Salem",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -69,10 +93,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_aps_medical_college_hospital_and_research_institute_tamil_nadu",
+    "college_id": "ug_rj001p3",
     "college_name": "APS Medical College Hospital and Research Institute",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -81,10 +107,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 0,
-    "seats_inc": 75
+    "seats_inc": 75,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_aps_medical_college_hospital_and_research_institute_tamil_nadu",
+    "college_id": "ug_rj001p3",
     "college_name": "APS Medical College Hospital and Research Institute",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -93,10 +121,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 0,
-    "seats_inc": 52
+    "seats_inc": 52,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_aps_medical_college_hospital_and_research_institute_tamil_nadu",
+    "college_id": "ug_rj001p3",
     "college_name": "APS Medical College Hospital and Research Institute",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -105,11 +135,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 0,
-    "seats_inc": 23
+    "seats_inc": 23,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn004p3",
-    "college_name": "Arunai Medical College And Hospital",
+    "college_id": "ug_in009p3",
+    "college_name": "Arunai Medical College and Hospital",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -117,11 +149,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn004p3",
-    "college_name": "Arunai Medical College And Hospital",
+    "college_id": "ug_in009p3",
+    "college_name": "Arunai Medical College and Hospital",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -129,11 +163,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn004p3",
-    "college_name": "Arunai Medical College And Hospital",
+    "college_id": "ug_in009p3",
+    "college_name": "Arunai Medical College and Hospital",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -141,46 +177,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn005p3",
+    "college_id": "ug_tn002p3",
     "college_name": "Bhaarat Medical College & Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn005p3",
+    "college_id": "ug_tn002p3",
     "college_name": "Bhaarat Medical College & Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn005p3",
+    "college_id": "ug_tn002p3",
     "college_name": "Bhaarat Medical College & Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn006g1",
+    "college_id": "ug_in008g1",
     "college_name": "Chengalpattu Medical College, Chengalpattu",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -189,10 +233,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 102,
+    "ss_seats": 22
   },
   {
-    "college_id": "ug_tn006g1",
+    "college_id": "ug_in008g1",
     "college_name": "Chengalpattu Medical College, Chengalpattu",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -201,46 +247,54 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 102,
+    "ss_seats": 22
   },
   {
-    "college_id": "ug_tn007p3",
+    "college_id": "ug_in016p3",
     "college_name": "Chettinad Hospital & Research Institute, Kanchipuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 269,
+    "ss_seats": 25
   },
   {
-    "college_id": "ug_tn007p3",
+    "college_id": "ug_in016p3",
     "college_name": "Chettinad Hospital & Research Institute, Kanchipuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 269,
+    "ss_seats": 25
   },
   {
-    "college_id": "ug_tn007p3",
+    "college_id": "ug_in016p3",
     "college_name": "Chettinad Hospital & Research Institute, Kanchipuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 269,
+    "ss_seats": 25
   },
   {
-    "college_id": "ug_tn008p4",
+    "college_id": "ug_in018p3",
     "college_name": "Christian Medical College, Vellore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -249,10 +303,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 254,
+    "ss_seats": 140
   },
   {
-    "college_id": "ug_tn008p4",
+    "college_id": "ug_in018p3",
     "college_name": "Christian Medical College, Vellore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -261,10 +317,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 254,
+    "ss_seats": 140
   },
   {
-    "college_id": "ug_tn008p4",
+    "college_id": "ug_in018p3",
     "college_name": "Christian Medical College, Vellore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -273,10 +331,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 254,
+    "ss_seats": 140
   },
   {
-    "college_id": "ug_tn009g1",
+    "college_id": "ug_in011g1",
     "college_name": "Coimbatore Medical College, Coimbatore",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -285,10 +345,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 121,
+    "ss_seats": 31
   },
   {
-    "college_id": "ug_tn009g1",
+    "college_id": "ug_in011g1",
     "college_name": "Coimbatore Medical College, Coimbatore",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -297,46 +359,54 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 121,
+    "ss_seats": 31
   },
   {
-    "college_id": "ug_tn010p3",
-    "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital - Thuraiyur Road, Perambalur",
-    "college_type": "Private",
+    "college_id": "ug_tn003p3",
+    "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital, Thuraiyur Road, Perambalur",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn010p3",
-    "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital - Thuraiyur Road, Perambalur",
-    "college_type": "Private",
+    "college_id": "ug_tn003p3",
+    "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital, Thuraiyur Road, Perambalur",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn010p3",
-    "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital - Thuraiyur Road, Perambalur",
-    "college_type": "Private",
+    "college_id": "ug_tn003p3",
+    "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital, Thuraiyur Road, Perambalur",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn011p3",
+    "college_id": "ug_in021p3",
     "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -345,10 +415,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_tn011p3",
+    "college_id": "ug_in021p3",
     "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -357,10 +429,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_tn011p3",
+    "college_id": "ug_in021p3",
     "college_name": "Dhanalakshmi Srinivasan Medical College and Hospital, Perambalur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -369,11 +443,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_tn012g1",
-    "college_name": "ESIC Medical College & PGIMSR, K.K Nagar, Chennai",
+    "college_id": "ug_tn002g1",
+    "college_name": "ESIC Medical College and Hospital, K.K. Nagar, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -381,11 +457,13 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn012g1",
-    "college_name": "ESIC Medical College & PGIMSR, K.K Nagar, Chennai",
+    "college_id": "ug_tn002g1",
+    "college_name": "ESIC Medical College and Hospital, K.K. Nagar, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -393,10 +471,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 127,
     "seats_prev": 127,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 92,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn013p3",
+    "college_id": "ug_in025p3",
     "college_name": "Faculty of Medicine, Sri Lalithambigai Medical College and Hospital",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -405,10 +485,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 70,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn013p3",
+    "college_id": "ug_in025p3",
     "college_name": "Faculty of Medicine, Sri Lalithambigai Medical College and Hospital",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -417,10 +499,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 70,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn013p3",
+    "college_id": "ug_in025p3",
     "college_name": "Faculty of Medicine, Sri Lalithambigai Medical College and Hospital",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -429,10 +513,40 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 70,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn014g1",
+    "college_id": "ug_tn003g1",
+    "college_name": "Government Cuddalore Medical College & Hospital, Cuddalore",
+    "college_type": "Government",
+    "state": "Tamil Nadu",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 22,
+    "seats_prev": 22,
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tn003g1",
+    "college_name": "Government Cuddalore Medical College & Hospital, Cuddalore",
+    "college_type": "Government",
+    "state": "Tamil Nadu",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 128,
+    "seats_prev": 128,
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tn004g1",
     "college_name": "Government Dharmapuri Medical College, Dharmapuri",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -441,10 +555,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn014g1",
+    "college_id": "ug_tn004g1",
     "college_name": "Government Dharmapuri Medical College, Dharmapuri",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -453,11 +569,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn015g1",
-    "college_name": "Government Erode Medical College & Hospital, Perundurai (Formerly IRT Perundurai Medical College)",
+    "college_id": "ug_tn005g1",
+    "college_name": "Government Erode Medical College & Hospital, Perundurai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -465,11 +583,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 13,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn015g1",
-    "college_name": "Government Erode Medical College & Hospital, Perundurai (Formerly IRT Perundurai Medical College)",
+    "college_id": "ug_tn005g1",
+    "college_name": "Government Erode Medical College & Hospital, Perundurai",
     "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -477,10 +597,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 13,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn016g1",
+    "college_id": "ug_tn006g1",
     "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -489,10 +611,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 5,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn016g1",
+    "college_id": "ug_tn006g1",
     "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -501,34 +625,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 5,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn054g1",
-    "college_name": "Government Medical College & Hospital Cuddalore, Since- 09-05-2025 (erstwhile Rajah Muthiah Medical College, cuddalore, T.N)",
-    "college_type": "Government",
-    "state": "Tamil Nadu",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 22,
-    "seats_prev": 22,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_tn054g1",
-    "college_name": "Government Medical College & Hospital Cuddalore, Since- 09-05-2025 (erstwhile Rajah Muthiah Medical College, cuddalore, T.N)",
-    "college_type": "Government",
-    "state": "Tamil Nadu",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 128,
-    "seats_prev": 128,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_tn017g1",
+    "college_id": "ug_tn007g1",
     "college_name": "Government Medical College, Ariyalur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -537,10 +639,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn017g1",
+    "college_id": "ug_tn007g1",
     "college_name": "Government Medical College, Ariyalur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -549,10 +653,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn018g1",
+    "college_id": "ug_tn008g1",
     "college_name": "Government Medical College, Dindigul",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -561,10 +667,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn018g1",
+    "college_id": "ug_tn008g1",
     "college_name": "Government Medical College, Dindigul",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -573,10 +681,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn019g1",
+    "college_id": "ug_in030g1",
     "college_name": "Government Medical College, Kallakurichi",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -585,10 +695,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn019g1",
+    "college_id": "ug_in030g1",
     "college_name": "Government Medical College, Kallakurichi",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -597,10 +709,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn020g1",
+    "college_id": "ug_tn009g1",
     "college_name": "Government Medical College, Karur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -609,10 +723,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn020g1",
+    "college_id": "ug_tn009g1",
     "college_name": "Government Medical College, Karur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -621,10 +737,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn021g1",
+    "college_id": "ug_tn010g1",
     "college_name": "Government Medical College, Krishnagiri",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -633,10 +751,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn021g1",
+    "college_id": "ug_tn010g1",
     "college_name": "Government Medical College, Krishnagiri",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -645,10 +765,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn022g1",
+    "college_id": "ug_tn011g1",
     "college_name": "Government Medical College, Nagapattinam",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -657,10 +779,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn022g1",
+    "college_id": "ug_tn011g1",
     "college_name": "Government Medical College, Nagapattinam",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -669,10 +793,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn023g1",
+    "college_id": "ug_in039g1",
     "college_name": "Government Medical College, Namakkal",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -681,10 +807,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 15,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn023g1",
+    "college_id": "ug_in039g1",
     "college_name": "Government Medical College, Namakkal",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -693,10 +821,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 85,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn024g1",
+    "college_id": "ug_in043g1",
     "college_name": "Government Medical College, Omandurar",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -705,10 +835,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 31,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn024g1",
+    "college_id": "ug_in043g1",
     "college_name": "Government Medical College, Omandurar",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -717,10 +849,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 31,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn025g1",
+    "college_id": "ug_tn012g1",
     "college_name": "Government Medical College, Pudukottai, Tamil Nadu",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -729,10 +863,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn025g1",
+    "college_id": "ug_tn012g1",
     "college_name": "Government Medical College, Pudukottai, Tamil Nadu",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -741,10 +877,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn026g1",
+    "college_id": "ug_in047g1",
     "college_name": "Government Medical College, Ramanathapuram",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -753,10 +891,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn026g1",
+    "college_id": "ug_in047g1",
     "college_name": "Government Medical College, Ramanathapuram",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -765,10 +905,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn027g1",
+    "college_id": "ug_tn013g1",
     "college_name": "Government Medical College, The Nilgiris",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -777,10 +919,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn027g1",
+    "college_id": "ug_tn013g1",
     "college_name": "Government Medical College, The Nilgiris",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -789,10 +933,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn028g1",
+    "college_id": "ug_tn014g1",
     "college_name": "Government Medical College, Thiruvallur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -801,10 +947,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 15,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn028g1",
+    "college_id": "ug_tn014g1",
     "college_name": "Government Medical College, Thiruvallur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -813,10 +961,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 85,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn029g1",
+    "college_id": "ug_tn015g1",
     "college_name": "Government Medical College, Tiruppur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -825,10 +975,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 15,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn029g1",
+    "college_id": "ug_tn015g1",
     "college_name": "Government Medical College, Tiruppur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -837,10 +989,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 85,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn030g1",
+    "college_id": "ug_in053g1",
     "college_name": "Government Medical College, Virudhunagar",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -849,10 +1003,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn030g1",
+    "college_id": "ug_in053g1",
     "college_name": "Government Medical College, Virudhunagar",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -861,10 +1017,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn031g1",
+    "college_id": "ug_in055g1",
     "college_name": "Government Sivagangai Medical College, Sivaganga",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -873,10 +1031,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn031g1",
+    "college_id": "ug_in055g1",
     "college_name": "Government Sivagangai Medical College, Sivaganga",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -885,10 +1045,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 26,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn032g1",
+    "college_id": "ug_in056g1",
     "college_name": "Government Thiruvannamalai Medical College, Thiruvannamalai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -897,10 +1059,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn032g1",
+    "college_id": "ug_in056g1",
     "college_name": "Government Thiruvannamalai Medical College, Thiruvannamalai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -909,10 +1073,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn033g1",
+    "college_id": "ug_in057g1",
     "college_name": "Government Vellore Medical College, Vellore",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -921,10 +1087,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 50,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_tn033g1",
+    "college_id": "ug_in057g1",
     "college_name": "Government Vellore Medical College, Vellore",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -933,10 +1101,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 50,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_tn034g1",
+    "college_id": "ug_in058g1",
     "college_name": "Government Villupuram Medical College, Villupuram",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -945,10 +1115,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 50,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn034g1",
+    "college_id": "ug_in058g1",
     "college_name": "Government Villupuram Medical College, Villupuram",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -957,10 +1129,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 50,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn035g1",
+    "college_id": "ug_in059g1",
     "college_name": "Govt. Mohan Kumaramangalam Medical College, Salem",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -969,10 +1143,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 97,
+    "ss_seats": 20
   },
   {
-    "college_id": "ug_tn035g1",
+    "college_id": "ug_in059g1",
     "college_name": "Govt. Mohan Kumaramangalam Medical College, Salem",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -981,10 +1157,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 97,
+    "ss_seats": 20
   },
   {
-    "college_id": "ug_tn036p3",
+    "college_id": "ug_tn004p3",
     "college_name": "Indira Medical College & Hospitals, Thiruvallur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -993,10 +1171,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn036p3",
+    "college_id": "ug_tn004p3",
     "college_name": "Indira Medical College & Hospitals, Thiruvallur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1005,10 +1185,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn036p3",
+    "college_id": "ug_tn004p3",
     "college_name": "Indira Medical College & Hospitals, Thiruvallur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1017,46 +1199,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn037p4",
+    "college_id": "ug_tn006p3",
     "college_name": "J R Medical College and Hospital Villupuram District, Tamilnadu",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn037p4",
+    "college_id": "ug_tn006p3",
     "college_name": "J R Medical College and Hospital Villupuram District, Tamilnadu",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn037p4",
+    "college_id": "ug_tn006p3",
     "college_name": "J R Medical College and Hospital Villupuram District, Tamilnadu",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn038g1",
+    "college_id": "ug_in064g1",
     "college_name": "K A P Viswanathan Government Medical College, Trichy",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1065,10 +1255,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn038g1",
+    "college_id": "ug_in064g1",
     "college_name": "K A P Viswanathan Government Medical College, Trichy",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1077,10 +1269,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn039g1",
+    "college_id": "ug_tn016g1",
     "college_name": "Kanyakumari Government Medical College, Asaripallam",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1089,10 +1283,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 5
   },
   {
-    "college_id": "ug_tn039g1",
+    "college_id": "ug_tn016g1",
     "college_name": "Kanyakumari Government Medical College, Asaripallam",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1101,10 +1297,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 54,
+    "ss_seats": 5
   },
   {
-    "college_id": "ug_tn040p3",
+    "college_id": "ug_tn007p3",
     "college_name": "Kanyakumari Medical Mission Research Centre, Kanyakumari District",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1113,10 +1311,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 50,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn040p3",
+    "college_id": "ug_tn007p3",
     "college_name": "Kanyakumari Medical Mission Research Centre, Kanyakumari District",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1125,10 +1325,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 35,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn040p3",
+    "college_id": "ug_tn007p3",
     "college_name": "Kanyakumari Medical Mission Research Centre, Kanyakumari District",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1137,10 +1339,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 15,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn041p3",
+    "college_id": "ug_in043p3",
     "college_name": "Karpaga Vinayaga Institute of Medical Sciences, Maduranthagam",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1149,10 +1353,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn041p3",
+    "college_id": "ug_in043p3",
     "college_name": "Karpaga Vinayaga Institute of Medical Sciences, Maduranthagam",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1161,10 +1367,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn041p3",
+    "college_id": "ug_in043p3",
     "college_name": "Karpaga Vinayaga Institute of Medical Sciences, Maduranthagam",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1173,10 +1381,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn042p3",
+    "college_id": "ug_in044p3",
     "college_name": "Karpagam Faculty of Medical Sciences & Research, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1185,10 +1395,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 20,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn042p3",
+    "college_id": "ug_in044p3",
     "college_name": "Karpagam Faculty of Medical Sciences & Research, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1197,10 +1409,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 20,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn042p3",
+    "college_id": "ug_in044p3",
     "college_name": "Karpagam Faculty of Medical Sciences & Research, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1209,10 +1423,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 20,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn043g1",
+    "college_id": "ug_in067g1",
     "college_name": "Kilpauk Medical College, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1221,10 +1437,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 144,
+    "ss_seats": 46
   },
   {
-    "college_id": "ug_tn043g1",
+    "college_id": "ug_in067g1",
     "college_name": "Kilpauk Medical College, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1233,10 +1451,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 144,
+    "ss_seats": 46
   },
   {
-    "college_id": "ug_tn044p5",
+    "college_id": "ug_in040p3",
     "college_name": "KMCH Institute of Health Sciences and Research, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1245,10 +1465,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 39,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn044p5",
+    "college_id": "ug_in040p3",
     "college_name": "KMCH Institute of Health Sciences and Research, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1257,10 +1479,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 39,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn044p5",
+    "college_id": "ug_in040p3",
     "college_name": "KMCH Institute of Health Sciences and Research, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1269,10 +1493,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 39,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn045p3",
+    "college_id": "ug_in048p3",
     "college_name": "Madha Medical College and Hospital, Thandalam, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1281,10 +1507,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn045p3",
+    "college_id": "ug_in048p3",
     "college_name": "Madha Medical College and Hospital, Thandalam, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1293,10 +1521,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn045p3",
+    "college_id": "ug_in048p3",
     "college_name": "Madha Medical College and Hospital, Thandalam, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1305,10 +1535,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn046g1",
+    "college_id": "ug_in071g1",
     "college_name": "Madras Medical College, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1317,10 +1549,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 482,
+    "ss_seats": 133
   },
   {
-    "college_id": "ug_tn046g1",
+    "college_id": "ug_in071g1",
     "college_name": "Madras Medical College, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1329,10 +1563,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 482,
+    "ss_seats": 133
   },
   {
-    "college_id": "ug_tn047g1",
+    "college_id": "ug_tn017g1",
     "college_name": "Madurai Medical College, Madurai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1341,10 +1577,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 214,
+    "ss_seats": 50
   },
   {
-    "college_id": "ug_tn047g1",
+    "college_id": "ug_tn017g1",
     "college_name": "Madurai Medical College, Madurai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1353,83 +1591,97 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 214,
+    "ss_seats": 50
   },
   {
-    "college_id": "ug_tn048p3",
+    "college_id": "ug_in060p3",
     "college_name": "Meenakshi Medical College and Research Institute, Enathur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 105,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn048p3",
+    "college_id": "ug_in060p3",
     "college_name": "Meenakshi Medical College and Research Institute, Enathur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 105,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn048p3",
+    "college_id": "ug_in060p3",
     "college_name": "Meenakshi Medical College and Research Institute, Enathur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 105,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_tn049p3",
+    "college_id": "ug_tn018g1",
     "college_name": "Melmaruvathur Adiparasakthi Institute Medical Sciences and Research",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn049p3",
+    "college_id": "ug_tn018g1",
     "college_name": "Melmaruvathur Adiparasakthi Institute Medical Sciences and Research",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn049p3",
+    "college_id": "ug_tn018g1",
     "college_name": "Melmaruvathur Adiparasakthi Institute Medical Sciences and Research",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn050p3",
-    "college_name": "Nandha Medical College & Hospital Erode",
+    "college_id": "ug_tn008p3",
+    "college_name": "Nandha Medical College & Hospital, Erode",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -1437,11 +1689,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn050p3",
-    "college_name": "Nandha Medical College & Hospital Erode",
+    "college_id": "ug_tn008p3",
+    "college_name": "Nandha Medical College & Hospital, Erode",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -1449,11 +1703,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn050p3",
-    "college_name": "Nandha Medical College & Hospital Erode",
+    "college_id": "ug_tn008p3",
+    "college_name": "Nandha Medical College & Hospital, Erode",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -1461,10 +1717,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn051p3",
+    "college_id": "ug_tn010p3",
     "college_name": "Panimalar Medical College Hospital & Research Institute, Chennai, Tamil Nadu",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1473,10 +1731,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn051p3",
+    "college_id": "ug_tn010p3",
     "college_name": "Panimalar Medical College Hospital & Research Institute, Chennai, Tamil Nadu",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1485,10 +1745,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn051p3",
+    "college_id": "ug_tn010p3",
     "college_name": "Panimalar Medical College Hospital & Research Institute, Chennai, Tamil Nadu",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1497,10 +1759,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn052p3",
+    "college_id": "ug_in066p3",
     "college_name": "PSG Institute of Medical Sciences, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1509,10 +1773,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 77,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_tn052p3",
+    "college_id": "ug_in066p3",
     "college_name": "PSG Institute of Medical Sciences, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1521,10 +1787,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 77,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_tn052p3",
+    "college_id": "ug_in066p3",
     "college_name": "PSG Institute of Medical Sciences, Coimbatore",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1533,10 +1801,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 77,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_tn053p3",
+    "college_id": "ug_tn009p3",
     "college_name": "PSP Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1545,10 +1815,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 33,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn053p3",
+    "college_id": "ug_tn009p3",
     "college_name": "PSP Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1557,10 +1829,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 33,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn053p3",
+    "college_id": "ug_tn009p3",
     "college_name": "PSP Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1569,154 +1843,180 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 33,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn002p3",
+    "college_id": "ug_tn019g1",
     "college_name": "Rajalakshmi Medical College Hospital and Research Institute",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn002p3",
+    "college_id": "ug_tn019g1",
     "college_name": "Rajalakshmi Medical College Hospital and Research Institute",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn002p3",
+    "college_id": "ug_tn019g1",
     "college_name": "Rajalakshmi Medical College Hospital and Research Institute",
-    "college_type": "Private",
+    "college_type": "Government",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn055p3",
+    "college_id": "ug_in080p3",
     "college_name": "Saveetha Medical College and Hospital, Kanchipuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 166,
+    "ss_seats": 16
   },
   {
-    "college_id": "ug_tn055p3",
+    "college_id": "ug_in080p3",
     "college_name": "Saveetha Medical College and Hospital, Kanchipuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 166,
+    "ss_seats": 16
   },
   {
-    "college_id": "ug_tn055p3",
+    "college_id": "ug_in080p3",
     "college_name": "Saveetha Medical College and Hospital, Kanchipuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 166,
+    "ss_seats": 16
   },
   {
-    "college_id": "ug_tn056p3",
+    "college_id": "ug_in083p3",
     "college_name": "Shri Sathya Sai Medical College and Research Institute, Kancheepuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 112,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn056p3",
+    "college_id": "ug_in083p3",
     "college_name": "Shri Sathya Sai Medical College and Research Institute, Kancheepuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 112,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn056p3",
+    "college_id": "ug_in083p3",
     "college_name": "Shri Sathya Sai Medical College and Research Institute, Kancheepuram",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 112,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn057p3",
+    "college_id": "ug_in086p3",
     "college_name": "Sree Balaji Medical College and Hospital, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_tn057p3",
+    "college_id": "ug_in086p3",
     "college_name": "Sree Balaji Medical College and Hospital, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_tn057p3",
+    "college_id": "ug_in086p3",
     "college_name": "Sree Balaji Medical College and Hospital, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_tn058p3",
+    "college_id": "ug_in087p3",
     "college_name": "Sree Mookambika Institute of Medical Sciences, Kanyakumari",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1725,10 +2025,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn058p3",
+    "college_id": "ug_in087p3",
     "college_name": "Sree Mookambika Institute of Medical Sciences, Kanyakumari",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1737,10 +2039,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn058p3",
+    "college_id": "ug_in087p3",
     "college_name": "Sree Mookambika Institute of Medical Sciences, Kanyakumari",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1749,10 +2053,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn059p3",
+    "college_id": "ug_in089p3",
     "college_name": "Sri Muthukumaran Medical College, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1761,10 +2067,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn059p3",
+    "college_id": "ug_in089p3",
     "college_name": "Sri Muthukumaran Medical College, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1773,10 +2081,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn059p3",
+    "college_id": "ug_in089p3",
     "college_name": "Sri Muthukumaran Medical College, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1785,46 +2095,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn060p3",
+    "college_id": "ug_in090p3",
     "college_name": "Sri Ramachandra Medical College & Research Institute, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 274,
+    "ss_seats": 58
   },
   {
-    "college_id": "ug_tn060p3",
+    "college_id": "ug_in090p3",
     "college_name": "Sri Ramachandra Medical College & Research Institute, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 274,
+    "ss_seats": 58
   },
   {
-    "college_id": "ug_tn060p3",
+    "college_id": "ug_in090p3",
     "college_name": "Sri Ramachandra Medical College & Research Institute, Chennai",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 274,
+    "ss_seats": 58
   },
   {
-    "college_id": "ug_tn061p3",
+    "college_id": "ug_tn012p3",
     "college_name": "Sri Venkateswaraa Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1833,10 +2151,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn061p3",
+    "college_id": "ug_tn012p3",
     "college_name": "Sri Venkateswaraa Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1845,10 +2165,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn061p3",
+    "college_id": "ug_tn012p3",
     "college_name": "Sri Venkateswaraa Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1857,46 +2179,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn062p3",
+    "college_id": "ug_in091p3",
     "college_name": "Srinivasan Medical College and Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn062p3",
+    "college_id": "ug_in091p3",
     "college_name": "Srinivasan Medical College and Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn062p3",
+    "college_id": "ug_in091p3",
     "college_name": "Srinivasan Medical College and Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn063p3",
+    "college_id": "ug_in078p3",
     "college_name": "SRM Medical College Hospital & Research Centre, Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1905,10 +2235,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 214,
+    "ss_seats": 28
   },
   {
-    "college_id": "ug_tn063p3",
+    "college_id": "ug_in078p3",
     "college_name": "SRM Medical College Hospital & Research Centre, Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1917,10 +2249,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 214,
+    "ss_seats": 28
   },
   {
-    "college_id": "ug_tn063p3",
+    "college_id": "ug_in078p3",
     "college_name": "SRM Medical College Hospital & Research Centre, Kancheepuram",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -1929,46 +2263,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 214,
+    "ss_seats": 28
   },
   {
-    "college_id": "ug_tn064p3",
+    "college_id": "ug_tn011p3",
     "college_name": "ST Peters Medical College, Hospital & Research Institute",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn064p3",
+    "college_id": "ug_tn011p3",
     "college_name": "ST Peters Medical College, Hospital & Research Institute",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn064p3",
+    "college_id": "ug_tn011p3",
     "college_name": "ST Peters Medical College, Hospital & Research Institute",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn065g1",
+    "college_id": "ug_in087g1",
     "college_name": "Stanley Medical College, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1977,10 +2319,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 220,
+    "ss_seats": 53
   },
   {
-    "college_id": "ug_tn065g1",
+    "college_id": "ug_in087g1",
     "college_name": "Stanley Medical College, Chennai",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -1989,11 +2333,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 220,
+    "ss_seats": 53
   },
   {
-    "college_id": "ug_tn066p3",
-    "college_name": "Swamy Vivekanandha Medical College Hospital And Research Institute",
+    "college_id": "ug_in093p3",
+    "college_name": "Swamy Vivekanandha Medical College Hospital and Research Institute",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -2001,11 +2347,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn066p3",
-    "college_name": "Swamy Vivekanandha Medical College Hospital And Research Institute",
+    "college_id": "ug_in093p3",
+    "college_name": "Swamy Vivekanandha Medical College Hospital and Research Institute",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -2013,11 +2361,13 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn066p3",
-    "college_name": "Swamy Vivekanandha Medical College Hospital And Research Institute",
+    "college_id": "ug_in093p3",
+    "college_name": "Swamy Vivekanandha Medical College Hospital and Research Institute",
     "college_type": "Private",
     "state": "Tamil Nadu",
     "course": "MBBS",
@@ -2025,10 +2375,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn067p3",
+    "college_id": "ug_in095p3",
     "college_name": "Tagore Medical College and Hospital, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2037,10 +2389,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn067p3",
+    "college_id": "ug_in095p3",
     "college_name": "Tagore Medical College and Hospital, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2049,10 +2403,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn067p3",
+    "college_id": "ug_in095p3",
     "college_name": "Tagore Medical College and Hospital, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2061,10 +2417,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn068p5",
+    "college_id": "ug_ap015p3",
     "college_name": "Takshashila Medical College",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2073,10 +2431,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 50,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn068p5",
+    "college_id": "ug_ap015p3",
     "college_name": "Takshashila Medical College",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2085,10 +2445,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 35,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn068p5",
+    "college_id": "ug_ap015p3",
     "college_name": "Takshashila Medical College",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2097,10 +2459,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 15,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn069g1",
+    "college_id": "ug_in088g1",
     "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2109,10 +2473,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 124,
+    "ss_seats": 20
   },
   {
-    "college_id": "ug_tn069g1",
+    "college_id": "ug_in088g1",
     "college_name": "Thanjavur Medical College, Thanjavur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2121,10 +2487,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 124,
+    "ss_seats": 20
   },
   {
-    "college_id": "ug_tn070g1",
+    "college_id": "ug_in089g1",
     "college_name": "Theni Government Medical College, Theni",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2133,10 +2501,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 48,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn070g1",
+    "college_id": "ug_in089g1",
     "college_name": "Theni Government Medical College, Theni",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2145,10 +2515,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 48,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn071g1",
+    "college_id": "ug_tn022g1",
     "college_name": "Thiruvarur Government Medical College, Thiruvarur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2157,10 +2529,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn071g1",
+    "college_id": "ug_tn022g1",
     "college_name": "Thiruvarur Government Medical College, Thiruvarur",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2169,10 +2543,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn072g1",
+    "college_id": "ug_in090g1",
     "college_name": "Thoothukudi Medical College, Thoothukudi",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2181,10 +2557,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 52,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_tn072g1",
+    "college_id": "ug_in090g1",
     "college_name": "Thoothukudi Medical College, Thoothukudi",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2193,10 +2571,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 52,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_tn073g1",
+    "college_id": "ug_tn023g1",
     "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2205,10 +2585,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 144,
+    "ss_seats": 30
   },
   {
-    "college_id": "ug_tn073g1",
+    "college_id": "ug_tn023g1",
     "college_name": "Tirunelveli Medical College, Tirunelveli",
     "college_type": "Government",
     "state": "Tamil Nadu",
@@ -2217,10 +2599,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 144,
+    "ss_seats": 30
   },
   {
-    "college_id": "ug_tn074p3",
+    "college_id": "ug_in097p3",
     "college_name": "Trichy SRM Medical College Hospital & Research Centre, Trichy",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2229,10 +2613,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 121,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_tn074p3",
+    "college_id": "ug_in097p3",
     "college_name": "Trichy SRM Medical College Hospital & Research Centre, Trichy",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2241,10 +2627,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 121,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_tn074p3",
+    "college_id": "ug_in097p3",
     "college_name": "Trichy SRM Medical College Hospital & Research Centre, Trichy",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2253,10 +2641,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 121,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_tn075p3",
+    "college_id": "ug_in101p3",
     "college_name": "Velammal Medical College Hospital and Research Institute, Madurai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2265,10 +2655,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn075p3",
+    "college_id": "ug_in101p3",
     "college_name": "Velammal Medical College Hospital and Research Institute, Madurai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2277,10 +2669,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn075p3",
+    "college_id": "ug_in101p3",
     "college_name": "Velammal Medical College Hospital and Research Institute, Madurai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -2289,90 +2683,92 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn076p3",
+    "college_id": "ug_in100p3",
     "college_name": "VELS Medical College & Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn076p3",
+    "college_id": "ug_in100p3",
     "college_name": "VELS Medical College & Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn076p3",
+    "college_id": "ug_in100p3",
     "college_name": "VELS Medical College & Hospital",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn077p3",
+    "college_id": "ug_in103p3",
     "college_name": "Vinayaka Missions Kirupananda Variyar Medical College, Salem",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 119,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn077p3",
+    "college_id": "ug_in103p3",
     "college_name": "Vinayaka Missions Kirupananda Variyar Medical College, Salem",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 119,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_tn077p3",
+    "college_id": "ug_in103p3",
     "college_name": "Vinayaka Missions Kirupananda Variyar Medical College, Salem",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Tamil Nadu",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
-  },
-  {
-    "college_id": "ug_ini_aiims_madurai",
-    "college_name": "AIIMS Madurai",
-    "college_type": "Government",
-    "state": "Tamil Nadu",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 50,
-    "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 8,
+    "pg_seats": 119,
+    "ss_seats": 0
   }
 ]

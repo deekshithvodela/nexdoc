@@ -1,6 +1,8 @@
-// NexDoc Service Worker (PWA)
-const CACHE_NAME = 'nexdoc-v1.0.3';
-const STATIC_ASSETS = [
+// NexDoc Optimized High-Performance Service Worker (PWA)
+const CACHE_NAME = 'nexdoc-v1.2.0';
+const DATA_CACHE_NAME = 'nexdoc-data-v1.2.0';
+
+const STATIC_SHELL_ASSETS = [
   './',
   './index.html',
   './license.html',
@@ -18,41 +20,40 @@ const STATIC_ASSETS = [
   './components/AnalyticsPanel.js',
   './components/SankeyChart.js',
   './components/ComparisonMatrix.js',
-  './components/CutoffExplorer.js',
-  './data/manifest.json',
-  './data/colleges_details.json',
-  './data/ug_colleges_aiq_mapping.json',
-  './data/aiq_cutoffs_master.json',
-  './data/aiq_cutoffs_summary.json',
-  './data/ug/summary.json',
-  './data/ug/all.json',
-  './data/pg/summary.json',
-  './data/pg/all.json',
-  './data/ss/summary.json',
-  './data/ss/all.json',
+  './components/CutoffExplorer.js'
+];
+
+const EXTERNAL_CDN_ASSETS = [
+  'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap',
   'https://cdn.jsdelivr.net/npm/chart.js',
   'https://cdn.jsdelivr.net/npm/d3@7',
   'https://unpkg.com/lucide@latest'
 ];
 
-// Install Event
+// Install Event - Pre-cache core shell
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log('[SW] Pre-caching core application shell');
-      return cache.addAll(STATIC_ASSETS);
+    caches.open(CACHE_NAME).then(async (cache) => {
+      console.log('[SW] Pre-caching core application shell & static assets');
+      await cache.addAll(STATIC_SHELL_ASSETS);
+      // Attempt caching external assets asynchronously
+      EXTERNAL_CDN_ASSETS.forEach(url => {
+        fetch(url).then(response => {
+          if (response.ok) cache.put(url, response);
+        }).catch(() => {});
+      });
     }).then(() => self.skipWaiting())
   );
 });
 
-// Activate Event
+// Activate Event - Clean up legacy caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cache) => {
-          if (cache !== CACHE_NAME) {
-            console.log('[SW] Clearing old cache:', cache);
+          if (cache !== CACHE_NAME && cache !== DATA_CACHE_NAME) {
+            console.log('[SW] Deleting legacy cache store:', cache);
             return caches.delete(cache);
           }
         })
@@ -61,43 +62,42 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch Event (Stale-While-Revalidate for app assets, Network-First for data)
+// Fetch Strategy:
+// 1. Data JSON (/data/): Stale-While-Revalidate with fast local cache fallback
+// 2. Static Application Shell & CDNs: Cache-First with background revalidation
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // Ignore cross-origin non-GET requests or browser extension requests
   if (event.request.method !== 'GET') return;
 
-  // Exclude analytics tracking
+  // Ignore analytics trackers from caching
   if (url.hostname.includes('goatcounter.com') || url.pathname.includes('count.js')) {
     return;
   }
 
-  // Handle data requests (e.g., JSON files under data/) with Stale-While-Revalidate
+  // 1. Data Files Optimization (JSON data)
   if (url.pathname.includes('/data/')) {
     event.respondWith(
-      caches.open(CACHE_NAME).then(async (cache) => {
+      caches.open(DATA_CACHE_NAME).then(async (cache) => {
         const cachedResponse = await cache.match(event.request);
-        const fetchPromise = fetch(event.request)
-          .then((networkResponse) => {
-            if (networkResponse.status === 200) {
-              cache.put(event.request, networkResponse.clone());
-            }
-            return networkResponse;
-          })
-          .catch(() => cachedResponse);
+        const networkFetch = fetch(event.request).then((networkResponse) => {
+          if (networkResponse.status === 200) {
+            cache.put(event.request, networkResponse.clone());
+          }
+          return networkResponse;
+        }).catch(() => cachedResponse);
 
-        return cachedResponse || fetchPromise;
+        return cachedResponse || networkFetch;
       })
     );
     return;
   }
 
-  // Handle core static assets with Cache First, falling back to Network
+  // 2. Static Shell & External CDN Assets (Cache-First, Network Fallback)
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
-        // Fetch background update
+        // Asynchronous background update
         fetch(event.request).then((networkResponse) => {
           if (networkResponse.status === 200) {
             caches.open(CACHE_NAME).then((cache) => {
@@ -108,36 +108,34 @@ self.addEventListener('fetch', (event) => {
         return cachedResponse;
       }
 
-      // Root/Directory redirect paths normalization
+      // Root path navigation normalization
       if (url.origin === self.location.origin) {
         const scopeUrl = new URL(self.registration.scope);
-        const scopePath = scopeUrl.pathname;
-        const scopePathNoSlash = scopePath.endsWith('/') ? scopePath.slice(0, -1) : scopePath;
         const cleanPath = url.pathname.endsWith('/index.html') ? url.pathname.slice(0, -10) : url.pathname;
-
-        if (cleanPath === scopePath || cleanPath === scopePathNoSlash) {
-          return caches.match('./').then((rootResponse) => {
-            if (rootResponse) return rootResponse;
-            return fetch(event.request);
-          });
+        if (cleanPath === scopeUrl.pathname || cleanPath === scopeUrl.pathname.replace(/\/$/, '')) {
+          return caches.match('./').then(res => res || fetch(event.request));
         }
       }
 
-      // Caching dynamic external assets (CDNs, Google Fonts, etc.) on the fly
-      if (url.origin !== self.location.origin && (url.pathname.endsWith('.js') || url.pathname.includes('/css') || url.hostname.includes('gstatic.com') || url.hostname.includes('googleapis.com'))) {
-        return fetch(event.request).then((networkResponse) => {
-          if (networkResponse.status === 200) {
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, networkResponse.clone());
-            });
-          }
-          return networkResponse;
-        }).catch(() => {
-          return caches.match(event.request);
-        });
-      }
-
-      return fetch(event.request);
+      // Network fetch with dynamic caching for CDN & font requests
+      return fetch(event.request).then((networkResponse) => {
+        if (networkResponse.status === 200 && (
+          url.origin !== self.location.origin ||
+          url.pathname.endsWith('.css') ||
+          url.pathname.endsWith('.js') ||
+          url.pathname.endsWith('.svg') ||
+          url.pathname.endsWith('.png')
+        )) {
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, networkResponse.clone());
+          });
+        }
+        return networkResponse;
+      }).catch(() => {
+        if (event.request.mode === 'navigate') {
+          return caches.match('./index.html');
+        }
+      });
     })
   );
 });

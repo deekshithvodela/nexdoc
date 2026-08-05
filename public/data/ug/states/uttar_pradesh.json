@@ -1,331 +1,77 @@
 [
   {
-    "college_id": "ug_up001p4",
-    "college_name": "Ajay Sangaal Institute of Medical Sciences and Ayushman Hospital Shamli (UP)",
-    "college_type": "Private",
+    "college_id": "ug_up001g1",
+    "college_name": "Ajay Sangaal Institute of Medical Sciences and Ayushman Hospital, Shamli",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up001p4",
-    "college_name": "Ajay Sangaal Institute of Medical Sciences and Ayushman Hospital Shamli (UP)",
-    "college_type": "Private",
+    "college_id": "ug_up001g1",
+    "college_name": "Ajay Sangaal Institute of Medical Sciences and Ayushman Hospital, Shamli",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up001p4",
-    "college_name": "Ajay Sangaal Institute of Medical Sciences and Ayushman Hospital Shamli (UP)",
-    "college_type": "Private",
+    "college_id": "ug_up001g1",
+    "college_name": "Ajay Sangaal Institute of Medical Sciences and Ayushman Hospital, Shamli",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up003g5",
-    "college_name": "Autonomous state medical college Amethi",
-    "college_type": "Government",
+    "college_id": "ug_in007i1",
+    "college_name": "All India Institute of Medical Sciences, Gorakhpur",
+    "college_type": "INI",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "MCC",
     "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up003g5",
-    "college_name": "Autonomous state medical college Amethi",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up005g5",
-    "college_name": "Autonomous State Medical College and Hospital Gonda",
-    "college_type": "Government",
+    "college_id": "ug_in016i1",
+    "college_name": "All India Institute of Medical Sciences, Raebareli",
+    "college_type": "INI",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "MCC",
     "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up005g5",
-    "college_name": "Autonomous State Medical College and Hospital Gonda",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up006g1",
-    "college_name": "Autonomous State Medical College and Hospital Kaushambi",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up006g1",
-    "college_name": "Autonomous State Medical College and Hospital Kaushambi",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up007g5",
-    "college_name": "Autonomous State Medical College and Hospital Lakhimpuri kheri",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up007g5",
-    "college_name": "Autonomous State Medical College and Hospital Lakhimpuri kheri",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up008g5",
-    "college_name": "Autonomous State Medical College Kushinagar",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up008g5",
-    "college_name": "Autonomous State Medical College Kushinagar",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up009g1",
-    "college_name": "Autonomous State Medical College Lalitpur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up009g1",
-    "college_name": "Autonomous State Medical College Lalitpur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up010g1",
-    "college_name": "Autonomous State Medical College Pilibhit",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up010g1",
-    "college_name": "Autonomous State Medical College Pilibhit",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up011g1",
-    "college_name": "Autonomous State Medical College Pratapgarh",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up011g1",
-    "college_name": "Autonomous State Medical College Pratapgarh",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up012g1",
-    "college_name": "Autonomous State Medical College Society Ghazipur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up012g1",
-    "college_name": "Autonomous State Medical College Society Ghazipur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up013g1",
-    "college_name": "Autonomous State Medical College Society, Etah, Uttar Pradesh",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up013g1",
-    "college_name": "Autonomous State Medical College Society, Etah, Uttar Pradesh",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up014g1",
-    "college_name": "Autonomous State Medical College Society, Fatehpur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up014g1",
-    "college_name": "Autonomous State Medical College Society, Fatehpur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up015g1",
-    "college_name": "Autonomous State Medical College Society, Hardoi",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up015g1",
-    "college_name": "Autonomous State Medical College Society, Hardoi",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_up002g1",
-    "college_name": "Autonomous State Medical College Sultanpur",
+    "college_name": "Autonomous State Medical College and Hospital, Gonda",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -333,11 +79,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_up002g1",
-    "college_name": "Autonomous State Medical College Sultanpur",
+    "college_name": "Autonomous State Medical College and Hospital, Gonda",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -345,10 +93,180 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up016g1",
+    "college_id": "ug_up003g1",
+    "college_name": "Autonomous State Medical College and Hospital, Kaushambi",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up003g1",
+    "college_name": "Autonomous State Medical College and Hospital, Kaushambi",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up004g1",
+    "college_name": "Autonomous State Medical College and Hospital, Lakhimpuri Kheri",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up004g1",
+    "college_name": "Autonomous State Medical College and Hospital, Lakhimpuri Kheri",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up001p3",
+    "college_name": "Autonomous State Medical College Society, Etah, Uttar Pradesh",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 15,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up001p3",
+    "college_name": "Autonomous State Medical College Society, Etah, Uttar Pradesh",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 15,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in010p3",
+    "college_name": "Autonomous State Medical College Society, Fatehpur",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 9,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in010p3",
+    "college_name": "Autonomous State Medical College Society, Fatehpur",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 9,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up002p3",
+    "college_name": "Autonomous State Medical College Society, Ghazipur",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 15,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up002p3",
+    "college_name": "Autonomous State Medical College Society, Ghazipur",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 15,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in011p3",
+    "college_name": "Autonomous State Medical College Society, Hardoi",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in011p3",
+    "college_name": "Autonomous State Medical College Society, Hardoi",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up005g1",
     "college_name": "Autonomous State Medical College, Akbarpur, Kanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -357,10 +275,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up016g1",
+    "college_id": "ug_up005g1",
     "college_name": "Autonomous State Medical College, Akbarpur, Kanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -369,10 +289,124 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up017g1",
+    "college_id": "ug_up006g1",
+    "college_name": "Autonomous State Medical College, Amethi",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up006g1",
+    "college_name": "Autonomous State Medical College, Amethi",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up007g1",
+    "college_name": "Autonomous State Medical College, Kushinagar",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up007g1",
+    "college_name": "Autonomous State Medical College, Kushinagar",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_hp001g1",
+    "college_name": "Autonomous State Medical College, Lalitpur",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_hp001g1",
+    "college_name": "Autonomous State Medical College, Lalitpur",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up008g1",
+    "college_name": "Autonomous State Medical College, Pilibhit",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up008g1",
+    "college_name": "Autonomous State Medical College, Pilibhit",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up009g1",
     "college_name": "Autonomous State Medical College, Siddharthnagar",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -381,10 +415,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up017g1",
+    "college_id": "ug_up009g1",
     "college_name": "Autonomous State Medical College, Siddharthnagar",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -393,10 +429,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up018g1",
+    "college_id": "ug_up010g1",
     "college_name": "Autonomous State Medical College, Sonebhadra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -405,10 +443,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up018g1",
+    "college_id": "ug_up010g1",
     "college_name": "Autonomous State Medical College, Sonebhadra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -417,11 +457,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up019g1",
-    "college_name": "Autonomous State Society Medical College Mirzapur",
+    "college_id": "ug_up011g1",
+    "college_name": "Autonomous State Medical College, Sultanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -429,11 +471,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up019g1",
-    "college_name": "Autonomous State Society Medical College Mirzapur",
+    "college_id": "ug_up011g1",
+    "college_name": "Autonomous State Medical College, Sultanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -441,11 +485,41 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up020g1",
-    "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital Chandauli",
+    "college_id": "ug_in012p3",
+    "college_name": "Autonomous State Society Medical College, Mirzapur",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in012p3",
+    "college_name": "Autonomous State Society Medical College, Mirzapur",
+    "college_type": "Private",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up013g1",
+    "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital, Chandauli",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -453,11 +527,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up020g1",
-    "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital Chandauli",
+    "college_id": "ug_up013g1",
+    "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital, Chandauli",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -465,10 +541,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up021g1",
+    "college_id": "ug_up012g1",
     "college_name": "BRD Medical College, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -477,10 +555,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 123,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up021g1",
+    "college_id": "ug_up012g1",
     "college_name": "BRD Medical College, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -489,11 +569,83 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 123,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up022p3",
-    "college_name": "Career Institute Of Medical Sciences & Hospital, Lucknow",
+    "college_id": "ug_up014g1",
+    "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 75,
+    "seats_prev": 75,
+    "seats_inc": 0,
+    "pg_seats": 93,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up014g1",
+    "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Management Quota",
+    "seats": 52,
+    "seats_prev": 52,
+    "seats_inc": 0,
+    "pg_seats": 93,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up014g1",
+    "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "NRI / Minority Quota",
+    "seats": 23,
+    "seats_prev": 23,
+    "seats_inc": 0,
+    "pg_seats": 93,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up016g1",
+    "college_name": "Dr Sonelal Patel Autonomous State Medical College, Pratapgarh",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 12,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up016g1",
+    "college_name": "Dr Sonelal Patel Autonomous State Medical College, Pratapgarh",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 12,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up003p3",
+    "college_name": "Dr. B.S. Kushwah Medical College, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -501,46 +653,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up022p3",
-    "college_name": "Career Institute Of Medical Sciences & Hospital, Lucknow",
-    "college_type": "Private",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Management Quota",
-    "seats": 52,
-    "seats_prev": 52,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up022p3",
-    "college_name": "Career Institute Of Medical Sciences & Hospital, Lucknow",
-    "college_type": "Private",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "NRI / Minority Quota",
-    "seats": 23,
-    "seats_prev": 23,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up023p4",
-    "college_name": "Dr. B.S. Kushwah Medical College, Kanpur",
-    "college_type": "Private",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 75,
-    "seats_prev": 75,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up023p4",
+    "college_id": "ug_up003p3",
     "college_name": "Dr. B.S. Kushwah Medical College, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -549,10 +667,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up023p4",
+    "college_id": "ug_up003p3",
     "college_name": "Dr. B.S. Kushwah Medical College, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -561,10 +681,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up036g1",
+    "college_id": "ug_up017g1",
     "college_name": "Dr. Bhimrao Ramji Ambedkar Government Medical College, Kannauj, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -573,10 +695,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 56,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up036g1",
+    "college_id": "ug_up017g1",
     "college_name": "Dr. Bhimrao Ramji Ambedkar Government Medical College, Kannauj, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -585,11 +709,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 56,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up056p3",
-    "college_name": "Dr. KNS Memorial Institute of Medical Sciences ( Formerly Known as Mayo Institute of Medical Sciences), Lucknow-Ayodhya Road",
+    "college_id": "ug_up004p3",
+    "college_name": "Dr. KNS Memorial Institute of Medical Sciences, Lucknow-Ayodhya Road",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -597,11 +723,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 91,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up056p3",
-    "college_name": "Dr. KNS Memorial Institute of Medical Sciences ( Formerly Known as Mayo Institute of Medical Sciences), Lucknow-Ayodhya Road",
+    "college_id": "ug_up004p3",
+    "college_name": "Dr. KNS Memorial Institute of Medical Sciences, Lucknow-Ayodhya Road",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -609,11 +737,13 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 91,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up056p3",
-    "college_name": "Dr. KNS Memorial Institute of Medical Sciences ( Formerly Known as Mayo Institute of Medical Sciences), Lucknow-Ayodhya Road",
+    "college_id": "ug_up004p3",
+    "college_name": "Dr. KNS Memorial Institute of Medical Sciences, Lucknow-Ayodhya Road",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -621,10 +751,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 91,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up024g1",
+    "college_id": "ug_up018g1",
     "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -633,10 +765,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 36
   },
   {
-    "college_id": "ug_up024g1",
+    "college_id": "ug_up018g1",
     "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -645,10 +779,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 36
   },
   {
-    "college_id": "ug_up025p3",
+    "college_id": "ug_up005p3",
     "college_name": "Era Lucknow Medical College, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -657,10 +793,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 125,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up025p3",
+    "college_id": "ug_up005p3",
     "college_name": "Era Lucknow Medical College, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -669,10 +807,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 125,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up025p3",
+    "college_id": "ug_up005p3",
     "college_name": "Era Lucknow Medical College, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -681,10 +821,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 125,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up026g1",
+    "college_id": "ug_up019g1",
     "college_name": "ESIC Medical College and Hospital, Noida",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -693,10 +835,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up026g1",
+    "college_id": "ug_up019g1",
     "college_name": "ESIC Medical College and Hospital, Noida",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -705,11 +849,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up027g1",
-    "college_name": "ESIC Medical College and Hospital, VARANASI",
+    "college_id": "ug_in013g1",
+    "college_name": "ESIC Medical College and Hospital, Varanasi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -717,11 +863,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up027g1",
-    "college_name": "ESIC Medical College and Hospital, VARANASI",
+    "college_id": "ug_in013g1",
+    "college_name": "ESIC Medical College and Hospital, Varanasi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -729,10 +877,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up028p4",
+    "college_id": "ug_up006p3",
     "college_name": "F.H. Medical College & Hospital, Etamdapur, Agra",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -741,10 +891,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up028p4",
+    "college_id": "ug_up006p3",
     "college_name": "F.H. Medical College & Hospital, Etamdapur, Agra",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -753,10 +905,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up028p4",
+    "college_id": "ug_up006p3",
     "college_name": "F.H. Medical College & Hospital, Etamdapur, Agra",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -765,10 +919,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_fulan_singh_medical_college_fs_university_uttar_pradesh",
+    "college_id": "ug_up007p3",
     "college_name": "Fulan Singh Medical College, FS University",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -777,10 +933,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_fulan_singh_medical_college_fs_university_uttar_pradesh",
+    "college_id": "ug_up007p3",
     "college_name": "Fulan Singh Medical College, FS University",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -789,10 +947,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_fulan_singh_medical_college_fs_university_uttar_pradesh",
+    "college_id": "ug_up007p3",
     "college_name": "Fulan Singh Medical College, FS University",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -801,47 +961,55 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up029p3",
-    "college_name": "G.S. Medical College & Hospital, Hapur, UP",
-    "college_type": "Private",
+    "college_id": "ug_up020g1",
+    "college_name": "G.S. Medical College & Hospital, Hapur",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 97,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up029p3",
-    "college_name": "G.S. Medical College & Hospital, Hapur, UP",
-    "college_type": "Private",
+    "college_id": "ug_up020g1",
+    "college_name": "G.S. Medical College & Hospital, Hapur",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 97,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up029p3",
-    "college_name": "G.S. Medical College & Hospital, Hapur, UP",
-    "college_type": "Private",
+    "college_id": "ug_up020g1",
+    "college_name": "G.S. Medical College & Hospital, Hapur",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 97,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up030g1",
-    "college_name": "Government Allopathic Medical College, Banda, UP",
+    "college_id": "ug_up022g1",
+    "college_name": "Government Allopathic Medical College, Banda",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -849,11 +1017,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 31,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up030g1",
-    "college_name": "Government Allopathic Medical College, Banda, UP",
+    "college_id": "ug_up022g1",
+    "college_name": "Government Allopathic Medical College, Banda",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -861,10 +1031,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 31,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up031g1",
+    "college_id": "ug_up023g1",
     "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -873,10 +1045,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 58,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up031g1",
+    "college_id": "ug_up023g1",
     "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -885,11 +1059,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 58,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up032g1",
-    "college_name": "Government Medical College & Super facility Hospital, Azamgarh",
+    "college_id": "ug_up024g1",
+    "college_name": "Government Medical College & Super Facility Hospital, Azamgarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -897,11 +1073,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up032g1",
-    "college_name": "Government Medical College & Super facility Hospital, Azamgarh",
+    "college_id": "ug_up024g1",
+    "college_name": "Government Medical College & Super Facility Hospital, Azamgarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -909,11 +1087,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up033g1",
-    "college_name": "Government Medical College, Badaun, U.P.",
+    "college_id": "ug_up025g1",
+    "college_name": "Government Medical College, Badaun",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -921,11 +1101,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up033g1",
-    "college_name": "Government Medical College, Badaun, U.P.",
+    "college_id": "ug_up025g1",
+    "college_name": "Government Medical College, Badaun",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -933,10 +1115,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up034g1",
+    "college_id": "ug_up026g1",
     "college_name": "Government Medical College, Faizabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -945,10 +1129,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 39,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up034g1",
+    "college_id": "ug_up026g1",
     "college_name": "Government Medical College, Faizabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -957,10 +1143,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 39,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up035g1",
+    "college_id": "ug_up027g1",
     "college_name": "Government Medical College, Firozabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -969,10 +1157,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up035g1",
+    "college_id": "ug_up027g1",
     "college_name": "Government Medical College, Firozabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -981,10 +1171,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 49,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up037g1",
+    "college_id": "ug_up028g1",
     "college_name": "Government Medical College, Rampur, Basti",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -993,10 +1185,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up037g1",
+    "college_id": "ug_up028g1",
     "college_name": "Government Medical College, Rampur, Basti",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1005,11 +1199,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up038g1",
-    "college_name": "Government Medical College, Shahjahanpur, UP",
+    "college_id": "ug_up029g1",
+    "college_name": "Government Medical College, Shahjahanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1017,11 +1213,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up038g1",
-    "college_name": "Government Medical College, Shahjahanpur, UP",
+    "college_id": "ug_up029g1",
+    "college_name": "Government Medical College, Shahjahanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1029,10 +1227,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 53,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up039g1",
+    "college_id": "ug_up021g1",
     "college_name": "GSVM Medical College, Kanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1041,10 +1241,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 171,
+    "ss_seats": 36
   },
   {
-    "college_id": "ug_up039g1",
+    "college_id": "ug_up021g1",
     "college_name": "GSVM Medical College, Kanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1053,10 +1255,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 171,
+    "ss_seats": 36
   },
   {
-    "college_id": "ug_up040p5",
+    "college_id": "ug_up008p3",
     "college_name": "Heritage Institute of Medical Sciences, Varanasi",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1065,10 +1269,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 64,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up040p5",
+    "college_id": "ug_up008p3",
     "college_name": "Heritage Institute of Medical Sciences, Varanasi",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1077,10 +1283,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 64,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up040p5",
+    "college_id": "ug_up008p3",
     "college_name": "Heritage Institute of Medical Sciences, Varanasi",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1089,10 +1297,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 64,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up041p3",
+    "college_id": "ug_in031p3",
     "college_name": "Hind Institute of Medical Sciences, Barabanki",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1101,10 +1311,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 12
   },
   {
-    "college_id": "ug_up041p3",
+    "college_id": "ug_in031p3",
     "college_name": "Hind Institute of Medical Sciences, Barabanki",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1113,10 +1325,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 12
   },
   {
-    "college_id": "ug_up041p3",
+    "college_id": "ug_in031p3",
     "college_name": "Hind Institute of Medical Sciences, Barabanki",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1125,10 +1339,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 71,
+    "ss_seats": 12
   },
   {
-    "college_id": "ug_up042p3",
+    "college_id": "ug_up009p3",
     "college_name": "Hind Institute of Medical Sciences, Sitapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1137,10 +1353,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_up042p3",
+    "college_id": "ug_up009p3",
     "college_name": "Hind Institute of Medical Sciences, Sitapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1149,10 +1367,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_up042p3",
+    "college_id": "ug_up009p3",
     "college_name": "Hind Institute of Medical Sciences, Sitapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1161,10 +1381,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 63,
+    "ss_seats": 2
   },
   {
-    "college_id": "ug_up043g1",
+    "college_id": "ug_up031g1",
     "college_name": "Institute of Medical Sciences, BHU, Varansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1173,10 +1395,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 189,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up043g1",
+    "college_id": "ug_up031g1",
     "college_name": "Institute of Medical Sciences, BHU, Varansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1185,10 +1409,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 189,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up044p4",
+    "college_id": "ug_in034p3",
     "college_name": "Integral Institute of Medical Sciences & Research, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1197,10 +1423,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 72,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up044p4",
+    "college_id": "ug_in034p3",
     "college_name": "Integral Institute of Medical Sciences & Research, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1209,10 +1437,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 72,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up044p4",
+    "college_id": "ug_in034p3",
     "college_name": "Integral Institute of Medical Sciences & Research, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1221,10 +1451,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 72,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up045g1",
+    "college_id": "ug_up033g1",
     "college_name": "Jawaharlal Nehru Medical College, Aligarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1233,10 +1465,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 222,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_up045g1",
+    "college_id": "ug_up033g1",
     "college_name": "Jawaharlal Nehru Medical College, Aligarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1245,10 +1479,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 222,
+    "ss_seats": 10
   },
   {
-    "college_id": "ug_up046p3",
+    "college_id": "ug_in039p3",
     "college_name": "K.D. Medical College Hospital & Research Centre, Mathura",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1257,10 +1493,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 118,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up046p3",
+    "college_id": "ug_in039p3",
     "college_name": "K.D. Medical College Hospital & Research Centre, Mathura",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1269,10 +1507,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 118,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up046p3",
+    "college_id": "ug_in039p3",
     "college_name": "K.D. Medical College Hospital & Research Centre, Mathura",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1281,10 +1521,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 118,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up047g5",
+    "college_id": "ug_up034g1",
     "college_name": "Kalyan Singh Government Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1293,10 +1535,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up047g5",
+    "college_id": "ug_up034g1",
     "college_name": "Kalyan Singh Government Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1305,10 +1549,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up048g1",
+    "college_id": "ug_in068g1",
     "college_name": "King George Medical University, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1317,10 +1563,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 373,
+    "ss_seats": 98
   },
   {
-    "college_id": "ug_up048g1",
+    "college_id": "ug_in068g1",
     "college_name": "King George Medical University, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1329,10 +1577,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 373,
+    "ss_seats": 98
   },
   {
-    "college_id": "ug_up049p6",
+    "college_id": "ug_up010p3",
     "college_name": "KMC Medical College & Hospital, Maharajganj, Uttar Pradesh",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1341,10 +1591,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up049p6",
+    "college_id": "ug_up010p3",
     "college_name": "KMC Medical College & Hospital, Maharajganj, Uttar Pradesh",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1353,10 +1605,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up049p6",
+    "college_id": "ug_up010p3",
     "college_name": "KMC Medical College & Hospital, Maharajganj, Uttar Pradesh",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1365,10 +1619,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up050p3",
+    "college_id": "ug_up011p3",
     "college_name": "Krishna Mohan Medical College & Hospital, Mathura",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1377,10 +1633,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up050p3",
+    "college_id": "ug_up011p3",
     "college_name": "Krishna Mohan Medical College & Hospital, Mathura",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1389,10 +1647,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up050p3",
+    "college_id": "ug_up011p3",
     "college_name": "Krishna Mohan Medical College & Hospital, Mathura",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1401,10 +1661,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 82,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up051g1",
+    "college_id": "ug_up035g1",
     "college_name": "LLRM Medical College, Meerut",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1413,10 +1675,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 145,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up051g1",
+    "college_id": "ug_up035g1",
     "college_name": "LLRM Medical College, Meerut",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1425,34 +1689,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 145,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up052g1",
-    "college_name": "Mahamaya Rajkiya Allopathic Medical College, Ambedkarnagar",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up052g1",
-    "college_name": "Mahamaya Rajkiya Allopathic Medical College, Ambedkarnagar",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_up053g1",
+    "college_id": "ug_up036g1",
     "college_name": "Maharani Laxmi Bai Medical College, Jhansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1461,10 +1703,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 12
   },
   {
-    "college_id": "ug_up053g1",
+    "college_id": "ug_up036g1",
     "college_name": "Maharani Laxmi Bai Medical College, Jhansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1473,10 +1717,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 111,
+    "ss_seats": 12
   },
   {
-    "college_id": "ug_up054g1",
+    "college_id": "ug_in072g1",
     "college_name": "Maharshi Devraha Baba Autonomous State Medical College, Deoria",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1485,10 +1731,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up054g1",
+    "college_id": "ug_in072g1",
     "college_name": "Maharshi Devraha Baba Autonomous State Medical College, Deoria",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1497,10 +1745,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 4,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up055g1",
+    "college_id": "ug_up037g1",
     "college_name": "Mahatma Vidur Autonomous State Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1509,10 +1759,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up055g1",
+    "college_id": "ug_up037g1",
     "college_name": "Mahatma Vidur Autonomous State Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1521,10 +1773,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up057g1",
+    "college_id": "ug_up038g1",
     "college_name": "Moti Lal Nehru Medical College, Allahabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1533,10 +1787,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 171,
+    "ss_seats": 16
   },
   {
-    "college_id": "ug_up057g1",
+    "college_id": "ug_up038g1",
     "college_name": "Moti Lal Nehru Medical College, Allahabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1545,10 +1801,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 171,
+    "ss_seats": 16
   },
   {
-    "college_id": "ug_up058p3",
+    "college_id": "ug_up012p3",
     "college_name": "Muzaffarnagar Medical College, Muzaffarnagar",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1557,10 +1815,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 117,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up058p3",
+    "college_id": "ug_up012p3",
     "college_name": "Muzaffarnagar Medical College, Muzaffarnagar",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1569,10 +1829,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 117,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up058p3",
+    "college_id": "ug_up012p3",
     "college_name": "Muzaffarnagar Medical College, Muzaffarnagar",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1581,10 +1843,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 117,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up059p4",
+    "college_id": "ug_in062p3",
     "college_name": "Naraina Medical College & Research Centre",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1593,10 +1857,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up059p4",
+    "college_id": "ug_in062p3",
     "college_name": "Naraina Medical College & Research Centre",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1605,10 +1871,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up059p4",
+    "college_id": "ug_in062p3",
     "college_name": "Naraina Medical College & Research Centre",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1617,10 +1885,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 68,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up060p3",
+    "college_id": "ug_up013p3",
     "college_name": "National Capital Region Institute of Medical Sciences, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1629,10 +1899,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 88,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up060p3",
+    "college_id": "ug_up013p3",
     "college_name": "National Capital Region Institute of Medical Sciences, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1641,10 +1913,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 88,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up060p3",
+    "college_id": "ug_up013p3",
     "college_name": "National Capital Region Institute of Medical Sciences, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1653,11 +1927,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 88,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up061p3",
-    "college_name": "Noida International Institute Of Medical Sciences",
+    "college_id": "ug_up014p3",
+    "college_name": "Noida International Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1665,11 +1941,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up061p3",
-    "college_name": "Noida International Institute Of Medical Sciences",
+    "college_id": "ug_up014p3",
+    "college_name": "Noida International Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1677,11 +1955,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up061p3",
-    "college_name": "Noida International Institute Of Medical Sciences",
+    "college_id": "ug_up014p3",
+    "college_name": "Noida International Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1689,10 +1969,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up062p3",
+    "college_id": "ug_up016p3",
     "college_name": "Prasad Institute of Medical Sciences, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1701,10 +1983,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up062p3",
+    "college_id": "ug_up016p3",
     "college_name": "Prasad Institute of Medical Sciences, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1713,10 +1997,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up062p3",
+    "college_id": "ug_up016p3",
     "college_name": "Prasad Institute of Medical Sciences, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1725,11 +2011,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 46,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up004g5",
-    "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya (U.P.)",
+    "college_id": "ug_up040g1",
+    "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1737,11 +2025,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up004g5",
-    "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya (U.P.)",
+    "college_id": "ug_up040g1",
+    "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1749,11 +2039,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up063g1",
-    "college_name": "Rajkiya Allopathic Medical College, Bahraich, UP",
+    "college_id": "ug_up041g1",
+    "college_name": "Rajkiya Allopathic Medical College, Bahraich",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1761,11 +2053,13 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up063g1",
-    "college_name": "Rajkiya Allopathic Medical College, Bahraich, UP",
+    "college_id": "ug_up041g1",
+    "college_name": "Rajkiya Allopathic Medical College, Bahraich",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -1773,10 +2067,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 32,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up064g1",
+    "college_id": "ug_up042g1",
     "college_name": "Rajkiya Medical College Jalaun, Orai, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1785,10 +2081,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 40,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up064g1",
+    "college_id": "ug_up042g1",
     "college_name": "Rajkiya Medical College Jalaun, Orai, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1797,10 +2095,40 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 40,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up065p3",
+    "college_id": "ug_up043g1",
+    "college_name": "Rajkiya Medical College, Saddarpur, Ambedkar Nagar",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 25,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up043g1",
+    "college_name": "Rajkiya Medical College, Saddarpur, Ambedkar Nagar",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 25,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up018p3",
     "college_name": "Rajshree Medical Research Institute, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1809,10 +2137,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 133,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up065p3",
+    "college_id": "ug_up018p3",
     "college_name": "Rajshree Medical Research Institute, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1821,10 +2151,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 133,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up065p3",
+    "college_id": "ug_up018p3",
     "college_name": "Rajshree Medical Research Institute, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1833,10 +2165,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 133,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up066p4",
+    "college_id": "ug_up019p3",
     "college_name": "Rama Medical College Hospital & Research Centre, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1845,10 +2179,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 82,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up066p4",
+    "college_id": "ug_up019p3",
     "college_name": "Rama Medical College Hospital & Research Centre, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1857,10 +2193,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 82,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up066p4",
+    "college_id": "ug_up019p3",
     "college_name": "Rama Medical College Hospital & Research Centre, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1869,10 +2207,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 82,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up067p4",
+    "college_id": "ug_in073p3",
     "college_name": "Rama Medical College Hospital and Research Centre, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1881,10 +2221,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_up067p4",
+    "college_id": "ug_in073p3",
     "college_name": "Rama Medical College Hospital and Research Centre, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1893,10 +2235,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_up067p4",
+    "college_id": "ug_in073p3",
     "college_name": "Rama Medical College Hospital and Research Centre, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1905,10 +2249,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 73,
+    "ss_seats": 9
   },
   {
-    "college_id": "ug_up068p3",
+    "college_id": "ug_up020p3",
     "college_name": "Rohilkhand Medical College & Hospital, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1917,10 +2263,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 168,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up068p3",
+    "college_id": "ug_up020p3",
     "college_name": "Rohilkhand Medical College & Hospital, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1929,10 +2277,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 168,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up068p3",
+    "college_id": "ug_up020p3",
     "college_name": "Rohilkhand Medical College & Hospital, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1941,10 +2291,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 168,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_up069g1",
+    "college_id": "ug_up044g1",
     "college_name": "S N Medical College, Agra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1953,10 +2305,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 211,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_up069g1",
+    "college_id": "ug_up044g1",
     "college_name": "S N Medical College, Agra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -1965,10 +2319,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 211,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_up070p3",
+    "college_id": "ug_up021p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1977,10 +2333,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up070p3",
+    "college_id": "ug_up021p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -1989,10 +2347,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up070p3",
+    "college_id": "ug_up021p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2001,11 +2361,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 157,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_up071p3",
-    "college_name": "Saraswati Institute of Medical Sciences, Hapur",
+    "college_id": "ug_up022p3",
+    "college_name": "Saraswathi Institute of Medical Sciences, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2013,11 +2375,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 104,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up071p3",
-    "college_name": "Saraswati Institute of Medical Sciences, Hapur",
+    "college_id": "ug_up022p3",
+    "college_name": "Saraswathi Institute of Medical Sciences, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2025,11 +2389,13 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 104,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up071p3",
-    "college_name": "Saraswati Institute of Medical Sciences, Hapur",
+    "college_id": "ug_up022p3",
+    "college_name": "Saraswathi Institute of Medical Sciences, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2037,46 +2403,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 104,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up072p3",
-    "college_name": "Saraswati Medical College, Unnao, U.P.",
-    "college_type": "Private",
+    "college_id": "ug_up047g1",
+    "college_name": "Saraswati Medical College, Unnao",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 17,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up072p3",
-    "college_name": "Saraswati Medical College, Unnao, U.P.",
-    "college_type": "Private",
+    "college_id": "ug_up047g1",
+    "college_name": "Saraswati Medical College, Unnao",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 17,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up072p3",
-    "college_name": "Saraswati Medical College, Unnao, U.P.",
-    "college_type": "Private",
+    "college_id": "ug_up047g1",
+    "college_name": "Saraswati Medical College, Unnao",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 17,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sardar_patel_institute_of_medical_education_and_health_sciences_uttar_pradesh",
+    "college_id": "ug_rj013p3",
     "college_name": "Sardar Patel Institute of Medical Education and Health Sciences",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2085,10 +2459,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 25,
     "seats_prev": 0,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sardar_patel_institute_of_medical_education_and_health_sciences_uttar_pradesh",
+    "college_id": "ug_rj013p3",
     "college_name": "Sardar Patel Institute of Medical Education and Health Sciences",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2097,10 +2473,12 @@
     "quota_type": "Management Quota",
     "seats": 17,
     "seats_prev": 0,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sardar_patel_institute_of_medical_education_and_health_sciences_uttar_pradesh",
+    "college_id": "ug_rj013p3",
     "college_name": "Sardar Patel Institute of Medical Education and Health Sciences",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2109,10 +2487,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 8,
     "seats_prev": 0,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up074g1",
+    "college_id": "ug_up048g1",
     "college_name": "Shaikh-UL-Hind Maulana Mahmood Hasan Medical College, Saharanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2121,10 +2501,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 51,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up074g1",
+    "college_id": "ug_up048g1",
     "college_name": "Shaikh-UL-Hind Maulana Mahmood Hasan Medical College, Saharanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2133,11 +2515,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 51,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up073p3",
-    "college_name": "Sharda School of Medical Sciences & Research ( previously School of Medical Sciences & Research, Greater Noida)",
+    "college_id": "ug_up023p3",
+    "college_name": "Sharda School of Medical Sciences & Research, Greater Noida",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2145,11 +2529,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 136,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up073p3",
-    "college_name": "Sharda School of Medical Sciences & Research ( previously School of Medical Sciences & Research, Greater Noida)",
+    "college_id": "ug_up023p3",
+    "college_name": "Sharda School of Medical Sciences & Research, Greater Noida",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2157,11 +2543,13 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 136,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up073p3",
-    "college_name": "Sharda School of Medical Sciences & Research ( previously School of Medical Sciences & Research, Greater Noida)",
+    "college_id": "ug_up023p3",
+    "college_name": "Sharda School of Medical Sciences & Research, Greater Noida",
     "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2169,46 +2557,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 136,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up075p4",
-    "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham Gorakhpur (UP)",
-    "college_type": "Private",
+    "college_id": "ug_up049g1",
+    "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham, Gorakhpur",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up075p4",
-    "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham Gorakhpur (UP)",
-    "college_type": "Private",
+    "college_id": "ug_up049g1",
+    "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham, Gorakhpur",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up075p4",
-    "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham Gorakhpur (UP)",
-    "college_type": "Private",
+    "college_id": "ug_up049g1",
+    "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham, Gorakhpur",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up076p3",
+    "college_id": "ug_up024p3",
     "college_name": "Shri Ram Murti Smarak Institute of Medical Sciences, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2217,10 +2613,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 133,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_up076p3",
+    "college_id": "ug_up024p3",
     "college_name": "Shri Ram Murti Smarak Institute of Medical Sciences, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2229,10 +2627,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 133,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_up076p3",
+    "college_id": "ug_up024p3",
     "college_name": "Shri Ram Murti Smarak Institute of Medical Sciences, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2241,46 +2641,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 133,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_up077p3",
-    "college_name": "Shri Siddhi Vinayak Medical College & Hospital Sambhal (UP) 244302",
-    "college_type": "Private",
+    "college_id": "ug_up050g1",
+    "college_name": "Shri Siddhi Vinayak Medical College & Hospital, Sambhal",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up077p3",
-    "college_name": "Shri Siddhi Vinayak Medical College & Hospital Sambhal (UP) 244302",
-    "college_type": "Private",
+    "college_id": "ug_up050g1",
+    "college_name": "Shri Siddhi Vinayak Medical College & Hospital, Sambhal",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up077p3",
-    "college_name": "Shri Siddhi Vinayak Medical College & Hospital Sambhal (UP) 244302",
-    "college_type": "Private",
+    "college_id": "ug_up050g1",
+    "college_name": "Shri Siddhi Vinayak Medical College & Hospital, Sambhal",
+    "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up078p4",
+    "college_id": "ug_in077p3",
     "college_name": "SKS Hospital Medical College & Research Centre",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2289,10 +2697,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up078p4",
+    "college_id": "ug_in077p3",
     "college_name": "SKS Hospital Medical College & Research Centre",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2301,10 +2711,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up078p4",
+    "college_id": "ug_in077p3",
     "college_name": "SKS Hospital Medical College & Research Centre",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2313,10 +2725,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up079p3",
+    "college_id": "ug_up025p3",
     "college_name": "Subharti Medical College, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2325,10 +2739,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 142,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_up079p3",
+    "college_id": "ug_up025p3",
     "college_name": "Subharti Medical College, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2337,10 +2753,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 142,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_up079p3",
+    "college_id": "ug_up025p3",
     "college_name": "Subharti Medical College, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2349,10 +2767,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 142,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_up080p5",
+    "college_id": "ug_up026p3",
     "college_name": "T S Misra Medical College & Hospital, Amusi, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2361,10 +2781,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up080p5",
+    "college_id": "ug_up026p3",
     "college_name": "T S Misra Medical College & Hospital, Amusi, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2373,10 +2795,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up080p5",
+    "college_id": "ug_up026p3",
     "college_name": "T S Misra Medical College & Hospital, Amusi, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2385,10 +2809,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up081p4",
+    "college_id": "ug_up027p3",
     "college_name": "Teerthanker Mahaveer Medical College, Moradabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2397,10 +2823,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 159,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up081p4",
+    "college_id": "ug_up027p3",
     "college_name": "Teerthanker Mahaveer Medical College, Moradabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2409,10 +2837,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 159,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up081p4",
+    "college_id": "ug_up027p3",
     "college_name": "Teerthanker Mahaveer Medical College, Moradabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2421,34 +2851,40 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 159,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up082g1",
-    "college_name": "Uma Nath Singh Autonomous State Medical College Society Jaunpur",
-    "college_type": "Government",
+    "college_id": "ug_in098p3",
+    "college_name": "Uma Nath Singh Autonomous State Medical College Society, Jaunpur",
+    "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "MCC",
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up082g1",
-    "college_name": "Uma Nath Singh Autonomous State Medical College Society Jaunpur",
-    "college_type": "Government",
+    "college_id": "ug_in098p3",
+    "college_name": "Uma Nath Singh Autonomous State Medical College Society, Jaunpur",
+    "college_type": "Private",
     "state": "Uttar Pradesh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up083p4",
+    "college_id": "ug_in099p3",
     "college_name": "United Institute of Medical Sciences, Allahabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2457,10 +2893,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up083p4",
+    "college_id": "ug_in099p3",
     "college_name": "United Institute of Medical Sciences, Allahabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2469,10 +2907,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up083p4",
+    "college_id": "ug_in099p3",
     "college_name": "United Institute of Medical Sciences, Allahabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2481,11 +2921,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up084g1",
-    "college_name": "Uttar Pradesh University of Medical Sciences, (Prev. UP Rural Inst.of Med.Sc & R) Etawah",
+    "college_id": "ug_up051g1",
+    "college_name": "Uttar Pradesh University of Medical Sciences, Etawah",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2493,11 +2935,13 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 118,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_up084g1",
-    "college_name": "Uttar Pradesh University of Medical Sciences, (Prev. UP Rural Inst.of Med.Sc & R) Etawah",
+    "college_id": "ug_up051g1",
+    "college_name": "Uttar Pradesh University of Medical Sciences, Etawah",
     "college_type": "Government",
     "state": "Uttar Pradesh",
     "course": "MBBS",
@@ -2505,10 +2949,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 118,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_up085p3",
+    "college_id": "ug_up028p3",
     "college_name": "Varun Arjun Medical College, Banthra, Shahjahanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2517,10 +2963,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 99,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up085p3",
+    "college_id": "ug_up028p3",
     "college_name": "Varun Arjun Medical College, Banthra, Shahjahanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2529,10 +2977,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 99,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up085p3",
+    "college_id": "ug_up028p3",
     "college_name": "Varun Arjun Medical College, Banthra, Shahjahanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2541,10 +2991,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 99,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up086p3",
+    "college_id": "ug_in102p3",
     "college_name": "Venkateshwara Institute of Medical Sciences, Gajraula",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2553,10 +3005,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up086p3",
+    "college_id": "ug_in102p3",
     "college_name": "Venkateshwara Institute of Medical Sciences, Gajraula",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2565,10 +3019,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_up086p3",
+    "college_id": "ug_in102p3",
     "college_name": "Venkateshwara Institute of Medical Sciences, Gajraula",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -2577,30 +3033,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_gorakhpur",
-    "college_name": "AIIMS Gorakhpur",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_raebareli",
-    "college_name": "AIIMS Raebareli",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 100,
-    "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   }
 ]

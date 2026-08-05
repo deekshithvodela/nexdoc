@@ -1,6 +1,6 @@
 [
   {
-    "college_id": "ug_hr001p4",
+    "college_id": "ug_hr001p3",
     "college_name": "Adesh Medical College and Hospital, Shahabad, Kurukshetra, Haryana",
     "college_type": "Private",
     "state": "Haryana",
@@ -9,10 +9,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr001p4",
+    "college_id": "ug_hr001p3",
     "college_name": "Adesh Medical College and Hospital, Shahabad, Kurukshetra, Haryana",
     "college_type": "Private",
     "state": "Haryana",
@@ -21,10 +23,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr001p4",
+    "college_id": "ug_hr001p3",
     "college_name": "Adesh Medical College and Hospital, Shahabad, Kurukshetra, Haryana",
     "college_type": "Private",
     "state": "Haryana",
@@ -33,7 +37,9 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 75,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hr002p3",
@@ -45,7 +51,9 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hr002p3",
@@ -57,7 +65,9 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hr002p3",
@@ -69,46 +79,54 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hr003p3",
-    "college_name": "Amrita School of Medicine",
-    "college_type": "Private",
+    "college_name": "Amrita School of Medicine, Faridabad",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hr003p3",
-    "college_name": "Amrita School of Medicine",
-    "college_type": "Private",
+    "college_name": "Amrita School of Medicine, Faridabad",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_hr003p3",
-    "college_name": "Amrita School of Medicine",
-    "college_type": "Private",
+    "college_name": "Amrita School of Medicine, Faridabad",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr004g1",
+    "college_id": "ug_hr001g1",
     "college_name": "BPS Government Medical College for Women, Sonepat",
     "college_type": "Government",
     "state": "Haryana",
@@ -117,10 +135,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr004g1",
+    "college_id": "ug_hr001g1",
     "college_name": "BPS Government Medical College for Women, Sonepat",
     "college_type": "Government",
     "state": "Haryana",
@@ -129,10 +149,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr005g1",
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -141,10 +163,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 87,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_hr005g1",
+    "college_id": "ug_hr003g1",
     "college_name": "Employees State Insurance Corporation Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -153,11 +177,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 87,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_hr006p3",
-    "college_name": "Faculty of Medicine and Health Sciences, Gurgaon (Formarly SGGST Medical College & R Centre, Gurgaon)",
+    "college_id": "ug_hr005p3",
+    "college_name": "Faculty of Medicine and Health Sciences, Gurgaon",
     "college_type": "Private",
     "state": "Haryana",
     "course": "MBBS",
@@ -165,11 +191,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 90,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr006p3",
-    "college_name": "Faculty of Medicine and Health Sciences, Gurgaon (Formarly SGGST Medical College & R Centre, Gurgaon)",
+    "college_id": "ug_hr005p3",
+    "college_name": "Faculty of Medicine and Health Sciences, Gurgaon",
     "college_type": "Private",
     "state": "Haryana",
     "course": "MBBS",
@@ -177,11 +205,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 90,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr006p3",
-    "college_name": "Faculty of Medicine and Health Sciences, Gurgaon (Formarly SGGST Medical College & R Centre, Gurgaon)",
+    "college_id": "ug_hr005p3",
+    "college_name": "Faculty of Medicine and Health Sciences, Gurgaon",
     "college_type": "Private",
     "state": "Haryana",
     "course": "MBBS",
@@ -189,10 +219,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 90,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr007g1",
+    "college_id": "ug_hr004g1",
     "college_name": "Kalpana Chawala Government Medical College, Karnal, Haryana",
     "college_type": "Government",
     "state": "Haryana",
@@ -201,10 +233,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr007g1",
+    "college_id": "ug_hr004g1",
     "college_name": "Kalpana Chawala Government Medical College, Karnal, Haryana",
     "college_type": "Government",
     "state": "Haryana",
@@ -213,10 +247,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr008p4",
+    "college_id": "ug_hr006p3",
     "college_name": "Maharaja Agrasen Medical College, Agroha",
     "college_type": "Private",
     "state": "Haryana",
@@ -225,10 +261,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 52,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr008p4",
+    "college_id": "ug_hr006p3",
     "college_name": "Maharaja Agrasen Medical College, Agroha",
     "college_type": "Private",
     "state": "Haryana",
@@ -237,10 +275,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 52,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr008p4",
+    "college_id": "ug_hr006p3",
     "college_name": "Maharaja Agrasen Medical College, Agroha",
     "college_type": "Private",
     "state": "Haryana",
@@ -249,10 +289,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 52,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr009g1",
+    "college_id": "ug_hr005g1",
     "college_name": "Maharishi Chyawan Medical College, Koriawas",
     "college_type": "Government",
     "state": "Haryana",
@@ -261,10 +303,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr009g1",
+    "college_id": "ug_hr005g1",
     "college_name": "Maharishi Chyawan Medical College, Koriawas",
     "college_type": "Government",
     "state": "Haryana",
@@ -273,82 +317,96 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr010p3",
+    "college_id": "ug_hr007p3",
     "college_name": "Maharishi Markandeshwar College of Medical Sciences & Research, Sadopur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr010p3",
+    "college_id": "ug_hr007p3",
     "college_name": "Maharishi Markandeshwar College of Medical Sciences & Research, Sadopur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr010p3",
+    "college_id": "ug_hr007p3",
     "college_name": "Maharishi Markandeshwar College of Medical Sciences & Research, Sadopur",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr011p3",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 147,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_hr011p3",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 147,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_hr011p3",
-    "college_name": "Maharishi Markandeshwar Institute Of Medical Sciences & Research, Mullana, Ambala",
-    "college_type": "Private",
+    "college_id": "ug_hr008p3",
+    "college_name": "Maharishi Markandeshwar Institute of Medical Sciences & Research, Mullana, Ambala",
+    "college_type": "Deemed",
     "state": "Haryana",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 147,
+    "ss_seats": 8
   },
   {
-    "college_id": "ug_hr012p3",
+    "college_id": "ug_hr009p3",
     "college_name": "N.C. Medical College & Hospital, Panipat",
     "college_type": "Private",
     "state": "Haryana",
@@ -357,10 +415,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr012p3",
+    "college_id": "ug_hr009p3",
     "college_name": "N.C. Medical College & Hospital, Panipat",
     "college_type": "Private",
     "state": "Haryana",
@@ -369,10 +429,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr012p3",
+    "college_id": "ug_hr009p3",
     "college_name": "N.C. Medical College & Hospital, Panipat",
     "college_type": "Private",
     "state": "Haryana",
@@ -381,10 +443,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 44,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr013g1",
+    "college_id": "ug_hr006g1",
     "college_name": "PT Neki Ram Sharma Government Medical College, Bhiwani",
     "college_type": "Government",
     "state": "Haryana",
@@ -393,10 +457,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr013g1",
+    "college_id": "ug_hr006g1",
     "college_name": "PT Neki Ram Sharma Government Medical College, Bhiwani",
     "college_type": "Government",
     "state": "Haryana",
@@ -405,11 +471,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr014g1",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "MBBS",
@@ -417,11 +485,13 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 243,
+    "ss_seats": 19
   },
   {
-    "college_id": "ug_hr014g1",
-    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+    "college_id": "ug_hr007g1",
+    "college_name": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak",
     "college_type": "Government",
     "state": "Haryana",
     "course": "MBBS",
@@ -429,10 +499,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 243,
+    "ss_seats": 19
   },
   {
-    "college_id": "ug_sanskaram_school_of_medical_sciences_haryana",
+    "college_id": "ug_hr010p3",
     "college_name": "Sanskaram School of Medical Sciences",
     "college_type": "Private",
     "state": "Haryana",
@@ -441,10 +513,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sanskaram_school_of_medical_sciences_haryana",
+    "college_id": "ug_hr010p3",
     "college_name": "Sanskaram School of Medical Sciences",
     "college_type": "Private",
     "state": "Haryana",
@@ -453,10 +527,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_sanskaram_school_of_medical_sciences_haryana",
+    "college_id": "ug_hr010p3",
     "college_name": "Sanskaram School of Medical Sciences",
     "college_type": "Private",
     "state": "Haryana",
@@ -465,10 +541,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr015g1",
+    "college_id": "ug_hr008g1",
     "college_name": "Shaheed Hasan Khan Mewati Government Medical College, Nalhar",
     "college_type": "Government",
     "state": "Haryana",
@@ -477,10 +555,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 27,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr015g1",
+    "college_id": "ug_hr008g1",
     "college_name": "Shaheed Hasan Khan Mewati Government Medical College, Nalhar",
     "college_type": "Government",
     "state": "Haryana",
@@ -489,10 +569,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 102,
     "seats_prev": 102,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 27,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr016g1",
+    "college_id": "ug_hr009g1",
     "college_name": "Shri Atal Bihari Vajpayee Government Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -501,10 +583,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr016g1",
+    "college_id": "ug_hr009g1",
     "college_name": "Shri Atal Bihari Vajpayee Government Medical College, Faridabad",
     "college_type": "Government",
     "state": "Haryana",
@@ -513,10 +597,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr017p3",
+    "college_id": "ug_hr011p3",
     "college_name": "World College of Medical Sciences & Researc, Jhajjar, Haryana",
     "college_type": "Private",
     "state": "Haryana",
@@ -525,10 +611,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr017p3",
+    "college_id": "ug_hr011p3",
     "college_name": "World College of Medical Sciences & Researc, Jhajjar, Haryana",
     "college_type": "Private",
     "state": "Haryana",
@@ -537,10 +625,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_hr017p3",
+    "college_id": "ug_hr011p3",
     "college_name": "World College of Medical Sciences & Researc, Jhajjar, Haryana",
     "college_type": "Private",
     "state": "Haryana",
@@ -549,6 +639,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 74,
+    "ss_seats": 0
   }
 ]

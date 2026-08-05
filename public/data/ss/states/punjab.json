@@ -1,18 +1,6 @@
 [
   {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
-    "college_name": "Christian Medical College, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 4,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -24,7 +12,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -36,7 +24,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -48,7 +36,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
+    "college_id": "ug_pb002p3",
+    "college_name": "Christian Medical College, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 4,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -60,7 +60,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -72,7 +72,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_christian_medical_college_ludhiana_punjab",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -84,115 +84,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Surgical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 2,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 2,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Neuro Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 1,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 2,
-    "seats_inc": 3
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 3,
-    "seats_prev": 2,
-    "seats_inc": 1
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Surgical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 6,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
-    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "DM - Critical Care Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 2,
-    "seats_inc": 3
-  },
-  {
-    "college_id": "ss_dayanand_medical_college_hospital_ludhiana_punjab",
+    "college_id": "ug_pb003p3",
     "college_name": "Dayanand Medical College & Hospital, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -204,11 +96,59 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_guru_govind_singh_medical_college_faridkot_punjab",
-    "college_name": "Guru Govind Singh Medical College, Faridkot",
-    "college_type": "Government",
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
     "state": "Punjab",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "course": "DM - Critical Care Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 2,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "DM - Nephrology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 2,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 2,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "M.Ch - Cardiovascular & Thoracic Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 1,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 2,
@@ -216,8 +156,68 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_government_medical_college_amritsar_punjab",
-    "college_name": "Government Medical College Amritsar",
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 2,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "M.Ch - Surgical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 6,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_pb003p3",
+    "college_name": "Dayanand Medical College & Hospital, Ludhiana",
+    "college_type": "Private",
+    "state": "Punjab",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 3,
+    "seats_prev": 2,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_pb003g1",
+    "college_name": "Government Medical College, Amritsar",
+    "college_type": "Government",
+    "state": "Punjab",
+    "course": "DM - Cardiology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_pb003g1",
+    "college_name": "Government Medical College, Amritsar",
     "college_type": "Government",
     "state": "Punjab",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -228,8 +228,8 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_government_medical_college_amritsar_punjab",
-    "college_name": "Government Medical College Amritsar",
+    "college_id": "ug_pb003g1",
+    "college_name": "Government Medical College, Amritsar",
     "college_type": "Government",
     "state": "Punjab",
     "course": "M.Ch - Surgical Oncology",
@@ -240,7 +240,7 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_guru_govind_singh_medical_college_faridkot_punjab",
+    "college_id": "ug_pb004g1",
     "college_name": "Guru Govind Singh Medical College, Faridkot",
     "college_type": "Government",
     "state": "Punjab",
@@ -252,9 +252,21 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_cancer_hospital_and_research_centre_ne_punjab",
-    "college_name": "Cancer Hospital and Research Centre Ne",
-    "college_type": "Private",
+    "college_id": "ug_pb004g1",
+    "college_name": "Guru Govind Singh Medical College, Faridkot",
+    "college_type": "Government",
+    "state": "Punjab",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_ch002g1",
+    "college_name": "Homi Bhabha Cancer Hospital, New Chandigarh (Mullanpur)",
+    "college_type": "Government",
     "state": "Punjab",
     "course": "DM - Medical Oncology",
     "counseling_route": "MCC",
@@ -264,21 +276,9 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_cancer_hospital_and_research_centre_ne_punjab",
-    "college_name": "Cancer Hospital and Research Centre Ne",
-    "college_type": "Private",
-    "state": "Punjab",
-    "course": "M.Ch - Surgical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 0,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_cancer_hospital_and_research_centre_ne_punjab",
-    "college_name": "Cancer Hospital and Research Centre Ne",
-    "college_type": "Private",
+    "college_id": "ug_ch002g1",
+    "college_name": "Homi Bhabha Cancer Hospital, New Chandigarh (Mullanpur)",
+    "college_type": "Government",
     "state": "Punjab",
     "course": "DM - Onco Pathology",
     "counseling_route": "MCC",
@@ -288,7 +288,31 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_punjab_institute_of_liver_and_biliary_sciences_punjab",
+    "college_id": "ug_ch002g1",
+    "college_name": "Homi Bhabha Cancer Hospital, New Chandigarh (Mullanpur)",
+    "college_type": "Government",
+    "state": "Punjab",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 0,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_pb005g1",
+    "college_name": "Homi Bhabha Cancer Hospital, Sangrur, Punjab",
+    "college_type": "Government",
+    "state": "Punjab",
+    "course": "DM - Oncology",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 1,
+    "seats_prev": 0,
+    "seats_inc": 1
+  },
+  {
+    "college_id": "ug_pb007g1",
     "college_name": "Punjab Institute of Liver and Biliary Sciences",
     "college_type": "Government",
     "state": "Punjab",
@@ -300,7 +324,7 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_punjab_institute_of_liver_and_biliary_sciences_punjab",
+    "college_id": "ug_pb007g1",
     "college_name": "Punjab Institute of Liver and Biliary Sciences",
     "college_type": "Government",
     "state": "Punjab",
@@ -310,17 +334,5 @@
     "seats": 2,
     "seats_prev": 0,
     "seats_inc": 2
-  },
-  {
-    "college_id": "ss_government_medical_college_amritsar_punjab",
-    "college_name": "Government Medical College Amritsar",
-    "college_type": "Government",
-    "state": "Punjab",
-    "course": "DM - Cardiology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 1,
-    "seats_prev": 0,
-    "seats_inc": 1
   }
 ]

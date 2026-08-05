@@ -56,3 +56,26 @@ recheck/
 aiq-counselling-data/
 aiq-cutoff-data/
 scratch/
+
+# Human-readable data copies (generated)
+readable/
+
+# Internal Audit & Diagnostic Reports
+*_REPORT.md
+*_AUDIT.md
+PAGESPEED_AND_CACHING_REPORT.md
+production_readiness_audit.md
+
+# AI Assistant & IDE Scratch Directories
+.gemini/
+.antigravity/
+
+# Test Runner Artifacts & Screenshots
+*.playwright.png
+coverage/
+*.tmp
+*.bak
+scratch_*.md
+temp_*.md
+*.scratch.md
+

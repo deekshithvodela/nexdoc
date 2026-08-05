@@ -1,0 +1,7 @@
+# Robots.txt for NexDoc Medical Seat Explorer & MCC UG Cutoff Predictor
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin.html
+
+Sitemap: https://deekshithvodela.github.io/nexdoc/sitemap.xml

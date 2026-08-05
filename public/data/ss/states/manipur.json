@@ -1,6 +1,6 @@
 [
   {
-    "college_id": "ss_regional_institute_of_medical_sciences_imphal_manipur",
+    "college_id": "ug_mn003g1",
     "college_name": "Regional Institute of Medical Sciences, Imphal",
     "college_type": "Government",
     "state": "Manipur",
@@ -12,7 +12,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_institute_of_medical_sciences_imphal_manipur",
+    "college_id": "ug_mn003g1",
     "college_name": "Regional Institute of Medical Sciences, Imphal",
     "college_type": "Government",
     "state": "Manipur",
@@ -24,19 +24,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_regional_institute_of_medical_sciences_imphal_manipur",
-    "college_name": "Regional Institute of Medical Sciences, Imphal",
-    "college_type": "Government",
-    "state": "Manipur",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_regional_institute_of_medical_sciences_imphal_manipur",
+    "college_id": "ug_mn003g1",
     "college_name": "Regional Institute of Medical Sciences, Imphal",
     "college_type": "Government",
     "state": "Manipur",
@@ -46,5 +34,17 @@
     "seats": 2,
     "seats_prev": 0,
     "seats_inc": 2
+  },
+  {
+    "college_id": "ug_mn003g1",
+    "college_name": "Regional Institute of Medical Sciences, Imphal",
+    "college_type": "Government",
+    "state": "Manipur",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "college_id": "ss_acharya_harihar_regional_cancer_centre_cuttack_odisha",
+    "college_id": "ug_or001g1",
     "college_name": "Acharya Harihar Regional Cancer Centre, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -12,19 +12,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_acharya_harihar_regional_cancer_centre_cuttack_odisha",
-    "college_name": "Acharya Harihar Regional Cancer Centre, Cuttack",
-    "college_type": "Government",
-    "state": "Odisha",
-    "course": "M.Ch - Surgical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 2,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_acharya_harihar_regional_cancer_centre_cuttack_odisha",
+    "college_id": "ug_or001g1",
     "college_name": "Acharya Harihar Regional Cancer Centre, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -36,8 +24,20 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or001g1",
+    "college_name": "Acharya Harihar Regional Cancer Centre, Cuttack",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 2,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Cardiology",
@@ -48,68 +48,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Critical Care Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 2,
-    "seats_inc": 3
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Endocrinology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 5,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 5,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Medical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 5,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 3,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Clinical Hematology",
@@ -120,8 +60,8 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Clinical Immunology & Rheumatology",
@@ -132,8 +72,56 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_type": "Private",
+    "state": "Odisha",
+    "course": "DM - Critical Care Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 2,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_type": "Private",
+    "state": "Odisha",
+    "course": "DM - Endocrinology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 5,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_type": "Private",
+    "state": "Odisha",
+    "course": "DM - Medical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 5,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_type": "Private",
+    "state": "Odisha",
+    "course": "DM - Medical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 5,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Neonatology",
@@ -144,8 +132,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "DM - Nephrology",
@@ -156,8 +144,20 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_type": "Private",
+    "state": "Odisha",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 3,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Neuro Surgery",
@@ -168,8 +168,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Plastic & Reconstructive Surgery",
@@ -180,32 +180,8 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "M.Ch - Surgical Oncology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 5,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "M.Ch - Urology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 5,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_institute_of_medical_science_sum_hospital_bhubaneswar_odisha",
-    "college_name": "Institute of Medical Science & SUM hospital, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
     "state": "Odisha",
     "course": "M.Ch - Surgical Gastroenterology",
@@ -216,9 +192,33 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
     "college_type": "Private",
+    "state": "Odisha",
+    "course": "M.Ch - Surgical Oncology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 5,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_or003p3",
+    "college_name": "Institute of Medical Sciences & SUM Hospital, Bhubaneswar",
+    "college_type": "Private",
+    "state": "Odisha",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 5,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
     "state": "Odisha",
     "course": "DM - Cardiology",
     "counseling_route": "MCC",
@@ -228,45 +228,9 @@
     "seats_inc": 4
   },
   {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
+    "college_id": "ug_or005p3",
     "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Medical Gastroenterology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 7,
-    "seats_prev": 3,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Neurology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 6,
-    "seats_prev": 2,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Nephrology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 5,
-    "seats_prev": 1,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Odisha",
     "course": "DM - Clinical Immunology & Rheumatology",
     "counseling_route": "MCC",
@@ -276,9 +240,21 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
+    "college_id": "ug_or005p3",
     "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "DM - Critical Care Medicine",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 0,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
     "state": "Odisha",
     "course": "DM - Endocrinology",
     "counseling_route": "MCC",
@@ -288,21 +264,57 @@
     "seats_inc": 2
   },
   {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
+    "college_id": "ug_or005p3",
     "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
+    "college_type": "Deemed",
     "state": "Odisha",
-    "course": "M.Ch - Urology",
+    "course": "DM - Medical Gastroenterology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 7,
+    "seats_prev": 3,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "DM - Neonatology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 0,
+    "seats_inc": 2
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "DM - Nephrology",
     "counseling_route": "MCC",
     "quota_type": "All India Basis",
     "seats": 5,
-    "seats_prev": 2,
-    "seats_inc": 3
+    "seats_prev": 1,
+    "seats_inc": 4
   },
   {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
+    "college_id": "ug_or005p3",
     "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "DM - Neurology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 6,
+    "seats_prev": 2,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
     "state": "Odisha",
     "course": "M.Ch - Neuro Surgery",
     "counseling_route": "MCC",
@@ -312,7 +324,43 @@
     "seats_inc": 3
   },
   {
-    "college_id": "ss_mkcg_medical_college_berhampur_odisha",
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "M.Ch - Paediatric Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 0,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 4,
+    "seats_prev": 0,
+    "seats_inc": 4
+  },
+  {
+    "college_id": "ug_or005p3",
+    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
+    "college_type": "Deemed",
+    "state": "Odisha",
+    "course": "M.Ch - Urology",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 5,
+    "seats_prev": 2,
+    "seats_inc": 3
+  },
+  {
+    "college_id": "ug_or007g1",
     "college_name": "MKCG Medical College, Berhampur",
     "college_type": "Government",
     "state": "Odisha",
@@ -324,7 +372,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_mkcg_medical_college_berhampur_odisha",
+    "college_id": "ug_or007g1",
     "college_name": "MKCG Medical College, Berhampur",
     "college_type": "Government",
     "state": "Odisha",
@@ -336,7 +384,19 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_mkcg_medical_college_berhampur_odisha",
+    "college_id": "ug_or007g1",
+    "college_name": "MKCG Medical College, Berhampur",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "M.Ch - Plastic & Reconstructive Surgery",
+    "counseling_route": "MCC",
+    "quota_type": "All India Basis",
+    "seats": 2,
+    "seats_prev": 2,
+    "seats_inc": 0
+  },
+  {
+    "college_id": "ug_or007g1",
     "college_name": "MKCG Medical College, Berhampur",
     "college_type": "Government",
     "state": "Odisha",
@@ -348,19 +408,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_mkcg_medical_college_berhampur_odisha",
-    "college_name": "MKCG Medical College, Berhampur",
-    "college_type": "Government",
-    "state": "Odisha",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 2,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -372,7 +420,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -384,7 +432,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -396,7 +444,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -408,7 +456,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -420,7 +468,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -432,7 +480,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -444,7 +492,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -456,7 +504,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -468,7 +516,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -480,7 +528,7 @@
     "seats_inc": 0
   },
   {
-    "college_id": "ss_scb_medical_college_cuttack_odisha",
+    "college_id": "ug_or012g1",
     "college_name": "SCB Medical College, Cuttack",
     "college_type": "Government",
     "state": "Odisha",
@@ -490,53 +538,5 @@
     "seats": 5,
     "seats_prev": 5,
     "seats_inc": 0
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Critical Care Medicine",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 0,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "DM - Neonatology",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 2,
-    "seats_prev": 0,
-    "seats_inc": 2
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "M.Ch - Plastic & Reconstructive Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 0,
-    "seats_inc": 4
-  },
-  {
-    "college_id": "ss_kalinga_institute_of_medical_sciences_bhubaneswar_odisha",
-    "college_name": "Kalinga Institute of Medical Sciences, Bhubaneswar",
-    "college_type": "Private",
-    "state": "Odisha",
-    "course": "M.Ch - Paediatric Surgery",
-    "counseling_route": "MCC",
-    "quota_type": "All India Basis",
-    "seats": 4,
-    "seats_prev": 0,
-    "seats_inc": 4
   }
 ]

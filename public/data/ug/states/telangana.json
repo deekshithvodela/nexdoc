@@ -1,6 +1,20 @@
 [
   {
-    "college_id": "ug_ts001p4",
+    "college_id": "ug_in004i1",
+    "college_name": "All India Institute of Medical Sciences, Bibinagar",
+    "college_type": "INI",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in006p3",
     "college_name": "Apollo Institute of Medical Sciences and Research, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -9,10 +23,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 95,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts001p4",
+    "college_id": "ug_in006p3",
     "college_name": "Apollo Institute of Medical Sciences and Research, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -21,10 +37,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 95,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts001p4",
+    "college_id": "ug_in006p3",
     "college_name": "Apollo Institute of Medical Sciences and Research, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -33,10 +51,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 95,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts002p4",
+    "college_id": "ug_tg001p3",
     "college_name": "Arundathi Institute of Medical Sciences, Medchal",
     "college_type": "Private",
     "state": "Telangana",
@@ -45,10 +65,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts002p4",
+    "college_id": "ug_tg001p3",
     "college_name": "Arundathi Institute of Medical Sciences, Medchal",
     "college_type": "Private",
     "state": "Telangana",
@@ -57,10 +79,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts002p4",
+    "college_id": "ug_tg001p3",
     "college_name": "Arundathi Institute of Medical Sciences, Medchal",
     "college_type": "Private",
     "state": "Telangana",
@@ -69,10 +93,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts004p4",
+    "college_id": "ug_in013p3",
     "college_name": "Ayaan Institute of Medical Sciences, Teaching Hospital & Research Centre, Kanaka Mamidi, R.R. Dist",
     "college_type": "Private",
     "state": "Telangana",
@@ -81,10 +107,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts004p4",
+    "college_id": "ug_in013p3",
     "college_name": "Ayaan Institute of Medical Sciences, Teaching Hospital & Research Centre, Kanaka Mamidi, R.R. Dist",
     "college_type": "Private",
     "state": "Telangana",
@@ -93,10 +121,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts004p4",
+    "college_id": "ug_in013p3",
     "college_name": "Ayaan Institute of Medical Sciences, Teaching Hospital & Research Centre, Kanaka Mamidi, R.R. Dist",
     "college_type": "Private",
     "state": "Telangana",
@@ -105,10 +135,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 61,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts005p4",
+    "college_id": "ug_tg002p3",
     "college_name": "Bhaskar Medical College, Yenkapally",
     "college_type": "Private",
     "state": "Telangana",
@@ -117,10 +149,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 85,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts005p4",
+    "college_id": "ug_tg002p3",
     "college_name": "Bhaskar Medical College, Yenkapally",
     "college_type": "Private",
     "state": "Telangana",
@@ -129,10 +163,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 85,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts005p4",
+    "college_id": "ug_tg002p3",
     "college_name": "Bhaskar Medical College, Yenkapally",
     "college_type": "Private",
     "state": "Telangana",
@@ -141,11 +177,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 85,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts006p4",
-    "college_name": "Chalmeda Anand Rao Institute Of Medical Sciences, Karimnagar",
+    "college_id": "ug_tg003p3",
+    "college_name": "Chalmeda Anand Rao Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -153,11 +191,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 127,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_ts006p4",
-    "college_name": "Chalmeda Anand Rao Institute Of Medical Sciences, Karimnagar",
+    "college_id": "ug_tg003p3",
+    "college_name": "Chalmeda Anand Rao Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -165,11 +205,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 127,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_ts006p4",
-    "college_name": "Chalmeda Anand Rao Institute Of Medical Sciences, Karimnagar",
+    "college_id": "ug_tg003p3",
+    "college_name": "Chalmeda Anand Rao Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -177,10 +219,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 127,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_ts007p4",
+    "college_id": "ug_in015p3",
     "college_name": "CMR Institute of Medical Science",
     "college_type": "Private",
     "state": "Telangana",
@@ -189,10 +233,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts007p4",
+    "college_id": "ug_in015p3",
     "college_name": "CMR Institute of Medical Science",
     "college_type": "Private",
     "state": "Telangana",
@@ -201,10 +247,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts007p4",
+    "college_id": "ug_in015p3",
     "college_name": "CMR Institute of Medical Science",
     "college_type": "Private",
     "state": "Telangana",
@@ -213,11 +261,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 29,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts008p3",
-    "college_name": "Deccan College of Medical Sciences",
+    "college_id": "ug_tg004p3",
+    "college_name": "Deccan College of Medical Sciences, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -225,11 +275,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts008p3",
-    "college_name": "Deccan College of Medical Sciences",
+    "college_id": "ug_tg004p3",
+    "college_name": "Deccan College of Medical Sciences, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -237,11 +289,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts008p3",
-    "college_name": "Deccan College of Medical Sciences",
+    "college_id": "ug_tg004p3",
+    "college_name": "Deccan College of Medical Sciences, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -249,10 +303,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts009p4",
+    "college_id": "ug_tg005p3",
     "college_name": "Dr. Patnam Mahender Reddy Institute of Medical Sciences, Chevella, Rangareddy",
     "college_type": "Private",
     "state": "Telangana",
@@ -261,10 +317,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts009p4",
+    "college_id": "ug_tg005p3",
     "college_name": "Dr. Patnam Mahender Reddy Institute of Medical Sciences, Chevella, Rangareddy",
     "college_type": "Private",
     "state": "Telangana",
@@ -273,10 +331,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts009p4",
+    "college_id": "ug_tg005p3",
     "college_name": "Dr. Patnam Mahender Reddy Institute of Medical Sciences, Chevella, Rangareddy",
     "college_type": "Private",
     "state": "Telangana",
@@ -285,10 +345,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts010p3",
+    "college_id": "ug_tg006p3",
     "college_name": "Dr. VRK Womens Medical College, Aziznagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -297,10 +359,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 20,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts010p3",
+    "college_id": "ug_tg006p3",
     "college_name": "Dr. VRK Womens Medical College, Aziznagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -309,10 +373,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 20,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts010p3",
+    "college_id": "ug_tg006p3",
     "college_name": "Dr. VRK Womens Medical College, Aziznagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -321,10 +387,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 20,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts011g1",
+    "college_id": "ug_in015g1",
     "college_name": "Employees State Insurance Coporation Medical College, Sanath Nagar, Hyderabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -333,10 +401,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 15
   },
   {
-    "college_id": "ug_ts011g1",
+    "college_id": "ug_in015g1",
     "college_name": "Employees State Insurance Coporation Medical College, Sanath Nagar, Hyderabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -345,10 +415,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 106,
+    "ss_seats": 15
   },
   {
-    "college_id": "ug_ts012p3",
+    "college_id": "ug_in026p3",
     "college_name": "Father Colombo Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -357,10 +429,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts012p3",
+    "college_id": "ug_in026p3",
     "college_name": "Father Colombo Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -369,10 +443,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts012p3",
+    "college_id": "ug_in026p3",
     "college_name": "Father Colombo Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -381,10 +457,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts013g1",
+    "college_id": "ug_in023g1",
     "college_name": "Gandhi Medical College, Secunderabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -393,10 +471,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 217,
+    "ss_seats": 30
   },
   {
-    "college_id": "ug_ts013g1",
+    "college_id": "ug_in023g1",
     "college_name": "Gandhi Medical College, Secunderabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -405,106 +485,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 217,
+    "ss_seats": 30
   },
   {
-    "college_id": "ug_ts014g1",
-    "college_name": "Government Medical College Jangaon",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts014g1",
-    "college_name": "Government Medical College Jangaon",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts015g1",
-    "college_name": "Government Medical College Khammam",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts015g1",
-    "college_name": "Government Medical College Khammam",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts016g1",
-    "college_name": "Government Medical College Kumuram Bheem Asifafabad",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts016g1",
-    "college_name": "Government Medical College Kumuram Bheem Asifafabad",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts017g1",
-    "college_name": "Government Medical College Medak",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 7,
-    "seats_prev": 7,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts017g1",
-    "college_name": "Government Medical College Medak",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 43,
-    "seats_prev": 43,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ts019g1",
+    "college_id": "ug_tg001g1",
     "college_name": "Government Medical College, Bhadradri Kothagudem",
     "college_type": "Government",
     "state": "Telangana",
@@ -513,10 +499,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts019g1",
+    "college_id": "ug_tg001g1",
     "college_name": "Government Medical College, Bhadradri Kothagudem",
     "college_type": "Government",
     "state": "Telangana",
@@ -525,10 +513,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts020g1",
+    "college_id": "ug_tg002g1",
     "college_name": "Government Medical College, Jagtial",
     "college_type": "Government",
     "state": "Telangana",
@@ -537,10 +527,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts020g1",
+    "college_id": "ug_tg002g1",
     "college_name": "Government Medical College, Jagtial",
     "college_type": "Government",
     "state": "Telangana",
@@ -549,10 +541,40 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts021g1",
+    "college_id": "ug_tg003g1",
+    "college_name": "Government Medical College, Jangaon",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg003g1",
+    "college_name": "Government Medical College, Jangaon",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg004g1",
     "college_name": "Government Medical College, Jayashankar Bhupalpally",
     "college_type": "Government",
     "state": "Telangana",
@@ -561,10 +583,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts021g1",
+    "college_id": "ug_tg004g1",
     "college_name": "Government Medical College, Jayashankar Bhupalpally",
     "college_type": "Government",
     "state": "Telangana",
@@ -573,10 +597,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts022g1",
+    "college_id": "ug_tg005g1",
     "college_name": "Government Medical College, Jogulumba Gadwal",
     "college_type": "Government",
     "state": "Telangana",
@@ -585,10 +611,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts022g1",
+    "college_id": "ug_tg005g1",
     "college_name": "Government Medical College, Jogulumba Gadwal",
     "college_type": "Government",
     "state": "Telangana",
@@ -597,10 +625,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts023g1",
+    "college_id": "ug_in031g1",
     "college_name": "Government Medical College, Kamareddy",
     "college_type": "Government",
     "state": "Telangana",
@@ -609,10 +639,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts023g1",
+    "college_id": "ug_in031g1",
     "college_name": "Government Medical College, Kamareddy",
     "college_type": "Government",
     "state": "Telangana",
@@ -621,10 +653,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts024g1",
+    "college_id": "ug_in033g1",
     "college_name": "Government Medical College, Karimnagar",
     "college_type": "Government",
     "state": "Telangana",
@@ -633,10 +667,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts024g1",
+    "college_id": "ug_in033g1",
     "college_name": "Government Medical College, Karimnagar",
     "college_type": "Government",
     "state": "Telangana",
@@ -645,10 +681,40 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts025g1",
+    "college_id": "ug_in035g1",
+    "college_name": "Government Medical College, Khammam",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in035g1",
+    "college_name": "Government Medical College, Khammam",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg006g1",
     "college_name": "Government Medical College, Kodangal",
     "college_type": "Government",
     "state": "Telangana",
@@ -657,10 +723,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts025g1",
+    "college_id": "ug_tg006g1",
     "college_name": "Government Medical College, Kodangal",
     "college_type": "Government",
     "state": "Telangana",
@@ -669,10 +737,40 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts026g1",
+    "college_id": "ug_tg007g1",
+    "college_name": "Government Medical College, Kumuram Bheem Asifafabad",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg007g1",
+    "college_name": "Government Medical College, Kumuram Bheem Asifafabad",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg008g1",
     "college_name": "Government Medical College, Mahabubabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -681,10 +779,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts026g1",
+    "college_id": "ug_tg008g1",
     "college_name": "Government Medical College, Mahabubabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -693,10 +793,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts027g1",
+    "college_id": "ug_tg009g1",
     "college_name": "Government Medical College, Mahabubnagar",
     "college_type": "Government",
     "state": "Telangana",
@@ -705,10 +807,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 26,
-    "seats_inc": 3
+    "seats_inc": 3,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts027g1",
+    "college_id": "ug_tg009g1",
     "college_name": "Government Medical College, Mahabubnagar",
     "college_type": "Government",
     "state": "Telangana",
@@ -717,10 +821,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 149,
-    "seats_inc": 22
+    "seats_inc": 22,
+    "pg_seats": 34,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts028g1",
+    "college_id": "ug_tg010g1",
     "college_name": "Government Medical College, Maheshwaram",
     "college_type": "Government",
     "state": "Telangana",
@@ -729,10 +835,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts028g1",
+    "college_id": "ug_tg010g1",
     "college_name": "Government Medical College, Maheshwaram",
     "college_type": "Government",
     "state": "Telangana",
@@ -741,10 +849,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts029g1",
+    "college_id": "ug_tg011g1",
     "college_name": "Government Medical College, Mancherial",
     "college_type": "Government",
     "state": "Telangana",
@@ -753,10 +863,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts029g1",
+    "college_id": "ug_tg011g1",
     "college_name": "Government Medical College, Mancherial",
     "college_type": "Government",
     "state": "Telangana",
@@ -765,10 +877,40 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts030g1",
+    "college_id": "ug_tg012g1",
+    "college_name": "Government Medical College, Medak",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 7,
+    "seats_prev": 7,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg012g1",
+    "college_name": "Government Medical College, Medak",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 43,
+    "seats_prev": 43,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg013g1",
     "college_name": "Government Medical College, Mulugu",
     "college_type": "Government",
     "state": "Telangana",
@@ -777,10 +919,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts030g1",
+    "college_id": "ug_tg013g1",
     "college_name": "Government Medical College, Mulugu",
     "college_type": "Government",
     "state": "Telangana",
@@ -789,10 +933,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts031g1",
+    "college_id": "ug_tg014g1",
     "college_name": "Government Medical College, Nagarkurnool",
     "college_type": "Government",
     "state": "Telangana",
@@ -801,10 +947,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts031g1",
+    "college_id": "ug_tg014g1",
     "college_name": "Government Medical College, Nagarkurnool",
     "college_type": "Government",
     "state": "Telangana",
@@ -813,10 +961,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts032g1",
+    "college_id": "ug_in038g1",
     "college_name": "Government Medical College, Nalgonda",
     "college_type": "Government",
     "state": "Telangana",
@@ -825,10 +975,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts032g1",
+    "college_id": "ug_in038g1",
     "college_name": "Government Medical College, Nalgonda",
     "college_type": "Government",
     "state": "Telangana",
@@ -837,10 +989,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 41,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts033g1",
+    "college_id": "ug_tg015g1",
     "college_name": "Government Medical College, Narayanpet",
     "college_type": "Government",
     "state": "Telangana",
@@ -849,10 +1003,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts033g1",
+    "college_id": "ug_tg015g1",
     "college_name": "Government Medical College, Narayanpet",
     "college_type": "Government",
     "state": "Telangana",
@@ -861,10 +1017,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts034g1",
+    "college_id": "ug_tg016g1",
     "college_name": "Government Medical College, Narsampet",
     "college_type": "Government",
     "state": "Telangana",
@@ -873,10 +1031,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts034g1",
+    "college_id": "ug_tg016g1",
     "college_name": "Government Medical College, Narsampet",
     "college_type": "Government",
     "state": "Telangana",
@@ -885,10 +1045,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts035g1",
+    "college_id": "ug_in041g1",
     "college_name": "Government Medical College, Nirmal",
     "college_type": "Government",
     "state": "Telangana",
@@ -897,10 +1059,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts035g1",
+    "college_id": "ug_in041g1",
     "college_name": "Government Medical College, Nirmal",
     "college_type": "Government",
     "state": "Telangana",
@@ -909,10 +1073,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts036g1",
+    "college_id": "ug_in042g1",
     "college_name": "Government Medical College, Nizamabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -921,10 +1087,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 18,
-    "seats_inc": 4
+    "seats_inc": 4,
+    "pg_seats": 81,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts036g1",
+    "college_id": "ug_in042g1",
     "college_name": "Government Medical College, Nizamabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -933,11 +1101,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 102,
-    "seats_inc": 26
+    "seats_inc": 26,
+    "pg_seats": 81,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts037g1",
-    "college_name": "Government medical College, Quthbullapur",
+    "college_id": "ug_tg017g1",
+    "college_name": "Government Medical College, Quthbullapur",
     "college_type": "Government",
     "state": "Telangana",
     "course": "MBBS",
@@ -945,11 +1115,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts037g1",
-    "college_name": "Government medical College, Quthbullapur",
+    "college_id": "ug_tg017g1",
+    "college_name": "Government Medical College, Quthbullapur",
     "college_type": "Government",
     "state": "Telangana",
     "course": "MBBS",
@@ -957,10 +1129,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts038g1",
+    "college_id": "ug_in046g1",
     "college_name": "Government Medical College, Rajanna Sircilla",
     "college_type": "Government",
     "state": "Telangana",
@@ -969,10 +1143,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts038g1",
+    "college_id": "ug_in046g1",
     "college_name": "Government Medical College, Rajanna Sircilla",
     "college_type": "Government",
     "state": "Telangana",
@@ -981,10 +1157,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts039g1",
+    "college_id": "ug_tg018g1",
     "college_name": "Government Medical College, Ramagundam",
     "college_type": "Government",
     "state": "Telangana",
@@ -993,10 +1171,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 16,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts039g1",
+    "college_id": "ug_tg018g1",
     "college_name": "Government Medical College, Ramagundam",
     "college_type": "Government",
     "state": "Telangana",
@@ -1005,10 +1185,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 16,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts040g1",
+    "college_id": "ug_tg019g1",
     "college_name": "Government Medical College, Sangareddy",
     "college_type": "Government",
     "state": "Telangana",
@@ -1017,10 +1199,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts040g1",
+    "college_id": "ug_tg019g1",
     "college_name": "Government Medical College, Sangareddy",
     "college_type": "Government",
     "state": "Telangana",
@@ -1029,10 +1213,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts041g1",
+    "college_id": "ug_tg020g1",
     "college_name": "Government Medical College, Siddipet",
     "college_type": "Government",
     "state": "Telangana",
@@ -1041,10 +1227,12 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 26,
-    "seats_inc": 3
+    "seats_inc": 3,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts041g1",
+    "college_id": "ug_tg020g1",
     "college_name": "Government Medical College, Siddipet",
     "college_type": "Government",
     "state": "Telangana",
@@ -1053,10 +1241,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 149,
-    "seats_inc": 22
+    "seats_inc": 22,
+    "pg_seats": 83,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts042g1",
+    "college_id": "ug_in051g1",
     "college_name": "Government Medical College, Suryapet",
     "college_type": "Government",
     "state": "Telangana",
@@ -1065,10 +1255,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 37,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts042g1",
+    "college_id": "ug_in051g1",
     "college_name": "Government Medical College, Suryapet",
     "college_type": "Government",
     "state": "Telangana",
@@ -1077,10 +1269,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 37,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts018g1",
+    "college_id": "ug_tg021g1",
     "college_name": "Government Medical College, Vikarabad, Telangana",
     "college_type": "Government",
     "state": "Telangana",
@@ -1089,10 +1283,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts018g1",
+    "college_id": "ug_tg021g1",
     "college_name": "Government Medical College, Vikarabad, Telangana",
     "college_type": "Government",
     "state": "Telangana",
@@ -1101,10 +1297,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts043g1",
+    "college_id": "ug_tg022g1",
     "college_name": "Government Medical College, Wanaparthy",
     "college_type": "Government",
     "state": "Telangana",
@@ -1113,10 +1311,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts043g1",
+    "college_id": "ug_tg022g1",
     "college_name": "Government Medical College, Wanaparthy",
     "college_type": "Government",
     "state": "Telangana",
@@ -1125,10 +1325,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts003g1",
+    "college_id": "ug_tg023g1",
     "college_name": "Government Medical College, Yadadri",
     "college_type": "Government",
     "state": "Telangana",
@@ -1137,10 +1339,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts003g1",
+    "college_id": "ug_tg023g1",
     "college_name": "Government Medical College, Yadadri",
     "college_type": "Government",
     "state": "Telangana",
@@ -1149,10 +1353,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts044g1",
+    "college_id": "ug_in065g1",
     "college_name": "Kakatiya Medical College, Warangal",
     "college_type": "Government",
     "state": "Telangana",
@@ -1161,10 +1367,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 192,
+    "ss_seats": 15
   },
   {
-    "college_id": "ug_ts044g1",
+    "college_id": "ug_in065g1",
     "college_name": "Kakatiya Medical College, Warangal",
     "college_type": "Government",
     "state": "Telangana",
@@ -1173,10 +1381,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 192,
+    "ss_seats": 15
   },
   {
-    "college_id": "ug_ts045p4",
+    "college_id": "ug_in041p3",
     "college_name": "Kamineni Academy of Medical Sciences & Research Center, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1185,10 +1395,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts045p4",
+    "college_id": "ug_in041p3",
     "college_name": "Kamineni Academy of Medical Sciences & Research Center, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1197,10 +1409,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts045p4",
+    "college_id": "ug_in041p3",
     "college_name": "Kamineni Academy of Medical Sciences & Research Center, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1209,10 +1423,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts046p4",
+    "college_id": "ug_in042p3",
     "college_name": "Kamineni Institute of Medical Sciences, Narketpally",
     "college_type": "Private",
     "state": "Telangana",
@@ -1221,10 +1437,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_ts046p4",
+    "college_id": "ug_in042p3",
     "college_name": "Kamineni Institute of Medical Sciences, Narketpally",
     "college_type": "Private",
     "state": "Telangana",
@@ -1233,10 +1451,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_ts046p4",
+    "college_id": "ug_in042p3",
     "college_name": "Kamineni Institute of Medical Sciences, Narketpally",
     "college_type": "Private",
     "state": "Telangana",
@@ -1245,11 +1465,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 94,
+    "ss_seats": 1
   },
   {
-    "college_id": "ug_ts047p3",
-    "college_name": "Mahavir Institute of Medical Sciences, Vikarabad, Telengana",
+    "college_id": "ug_tg007p3",
+    "college_name": "Mahavir Institute of Medical Sciences, Vikarabad, Telangana",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1257,11 +1479,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 69,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts047p3",
-    "college_name": "Mahavir Institute of Medical Sciences, Vikarabad, Telengana",
+    "college_id": "ug_tg007p3",
+    "college_name": "Mahavir Institute of Medical Sciences, Vikarabad, Telangana",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1269,11 +1493,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 69,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts047p3",
-    "college_name": "Mahavir Institute of Medical Sciences, Vikarabad, Telengana",
+    "college_id": "ug_tg007p3",
+    "college_name": "Mahavir Institute of Medical Sciences, Vikarabad, Telangana",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1281,10 +1507,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 69,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts048p4",
+    "college_id": "ug_in053p3",
     "college_name": "Maheshwara Medical College, Chitkul, Patancheru, Medak",
     "college_type": "Private",
     "state": "Telangana",
@@ -1293,10 +1521,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 55,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts048p4",
+    "college_id": "ug_in053p3",
     "college_name": "Maheshwara Medical College, Chitkul, Patancheru, Medak",
     "college_type": "Private",
     "state": "Telangana",
@@ -1305,10 +1535,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 55,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts048p4",
+    "college_id": "ug_in053p3",
     "college_name": "Maheshwara Medical College, Chitkul, Patancheru, Medak",
     "college_type": "Private",
     "state": "Telangana",
@@ -1317,10 +1549,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 55,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts049p4",
+    "college_id": "ug_in054p3",
     "college_name": "Malla Reddy Institute of Medical Sciences, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1329,10 +1563,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 170,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts049p4",
+    "college_id": "ug_in054p3",
     "college_name": "Malla Reddy Institute of Medical Sciences, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1341,10 +1577,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 170,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts049p4",
+    "college_id": "ug_in054p3",
     "college_name": "Malla Reddy Institute of Medical Sciences, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1353,10 +1591,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 170,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts050p4",
+    "college_id": "ug_in055p3",
     "college_name": "Mallareddy Medical College for Women, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1365,10 +1605,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 100,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 126,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_ts050p4",
+    "college_id": "ug_in055p3",
     "college_name": "Mallareddy Medical College for Women, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1377,10 +1619,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 70,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 126,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_ts050p4",
+    "college_id": "ug_in055p3",
     "college_name": "Mallareddy Medical College for Women, Hyderabad",
     "college_type": "Private",
     "state": "Telangana",
@@ -1389,10 +1633,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 30,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 126,
+    "ss_seats": 3
   },
   {
-    "college_id": "ug_ts051p4",
+    "college_id": "ug_in056p3",
     "college_name": "Mamata Academy of Medical Sciences, Bachupally",
     "college_type": "Private",
     "state": "Telangana",
@@ -1401,10 +1647,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 98,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts051p4",
+    "college_id": "ug_in056p3",
     "college_name": "Mamata Academy of Medical Sciences, Bachupally",
     "college_type": "Private",
     "state": "Telangana",
@@ -1413,10 +1661,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 98,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts051p4",
+    "college_id": "ug_in056p3",
     "college_name": "Mamata Academy of Medical Sciences, Bachupally",
     "college_type": "Private",
     "state": "Telangana",
@@ -1425,10 +1675,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 98,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts052p4",
+    "college_id": "ug_in057p3",
     "college_name": "Mamata Medical College, Khammam",
     "college_type": "Private",
     "state": "Telangana",
@@ -1437,10 +1689,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts052p4",
+    "college_id": "ug_in057p3",
     "college_name": "Mamata Medical College, Khammam",
     "college_type": "Private",
     "state": "Telangana",
@@ -1449,10 +1703,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts052p4",
+    "college_id": "ug_in057p3",
     "college_name": "Mamata Medical College, Khammam",
     "college_type": "Private",
     "state": "Telangana",
@@ -1461,11 +1717,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 134,
+    "ss_seats": 6
   },
   {
-    "college_id": "ug_ts053p5",
-    "college_name": "Mediciti Institute Of Medical Sciences, Ghanpur",
+    "college_id": "ug_in059p3",
+    "college_name": "Mediciti Institute of Medical Sciences, Ghanpur",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1473,11 +1731,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 90,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts053p5",
-    "college_name": "Mediciti Institute Of Medical Sciences, Ghanpur",
+    "college_id": "ug_in059p3",
+    "college_name": "Mediciti Institute of Medical Sciences, Ghanpur",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1485,11 +1745,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 90,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts053p5",
-    "college_name": "Mediciti Institute Of Medical Sciences, Ghanpur",
+    "college_id": "ug_in059p3",
+    "college_name": "Mediciti Institute of Medical Sciences, Ghanpur",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1497,10 +1759,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 90,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts054p3",
+    "college_id": "ug_in047p3",
     "college_name": "MNR Medical College & Hospital, Sangareddy",
     "college_type": "Private",
     "state": "Telangana",
@@ -1509,10 +1773,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 126,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts054p3",
+    "college_id": "ug_in047p3",
     "college_name": "MNR Medical College & Hospital, Sangareddy",
     "college_type": "Private",
     "state": "Telangana",
@@ -1521,10 +1787,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 126,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts054p3",
+    "college_id": "ug_in047p3",
     "college_name": "MNR Medical College & Hospital, Sangareddy",
     "college_type": "Private",
     "state": "Telangana",
@@ -1533,11 +1801,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 126,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts055p3",
-    "college_name": "Neelima Institute of Medical Sciences",
+    "college_id": "ug_tg008p3",
+    "college_name": "Neelima Institute of Medical Sciences, Medchal",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1545,11 +1815,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 48,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts055p3",
-    "college_name": "Neelima Institute of Medical Sciences",
+    "college_id": "ug_tg008p3",
+    "college_name": "Neelima Institute of Medical Sciences, Medchal",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1557,11 +1829,13 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 48,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts055p3",
-    "college_name": "Neelima Institute of Medical Sciences",
+    "college_id": "ug_tg008p3",
+    "college_name": "Neelima Institute of Medical Sciences, Medchal",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1569,10 +1843,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 48,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts056p4",
+    "college_id": "ug_up015p3",
     "college_name": "Nova Institute of Medical Sciences and Research Centre",
     "college_type": "Private",
     "state": "Telangana",
@@ -1581,10 +1857,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts056p4",
+    "college_id": "ug_up015p3",
     "college_name": "Nova Institute of Medical Sciences and Research Centre",
     "college_type": "Private",
     "state": "Telangana",
@@ -1593,10 +1871,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts056p4",
+    "college_id": "ug_up015p3",
     "college_name": "Nova Institute of Medical Sciences and Research Centre",
     "college_type": "Private",
     "state": "Telangana",
@@ -1605,10 +1885,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts057g1",
+    "college_id": "ug_in078g1",
     "college_name": "Osmania Medical College, Hyderabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -1617,10 +1899,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 493,
+    "ss_seats": 81
   },
   {
-    "college_id": "ug_ts057g1",
+    "college_id": "ug_in078g1",
     "college_name": "Osmania Medical College, Hyderabad",
     "college_type": "Government",
     "state": "Telangana",
@@ -1629,11 +1913,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 493,
+    "ss_seats": 81
   },
   {
-    "college_id": "ug_ts058p4",
-    "college_name": "Prathima Institute Of Medical Sciences, Karimnagar",
+    "college_id": "ug_tg009p3",
+    "college_name": "Prathima Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1641,11 +1927,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts058p4",
-    "college_name": "Prathima Institute Of Medical Sciences, Karimnagar",
+    "college_id": "ug_tg009p3",
+    "college_name": "Prathima Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1653,11 +1941,13 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts058p4",
-    "college_name": "Prathima Institute Of Medical Sciences, Karimnagar",
+    "college_id": "ug_tg009p3",
+    "college_name": "Prathima Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1665,10 +1955,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts059p3",
+    "college_id": "ug_tg010p3",
     "college_name": "Prathima Relief Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -1677,10 +1969,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts059p3",
+    "college_id": "ug_tg010p3",
     "college_name": "Prathima Relief Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -1689,10 +1983,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts059p3",
+    "college_id": "ug_tg010p3",
     "college_name": "Prathima Relief Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -1701,10 +1997,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts060p3",
+    "college_id": "ug_tg011p3",
     "college_name": "R.V.M. Institute of Medical Sciences and Research Centre, Siddipet",
     "college_type": "Private",
     "state": "Telangana",
@@ -1713,10 +2011,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 112,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_ts060p3",
+    "college_id": "ug_tg011p3",
     "college_name": "R.V.M. Institute of Medical Sciences and Research Centre, Siddipet",
     "college_type": "Private",
     "state": "Telangana",
@@ -1725,10 +2025,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 112,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_ts060p3",
+    "college_id": "ug_tg011p3",
     "college_name": "R.V.M. Institute of Medical Sciences and Research Centre, Siddipet",
     "college_type": "Private",
     "state": "Telangana",
@@ -1737,10 +2039,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 112,
+    "ss_seats": 26
   },
   {
-    "college_id": "ug_raja_rajeshwari_institute_of_medical_sciencesgirls_telangana",
+    "college_id": "ug_ka029p3",
     "college_name": "Raja Rajeshwari Institute of Medical Sciences-Girls",
     "college_type": "Private",
     "state": "Telangana",
@@ -1749,10 +2053,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 0,
-    "seats_inc": 75
+    "seats_inc": 75,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_raja_rajeshwari_institute_of_medical_sciencesgirls_telangana",
+    "college_id": "ug_ka029p3",
     "college_name": "Raja Rajeshwari Institute of Medical Sciences-Girls",
     "college_type": "Private",
     "state": "Telangana",
@@ -1761,10 +2067,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 0,
-    "seats_inc": 52
+    "seats_inc": 52,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_raja_rajeshwari_institute_of_medical_sciencesgirls_telangana",
+    "college_id": "ug_ka029p3",
     "college_name": "Raja Rajeshwari Institute of Medical Sciences-Girls",
     "college_type": "Private",
     "state": "Telangana",
@@ -1773,11 +2081,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 0,
-    "seats_inc": 23
+    "seats_inc": 23,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts061g1",
-    "college_name": "Rajiv Gandhi Institute of Medical Sciences, adilabad",
+    "college_id": "ug_in082g1",
+    "college_name": "Rajiv Gandhi Institute of Medical Sciences, Adilabad",
     "college_type": "Government",
     "state": "Telangana",
     "course": "MBBS",
@@ -1785,11 +2095,13 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 18,
-    "seats_inc": 4
+    "seats_inc": 4,
+    "pg_seats": 72,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts061g1",
-    "college_name": "Rajiv Gandhi Institute of Medical Sciences, adilabad",
+    "college_id": "ug_in082g1",
+    "college_name": "Rajiv Gandhi Institute of Medical Sciences, Adilabad",
     "college_type": "Government",
     "state": "Telangana",
     "course": "MBBS",
@@ -1797,10 +2109,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 102,
-    "seats_inc": 26
+    "seats_inc": 26,
+    "pg_seats": 72,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts062p4",
+    "college_id": "ug_in075p3",
     "college_name": "S V S Medical College, Mehboobnagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -1809,10 +2123,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 148,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts062p4",
+    "college_id": "ug_in075p3",
     "college_name": "S V S Medical College, Mehboobnagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -1821,10 +2137,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 148,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts062p4",
+    "college_id": "ug_in075p3",
     "college_name": "S V S Medical College, Mehboobnagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -1833,10 +2151,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 148,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts063p4",
+    "college_id": "ug_in081p3",
     "college_name": "Shadan Institute of Medical Sciences, Research Centre and Teaching Hospital, Peerancheru",
     "college_type": "Private",
     "state": "Telangana",
@@ -1845,10 +2165,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts063p4",
+    "college_id": "ug_in081p3",
     "college_name": "Shadan Institute of Medical Sciences, Research Centre and Teaching Hospital, Peerancheru",
     "college_type": "Private",
     "state": "Telangana",
@@ -1857,10 +2179,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts063p4",
+    "college_id": "ug_in081p3",
     "college_name": "Shadan Institute of Medical Sciences, Research Centre and Teaching Hospital, Peerancheru",
     "college_type": "Private",
     "state": "Telangana",
@@ -1869,10 +2193,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 45,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts064p4",
+    "college_id": "ug_tg012p3",
     "college_name": "Surabhi Institute of Medical Sciences, Siddipet, Telangana",
     "college_type": "Private",
     "state": "Telangana",
@@ -1881,10 +2207,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 59,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts064p4",
+    "college_id": "ug_tg012p3",
     "college_name": "Surabhi Institute of Medical Sciences, Siddipet, Telangana",
     "college_type": "Private",
     "state": "Telangana",
@@ -1893,10 +2221,12 @@
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 70,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 59,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts064p4",
+    "college_id": "ug_tg012p3",
     "college_name": "Surabhi Institute of Medical Sciences, Siddipet, Telangana",
     "college_type": "Private",
     "state": "Telangana",
@@ -1905,11 +2235,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 59,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts065p4",
-    "college_name": "TRR Institute of Medical Sciences, patancheru",
+    "college_id": "ug_tg013p3",
+    "college_name": "TRR Institute of Medical Sciences, Patancheru",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1917,11 +2249,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 38,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts065p4",
-    "college_name": "TRR Institute of Medical Sciences, patancheru",
+    "college_id": "ug_tg013p3",
+    "college_name": "TRR Institute of Medical Sciences, Patancheru",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1929,11 +2263,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 38,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_ts065p4",
-    "college_name": "TRR Institute of Medical Sciences, patancheru",
+    "college_id": "ug_tg013p3",
+    "college_name": "TRR Institute of Medical Sciences, Patancheru",
     "college_type": "Private",
     "state": "Telangana",
     "course": "MBBS",
@@ -1941,18 +2277,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_bibinagar",
-    "college_name": "AIIMS Bibinagar",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 100,
-    "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 38,
+    "ss_seats": 0
   }
 ]

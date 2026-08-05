@@ -1,6 +1,6 @@
 [
   {
-    "college_id": "ug_pb001p4",
+    "college_id": "ug_pb001p3",
     "college_name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
     "college_type": "Private",
     "state": "Punjab",
@@ -9,10 +9,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb001p4",
+    "college_id": "ug_pb001p3",
     "college_name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
     "college_type": "Private",
     "state": "Punjab",
@@ -21,10 +23,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb001p4",
+    "college_id": "ug_pb001p3",
     "college_name": "Adesh Institute of Medical Sciences & Research, Bhatinda",
     "college_type": "Private",
     "state": "Punjab",
@@ -33,10 +37,26 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 84,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb002p4",
+    "college_id": "ug_in001i1",
+    "college_name": "All India Institute of Medical Sciences, Bathinda",
+    "college_type": "INI",
+    "state": "Punjab",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 100,
+    "seats_prev": 100,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -45,10 +65,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 50,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_pb002p4",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -57,10 +79,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 35,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_pb002p4",
+    "college_id": "ug_pb002p3",
     "college_name": "Christian Medical College, Ludhiana",
     "college_type": "Private",
     "state": "Punjab",
@@ -69,7 +93,9 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 76,
+    "ss_seats": 13
   },
   {
     "college_id": "ug_pb003p3",
@@ -81,7 +107,9 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 35
   },
   {
     "college_id": "ug_pb003p3",
@@ -93,7 +121,9 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 35
   },
   {
     "college_id": "ug_pb003p3",
@@ -105,10 +135,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 107,
+    "ss_seats": 35
   },
   {
-    "college_id": "ug_pb004g1",
+    "college_id": "ug_pb001g1",
     "college_name": "Dr B R Ambedkar State Institute of Medical Sciences, SAS Nagar, Mohali",
     "college_type": "Government",
     "state": "Punjab",
@@ -117,10 +149,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb004g1",
+    "college_id": "ug_pb001g1",
     "college_name": "Dr B R Ambedkar State Institute of Medical Sciences, SAS Nagar, Mohali",
     "college_type": "Government",
     "state": "Punjab",
@@ -129,11 +163,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb005g1",
-    "college_name": "ESIC Medical College Ludhiana",
+    "college_id": "ug_pb002g1",
+    "college_name": "ESIC Medical College, Ludhiana",
     "college_type": "Government",
     "state": "Punjab",
     "course": "MBBS",
@@ -141,11 +177,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 7,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb005g1",
-    "college_name": "ESIC Medical College Ludhiana",
+    "college_id": "ug_pb002g1",
+    "college_name": "ESIC Medical College, Ludhiana",
     "college_type": "Government",
     "state": "Punjab",
     "course": "MBBS",
@@ -153,10 +191,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 43,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb006p3",
+    "college_id": "ug_pb004p3",
     "college_name": "Gian Sagar Medical College & Hospital, Patiala",
     "college_type": "Private",
     "state": "Punjab",
@@ -165,10 +205,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb006p3",
+    "college_id": "ug_pb004p3",
     "college_name": "Gian Sagar Medical College & Hospital, Patiala",
     "college_type": "Private",
     "state": "Punjab",
@@ -177,10 +219,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb006p3",
+    "college_id": "ug_pb004p3",
     "college_name": "Gian Sagar Medical College & Hospital, Patiala",
     "college_type": "Private",
     "state": "Punjab",
@@ -189,10 +233,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb007g1",
+    "college_id": "ug_pb003g1",
     "college_name": "Government Medical College, Amritsar",
     "college_type": "Government",
     "state": "Punjab",
@@ -201,10 +247,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 162,
+    "ss_seats": 5
   },
   {
-    "college_id": "ug_pb007g1",
+    "college_id": "ug_pb003g1",
     "college_name": "Government Medical College, Amritsar",
     "college_type": "Government",
     "state": "Punjab",
@@ -213,10 +261,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 162,
+    "ss_seats": 5
   },
   {
-    "college_id": "ug_pb008g1",
+    "college_id": "ug_in044g1",
     "college_name": "Government Medical College, Patiala",
     "college_type": "Government",
     "state": "Punjab",
@@ -225,10 +275,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 160,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb008g1",
+    "college_id": "ug_in044g1",
     "college_name": "Government Medical College, Patiala",
     "college_type": "Government",
     "state": "Punjab",
@@ -237,10 +289,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 160,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb009g1",
+    "college_id": "ug_pb004g1",
     "college_name": "Guru Govind Singh Medical College, Faridkot",
     "college_type": "Government",
     "state": "Punjab",
@@ -249,10 +303,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 37,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 127,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_pb009g1",
+    "college_id": "ug_pb004g1",
     "college_name": "Guru Govind Singh Medical College, Faridkot",
     "college_type": "Government",
     "state": "Punjab",
@@ -261,10 +317,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 213,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 127,
+    "ss_seats": 4
   },
   {
-    "college_id": "ug_pb010p4",
+    "college_id": "ug_pb005p3",
     "college_name": "Punjab Institute of Medical Sciences, Jalandhar",
     "college_type": "Private",
     "state": "Punjab",
@@ -273,10 +331,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb010p4",
+    "college_id": "ug_pb005p3",
     "college_name": "Punjab Institute of Medical Sciences, Jalandhar",
     "college_type": "Private",
     "state": "Punjab",
@@ -285,10 +345,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb010p4",
+    "college_id": "ug_pb005p3",
     "college_name": "Punjab Institute of Medical Sciences, Jalandhar",
     "college_type": "Private",
     "state": "Punjab",
@@ -297,10 +359,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb011p3",
+    "college_id": "ug_hp003p3",
     "college_name": "RIMT Medical College and Hospital",
     "college_type": "Private",
     "state": "Punjab",
@@ -309,10 +373,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 25,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb011p3",
+    "college_id": "ug_hp003p3",
     "college_name": "RIMT Medical College and Hospital",
     "college_type": "Private",
     "state": "Punjab",
@@ -321,10 +387,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 17,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb011p3",
+    "college_id": "ug_hp003p3",
     "college_name": "RIMT Medical College and Hospital",
     "college_type": "Private",
     "state": "Punjab",
@@ -333,10 +401,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 8,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb012p3",
+    "college_id": "ug_pb006p3",
     "college_name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
     "college_type": "Private",
     "state": "Punjab",
@@ -345,10 +415,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb012p3",
+    "college_id": "ug_pb006p3",
     "college_name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
     "college_type": "Private",
     "state": "Punjab",
@@ -357,10 +429,12 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_pb012p3",
+    "college_id": "ug_pb006p3",
     "college_name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
     "college_type": "Private",
     "state": "Punjab",
@@ -369,18 +443,8 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_bathinda",
-    "college_name": "AIIMS Bathinda",
-    "college_type": "Government",
-    "state": "Punjab",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 100,
-    "seats_prev": 100,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 139,
+    "ss_seats": 0
   }
 ]

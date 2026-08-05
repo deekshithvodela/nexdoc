@@ -14,6 +14,14 @@
         var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', theme);
       } catch (e) {}
+      try {
+        if (window.location.pathname.endsWith('.html')) {
+          var clean = window.location.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+          if (clean !== window.location.pathname) {
+            window.history.replaceState(null, '', clean + window.location.search + window.location.hash);
+          }
+        }
+      } catch (e) {}
     })();
   </script>
   <style>
@@ -156,6 +164,16 @@
     
     <h2>3. Disclaimer & Unofficial Status</h2>
     <p>NexDoc is an <strong>unofficial, independent educational dashboard</strong>. It is not affiliated, authorized, endorsed, or in any way officially associated with the NMC, the MCC, the Ministry of Health and Family Welfare, or any state medical counseling authority. Aspirants must cross-reference actual numbers with current-year official portals and choice filling guidelines before finalizing submissions.</p>
+
+    <h2>4. Web Content Accessibility (WCAG 2.1) Compliance</h2>
+    <p>NexDoc is engineered to adhere strictly to the <strong>Web Content Accessibility Guidelines (WCAG 2.1 Level AA/AAA)</strong> published by the World Wide Web Consortium (W3C). Key accessibility standards implemented across the application include:
+      <ul>
+        <li><strong>Keyboard Accessibility & Skip Link</strong>: Complete keyboard navigability with a dedicated screen-reader skip link (`Skip to main content`) and high-visibility `:focus-visible` focus rings.</li>
+        <li><strong>Semantic HTML5 & ARIA Landmarks</strong>: Native structural tags (`header`, `main`, `nav`, `aside`) coupled with ARIA roles (`role="tablist"`, `role="tab"`, `aria-selected`, `aria-label`) for seamless screen reader navigation.</li>
+        <li><strong>High Contrast & Adaptive Contrast Modes</strong>: Optimized text color contrast ratios across both Dark and Light modes meeting WCAG AAA legibility standards.</li>
+        <li><strong>Screen Reader Clarity</strong>: Non-text decorative icons are flagged with <code>aria-hidden="true"</code>, while all interactive input fields feature explicit <code>aria-label</code> definitions.</li>
+      </ul>
+    </p>
 
     <a href="./" class="back-btn">Back to Explorer</a>
   </div>

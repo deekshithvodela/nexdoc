@@ -9,13 +9,15 @@ It features a deterministic, unpaginated MCC UG Cutoff Explorer and NEET Rank Pr
 ## Key Features
 
 - **Master Medical College Dataset**:
-  - Contains **823 unique UG medical colleges** mapped across India.
-  - **360 Matched Colleges**: Participating in MCC AIQ counselling with historical cutoff records.
-  - **142 New Colleges**: Participating in MCC counselling without historical allotment data (marked `New`).
-  - **321 Non-AIQ Colleges**: State quota only institutions not participating in MCC AIQ (marked `Non AIQ`).
+  - Contains **926 unique medical colleges** mapped across India (`colleges_details.json`).
+  - **UG (Undergraduate - MBBS)**: **845 colleges** (2,052 seat matrix rows).
+  - **PG (Postgraduate - MD/MS/DNB)**: **644 colleges** (22,053 seat matrix rows).
+  - **SS (Super Speciality - DM/MCh)**: **220 colleges** (1,360 seat matrix rows).
+  - **Multi-Level Institutions**: **650 colleges** offering 2 or 3 course levels.
+  - **366 AIQ Matched Colleges**: Participating in MCC AIQ counselling with historical cutoff records.
 
 - **MCC UG Cutoff Explorer & NEET Rank Predictor**:
-  - **Unpaginated Table**: Renders all 823 colleges on a single, continuous view without arbitrary page limits.
+  - **Unpaginated Table**: Renders colleges on a single, continuous view without arbitrary page limits.
   - **Rank Predictor**: Calculates category-specific admission probabilities based on user-entered NEET All India Rank (AIR).
   - **Blur & Icon Submit**: Supports typing arbitrary rank lengths, submitting via icon button or on input `blur`.
   - **Checklist Filter Windows**: Filter by specific quotas (AIQ, Deemed, Central Universities, etc.) and categories (OPEN, OBC, SC, ST, EWS, PwD).
@@ -24,35 +26,41 @@ It features a deterministic, unpaginated MCC UG Cutoff Explorer and NEET Rank Pr
 - **Multi-Level Seat Matrix Explorer**:
   - Explore seat matrices across **UG (MBBS)**, **PG (MD/MS)**, and **SS (DM/MCh)** levels.
   - Filter by State, Management Type (Government, Private, Deemed), Quota, and Course.
+  - Styled with bright neon green Total Seats visualization in Dark Mode (`#00f5a0` / `#00e676`) and high-contrast emerald green in Light Mode (`#047857`).
 
 - **Visual Seat Analytics & Sankey Flowchart**:
   - Interactive distribution charts powered by Chart.js.
   - D3.js Sankey diagrams visualizing seat flows from States $\rightarrow$ Management Types $\rightarrow$ Courses.
 
 - **College Comparison Drawer**:
-  - Select up to 4 medical colleges to compare side-by-side across seats, fees, courses, and cutoff metrics.
+  - Select medical colleges to compare side-by-side across seats, fees, courses, and cutoff metrics.
+
+- **Local Admin Registry Panel & Build Exclusion**:
+  - Dedicated administrative dashboard at `public/admin.html` for local data management (`npm start`).
+  - Automatically stripped from production build artifacts via `.github/workflows/static.yml` to prevent public deployment of administrative tools.
 
 - **Progressive Web App (PWA) & Dark/Light Themes**:
   - Installable PWA with offline caching via Service Worker (`sw.js`).
   - Dual glassmorphic dark and sky-tinted light themes with zero-flash initial loading.
   - Geometry-based automatic mobile table fullscreen mode.
 
----
+- **SEO & Clean URL Routing**:
+  - Client-side clean URL transformations (`replaceState`) stripping `.html` extensions.
+  - `WebApplication` JSON-LD schema, OpenGraph, and Twitter Card rich media metadata.
 
-## Note & Disclaimer
-
-> [!NOTE]
-> **Data Scope Disclaimer:**
-> This portal does not contain Institutes of National Importance (INI) data (such as AIIMS, JIPMER, PGIMER, NIMHANS, etc.).
-> Admissions for INI institutions are conducted separately through INI-CET / INI counselling portals.
+- **Web Content Accessibility Guidelines (WCAG 2.1 Level AA/AAA)**:
+  - Built-in screen-reader skip link (`Skip to main content`).
+  - Native HTML5 landmarks (`header`, `main`, `nav`, `aside`) and ARIA roles (`role="tablist"`, `role="tab"`, `aria-selected`, `aria-label`).
+  - High-visibility focus rings (`:focus-visible`) and WCAG AAA color contrast ratios across dark/light modes.
+  - Public accessibility statement available at `public/disclosure.html`.
 
 ---
 
 ## Data Sources & Methodology
 
-- **MCC UG Allotment Data**: Parsed from official **MCC NEET UG 2024 Counselling Allotment lists (Rounds 1, 2, and 3)**.
+- **MCC UG Allotment Data**: Parsed from official **MCC NEET UG Counselling Allotment lists (Rounds 1, 2, and 3)**.
 - **Master Seat Matrices**: Compiled from official Medical Counselling Committee (MCC) seat matrices and State Health Department publications.
-- **Matching Methodology**: Conservative, deterministic college identity matching based on official state codes, college names, and locations. Fuzzy matching is strictly disabled to prevent false mappings.
+- **Matching Methodology**: Conservative, deterministic college identity matching based on official state codes, college names, and locations. 100% of raw variations in `alias-to-canonical.json` (531/531) are mapped to canonical master college names.
 
 ---
 
@@ -67,13 +75,18 @@ NexDoc is built using pure vanilla JavaScript (ES modules), HTML5, and CSS3 with
    ```
 
 2. **Serve locally**:
-   Launch any static HTTP server from the `public` directory:
+   Launch the dev server:
+   ```bash
+   npm start
+   ```
+   *Or using Python:*
    ```bash
    python3 -m http.server 8080 --directory public
    ```
 
 3. **Open in browser**:
-   Navigate to `http://localhost:8080/index.html`.
+   - Main App: `http://localhost:8080/index.html`
+   - Local Admin Panel: `http://localhost:8080/admin.html`
 
 ---
 

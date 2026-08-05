@@ -1,39 +1,59 @@
 [
   {
-    "college_id": "ug_cg001p4",
-    "college_name": "Abhishek Mishra Memorial Medical College & RC Bhiali Distt. Durg CG",
-    "college_type": "Private",
+    "college_id": "ug_cg001g1",
+    "college_name": "Abhishek Mishra Memorial Medical College & RC, Bhiali Distt. Durg",
+    "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Competent Authority Quota",
     "seats": 100,
     "seats_prev": 75,
-    "seats_inc": 25
+    "seats_inc": 25,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg001p4",
-    "college_name": "Abhishek Mishra Memorial Medical College & RC Bhiali Distt. Durg CG",
-    "college_type": "Private",
+    "college_id": "ug_cg001g1",
+    "college_name": "Abhishek Mishra Memorial Medical College & RC, Bhiali Distt. Durg",
+    "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "Management Quota",
     "seats": 70,
     "seats_prev": 52,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg001p4",
-    "college_name": "Abhishek Mishra Memorial Medical College & RC Bhiali Distt. Durg CG",
-    "college_type": "Private",
+    "college_id": "ug_cg001g1",
+    "college_name": "Abhishek Mishra Memorial Medical College & RC, Bhiali Distt. Durg",
+    "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
     "counseling_route": "STATE",
     "quota_type": "NRI / Minority Quota",
     "seats": 30,
     "seats_prev": 23,
-    "seats_inc": 8
+    "seats_inc": 8,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in017i1",
+    "college_name": "All India Institute of Medical Sciences, Raipur",
+    "college_type": "INI",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 125,
+    "seats_prev": 125,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg002g1",
@@ -45,7 +65,9 @@
     "quota_type": "All India Quota",
     "seats": 30,
     "seats_prev": 30,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg002g1",
@@ -57,7 +79,9 @@
     "quota_type": "Competent Authority Quota",
     "seats": 170,
     "seats_prev": 170,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg003g1",
@@ -69,7 +93,9 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 22,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 91,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg003g1",
@@ -81,35 +107,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 128,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 91,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg004g1",
-    "college_name": "Government Medical College (Bharat Ratna Shri Atal Bihari Vajpyee Memorial Medical College), Rajnandgaon",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 18,
-    "seats_prev": 18,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_cg004g1",
-    "college_name": "Government Medical College (Bharat Ratna Shri Atal Bihari Vajpyee Memorial Medical College), Rajnandgaon",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 107,
-    "seats_prev": 107,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_government_medical_college_dantewada_chhattisgarh",
-    "college_name": "Government Medical College Dantewada",
+    "college_name": "Government Medical College, Dantewada",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -117,11 +121,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 0,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_government_medical_college_dantewada_chhattisgarh",
-    "college_name": "Government Medical College Dantewada",
+    "college_id": "ug_cg004g1",
+    "college_name": "Government Medical College, Dantewada",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -129,11 +135,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 0,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_government_medical_college_janjgir_champa_chhattisgarh",
-    "college_name": "Government Medical College Janjgir - Champa",
+    "college_id": "ug_cg005g1",
+    "college_name": "Government Medical College, Janjgir - Champa",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -141,11 +149,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 0,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_government_medical_college_janjgir_champa_chhattisgarh",
-    "college_name": "Government Medical College Janjgir - Champa",
+    "college_id": "ug_cg005g1",
+    "college_name": "Government Medical College, Janjgir - Champa",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -153,10 +163,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 0,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_government_medical_college_jashpurkunkuri_chhattisgarh",
+    "college_id": "ug_cg006g1",
     "college_name": "Government Medical College, Jashpur-Kunkuri",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -165,10 +177,12 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 0,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_government_medical_college_jashpurkunkuri_chhattisgarh",
+    "college_id": "ug_cg006g1",
     "college_name": "Government Medical College, Jashpur-Kunkuri",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -177,59 +191,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 0,
-    "seats_inc": 43
-  },
-  {
-    "college_id": "ug_cg006g1",
-    "college_name": "Government Medical College, Korba",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 18,
-    "seats_prev": 18,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_cg006g1",
-    "college_name": "Government Medical College, Korba",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 107,
-    "seats_prev": 107,
-    "seats_inc": 0
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg007g1",
-    "college_name": "Government Medical College, Mahasamund",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 18,
-    "seats_prev": 18,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_cg007g1",
-    "college_name": "Government Medical College, Mahasamund",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 107,
-    "seats_prev": 107,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_government_medical_college_kabeerdham_chhattisgarh",
-    "college_name": "Government Medical College Kabeerdham",
+    "college_name": "Government Medical College, Kabeerdham",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -237,11 +205,13 @@
     "quota_type": "All India Quota",
     "seats": 7,
     "seats_prev": 0,
-    "seats_inc": 7
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_government_medical_college_kabeerdham_chhattisgarh",
-    "college_name": "Government Medical College Kabeerdham",
+    "college_id": "ug_cg007g1",
+    "college_name": "Government Medical College, Kabeerdham",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -249,34 +219,124 @@
     "quota_type": "Competent Authority Quota",
     "seats": 43,
     "seats_prev": 0,
-    "seats_inc": 43
-  },
-  {
-    "college_id": "ug_govtmedical_collage_manendragarh_chhattisgarh",
-    "college_name": "Govt.Medical Collage Manendragarh",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 7,
-    "seats_prev": 0,
-    "seats_inc": 7
-  },
-  {
-    "college_id": "ug_govtmedical_collage_manendragarh_chhattisgarh",
-    "college_name": "Govt.Medical Collage Manendragarh",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 43,
-    "seats_prev": 0,
-    "seats_inc": 43
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
     "college_id": "ug_cg008g1",
+    "college_name": "Government Medical College, Korba",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 18,
+    "seats_prev": 18,
+    "seats_inc": 0,
+    "pg_seats": 13,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg008g1",
+    "college_name": "Government Medical College, Korba",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 107,
+    "seats_prev": 107,
+    "seats_inc": 0,
+    "pg_seats": 13,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg009g1",
+    "college_name": "Government Medical College, Mahasamund",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 18,
+    "seats_prev": 18,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg009g1",
+    "college_name": "Government Medical College, Mahasamund",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 107,
+    "seats_prev": 107,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg010g1",
+    "college_name": "Government Medical College, Rajnandgaon",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 18,
+    "seats_prev": 18,
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg010g1",
+    "college_name": "Government Medical College, Rajnandgaon",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 107,
+    "seats_prev": 107,
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg011g1",
+    "college_name": "Govt. Medical College, Manendragarh",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 7,
+    "seats_prev": 0,
+    "seats_inc": 7,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg011g1",
+    "college_name": "Govt. Medical College, Manendragarh",
+    "college_type": "Government",
+    "state": "Chhattisgarh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 43,
+    "seats_prev": 0,
+    "seats_inc": 43,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_cg012g1",
     "college_name": "Late Shri Baliram Kashyap Memorial NDMC Government Medical College, Jagdalpur",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -285,10 +345,12 @@
     "quota_type": "All India Quota",
     "seats": 22,
     "seats_prev": 18,
-    "seats_inc": 3
+    "seats_inc": 3,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg008g1",
+    "college_id": "ug_cg012g1",
     "college_name": "Late Shri Baliram Kashyap Memorial NDMC Government Medical College, Jagdalpur",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -297,10 +359,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 128,
     "seats_prev": 107,
-    "seats_inc": 22
+    "seats_inc": 22,
+    "pg_seats": 28,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg009g1",
+    "college_id": "ug_cg013g1",
     "college_name": "Late Shri Lakhi Ram Agrawal Memorial Government Medical College, Raigarh",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -309,10 +373,12 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg009g1",
+    "college_id": "ug_cg013g1",
     "college_name": "Late Shri Lakhi Ram Agrawal Memorial Government Medical College, Raigarh",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -321,10 +387,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 85,
     "seats_prev": 85,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 42,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_maa_padmavati_institute_of_medical_sciences_chhattisgarh",
+    "college_id": "ug_hp001p3",
     "college_name": "Maa Padmavati Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -333,10 +401,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 50,
     "seats_prev": 0,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_maa_padmavati_institute_of_medical_sciences_chhattisgarh",
+    "college_id": "ug_hp001p3",
     "college_name": "Maa Padmavati Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -345,10 +415,12 @@
     "quota_type": "Management Quota",
     "seats": 35,
     "seats_prev": 0,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_maa_padmavati_institute_of_medical_sciences_chhattisgarh",
+    "college_id": "ug_hp001p3",
     "college_name": "Maa Padmavati Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -357,10 +429,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 15,
     "seats_prev": 0,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg010g1",
+    "college_id": "ug_cg014g1",
     "college_name": "Pt. J N M Medical College, Raipur",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -369,10 +443,12 @@
     "quota_type": "All India Quota",
     "seats": 37,
     "seats_prev": 34,
-    "seats_inc": 3
+    "seats_inc": 3,
+    "pg_seats": 146,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_cg010g1",
+    "college_id": "ug_cg014g1",
     "college_name": "Pt. J N M Medical College, Raipur",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -381,10 +457,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 213,
     "seats_prev": 196,
-    "seats_inc": 17
+    "seats_inc": 17,
+    "pg_seats": 146,
+    "ss_seats": 13
   },
   {
-    "college_id": "ug_cg011p4",
+    "college_id": "ug_cg001p3",
     "college_name": "Raipur Institute of Medical Sciences (RIMS), Raipur",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -393,10 +471,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 75,
-    "seats_inc": 50
+    "seats_inc": 50,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg011p4",
+    "college_id": "ug_cg001p3",
     "college_name": "Raipur Institute of Medical Sciences (RIMS), Raipur",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -405,10 +485,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 52,
-    "seats_inc": 35
+    "seats_inc": 35,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg011p4",
+    "college_id": "ug_cg001p3",
     "college_name": "Raipur Institute of Medical Sciences (RIMS), Raipur",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -417,10 +499,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 23,
-    "seats_inc": 15
+    "seats_inc": 15,
+    "pg_seats": 63,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg005g1",
+    "college_id": "ug_cg015g1",
     "college_name": "Rajmata Shrimata Devendra Kumari Singhdeo Government Medical College, Ambikapur (Surguja), Chhattisgarh",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -429,10 +513,12 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 40,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg005g1",
+    "college_id": "ug_cg015g1",
     "college_name": "Rajmata Shrimata Devendra Kumari Singhdeo Government Medical College, Ambikapur (Surguja), Chhattisgarh",
     "college_type": "Government",
     "state": "Chhattisgarh",
@@ -441,10 +527,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 107,
     "seats_prev": 107,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 40,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg012p4",
+    "college_id": "ug_cg002p3",
     "college_name": "Shri Balaji Institute of Medical Science",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -453,10 +541,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg012p4",
+    "college_id": "ug_cg002p3",
     "college_name": "Shri Balaji Institute of Medical Science",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -465,10 +555,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg012p4",
+    "college_id": "ug_cg002p3",
     "college_name": "Shri Balaji Institute of Medical Science",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -477,11 +569,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 96,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg013p3",
-    "college_name": "Shri Rawatpura Sarkar Institute of Medical Sciences and Research Atal Nagar, Dist- Raipur (C.G.)",
+    "college_id": "ug_cg003p3",
+    "college_name": "Shri Rawatpura Sarkar Institute of Medical Sciences and Research, Atal Nagar, Dist- Raipur",
     "college_type": "Private",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -489,11 +583,13 @@
     "quota_type": "Competent Authority Quota",
     "seats": 75,
     "seats_prev": 75,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg013p3",
-    "college_name": "Shri Rawatpura Sarkar Institute of Medical Sciences and Research Atal Nagar, Dist- Raipur (C.G.)",
+    "college_id": "ug_cg003p3",
+    "college_name": "Shri Rawatpura Sarkar Institute of Medical Sciences and Research, Atal Nagar, Dist- Raipur",
     "college_type": "Private",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -501,11 +597,13 @@
     "quota_type": "Management Quota",
     "seats": 52,
     "seats_prev": 52,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg013p3",
-    "college_name": "Shri Rawatpura Sarkar Institute of Medical Sciences and Research Atal Nagar, Dist- Raipur (C.G.)",
+    "college_id": "ug_cg003p3",
+    "college_name": "Shri Rawatpura Sarkar Institute of Medical Sciences and Research, Atal Nagar, Dist- Raipur",
     "college_type": "Private",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -513,10 +611,12 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 23,
     "seats_prev": 23,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg014p4",
+    "college_id": "ug_cg004p3",
     "college_name": "Shri Shankaracharya Institute of Medical Sciences, Bhilai",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -525,10 +625,12 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 101,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg014p4",
+    "college_id": "ug_cg004p3",
     "college_name": "Shri Shankaracharya Institute of Medical Sciences, Bhilai",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -537,10 +639,12 @@
     "quota_type": "Management Quota",
     "seats": 87,
     "seats_prev": 87,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 101,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg014p4",
+    "college_id": "ug_cg004p3",
     "college_name": "Shri Shankaracharya Institute of Medical Sciences, Bhilai",
     "college_type": "Private",
     "state": "Chhattisgarh",
@@ -549,11 +653,13 @@
     "quota_type": "NRI / Minority Quota",
     "seats": 38,
     "seats_prev": 38,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 101,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg015g1",
-    "college_name": "Shrimati Indira Gandhi Memorial Government Medical College, Kanker, Chattisgarh (previously Government Medical College, Kanker)",
+    "college_id": "ug_cg016g1",
+    "college_name": "Shrimati Indira Gandhi Memorial Government Medical College, Kanker, Chattisgarh",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -561,11 +667,13 @@
     "quota_type": "All India Quota",
     "seats": 18,
     "seats_prev": 18,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   },
   {
-    "college_id": "ug_cg015g1",
-    "college_name": "Shrimati Indira Gandhi Memorial Government Medical College, Kanker, Chattisgarh (previously Government Medical College, Kanker)",
+    "college_id": "ug_cg016g1",
+    "college_name": "Shrimati Indira Gandhi Memorial Government Medical College, Kanker, Chattisgarh",
     "college_type": "Government",
     "state": "Chhattisgarh",
     "course": "MBBS",
@@ -573,18 +681,8 @@
     "quota_type": "Competent Authority Quota",
     "seats": 107,
     "seats_prev": 107,
-    "seats_inc": 0
-  },
-  {
-    "college_id": "ug_ini_aiims_raipur",
-    "college_name": "AIIMS Raipur",
-    "college_type": "Government",
-    "state": "Chhattisgarh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 125,
-    "seats_prev": 125,
-    "seats_inc": 0
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
   }
 ]

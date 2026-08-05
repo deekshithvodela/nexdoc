@@ -4,6 +4,86 @@ This document maps the core CSS classes, element IDs, JavaScript state architect
 
 ---
 
+## 📌 Core Data Scope & Display Filtering Principle
+
+1. **Primary Website Scope**: `NexDoc` is strictly designed for **MBBS** (Undergraduate) and further medical study pathways (**MD / MS / DNB** Postgraduate & **DM / MCh** Super Speciality).
+2. **Backend Data Processing**: All raw data files and counselling datasets (including non-MBBS courses like BDS, B.Sc Nursing, AYUSH) **MUST be fully ingested and processed** by backend python scripts. Truncating data at the processing level is strictly prohibited as it leads to index shifts, rank gaps, and dataset corruption.
+3. **Frontend View Layer Filtering**: Non-MBBS courses (e.g. BDS, B.Sc Nursing) are **filtered out exclusively at the UI / presentation layer** (in `public/app.js` and frontend display components) so end users only view MBBS and medical post-grad pathways.
+
+---
+
+## 📌 Cutoff Mapping & Allotment Calculation Engine Logic
+
+* **Anchor Points**:
+  * In **Consolidated Allotment Lists**: `all_india_rank` is the anchor data point (1 candidate per row).
+  * In **Cutoff Mapping Lists**: **Individual `college_name`** is the anchor data point (grouped by raw `college_name`, `quota`, `category`, `course`).
+* **College Name Normalization Constraint**: Do **NOT** normalize college names during initial raw cutoff mapping generation. Preserve exact raw strings. Normalization is performed in downstream reference matching steps.
+* **Opening & Closing Ranks Computation**:
+  * Mapped **round-wise** (`r1`, `r2`, `r3`).
+  * In each round, any candidate allotted/opted for upgradation in that college is tracked.
+  * `rX_opening_rank` = **lowest (minimum) All India Rank** allotted in that round.
+  * `rX_closing_rank` = **highest (maximum) All India Rank** allotted in that round.
+* **Confirmed Seats Allotted Computation**:
+  * Round ranks are tracked for all allotments/upgradations.
+  * **BUT Seat Count is NOT counted if the candidate opted for upgradation out of that college!**
+  * A candidate is counted towards `confirmed_seats_allotted` **ONLY IF** the college is their final allotted college and no further upgradation out was performed.
+
+---
+
+## 📌 Strict Alias Registration & Human-in-the-Loop Verification Rule
+
+1. **Zero Auto-Commit on Ambiguity**: Newly discovered raw institute strings from allotment PDFs or datasets must **NEVER** be automatically committed to `reference/alias-to-canonical.json` if there is the slightest ambiguity, doubt, or fuzzy match threshold uncertainty.
+2. **Human-in-the-Loop Confirmation**: When pipeline scripts encounter an unmatched raw institute string that does not have an exact or high-confidence Tier 1–3 alias match:
+   * The pipeline must log/flag the unmapped raw string along with the proposed canonical candidate.
+   * **The developer / AI must ask the USER for explicit confirmation** before adding any new alias to `reference/alias-to-canonical.json`.
+3. **Alias Registry Integrity**: `reference/alias-to-canonical.json` serves as the project's single source of truth phonebook. Erroneous alias mappings corrupt downstream cutoff data, college cards, and analytics across the platform.
+
+---
+
+## 📌 Data Integrity Audit & Automated Categorization Pipeline Logic
+
+To prevent dataset corruption, unmapped MBBS strings, or improper data leakage in future counseling updates, all incoming raw cutoff datasets must adhere to the **5-Category Automated Data Integrity Audit Standard** (`scripts/audit/audit_data_integrity.py`):
+
+1. **5-Category Raw Name Classification Standard**:
+   * **Category A (Matched MBBS Colleges)**: Raw strings cleanly mapped to master MBBS institutions in `reference/master-lists-of-colleges.json`.
+   * **Category B (Matched BDS/Dental Colleges)**: Raw strings cleanly mapped to master Dental institutions.
+   * **Category C (Unmatched BDS/Dental Colleges)**: Legitimate non-MBBS raw strings (Dental cutoffs). Must be preserved in backend cutoff datasets and filtered at frontend UI layer.
+   * **Category D (Unmatched Nursing Colleges)**: Legitimate non-MBBS raw strings (B.Sc Nursing cutoffs). Must be preserved in backend cutoff datasets and filtered at frontend UI layer.
+   * **Category E (Unmatched MBBS Colleges)**: Raw MBBS strings requiring manual alias registration or master list reconciliation. **Target: Must be 0 before release!**
+
+2. **Standard Operating Procedure for Future Data Releases**:
+   * **Step 1: Audit Run**: Execute `python3 scripts/audit/audit_data_integrity.py` on the raw input allotment dataset (`reference/raw_college_cutoffs_mapping.json`).
+   * **Step 2: Category E Zeroing**: Inspect any remaining Category E (unmatched MBBS) raw strings:
+     * *Existing Master College Match*: If the raw string is an abbreviated, misspelled, or address-heavy version of a master college, add an explicit entry to `MCC_MANUAL_OVERRIDES` in `scripts/pipeline/generate_mcc_aliases.py`.
+     * *New College Registry Expansion*: If the raw string is a newly established GMC (e.g. 2023–2025 batch) missing from `reference/master-lists-of-colleges.json`, append it to `reference/master-lists-of-colleges.json` in standard `"College Name, City"` format.
+   * **Step 3: Verification & Execution**: Re-run `./scripts/pipeline/run.sh` and re-run the audit script to confirm **Category E = 0**.
+
+3. **Dynamic City Compatibility Enforcement**:
+   * Pipeline resolution logic MUST use `extract_master_cities()` and `is_city_compatible()` to prevent cross-campus collapsing (e.g., preventing AIIMS Rishikesh from collapsing into AIIMS Jammu, or GMC Jammu into GMC Kathua).
+
+---
+
+
+## 📌 Dataset Generation & Reference Boundary Rule
+
+1. **Strict Source File Constrained Generation**: Pipeline generation scripts (such as `scripts/pipeline/6_build_normalized_cutoffs.py` creating `public/data/ug_colleges_aiq_mapping.json`) must **NEVER** inflate the output dataset by generating entries for every item in `reference/master-lists-of-colleges.json`.
+2. **Input Source Data Boundary**: Generation of domain-specific datasets (e.g. UG cutoffs & college mapping) must be **strictly constrained** to the unique colleges present in the provided input source files.
+3. **Master Institution Directory Exception**: `public/data/colleges_details.json` serves as the platform-wide master institution directory. As an explicit exception to the input-constrained boundary rule, `colleges_details.json` **MUST contain 100% of all institutions from `reference/master-lists-of-colleges.json`** (`926` master colleges).
+
+---
+
+## 📌 Master College Code Articulation (`STATE/SEQ/TYPE/TIER`)
+
+1. **Standard Code Format**: `STATE/SEQ/TYPE/TIER` (e.g., `KA/001/P/3`, `PB/001/G/1`, `IN/001/I/1`).
+   * **`STATE`**: 2-letter uppercase state abbreviation (`KA`, `MH`, `DL`, `PB`, `IN` for INI/AIIMS).
+   * **`SEQ`**: 3-digit index per state & sector (`001`, `002`, `003`...).
+   * **`TYPE`**: `G` = Government, `P` = Private / Deemed / Trust, `I` = INI (Institute of National Importance).
+   * **`TIER`**: `1` = Government/INI UG (MBBS), `2` = Government PG, `3` = Private/Deemed UG (MBBS), `4` = Private/Deemed PG.
+2. **Synchronized `college_id` Key**: Object keys and `college_id` properties are formatted as lowercase versions without slashes (e.g., `ug_ka001p3`, `ug_pb001g1`, `ug_in001i1`).
+3. **Property Standard**: Every record must include: `college_id`, `college_code`, `college_name`, `college_type`, `management`, `state`, `city`, `pincode`, `address`, `website`, `email`, `telephone`, `fax`, `year_of_inc`, `university`, `status`, `status_text`, `dean_name`, `dean_designation`, `contacts`, and `aliases`.
+
+---
+
 ## 1. Core Element IDs
 
 ### Header & System Controls
@@ -21,7 +101,6 @@ This document maps the core CSS classes, element IDs, JavaScript state architect
 | `#cutoffTopRankInput` | NEET All India Rank numeric input | Cutoff top control card |
 | `#cutoffTopRankSubmitBtn` | Compact icon-only rank submit button | Cutoff top control card |
 | `#cutoffTopSearchInput` | Live search input for cutoff table | Cutoff top control card |
-| `#topShowNonAiqCb` | Checkbox toggle to include Non-AIQ colleges | Cutoff toolbar |
 | `#collapseAllRowsBtn` | Button to collapse all expanded table rows | Cutoff toolbar |
 | `#exportCutoffCsvBtn` | CSV export button for cutoff data | Cutoff toolbar |
 | `#viewCutoffs` | Target container view for CutoffExplorer.js | Main panel |
@@ -100,3 +179,43 @@ Location: `<head>` of [index.html](file:///home/drover/Projects/nexdoc/public/in
   }
   ```
 - **Fullscreen State Class**: `document.body.classList.contains('table-fullscreen-active')`.
+
+---
+
+## 5. Alphabetical Dataset Sorting Standard
+
+All public dataset JSON files in `public/data/` (`ug/all.json`, `pg/all.json`, `ss/all.json`, `ug_colleges_aiq_mapping.json`, state JSON files, and summary files) **MUST be sorted alphabetically** by institution name (`college_name`), state, course, and quota.
+
+* **Automated Utility Script**: `python3 scripts/sort_data_files.py`
+* Run this script whenever new raw allotment PDFs or counselling records are processed to ensure deterministic, alphabetical data presentation across the platform.
+
+---
+
+## 6. Clean URL Routing & SEO Meta Tag Standard
+
+1. **Clean URL Routing**:
+   * All static HTML pages (`index.html`, `admin.html`, `privacy.html`, `license.html`, `disclosure.html`) execute inline `<head>` scripts utilizing `window.history.replaceState` to strip `.html` extensions cleanly without triggers or reloads.
+   * `sw.js` offline caching logic normalizes incoming request URLs to handle both slash-terminated (`/privacy`) and `.html`-extension requests seamlessly.
+2. **SEO Metadata Standard**:
+   * **Structured Data**: `index.html` embeds a `WebApplication` JSON-LD schema block targeting search engine rich snippets (`applicationCategory: EducationalApplication`).
+   * **OpenGraph & Twitter Cards**: Configured with `og:site_name`, `og:image` (512x512 app icon), `og:url`, and `twitter:card` set to `summary_large_image`.
+   * **Canonical Links**: Defined via `<link rel="canonical" href="...">`.
+   * **Admin Panel Security**: `public/admin.html` includes `<meta name="robots" content="noindex, nofollow">` to prevent public search engine indexing.
+
+---
+
+## 7. Web Content Accessibility Guidelines (WCAG 2.1 Level AA/AAA) Standard
+
+All frontend components, layout templates, and interactive views **MUST comply with WCAG 2.1 Level AA/AAA standards**:
+
+1. **Keyboard Accessibility & Skip Link**:
+   * Embedded `<a href="#main-content" class="skip-link">Skip to main content</a>` at the top of `<body>`.
+   * All interactive elements (buttons, inputs, select dropdowns, filter cards) enforce high-visibility focus indicators via `:focus-visible` styling (`outline: 2px solid var(--accent-blue)`).
+2. **HTML5 Landmarks & ARIA Roles**:
+   * Structural elements use native HTML5 tags (`<header role="banner">`, `<main id="main-content" role="main">`, `<nav>`, `<aside>`).
+   * Dynamic view tabs implement `role="tablist"` and `role="tab"`, with real-time state synchronization (`aria-selected="true/false"` and `aria-pressed="true/false"`).
+3. **Screen Reader Optimization**:
+   * Non-text decorative icons (`lucide` SVGs) include `aria-hidden="true"`.
+   * All form inputs, rank fields, state selectors, and action buttons feature explicit `aria-label` definitions.
+4. **Disclosure Statement**:
+   * `public/disclosure.html` includes an explicit compliance section documenting platform-wide WCAG standards.
