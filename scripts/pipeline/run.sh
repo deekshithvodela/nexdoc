@@ -32,5 +32,10 @@ echo "[5/5] Updating college offered course levels (UG, PG, SS)..."
 python3 "$SCRIPT_DIR/7_update_college_course_levels.py"
 echo ""
 
+echo "[6/6] Standardizing data directory & synchronizing college IDs across all datasets..."
+python3 "$SCRIPT_DIR/standardize_data_directory.py"
+echo ""
+
 echo "=== Pipeline complete ==="
+
 

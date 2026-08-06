@@ -1358,7 +1358,7 @@
     "ss_seats": 50
   },
   {
-    "college_id": "ug_tn001p3",
+    "college_id": "ug_ap002p3",
     "college_name": "Anna Gowri Medical College and Hospital",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -1372,7 +1372,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn001p3",
+    "college_id": "ug_ap002p3",
     "college_name": "Anna Gowri Medical College and Hospital",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -1386,7 +1386,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn001p3",
+    "college_id": "ug_ap002p3",
     "college_name": "Anna Gowri Medical College and Hospital",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -1470,7 +1470,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap002p3",
+    "college_id": "ug_ap003p3",
     "college_name": "Apollo Institute of Medical Sciences and Research, Chittoor",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -1484,7 +1484,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap002p3",
+    "college_id": "ug_ap003p3",
     "college_name": "Apollo Institute of Medical Sciences and Research, Chittoor",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -1498,7 +1498,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap002p3",
+    "college_id": "ug_ap003p3",
     "college_name": "Apollo Institute of Medical Sciences and Research, Chittoor",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -2170,7 +2170,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp001g1",
+    "college_id": "ug_up008g1",
     "college_name": "Autonomous State Medical College, Lalitpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2184,7 +2184,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp001g1",
+    "college_id": "ug_up008g1",
     "college_name": "Autonomous State Medical College, Lalitpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2198,7 +2198,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up008g1",
+    "college_id": "ug_up009g1",
     "college_name": "Autonomous State Medical College, Pilibhit",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2212,7 +2212,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up008g1",
+    "college_id": "ug_up009g1",
     "college_name": "Autonomous State Medical College, Pilibhit",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2226,7 +2226,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up009g1",
+    "college_id": "ug_up010g1",
     "college_name": "Autonomous State Medical College, Siddharthnagar",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2240,7 +2240,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up009g1",
+    "college_id": "ug_up010g1",
     "college_name": "Autonomous State Medical College, Siddharthnagar",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2254,7 +2254,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up010g1",
+    "college_id": "ug_up011g1",
     "college_name": "Autonomous State Medical College, Sonebhadra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2263,26 +2263,26 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_up010g1",
-    "college_name": "Autonomous State Medical College, Sonebhadra",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
     "seats_inc": 0,
     "pg_seats": 0,
     "ss_seats": 0
   },
   {
     "college_id": "ug_up011g1",
+    "college_name": "Autonomous State Medical College, Sonebhadra",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up012g1",
     "college_name": "Autonomous State Medical College, Sultanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2296,7 +2296,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up011g1",
+    "college_id": "ug_up012g1",
     "college_name": "Autonomous State Medical College, Sultanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2562,7 +2562,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up013g1",
+    "college_id": "ug_up014g1",
     "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital, Chandauli",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2576,7 +2576,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up013g1",
+    "college_id": "ug_up014g1",
     "college_name": "Baba Kina Ram Autonomous State Medical College and Hospital, Chandauli",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -2954,7 +2954,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn002p3",
+    "college_id": "ug_tn001p3",
     "college_name": "Bhaarat Medical College & Hospital",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -2968,7 +2968,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn002p3",
+    "college_id": "ug_tn001p3",
     "college_name": "Bhaarat Medical College & Hospital",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -2982,7 +2982,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn002p3",
+    "college_id": "ug_tn001p3",
     "college_name": "Bhaarat Medical College & Hospital",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -3332,7 +3332,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up012g1",
+    "college_id": "ug_up013g1",
     "college_name": "BRD Medical College, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -3346,7 +3346,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up012g1",
+    "college_id": "ug_up013g1",
     "college_name": "BRD Medical College, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -3486,7 +3486,7 @@
     "ss_seats": 7
   },
   {
-    "college_id": "ug_up014g1",
+    "college_id": "ug_up015g1",
     "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -3500,7 +3500,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up014g1",
+    "college_id": "ug_up015g1",
     "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -3514,7 +3514,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up014g1",
+    "college_id": "ug_up015g1",
     "college_name": "Career Institute of Medical Sciences & Hospital, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -4298,7 +4298,7 @@
     "ss_seats": 6
   },
   {
-    "college_id": "ug_tn003p3",
+    "college_id": "ug_tn002p3",
     "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital, Thuraiyur Road, Perambalur",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -4312,7 +4312,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn003p3",
+    "college_id": "ug_tn002p3",
     "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital, Thuraiyur Road, Perambalur",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -4326,7 +4326,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn003p3",
+    "college_id": "ug_tn002p3",
     "college_name": "Dhanalakshmi Srinivasan Institute of Medical Sciences and Hospital, Thuraiyur Road, Perambalur",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -4606,7 +4606,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up016g1",
+    "college_id": "ug_up017g1",
     "college_name": "Dr Sonelal Patel Autonomous State Medical College, Pratapgarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -4620,7 +4620,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up016g1",
+    "college_id": "ug_up017g1",
     "college_name": "Dr Sonelal Patel Autonomous State Medical College, Pratapgarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -4774,7 +4774,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up017g1",
+    "college_id": "ug_up018g1",
     "college_name": "Dr. Bhimrao Ramji Ambedkar Government Medical College, Kannauj, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -4788,7 +4788,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up017g1",
+    "college_id": "ug_up018g1",
     "college_name": "Dr. Bhimrao Ramji Ambedkar Government Medical College, Kannauj, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -5334,7 +5334,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp002g1",
+    "college_id": "ug_hp001g1",
     "college_name": "Dr. Radhakrishnan Government Medical College, Hamirpur, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -5348,7 +5348,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp002g1",
+    "college_id": "ug_hp001g1",
     "college_name": "Dr. Radhakrishnan Government Medical College, Hamirpur, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -5362,7 +5362,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp003g1",
+    "college_id": "ug_hp002g1",
     "college_name": "Dr. Rajendar Prasad Government Medical College, Tanda, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -5376,7 +5376,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp003g1",
+    "college_id": "ug_hp002g1",
     "college_name": "Dr. Rajendar Prasad Government Medical College, Tanda, H.P",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -5432,7 +5432,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up018g1",
+    "college_id": "ug_up019g1",
     "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -5446,7 +5446,7 @@
     "ss_seats": 36
   },
   {
-    "college_id": "ug_up018g1",
+    "college_id": "ug_up019g1",
     "college_name": "Dr. Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -6300,7 +6300,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up019g1",
+    "college_id": "ug_up020g1",
     "college_name": "ESIC Medical College and Hospital, Noida",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -6314,7 +6314,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up019g1",
+    "college_id": "ug_up020g1",
     "college_name": "ESIC Medical College and Hospital, Noida",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -6846,7 +6846,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up020g1",
+    "college_id": "ug_up021g1",
     "college_name": "G.S. Medical College & Hospital, Hapur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -6860,7 +6860,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up020g1",
+    "college_id": "ug_up021g1",
     "college_name": "G.S. Medical College & Hospital, Hapur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -6874,7 +6874,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up020g1",
+    "college_id": "ug_up021g1",
     "college_name": "G.S. Medical College & Hospital, Hapur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -7252,7 +7252,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap003p3",
+    "college_id": "ug_ap004p3",
     "college_name": "GITAM Institute of Medical Sciences and Research, Visakhapatnam",
     "college_type": "Deemed",
     "state": "Andhra Pradesh",
@@ -7266,7 +7266,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap003p3",
+    "college_id": "ug_ap004p3",
     "college_name": "GITAM Institute of Medical Sciences and Research, Visakhapatnam",
     "college_type": "Deemed",
     "state": "Andhra Pradesh",
@@ -7280,7 +7280,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap003p3",
+    "college_id": "ug_ap004p3",
     "college_name": "GITAM Institute of Medical Sciences and Research, Visakhapatnam",
     "college_type": "Deemed",
     "state": "Andhra Pradesh",
@@ -7644,7 +7644,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up022g1",
+    "college_id": "ug_up023g1",
     "college_name": "Government Allopathic Medical College, Banda",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -7658,7 +7658,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up022g1",
+    "college_id": "ug_up023g1",
     "college_name": "Government Allopathic Medical College, Banda",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -7781,150 +7781,150 @@
     "seats_prev": 85,
     "seats_inc": 0,
     "pg_seats": 13,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_up023g1",
-    "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 58,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_up023g1",
-    "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 58,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_tn006g1",
-    "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
-    "college_type": "Government",
-    "state": "Tamil Nadu",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 5,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_tn006g1",
-    "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
-    "college_type": "Government",
-    "state": "Tamil Nadu",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 5,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_or003g1",
-    "college_name": "Government Medical College & Hospital, Balangir",
-    "college_type": "Government",
-    "state": "Odisha",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 10,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_or003g1",
-    "college_name": "Government Medical College & Hospital, Balangir",
-    "college_type": "Government",
-    "state": "Odisha",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 10,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_or004g1",
-    "college_name": "Government Medical College & Hospital, Balasore",
-    "college_type": "Government",
-    "state": "Odisha",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 8,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_or004g1",
-    "college_name": "Government Medical College & Hospital, Balasore",
-    "college_type": "Government",
-    "state": "Odisha",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 8,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mh009g1",
-    "college_name": "Government Medical College & Hospital, Baramati",
-    "college_type": "Government",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 27,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mh009g1",
-    "college_name": "Government Medical College & Hospital, Baramati",
-    "college_type": "Government",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 27,
     "ss_seats": 0
   },
   {
     "college_id": "ug_up024g1",
+    "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 58,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up024g1",
+    "college_name": "Government Institute of Medical Sciences, Kasna, Greater Noida",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 58,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tn006g1",
+    "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
+    "college_type": "Government",
+    "state": "Tamil Nadu",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 5,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tn006g1",
+    "college_name": "Government Medical College & ESIC Hospital, Coimbatore, Tamil Nadu",
+    "college_type": "Government",
+    "state": "Tamil Nadu",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 5,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_or003g1",
+    "college_name": "Government Medical College & Hospital, Balangir",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_or003g1",
+    "college_name": "Government Medical College & Hospital, Balangir",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 10,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_or004g1",
+    "college_name": "Government Medical College & Hospital, Balasore",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_or004g1",
+    "college_name": "Government Medical College & Hospital, Balasore",
+    "college_type": "Government",
+    "state": "Odisha",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 8,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mh009g1",
+    "college_name": "Government Medical College & Hospital, Baramati",
+    "college_type": "Government",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 27,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mh009g1",
+    "college_name": "Government Medical College & Hospital, Baramati",
+    "college_type": "Government",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 27,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up025g1",
     "college_name": "Government Medical College & Super Facility Hospital, Azamgarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -7938,7 +7938,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up024g1",
+    "college_id": "ug_up025g1",
     "college_name": "Government Medical College & Super Facility Hospital, Azamgarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -8316,7 +8316,7 @@
     "ss_seats": 30
   },
   {
-    "college_id": "ug_up025g1",
+    "college_id": "ug_up026g1",
     "college_name": "Government Medical College, Badaun",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -8330,7 +8330,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up025g1",
+    "college_id": "ug_up026g1",
     "college_name": "Government Medical College, Badaun",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -9100,7 +9100,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up026g1",
+    "college_id": "ug_up027g1",
     "college_name": "Government Medical College, Faizabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -9114,7 +9114,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up026g1",
+    "college_id": "ug_up027g1",
     "college_name": "Government Medical College, Faizabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -9128,7 +9128,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up027g1",
+    "college_id": "ug_up028g1",
     "college_name": "Government Medical College, Firozabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -9142,7 +9142,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up027g1",
+    "college_id": "ug_up028g1",
     "college_name": "Government Medical College, Firozabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -10668,7 +10668,7 @@
     "ss_seats": 18
   },
   {
-    "college_id": "ug_hp004g1",
+    "college_id": "ug_hp003g1",
     "college_name": "Government Medical College, Nahan, Sirmour",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -10682,7 +10682,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp004g1",
+    "college_id": "ug_hp003g1",
     "college_name": "Government Medical College, Nahan, Sirmour",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -11536,7 +11536,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up028g1",
+    "college_id": "ug_up029g1",
     "college_name": "Government Medical College, Rampur, Basti",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -11547,192 +11547,192 @@
     "seats_prev": 15,
     "seats_inc": 0,
     "pg_seats": 24,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_up028g1",
-    "college_name": "Government Medical College, Rampur, Basti",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 24,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_tg019g1",
-    "college_name": "Government Medical College, Sangareddy",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 22,
-    "seats_prev": 22,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_tg019g1",
-    "college_name": "Government Medical College, Sangareddy",
-    "college_type": "Government",
-    "state": "Telangana",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 128,
-    "seats_prev": 128,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mh032g1",
-    "college_name": "Government Medical College, Satara",
-    "college_type": "Government",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mh032g1",
-    "college_name": "Government Medical College, Satara",
-    "college_type": "Government",
-    "state": "Maharashtra",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_in048g1",
-    "college_name": "Government Medical College, Satna",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 22,
-    "seats_prev": 22,
-    "seats_inc": 0,
-    "pg_seats": 18,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_in048g1",
-    "college_name": "Government Medical College, Satna",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 128,
-    "seats_prev": 128,
-    "seats_inc": 0,
-    "pg_seats": 18,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_rj021g1",
-    "college_name": "Government Medical College, Sawai Madhopur",
-    "college_type": "Government",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_rj021g1",
-    "college_name": "Government Medical College, Sawai Madhopur",
-    "college_type": "Government",
-    "state": "Rajasthan",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mp008g1",
-    "college_name": "Government Medical College, Seoni",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mp008g1",
-    "college_name": "Government Medical College, Seoni",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 0,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mp009g1",
-    "college_name": "Government Medical College, Shahdol",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "MCC",
-    "quota_type": "All India Quota",
-    "seats": 15,
-    "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 6,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_mp009g1",
-    "college_name": "Government Medical College, Shahdol",
-    "college_type": "Government",
-    "state": "Madhya Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
-    "seats_inc": 0,
-    "pg_seats": 6,
     "ss_seats": 0
   },
   {
     "college_id": "ug_up029g1",
+    "college_name": "Government Medical College, Rampur, Basti",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 24,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg019g1",
+    "college_name": "Government Medical College, Sangareddy",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 22,
+    "seats_prev": 22,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_tg019g1",
+    "college_name": "Government Medical College, Sangareddy",
+    "college_type": "Government",
+    "state": "Telangana",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 128,
+    "seats_prev": 128,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mh032g1",
+    "college_name": "Government Medical College, Satara",
+    "college_type": "Government",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mh032g1",
+    "college_name": "Government Medical College, Satara",
+    "college_type": "Government",
+    "state": "Maharashtra",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in048g1",
+    "college_name": "Government Medical College, Satna",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 22,
+    "seats_prev": 22,
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_in048g1",
+    "college_name": "Government Medical College, Satna",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 128,
+    "seats_prev": 128,
+    "seats_inc": 0,
+    "pg_seats": 18,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_rj021g1",
+    "college_name": "Government Medical College, Sawai Madhopur",
+    "college_type": "Government",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_rj021g1",
+    "college_name": "Government Medical College, Sawai Madhopur",
+    "college_type": "Government",
+    "state": "Rajasthan",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp008g1",
+    "college_name": "Government Medical College, Seoni",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp008g1",
+    "college_name": "Government Medical College, Seoni",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 0,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp009g1",
+    "college_name": "Government Medical College, Shahdol",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "MCC",
+    "quota_type": "All India Quota",
+    "seats": 15,
+    "seats_prev": 15,
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_mp009g1",
+    "college_name": "Government Medical College, Shahdol",
+    "college_type": "Government",
+    "state": "Madhya Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 6,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up030g1",
     "college_name": "Government Medical College, Shahjahanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -11746,7 +11746,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up029g1",
+    "college_id": "ug_up030g1",
     "college_name": "Government Medical College, Shahjahanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -12754,7 +12754,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap005p3",
+    "college_id": "ug_ap006p3",
     "college_name": "Great Eastern Medical School and Hospital, Srikakulam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -12768,7 +12768,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap005p3",
+    "college_id": "ug_ap006p3",
     "college_name": "Great Eastern Medical School and Hospital, Srikakulam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -12782,7 +12782,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap005p3",
+    "college_id": "ug_ap006p3",
     "college_name": "Great Eastern Medical School and Hospital, Srikakulam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -12796,7 +12796,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap004p3",
+    "college_id": "ug_ap005p3",
     "college_name": "GSL Medical College, Rajahmundry",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -12810,7 +12810,7 @@
     "ss_seats": 16
   },
   {
-    "college_id": "ug_ap004p3",
+    "college_id": "ug_ap005p3",
     "college_name": "GSL Medical College, Rajahmundry",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -12824,7 +12824,7 @@
     "ss_seats": 16
   },
   {
-    "college_id": "ug_ap004p3",
+    "college_id": "ug_ap005p3",
     "college_name": "GSL Medical College, Rajahmundry",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -12838,7 +12838,7 @@
     "ss_seats": 16
   },
   {
-    "college_id": "ug_up021g1",
+    "college_id": "ug_up022g1",
     "college_name": "GSVM Medical College, Kanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -12852,7 +12852,7 @@
     "ss_seats": 36
   },
   {
-    "college_id": "ug_up021g1",
+    "college_id": "ug_up022g1",
     "college_name": "GSVM Medical College, Kanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -13650,7 +13650,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp005g1",
+    "college_id": "ug_hp004g1",
     "college_name": "Indira Gandhi Medical College, Shimla",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -13664,7 +13664,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp005g1",
+    "college_id": "ug_hp004g1",
     "college_name": "Indira Gandhi Medical College, Shimla",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -13678,7 +13678,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn004p3",
+    "college_id": "ug_tn003p3",
     "college_name": "Indira Medical College & Hospitals, Thiruvallur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -13692,7 +13692,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn004p3",
+    "college_id": "ug_tn003p3",
     "college_name": "Indira Medical College & Hospitals, Thiruvallur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -13706,7 +13706,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn004p3",
+    "college_id": "ug_tn003p3",
     "college_name": "Indira Medical College & Hospitals, Thiruvallur",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -13804,7 +13804,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up031g1",
+    "college_id": "ug_up032g1",
     "college_name": "Institute of Medical Sciences, BHU, Varansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -13818,7 +13818,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up031g1",
+    "college_id": "ug_up032g1",
     "college_name": "Institute of Medical Sciences, BHU, Varansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -13944,7 +13944,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn006p3",
+    "college_id": "ug_tn005p3",
     "college_name": "J R Medical College and Hospital Villupuram District, Tamilnadu",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -13958,7 +13958,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn006p3",
+    "college_id": "ug_tn005p3",
     "college_name": "J R Medical College and Hospital Villupuram District, Tamilnadu",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -13972,7 +13972,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn006p3",
+    "college_id": "ug_tn005p3",
     "college_name": "J R Medical College and Hospital Villupuram District, Tamilnadu",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -14364,7 +14364,7 @@
     "ss_seats": 15
   },
   {
-    "college_id": "ug_up033g1",
+    "college_id": "ug_up034g1",
     "college_name": "Jawaharlal Nehru Medical College, Aligarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -14378,7 +14378,7 @@
     "ss_seats": 10
   },
   {
-    "college_id": "ug_up033g1",
+    "college_id": "ug_up034g1",
     "college_name": "Jawaharlal Nehru Medical College, Aligarh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -15120,7 +15120,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up034g1",
+    "college_id": "ug_up035g1",
     "college_name": "Kalyan Singh Government Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -15134,7 +15134,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up034g1",
+    "college_id": "ug_up035g1",
     "college_name": "Kalyan Singh Government Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -15302,7 +15302,7 @@
     "ss_seats": 5
   },
   {
-    "college_id": "ug_tn007p3",
+    "college_id": "ug_tn006p3",
     "college_name": "Kanyakumari Medical Mission Research Centre, Kanyakumari District",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -15316,7 +15316,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn007p3",
+    "college_id": "ug_tn006p3",
     "college_name": "Kanyakumari Medical Mission Research Centre, Kanyakumari District",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -15330,7 +15330,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn007p3",
+    "college_id": "ug_tn006p3",
     "college_name": "Kanyakumari Medical Mission Research Centre, Kanyakumari District",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -16142,7 +16142,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap006p3",
+    "college_id": "ug_ap007p3",
     "college_name": "Konaseema Institute of Medical Sciences & Research Foundation, Amalapuram",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -16156,7 +16156,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap006p3",
+    "college_id": "ug_ap007p3",
     "college_name": "Konaseema Institute of Medical Sciences & Research Foundation, Amalapuram",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -16170,7 +16170,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap006p3",
+    "college_id": "ug_ap007p3",
     "college_name": "Konaseema Institute of Medical Sciences & Research Foundation, Amalapuram",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -16604,7 +16604,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up035g1",
+    "college_id": "ug_up036g1",
     "college_name": "LLRM Medical College, Meerut",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -16618,7 +16618,7 @@
     "ss_seats": 3
   },
   {
-    "college_id": "ug_up035g1",
+    "college_id": "ug_up036g1",
     "college_name": "LLRM Medical College, Meerut",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -17192,7 +17192,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap007p3",
+    "college_id": "ug_ap008p3",
     "college_name": "Maharajah Institute of Medical Sciences, Vizianagaram",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -17206,7 +17206,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap007p3",
+    "college_id": "ug_ap008p3",
     "college_name": "Maharajah Institute of Medical Sciences, Vizianagaram",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -17220,7 +17220,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap007p3",
+    "college_id": "ug_ap008p3",
     "college_name": "Maharajah Institute of Medical Sciences, Vizianagaram",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -17234,7 +17234,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up036g1",
+    "college_id": "ug_up037g1",
     "college_name": "Maharani Laxmi Bai Medical College, Jhansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -17248,7 +17248,7 @@
     "ss_seats": 12
   },
   {
-    "college_id": "ug_up036g1",
+    "college_id": "ug_up037g1",
     "college_name": "Maharani Laxmi Bai Medical College, Jhansi",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -17864,7 +17864,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up037g1",
+    "college_id": "ug_up038g1",
     "college_name": "Mahatma Vidur Autonomous State Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -17878,7 +17878,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up037g1",
+    "college_id": "ug_up038g1",
     "college_name": "Mahatma Vidur Autonomous State Medical College",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -18130,7 +18130,7 @@
     "ss_seats": 2
   },
   {
-    "college_id": "ug_or006p3",
+    "college_id": "ug_mh024p3",
     "college_name": "Malati Multispeciality Hospital and Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -18144,7 +18144,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_or006p3",
+    "college_id": "ug_mh024p3",
     "college_name": "Malati Multispeciality Hospital and Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -18158,7 +18158,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_or006p3",
+    "college_id": "ug_mh024p3",
     "college_name": "Malati Multispeciality Hospital and Medical College",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -18592,7 +18592,7 @@
     "ss_seats": 12
   },
   {
-    "college_id": "ug_mh024p3",
+    "college_id": "ug_mh025p3",
     "college_name": "Mauli Medical College Hospital & Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -18606,7 +18606,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh024p3",
+    "college_id": "ug_mh025p3",
     "college_name": "Mauli Medical College Hospital & Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -18620,7 +18620,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh024p3",
+    "college_id": "ug_mh025p3",
     "college_name": "Mauli Medical College Hospital & Research Center",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -18942,7 +18942,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up038g1",
+    "college_id": "ug_up039g1",
     "college_name": "Moti Lal Nehru Medical College, Allahabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -18956,7 +18956,7 @@
     "ss_seats": 16
   },
   {
-    "college_id": "ug_up038g1",
+    "college_id": "ug_up039g1",
     "college_name": "Moti Lal Nehru Medical College, Allahabad",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -19404,7 +19404,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn008p3",
+    "college_id": "ug_tn007p3",
     "college_name": "Nandha Medical College & Hospital, Erode",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -19418,7 +19418,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn008p3",
+    "college_id": "ug_tn007p3",
     "college_name": "Nandha Medical College & Hospital, Erode",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -19432,7 +19432,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn008p3",
+    "college_id": "ug_tn007p3",
     "college_name": "Nandha Medical College & Hospital, Erode",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -19936,7 +19936,7 @@
     "ss_seats": 35
   },
   {
-    "college_id": "ug_ap010p3",
+    "college_id": "ug_ap011p3",
     "college_name": "Nimra Institute of Medical Sciences, Krishna Dist",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -19950,7 +19950,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap010p3",
+    "college_id": "ug_ap011p3",
     "college_name": "Nimra Institute of Medical Sciences, Krishna Dist",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -19964,7 +19964,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap010p3",
+    "college_id": "ug_ap011p3",
     "college_name": "Nimra Institute of Medical Sciences, Krishna Dist",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20146,7 +20146,7 @@
     "ss_seats": 4
   },
   {
-    "college_id": "ug_up015p3",
+    "college_id": "ug_tg009p3",
     "college_name": "Nova Institute of Medical Sciences and Research Centre",
     "college_type": "Private",
     "state": "Telangana",
@@ -20160,7 +20160,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up015p3",
+    "college_id": "ug_tg009p3",
     "college_name": "Nova Institute of Medical Sciences and Research Centre",
     "college_type": "Private",
     "state": "Telangana",
@@ -20174,7 +20174,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up015p3",
+    "college_id": "ug_tg009p3",
     "college_name": "Nova Institute of Medical Sciences and Research Centre",
     "college_type": "Private",
     "state": "Telangana",
@@ -20188,7 +20188,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap008p3",
+    "college_id": "ug_ap009p3",
     "college_name": "NRI Institute of Medical Sciences, Visakhapatnam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20197,40 +20197,40 @@
     "quota_type": "Competent Authority Quota",
     "seats": 125,
     "seats_prev": 125,
-    "seats_inc": 0,
-    "pg_seats": 115,
-    "ss_seats": 3
-  },
-  {
-    "college_id": "ug_ap008p3",
-    "college_name": "NRI Institute of Medical Sciences, Visakhapatnam",
-    "college_type": "Private",
-    "state": "Andhra Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Management Quota",
-    "seats": 87,
-    "seats_prev": 87,
-    "seats_inc": 0,
-    "pg_seats": 115,
-    "ss_seats": 3
-  },
-  {
-    "college_id": "ug_ap008p3",
-    "college_name": "NRI Institute of Medical Sciences, Visakhapatnam",
-    "college_type": "Private",
-    "state": "Andhra Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "NRI / Minority Quota",
-    "seats": 38,
-    "seats_prev": 38,
     "seats_inc": 0,
     "pg_seats": 115,
     "ss_seats": 3
   },
   {
     "college_id": "ug_ap009p3",
+    "college_name": "NRI Institute of Medical Sciences, Visakhapatnam",
+    "college_type": "Private",
+    "state": "Andhra Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Management Quota",
+    "seats": 87,
+    "seats_prev": 87,
+    "seats_inc": 0,
+    "pg_seats": 115,
+    "ss_seats": 3
+  },
+  {
+    "college_id": "ug_ap009p3",
+    "college_name": "NRI Institute of Medical Sciences, Visakhapatnam",
+    "college_type": "Private",
+    "state": "Andhra Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "NRI / Minority Quota",
+    "seats": 38,
+    "seats_prev": 38,
+    "seats_inc": 0,
+    "pg_seats": 115,
+    "ss_seats": 3
+  },
+  {
+    "college_id": "ug_ap010p3",
     "college_name": "NRI Medical College, Guntur",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20244,7 +20244,7 @@
     "ss_seats": 15
   },
   {
-    "college_id": "ug_ap009p3",
+    "college_id": "ug_ap010p3",
     "college_name": "NRI Medical College, Guntur",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20258,7 +20258,7 @@
     "ss_seats": 15
   },
   {
-    "college_id": "ug_ap009p3",
+    "college_id": "ug_ap010p3",
     "college_name": "NRI Medical College, Guntur",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20300,7 +20300,7 @@
     "ss_seats": 81
   },
   {
-    "college_id": "ug_ap011p3",
+    "college_id": "ug_ap012p3",
     "college_name": "P E S Institute of Medical Sciences and Research, Kuppam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20314,7 +20314,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap011p3",
+    "college_id": "ug_ap012p3",
     "college_name": "P E S Institute of Medical Sciences and Research, Kuppam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20328,7 +20328,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap011p3",
+    "college_id": "ug_ap012p3",
     "college_name": "P E S Institute of Medical Sciences and Research, Kuppam",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -20678,7 +20678,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn010p3",
+    "college_id": "ug_tn009p3",
     "college_name": "Panimalar Medical College Hospital & Research Institute, Chennai, Tamil Nadu",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -20692,7 +20692,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn010p3",
+    "college_id": "ug_tn009p3",
     "college_name": "Panimalar Medical College Hospital & Research Institute, Chennai, Tamil Nadu",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -20706,7 +20706,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn010p3",
+    "college_id": "ug_tn009p3",
     "college_name": "Panimalar Medical College Hospital & Research Institute, Chennai, Tamil Nadu",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -21056,7 +21056,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh026p3",
+    "college_id": "ug_mh027p3",
     "college_name": "Prakash Institute of Medical Sciences & Research, Sangli",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -21070,7 +21070,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh026p3",
+    "college_id": "ug_mh027p3",
     "college_name": "Prakash Institute of Medical Sciences & Research, Sangli",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -21084,7 +21084,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh026p3",
+    "college_id": "ug_mh027p3",
     "college_name": "Prakash Institute of Medical Sciences & Research, Sangli",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -21140,7 +21140,7 @@
     "ss_seats": 3
   },
   {
-    "college_id": "ug_up016p3",
+    "college_id": "ug_up015p3",
     "college_name": "Prasad Institute of Medical Sciences, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -21154,7 +21154,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up016p3",
+    "college_id": "ug_up015p3",
     "college_name": "Prasad Institute of Medical Sciences, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -21168,7 +21168,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up016p3",
+    "college_id": "ug_up015p3",
     "college_name": "Prasad Institute of Medical Sciences, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -21182,7 +21182,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg009p3",
+    "college_id": "ug_tg010p3",
     "college_name": "Prathima Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -21196,7 +21196,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg009p3",
+    "college_id": "ug_tg010p3",
     "college_name": "Prathima Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -21210,7 +21210,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg009p3",
+    "college_id": "ug_tg010p3",
     "college_name": "Prathima Institute of Medical Sciences, Karimnagar",
     "college_type": "Private",
     "state": "Telangana",
@@ -21224,7 +21224,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg010p3",
+    "college_id": "ug_tg011p3",
     "college_name": "Prathima Relief Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -21238,7 +21238,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg010p3",
+    "college_id": "ug_tg011p3",
     "college_name": "Prathima Relief Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -21252,7 +21252,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg010p3",
+    "college_id": "ug_tg011p3",
     "college_name": "Prathima Relief Institute of Medical Sciences, Warangal",
     "college_type": "Private",
     "state": "Telangana",
@@ -21266,7 +21266,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up017p3",
+    "college_id": "ug_up016p3",
     "college_name": "Prince Medical College & Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -21280,7 +21280,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up017p3",
+    "college_id": "ug_up016p3",
     "college_name": "Prince Medical College & Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -21294,7 +21294,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up017p3",
+    "college_id": "ug_up016p3",
     "college_name": "Prince Medical College & Hospital",
     "college_type": "Private",
     "state": "Rajasthan",
@@ -21350,7 +21350,7 @@
     "ss_seats": 8
   },
   {
-    "college_id": "ug_tn009p3",
+    "college_id": "ug_tn008p3",
     "college_name": "PSP Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -21364,7 +21364,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn009p3",
+    "college_id": "ug_tn008p3",
     "college_name": "PSP Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -21378,7 +21378,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn009p3",
+    "college_id": "ug_tn008p3",
     "college_name": "PSP Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -21476,7 +21476,7 @@
     "ss_seats": 13
   },
   {
-    "college_id": "ug_hp006g1",
+    "college_id": "ug_hp005g1",
     "college_name": "Pt. Jawahar Lal Nehru Government Medical College, Chamba",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -21490,7 +21490,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp006g1",
+    "college_id": "ug_hp005g1",
     "college_name": "Pt. Jawahar Lal Nehru Government Medical College, Chamba",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -21574,7 +21574,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up040g1",
+    "college_id": "ug_up041g1",
     "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -21588,7 +21588,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up040g1",
+    "college_id": "ug_up041g1",
     "college_name": "Punyashloka Lokmata Devi Ahilyabai Holkar Autonomous State Medical College, Auraiya",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -21672,7 +21672,7 @@
     "ss_seats": 4
   },
   {
-    "college_id": "ug_mh027p3",
+    "college_id": "ug_mh028p3",
     "college_name": "R K Damani Medical College Shri Ramchandra Institute of Medical Sciences, Chhatrapati Sambhajinagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -21686,7 +21686,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh027p3",
+    "college_id": "ug_mh028p3",
     "college_name": "R K Damani Medical College Shri Ramchandra Institute of Medical Sciences, Chhatrapati Sambhajinagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -21700,7 +21700,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh027p3",
+    "college_id": "ug_mh028p3",
     "college_name": "R K Damani Medical College Shri Ramchandra Institute of Medical Sciences, Chhatrapati Sambhajinagar",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -21742,7 +21742,7 @@
     "ss_seats": 23
   },
   {
-    "college_id": "ug_tg011p3",
+    "college_id": "ug_tg012p3",
     "college_name": "R.V.M. Institute of Medical Sciences and Research Centre, Siddipet",
     "college_type": "Private",
     "state": "Telangana",
@@ -21756,7 +21756,7 @@
     "ss_seats": 26
   },
   {
-    "college_id": "ug_tg011p3",
+    "college_id": "ug_tg012p3",
     "college_name": "R.V.M. Institute of Medical Sciences and Research Centre, Siddipet",
     "college_type": "Private",
     "state": "Telangana",
@@ -21770,7 +21770,7 @@
     "ss_seats": 26
   },
   {
-    "college_id": "ug_tg011p3",
+    "college_id": "ug_tg012p3",
     "college_name": "R.V.M. Institute of Medical Sciences and Research Centre, Siddipet",
     "college_type": "Private",
     "state": "Telangana",
@@ -22190,7 +22190,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up041g1",
+    "college_id": "ug_up042g1",
     "college_name": "Rajkiya Allopathic Medical College, Bahraich",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -22204,7 +22204,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up041g1",
+    "college_id": "ug_up042g1",
     "college_name": "Rajkiya Allopathic Medical College, Bahraich",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -22218,7 +22218,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up042g1",
+    "college_id": "ug_up043g1",
     "college_name": "Rajkiya Medical College Jalaun, Orai, Uttar Pradesh",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -22227,26 +22227,26 @@
     "quota_type": "All India Quota",
     "seats": 15,
     "seats_prev": 15,
-    "seats_inc": 0,
-    "pg_seats": 40,
-    "ss_seats": 0
-  },
-  {
-    "college_id": "ug_up042g1",
-    "college_name": "Rajkiya Medical College Jalaun, Orai, Uttar Pradesh",
-    "college_type": "Government",
-    "state": "Uttar Pradesh",
-    "course": "MBBS",
-    "counseling_route": "STATE",
-    "quota_type": "Competent Authority Quota",
-    "seats": 85,
-    "seats_prev": 85,
     "seats_inc": 0,
     "pg_seats": 40,
     "ss_seats": 0
   },
   {
     "college_id": "ug_up043g1",
+    "college_name": "Rajkiya Medical College Jalaun, Orai, Uttar Pradesh",
+    "college_type": "Government",
+    "state": "Uttar Pradesh",
+    "course": "MBBS",
+    "counseling_route": "STATE",
+    "quota_type": "Competent Authority Quota",
+    "seats": 85,
+    "seats_prev": 85,
+    "seats_inc": 0,
+    "pg_seats": 40,
+    "ss_seats": 0
+  },
+  {
+    "college_id": "ug_up044g1",
     "college_name": "Rajkiya Medical College, Saddarpur, Ambedkar Nagar",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -22260,7 +22260,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up043g1",
+    "college_id": "ug_up044g1",
     "college_name": "Rajkiya Medical College, Saddarpur, Ambedkar Nagar",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -22302,7 +22302,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up018p3",
+    "college_id": "ug_up017p3",
     "college_name": "Rajshree Medical Research Institute, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22316,7 +22316,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up018p3",
+    "college_id": "ug_up017p3",
     "college_name": "Rajshree Medical Research Institute, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22330,7 +22330,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up018p3",
+    "college_id": "ug_up017p3",
     "college_name": "Rajshree Medical Research Institute, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22386,7 +22386,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up019p3",
+    "college_id": "ug_up018p3",
     "college_name": "Rama Medical College Hospital & Research Centre, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22400,7 +22400,7 @@
     "ss_seats": 4
   },
   {
-    "college_id": "ug_up019p3",
+    "college_id": "ug_up018p3",
     "college_name": "Rama Medical College Hospital & Research Centre, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22414,7 +22414,7 @@
     "ss_seats": 4
   },
   {
-    "college_id": "ug_up019p3",
+    "college_id": "ug_up018p3",
     "college_name": "Rama Medical College Hospital & Research Centre, Kanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22624,7 +22624,7 @@
     "ss_seats": 28
   },
   {
-    "college_id": "ug_hp003p3",
+    "college_id": "ug_pb006p3",
     "college_name": "RIMT Medical College and Hospital",
     "college_type": "Private",
     "state": "Punjab",
@@ -22638,7 +22638,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp003p3",
+    "college_id": "ug_pb006p3",
     "college_name": "RIMT Medical College and Hospital",
     "college_type": "Private",
     "state": "Punjab",
@@ -22652,7 +22652,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp003p3",
+    "college_id": "ug_pb006p3",
     "college_name": "RIMT Medical College and Hospital",
     "college_type": "Private",
     "state": "Punjab",
@@ -22708,7 +22708,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up020p3",
+    "college_id": "ug_up019p3",
     "college_name": "Rohilkhand Medical College & Hospital, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22722,7 +22722,7 @@
     "ss_seats": 4
   },
   {
-    "college_id": "ug_up020p3",
+    "college_id": "ug_up019p3",
     "college_name": "Rohilkhand Medical College & Hospital, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22736,7 +22736,7 @@
     "ss_seats": 4
   },
   {
-    "college_id": "ug_up020p3",
+    "college_id": "ug_up019p3",
     "college_name": "Rohilkhand Medical College & Hospital, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -22778,7 +22778,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh028p3",
+    "college_id": "ug_mh029p3",
     "college_name": "Rural Medical College, Loni",
     "college_type": "Deemed",
     "state": "Maharashtra",
@@ -22792,7 +22792,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh028p3",
+    "college_id": "ug_mh029p3",
     "college_name": "Rural Medical College, Loni",
     "college_type": "Deemed",
     "state": "Maharashtra",
@@ -22806,7 +22806,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh028p3",
+    "college_id": "ug_mh029p3",
     "college_name": "Rural Medical College, Loni",
     "college_type": "Deemed",
     "state": "Maharashtra",
@@ -22862,7 +22862,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap012p3",
+    "college_id": "ug_ap013p3",
     "college_name": "RVS Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -22876,7 +22876,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap012p3",
+    "college_id": "ug_ap013p3",
     "college_name": "RVS Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -22890,7 +22890,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap012p3",
+    "college_id": "ug_ap013p3",
     "college_name": "RVS Institute of Medical Sciences",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -22904,7 +22904,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up044g1",
+    "college_id": "ug_up045g1",
     "college_name": "S N Medical College, Agra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -22918,7 +22918,7 @@
     "ss_seats": 8
   },
   {
-    "college_id": "ug_up044g1",
+    "college_id": "ug_up045g1",
     "college_name": "S N Medical College, Agra",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -23226,7 +23226,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap013p3",
+    "college_id": "ug_ap014p3",
     "college_name": "Santhiram Medical College, Nandyal",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -23240,7 +23240,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap013p3",
+    "college_id": "ug_ap014p3",
     "college_name": "Santhiram Medical College, Nandyal",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -23254,7 +23254,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap013p3",
+    "college_id": "ug_ap014p3",
     "college_name": "Santhiram Medical College, Nandyal",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -23310,7 +23310,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up021p3",
+    "college_id": "ug_up020p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23324,7 +23324,7 @@
     "ss_seats": 3
   },
   {
-    "college_id": "ug_up021p3",
+    "college_id": "ug_up020p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23338,7 +23338,7 @@
     "ss_seats": 3
   },
   {
-    "college_id": "ug_up021p3",
+    "college_id": "ug_up020p3",
     "college_name": "Santosh Medical College, Ghaziabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23394,7 +23394,7 @@
     "ss_seats": 15
   },
   {
-    "college_id": "ug_up022p3",
+    "college_id": "ug_up021p3",
     "college_name": "Saraswathi Institute of Medical Sciences, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23408,7 +23408,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up022p3",
+    "college_id": "ug_up021p3",
     "college_name": "Saraswathi Institute of Medical Sciences, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23422,7 +23422,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up022p3",
+    "college_id": "ug_up021p3",
     "college_name": "Saraswathi Institute of Medical Sciences, Hapur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23436,7 +23436,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up047g1",
+    "college_id": "ug_up048g1",
     "college_name": "Saraswati Medical College, Unnao",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -23450,7 +23450,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up047g1",
+    "college_id": "ug_up048g1",
     "college_name": "Saraswati Medical College, Unnao",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -23464,7 +23464,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up047g1",
+    "college_id": "ug_up048g1",
     "college_name": "Saraswati Medical College, Unnao",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -23898,7 +23898,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up048g1",
+    "college_id": "ug_up049g1",
     "college_name": "Shaikh-UL-Hind Maulana Mahmood Hasan Medical College, Saharanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -23912,7 +23912,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up048g1",
+    "college_id": "ug_up049g1",
     "college_name": "Shaikh-UL-Hind Maulana Mahmood Hasan Medical College, Saharanpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -23968,7 +23968,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up023p3",
+    "college_id": "ug_up022p3",
     "college_name": "Sharda School of Medical Sciences & Research, Greater Noida",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23982,7 +23982,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up023p3",
+    "college_id": "ug_up022p3",
     "college_name": "Sharda School of Medical Sciences & Research, Greater Noida",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -23996,7 +23996,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up023p3",
+    "college_id": "ug_up022p3",
     "college_name": "Sharda School of Medical Sciences & Research, Greater Noida",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -24318,7 +24318,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up049g1",
+    "college_id": "ug_up050g1",
     "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -24332,7 +24332,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up049g1",
+    "college_id": "ug_up050g1",
     "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -24346,7 +24346,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up049g1",
+    "college_id": "ug_up050g1",
     "college_name": "Shri Gorakshnath Medical College Hospital & Arogya Dham, Gorakhpur",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -24458,7 +24458,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp007g1",
+    "college_id": "ug_hp006g1",
     "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -24472,7 +24472,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_hp007g1",
+    "college_id": "ug_hp006g1",
     "college_name": "Shri Lal Bahadur Shastri Government Medical College, Mandi",
     "college_type": "Government",
     "state": "Himachal Pradesh",
@@ -24486,7 +24486,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up024p3",
+    "college_id": "ug_up023p3",
     "college_name": "Shri Ram Murti Smarak Institute of Medical Sciences, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -24500,7 +24500,7 @@
     "ss_seats": 6
   },
   {
-    "college_id": "ug_up024p3",
+    "college_id": "ug_up023p3",
     "college_name": "Shri Ram Murti Smarak Institute of Medical Sciences, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -24514,7 +24514,7 @@
     "ss_seats": 6
   },
   {
-    "college_id": "ug_up024p3",
+    "college_id": "ug_up023p3",
     "college_name": "Shri Ram Murti Smarak Institute of Medical Sciences, Bareilly",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -24696,7 +24696,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up050g1",
+    "college_id": "ug_up051g1",
     "college_name": "Shri Siddhi Vinayak Medical College & Hospital, Sambhal",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -24710,7 +24710,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up050g1",
+    "college_id": "ug_up051g1",
     "college_name": "Shri Siddhi Vinayak Medical College & Hospital, Sambhal",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -24724,7 +24724,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up050g1",
+    "college_id": "ug_up051g1",
     "college_name": "Shri Siddhi Vinayak Medical College & Hospital, Sambhal",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -25130,7 +25130,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh032p3",
+    "college_id": "ug_mh033p3",
     "college_name": "Sindhudurg Shikshan Prasarak Mandal Medical College & Lifetime Hospital, Padave, Sindhudurg",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25144,7 +25144,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh032p3",
+    "college_id": "ug_mh033p3",
     "college_name": "Sindhudurg Shikshan Prasarak Mandal Medical College & Lifetime Hospital, Padave, Sindhudurg",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25158,7 +25158,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh032p3",
+    "college_id": "ug_mh033p3",
     "college_name": "Sindhudurg Shikshan Prasarak Mandal Medical College & Lifetime Hospital, Padave, Sindhudurg",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25214,7 +25214,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up045g1",
+    "college_id": "ug_up046g1",
     "college_name": "SKS Medical College",
     "college_type": "Government",
     "state": "West Bengal",
@@ -25228,7 +25228,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up045g1",
+    "college_id": "ug_up046g1",
     "college_name": "SKS Medical College",
     "college_type": "Government",
     "state": "West Bengal",
@@ -25242,7 +25242,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up045g1",
+    "college_id": "ug_up046g1",
     "college_name": "SKS Medical College",
     "college_type": "Government",
     "state": "West Bengal",
@@ -25256,7 +25256,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh029p3",
+    "college_id": "ug_mh030p3",
     "college_name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills, Nashik",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25270,7 +25270,7 @@
     "ss_seats": 3
   },
   {
-    "college_id": "ug_mh029p3",
+    "college_id": "ug_mh030p3",
     "college_name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills, Nashik",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25284,7 +25284,7 @@
     "ss_seats": 3
   },
   {
-    "college_id": "ug_mh029p3",
+    "college_id": "ug_mh030p3",
     "college_name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills, Nashik",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25368,7 +25368,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh033p3",
+    "college_id": "ug_mh034p3",
     "college_name": "Smt. Kashibai Navale Medical College and General Hospital, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25382,7 +25382,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh033p3",
+    "college_id": "ug_mh034p3",
     "college_name": "Smt. Kashibai Navale Medical College and General Hospital, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25396,7 +25396,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh033p3",
+    "college_id": "ug_mh034p3",
     "college_name": "Smt. Kashibai Navale Medical College and General Hospital, Pune",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -25760,7 +25760,7 @@
     "ss_seats": 29
   },
   {
-    "college_id": "ug_ap014p3",
+    "college_id": "ug_ap015p3",
     "college_name": "Sri Balaji Medical College, Hospital and Research Instiutute, Chittoor",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -25774,7 +25774,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap014p3",
+    "college_id": "ug_ap015p3",
     "college_name": "Sri Balaji Medical College, Hospital and Research Instiutute, Chittoor",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -25788,7 +25788,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap014p3",
+    "college_id": "ug_ap015p3",
     "college_name": "Sri Balaji Medical College, Hospital and Research Instiutute, Chittoor",
     "college_type": "Private",
     "state": "Andhra Pradesh",
@@ -25914,7 +25914,7 @@
     "ss_seats": 6
   },
   {
-    "college_id": "ug_pb006p3",
+    "college_id": "ug_pb007p3",
     "college_name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
     "college_type": "Private",
     "state": "Punjab",
@@ -25928,7 +25928,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_pb006p3",
+    "college_id": "ug_pb007p3",
     "college_name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
     "college_type": "Private",
     "state": "Punjab",
@@ -25942,7 +25942,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_pb006p3",
+    "college_id": "ug_pb007p3",
     "college_name": "Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar",
     "college_type": "Private",
     "state": "Punjab",
@@ -26278,7 +26278,7 @@
     "ss_seats": 9
   },
   {
-    "college_id": "ug_tn012p3",
+    "college_id": "ug_tn011p3",
     "college_name": "Sri Venkateswaraa Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -26292,7 +26292,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn012p3",
+    "college_id": "ug_tn011p3",
     "college_name": "Sri Venkateswaraa Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -26306,7 +26306,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn012p3",
+    "college_id": "ug_tn011p3",
     "college_name": "Sri Venkateswaraa Medical College Hospital and Research Institute, Chennai",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -26516,7 +26516,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn011p3",
+    "college_id": "ug_tn010p3",
     "college_name": "ST Peters Medical College, Hospital & Research Institute",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -26530,7 +26530,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn011p3",
+    "college_id": "ug_tn010p3",
     "college_name": "ST Peters Medical College, Hospital & Research Institute",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -26544,7 +26544,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tn011p3",
+    "college_id": "ug_tn010p3",
     "college_name": "ST Peters Medical College, Hospital & Research Institute",
     "college_type": "Deemed",
     "state": "Tamil Nadu",
@@ -26670,7 +26670,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up025p3",
+    "college_id": "ug_up024p3",
     "college_name": "Subharti Medical College, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -26684,7 +26684,7 @@
     "ss_seats": 6
   },
   {
-    "college_id": "ug_up025p3",
+    "college_id": "ug_up024p3",
     "college_name": "Subharti Medical College, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -26698,7 +26698,7 @@
     "ss_seats": 6
   },
   {
-    "college_id": "ug_up025p3",
+    "college_id": "ug_up024p3",
     "college_name": "Subharti Medical College, Meerut",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -26824,7 +26824,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg012p3",
+    "college_id": "ug_tg013p3",
     "college_name": "Surabhi Institute of Medical Sciences, Siddipet, Telangana",
     "college_type": "Private",
     "state": "Telangana",
@@ -26838,7 +26838,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg012p3",
+    "college_id": "ug_tg013p3",
     "college_name": "Surabhi Institute of Medical Sciences, Siddipet, Telangana",
     "college_type": "Private",
     "state": "Telangana",
@@ -26852,7 +26852,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg012p3",
+    "college_id": "ug_tg013p3",
     "college_name": "Surabhi Institute of Medical Sciences, Siddipet, Telangana",
     "college_type": "Private",
     "state": "Telangana",
@@ -27076,7 +27076,7 @@
     "ss_seats": 11
   },
   {
-    "college_id": "ug_up026p3",
+    "college_id": "ug_up025p3",
     "college_name": "T S Misra Medical College & Hospital, Amusi, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27090,7 +27090,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up026p3",
+    "college_id": "ug_up025p3",
     "college_name": "T S Misra Medical College & Hospital, Amusi, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27104,7 +27104,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up026p3",
+    "college_id": "ug_up025p3",
     "college_name": "T S Misra Medical College & Hospital, Amusi, Lucknow",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27160,7 +27160,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap015p3",
+    "college_id": "ug_tn012p3",
     "college_name": "Takshashila Medical College",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -27174,7 +27174,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap015p3",
+    "college_id": "ug_tn012p3",
     "college_name": "Takshashila Medical College",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -27188,7 +27188,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_ap015p3",
+    "college_id": "ug_tn012p3",
     "college_name": "Takshashila Medical College",
     "college_type": "Private",
     "state": "Tamil Nadu",
@@ -27230,7 +27230,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up027p3",
+    "college_id": "ug_up026p3",
     "college_name": "Teerthanker Mahaveer Medical College, Moradabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27244,7 +27244,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up027p3",
+    "college_id": "ug_up026p3",
     "college_name": "Teerthanker Mahaveer Medical College, Moradabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27258,7 +27258,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up027p3",
+    "college_id": "ug_up026p3",
     "college_name": "Teerthanker Mahaveer Medical College, Moradabad",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27272,7 +27272,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh034p3",
+    "college_id": "ug_mh035p3",
     "college_name": "Terna Medical College, Navi Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -27286,7 +27286,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh034p3",
+    "college_id": "ug_mh035p3",
     "college_name": "Terna Medical College, Navi Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -27300,7 +27300,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh034p3",
+    "college_id": "ug_mh035p3",
     "college_name": "Terna Medical College, Navi Mumbai",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -27776,7 +27776,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg013p3",
+    "college_id": "ug_tg014p3",
     "college_name": "TRR Institute of Medical Sciences, Patancheru",
     "college_type": "Private",
     "state": "Telangana",
@@ -27790,7 +27790,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg013p3",
+    "college_id": "ug_tg014p3",
     "college_name": "TRR Institute of Medical Sciences, Patancheru",
     "college_type": "Private",
     "state": "Telangana",
@@ -27804,7 +27804,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_tg013p3",
+    "college_id": "ug_tg014p3",
     "college_name": "TRR Institute of Medical Sciences, Patancheru",
     "college_type": "Private",
     "state": "Telangana",
@@ -27916,7 +27916,7 @@
     "ss_seats": 2
   },
   {
-    "college_id": "ug_up051g1",
+    "college_id": "ug_up052g1",
     "college_name": "Uttar Pradesh University of Medical Sciences, Etawah",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -27930,7 +27930,7 @@
     "ss_seats": 1
   },
   {
-    "college_id": "ug_up051g1",
+    "college_id": "ug_up052g1",
     "college_name": "Uttar Pradesh University of Medical Sciences, Etawah",
     "college_type": "Government",
     "state": "Uttar Pradesh",
@@ -27972,7 +27972,7 @@
     "ss_seats": 54
   },
   {
-    "college_id": "ug_up028p3",
+    "college_id": "ug_up027p3",
     "college_name": "Varun Arjun Medical College, Banthra, Shahjahanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -27986,7 +27986,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up028p3",
+    "college_id": "ug_up027p3",
     "college_name": "Varun Arjun Medical College, Banthra, Shahjahanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -28000,7 +28000,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_up028p3",
+    "college_id": "ug_up027p3",
     "college_name": "Varun Arjun Medical College, Banthra, Shahjahanpur",
     "college_type": "Private",
     "state": "Uttar Pradesh",
@@ -28014,7 +28014,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh035p3",
+    "college_id": "ug_mh036p3",
     "college_name": "Vedantaa Institute of Medical Sciences, Palghar, Maharashtra",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -28028,7 +28028,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh035p3",
+    "college_id": "ug_mh036p3",
     "college_name": "Vedantaa Institute of Medical Sciences, Palghar, Maharashtra",
     "college_type": "Private",
     "state": "Maharashtra",
@@ -28042,7 +28042,7 @@
     "ss_seats": 0
   },
   {
-    "college_id": "ug_mh035p3",
+    "college_id": "ug_mh036p3",
     "college_name": "Vedantaa Institute of Medical Sciences, Palghar, Maharashtra",
     "college_type": "Private",
     "state": "Maharashtra",
