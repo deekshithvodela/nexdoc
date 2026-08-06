@@ -1,20 +1,16 @@
 // MCC UG Cutoff Explorer & NEET Rank Predictor Component
-import { TableEngine } from './TableEngine.js';
-import { CutoffExplorerSchema } from './TableSchemas.js';
-
 export const CutoffExplorer = {
-  tableEngine: null,
   state: {
     ugMappingData: [],       // All 823 Master UG colleges with MCC status
     loaded: false,
     loading: false,
     
     // Filters & Inputs
-    userRank: '',            // Entered NEET Rank
-    searchQuery: '',         // Top college search query
-    selectedCategory: 'ALL', // Category dropdown filter
-    selectedQuota: 'ALL',    // Quota dropdown filter
-    selectedChance: 'ALL',   // Chance predictor selection
+    userRank: '',            // Entered NEET Rank (digits strictly restricted)
+    searchQuery: '',         // Top college search query (words strictly restricted)
+    selectedCategory: 'ALL', // Category dropdown filter ('ALL' or specific category)
+    selectedQuota: 'ALL',    // Quota dropdown filter ('ALL' or specific quota)
+    selectedChance: 'ALL',   // Chance predictor selection ('ALL', 'HIGH', 'BORDERLINE', 'LOW')
     selectedCategories: [],  // Legacy sidebar compatibility
     selectedQuotas: [],      // Legacy sidebar compatibility
     
@@ -34,9 +30,6 @@ export const CutoffExplorer = {
     this.state.selectedStateVal = stateVal || 'all';
     this.state.selectedStates = [];
     this.state.stateSearchQuery = '';
-    if (this.tableEngine) {
-      this.tableEngine.state.selectedState = stateVal === 'all' ? 'ALL' : stateVal;
-    }
     const sidebar = document.getElementById('filterSidebar');
     if (sidebar) this.renderSidebarFilters('filterSidebar');
     const container = document.getElementById('viewCutoffs');
@@ -71,13 +64,6 @@ export const CutoffExplorer = {
         });
         this.state.quotasList = Array.from(qSet).sort();
         this.state.statesList = Array.from(sSet).sort();
-
-        // Initialize TableEngine instance
-        this.tableEngine = new TableEngine({
-          schema: CutoffExplorerSchema,
-          containerId: containerId,
-          rawData: this.state.ugMappingData
-        });
 
         this.state.loaded = true;
         this.state.loading = false;
@@ -133,59 +119,55 @@ export const CutoffExplorer = {
 
     // Region Filter (from global top-of-page state selector or checkboxes)
     if (this.state.selectedStateVal && this.state.selectedStateVal !== 'all') {
-      colleges = colleges.filter(c => (c.state || '').toLowerCase() === this.state.selectedStateVal.toLowerCase());
+      const cleanVal = this.state.selectedStateVal.toLowerCase().replace(/_/g, ' ');
+      colleges = colleges.filter(c => c.state && c.state.toLowerCase() === cleanVal);
     } else if (this.state.selectedStates && this.state.selectedStates.length > 0) {
-      colleges = colleges.filter(c => this.state.selectedStates.includes(c.state));
+      colleges = colleges.filter(c => c.state && this.state.selectedStates.includes(c.state));
     }
 
-    // Top Search Query Filter
+    // 2. College Search Filter
     if (searchQueryLow) {
+      const words = searchQueryLow.split(' ').filter(Boolean);
       colleges = colleges.filter(c => {
-        const nameMatch = (c.college_name || '').toLowerCase().includes(searchQueryLow);
-        const cityMatch = (c.city || '').toLowerCase().includes(searchQueryLow);
-        const stateMatch = (c.state || '').toLowerCase().includes(searchQueryLow);
-        const codeMatch = (c.college_code || '').toLowerCase().includes(searchQueryLow);
-        return nameMatch || cityMatch || stateMatch || codeMatch;
+        const str = `${c.college_name} ${c.state} ${c.city || ''} ${c.college_code || ''} ${c.pincode || ''} ${c.mcc_status}`.toLowerCase();
+        return words.every(w => str.includes(w));
       });
     }
 
     const result = [];
 
     colleges.forEach(col => {
-      let rawCutoffs = col.aiq_cutoffs_raw || [];
-      if (!rawCutoffs || rawCutoffs.length === 0) return;
+      // Omit non-MBBS courses (B.Sc. Nursing, BDS) at UI presentation layer per core MBBS focus
+      let rawCutoffs = (col.aiq_cutoffs_raw || []).filter(c => {
+        const courseName = (c.course || '').toLowerCase();
+        const quotaName = (c.quota || '').toLowerCase();
+        if (courseName.includes('nursing') || courseName.includes('bds') || quotaName.includes('nursing') || quotaName.includes('bsc')) {
+          return false;
+        }
+        return true;
+      });
+
+      // Sidebar multi-select filter compatibility
+      if (this.state.selectedCategories.length > 0) {
+        rawCutoffs = rawCutoffs.filter(c => this.state.selectedCategories.includes(c.category));
+      }
+      // Category dropdown filter
+      if (this.state.selectedCategory && this.state.selectedCategory !== 'ALL') {
+        rawCutoffs = rawCutoffs.filter(c => c.category === this.state.selectedCategory);
+      }
+
+      // Sidebar multi-select quota compatibility
+      if (this.state.selectedQuotas.length > 0) {
+        rawCutoffs = rawCutoffs.filter(c => this.state.selectedQuotas.includes(c.quota));
+      }
+      // Quota dropdown filter
+      if (this.state.selectedQuota && this.state.selectedQuota !== 'ALL') {
+        rawCutoffs = rawCutoffs.filter(c => c.quota === this.state.selectedQuota);
+      }
 
       const processedChildRows = [];
 
       rawCutoffs.forEach(c => {
-        // Presentation-layer Allied Course Exclusion Rule
-        const courseName = (c.course || '').toLowerCase();
-        const quotaName = (c.quota || '').toLowerCase();
-        if (courseName.includes('nursing') || courseName.includes('bds') || quotaName.includes('nursing') || quotaName.includes('bsc')) {
-          return;
-        }
-
-        // Category Filter
-        if (this.state.selectedCategory !== 'ALL' && c.category !== this.state.selectedCategory) {
-          return;
-        }
-        if (this.state.selectedCategories && this.state.selectedCategories.length > 0 && !this.state.selectedCategories.includes(c.category)) {
-          return;
-        }
-
-        // Quota Filter
-        if (this.state.selectedQuota !== 'ALL' && c.quota !== this.state.selectedQuota) {
-          return;
-        }
-        if (this.state.selectedQuotas && this.state.selectedQuotas.length > 0 && !this.state.selectedQuotas.includes(c.quota)) {
-          return;
-        }
-
-        // Chance Predictor Calculation
-        let chanceCategory = 'N/A';
-        let chanceBadgeClass = '';
-        let chanceLabel = 'N/A';
-
         const r1Open = this.parseRankNum(c.r1_opening_rank);
         const r1Close = this.parseRankNum(c.r1_closing_rank);
         const r2Open = this.parseRankNum(c.r2_opening_rank);
@@ -195,37 +177,35 @@ export const CutoffExplorer = {
         const finalOpen = this.parseRankNum(c.final_opening_rank);
         const finalClose = this.parseRankNum(c.final_closing_rank);
 
-        if (hasRank) {
-          const validCloses = [finalClose, r3Close, r2Close, r1Close].filter(x => x !== Infinity);
-          if (validCloses.length > 0) {
-            const bestClose = Math.max(...validCloses);
-            if (userRankNum <= bestClose) {
-              chanceCategory = 'HIGH';
-              chanceBadgeClass = 'badge-chance-high';
-              chanceLabel = 'High Chance';
-            } else if (userRankNum <= bestClose * 1.15) {
-              chanceCategory = 'BORDERLINE';
-              chanceBadgeClass = 'badge-chance-medium';
-              chanceLabel = 'Borderline';
-            } else {
-              chanceCategory = 'LOW';
-              chanceBadgeClass = 'badge-chance-low';
-              chanceLabel = 'Low Chance';
-            }
+        let predictorBadge = '';
+        let chanceLevel = 'NONE';
+
+        if (hasRank && finalClose !== Infinity) {
+          const diff = finalClose - userRankNum;
+          if (diff >= 3000) {
+            predictorBadge = `<span class="badge badge-govt badge-chance-high">High Chance</span>`;
+            chanceLevel = 'HIGH';
+          } else if (diff >= 0) {
+            predictorBadge = `<span class="badge badge-deemed badge-chance-borderline">Borderline</span>`;
+            chanceLevel = 'BORDERLINE';
+          } else {
+            predictorBadge = `<span class="badge badge-private badge-chance-low">Low Chance</span>`;
+            chanceLevel = 'LOW';
           }
         }
 
-        if (this.state.selectedChance !== 'ALL' && chanceCategory !== this.state.selectedChance) {
-          return;
+        // Apply Chance Predictor Dropdown filter if set
+        if (this.state.selectedChance && this.state.selectedChance !== 'ALL') {
+          if (hasRank && chanceLevel !== this.state.selectedChance) {
+            return; // Skip non-matching chance cutoff row
+          }
         }
 
         processedChildRows.push({
-          quota: c.quota,
-          category: c.category,
+          quota: c.quota || 'All India',
+          category: c.category || 'Open',
           course: c.course || 'MBBS',
-          chanceCategory,
-          chanceBadgeClass,
-          chanceLabel,
+          predictor_badge: predictorBadge,
           r1_open_num: r1Open,
           r1_close_num: r1Close,
           r2_open_num: r2Open,
@@ -304,209 +284,306 @@ export const CutoffExplorer = {
         </button>
       </div>
 
-      <!-- State Filter Section -->
-      <div class="sidebar-section">
-        <h4 class="sidebar-section-title">
-          <i data-lucide="map-pin"></i>
-          <span>Filter by State</span>
+      <!-- NEET Rank Predictor Input -->
+      <div class="filter-group cutoff-filter-box">
+        <h4 class="cutoff-filter-title">
+          <i data-lucide="award"></i> Enter NEET AIR Rank:
         </h4>
-        <div class="sidebar-search-box">
-          <i data-lucide="search" class="icon-xs"></i>
-          <input type="text" id="sidebarStateSearchInput" placeholder="Search states..." value="${this.state.stateSearchQuery}">
+        <div class="input-action-row">
+          <input type="text" id="sidebarCutoffUserRank" placeholder="e.g. 10000" value="${this.state.userRank}" inputmode="numeric" class="rank-input-field">
+          <button id="submitRankBtn" title="Apply Rank Filter" class="btn-rank-submit">
+            <i data-lucide="search" class="icon-sm"></i>
+          </button>
         </div>
-        <div class="sidebar-checkbox-group sidebar-scrollable-list">
-          <label class="sidebar-checkbox-label ${this.state.selectedStates.length === 0 ? 'active' : ''}">
-            <input type="checkbox" name="sidebarStateRadio" value="ALL" ${this.state.selectedStates.length === 0 ? 'checked' : ''}>
-            <span>All States</span>
-          </label>
-          ${this.state.statesList
-            .filter(s => s.toLowerCase().includes(this.state.stateSearchQuery.toLowerCase()))
-            .map(s => `
-              <label class="sidebar-checkbox-label ${this.state.selectedStates.includes(s) ? 'active' : ''}">
-                <input type="checkbox" name="sidebarStateCheckbox" value="${s}" ${this.state.selectedStates.includes(s) ? 'checked' : ''}>
-                <span>${s}</span>
+      </div>
+
+      <!-- Checklist-Style State Filter (Only if selectedStateVal is 'all') -->
+      ${this.state.selectedStateVal === 'all' ? `
+      <div class="filter-group">
+        <h4 class="cutoff-filter-header">
+          <span>State / Region Filter</span>
+          <button id="clearSidebarStateFilterBtn" class="btn-link-action">Clear</button>
+        </h4>
+        <div class="search-box-container margin-bottom-sm">
+          <i data-lucide="filter"></i>
+          <input type="text" id="sidebarStateSearch" placeholder="Filter states..." value="${this.state.stateSearchQuery || ''}">
+        </div>
+        <div class="filter-options scrollable-checklist-list">
+          ${(() => {
+            const stateQueryLow = (this.state.stateSearchQuery || '').toLowerCase().trim();
+            const filteredStates = this.state.statesList.filter(s =>
+              !stateQueryLow || s.toLowerCase().includes(stateQueryLow)
+            );
+            if (filteredStates.length === 0) {
+              return `<span class="placeholder-text text-sm-pad">No states match</span>`;
+            }
+            return filteredStates.map(state => `
+              <label class="checkbox-label checkbox-item-row">
+                <input type="checkbox" class="sidebar-state-cb" value="${state}" ${this.state.selectedStates.includes(state) ? 'checked' : ''}>
+                <div class="checkbox-custom"><i data-lucide="check"></i></div>
+                <span class="checkbox-item-text">${state}</span>
               </label>
-            `).join('')}
+            `).join('');
+          })()}
         </div>
       </div>
+      ` : ''}
 
-      <!-- Quota Filter Section -->
-      <div class="sidebar-section">
-        <h4 class="sidebar-section-title">
-          <i data-lucide="layers"></i>
-          <span>Filter by Quota</span>
+      <!-- Checklist-Style Category Filter Window -->
+      <div class="filter-group">
+        <h4 class="cutoff-filter-header">
+          <span>Category Filter</span>
+          <button id="clearCategoryFilterBtn" class="btn-link-action">Clear</button>
         </h4>
-        <div class="sidebar-checkbox-group">
-          <label class="sidebar-checkbox-label ${this.state.selectedQuotas.length === 0 ? 'active' : ''}">
-            <input type="checkbox" name="sidebarQuotaRadio" value="ALL" ${this.state.selectedQuotas.length === 0 ? 'checked' : ''}>
-            <span>All Quotas</span>
-          </label>
-          ${this.state.quotasList.map(q => `
-            <label class="sidebar-checkbox-label ${this.state.selectedQuotas.includes(q) ? 'active' : ''}">
-              <input type="checkbox" name="sidebarQuotaCheckbox" value="${q}" ${this.state.selectedQuotas.includes(q) ? 'checked' : ''}>
-              <span>${q}</span>
-            </label>
-          `).join('')}
-        </div>
-      </div>
-
-      <!-- Category Filter Section -->
-      <div class="sidebar-section">
-        <h4 class="sidebar-section-title">
-          <i data-lucide="users"></i>
-          <span>Filter by Category</span>
-        </h4>
-        <div class="sidebar-checkbox-group">
-          <label class="sidebar-checkbox-label ${this.state.selectedCategories.length === 0 ? 'active' : ''}">
-            <input type="checkbox" name="sidebarCategoryRadio" value="ALL" ${this.state.selectedCategories.length === 0 ? 'checked' : ''}>
-            <span>All Categories</span>
-          </label>
+        <div class="filter-options scrollable-checklist-list">
           ${this.state.categoriesList.map(cat => `
-            <label class="sidebar-checkbox-label ${this.state.selectedCategories.includes(cat) ? 'active' : ''}">
-              <input type="checkbox" name="sidebarCategoryCheckbox" value="${cat}" ${this.state.selectedCategories.includes(cat) ? 'checked' : ''}>
-              <span>${cat}</span>
+            <label class="checkbox-label checkbox-item-row">
+              <input type="checkbox" class="sidebar-category-cb" value="${cat}" ${this.state.selectedCategories.includes(cat) ? 'checked' : ''}>
+              <div class="checkbox-custom"><i data-lucide="check"></i></div>
+              <span class="checkbox-item-text">${cat}</span>
             </label>
           `).join('')}
         </div>
       </div>
+
+      <!-- Checklist-Style Quota Filter Window -->
+      <div class="filter-group">
+        <h4 class="cutoff-filter-header">
+          <span>Quota Filter</span>
+          <button id="clearQuotaFilterBtn" class="btn-link-action">Clear</button>
+        </h4>
+        <div class="filter-options scrollable-checklist-list">
+          ${this.state.quotasList.map(q => `
+            <label class="checkbox-label checkbox-item-row">
+              <input type="checkbox" class="sidebar-quota-cb" value="${q}" ${this.state.selectedQuotas.includes(q) ? 'checked' : ''}>
+              <div class="checkbox-custom"><i data-lucide="check"></i></div>
+              <span class="checkbox-item-text">${q}</span>
+            </label>
+          `).join('')}
+        </div>
+      </div>
+
+      <button class="btn-reset-filters margin-top-sm" id="sidebarResetCutoffFiltersBtn">
+        <i data-lucide="refresh-cw"></i> Reset All Predictor Filters
+      </button>
     `;
 
     container.innerHTML = html;
-    if (window.lucide) window.lucide.createIcons();
-    this.bindSidebarEvents(container);
-  },
 
-  bindSidebarEvents(container) {
+    if (window.lucide) window.lucide.createIcons();
+
+    // Attach Event Listeners
+    const rankInput = container.querySelector('#sidebarCutoffUserRank');
+    const submitRankBtn = container.querySelector('#submitRankBtn');
+
+    const applyRankFilter = () => {
+      if (!rankInput) return;
+      const val = rankInput.value.trim();
+      if (this.state.userRank !== val) {
+        this.state.userRank = val;
+        const targetView = document.getElementById('viewCutoffs');
+        if (targetView) this.render(targetView);
+      }
+    };
+
+    if (rankInput) {
+      // Restrict input strictly to numbers (0-9)
+      rankInput.addEventListener('input', (e) => {
+        const clean = e.target.value.replace(/[^0-9]/g, '');
+        if (e.target.value !== clean) {
+          e.target.value = clean;
+        }
+      });
+      rankInput.addEventListener('blur', applyRankFilter);
+      rankInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') applyRankFilter();
+      });
+    }
+
+    if (submitRankBtn) {
+      submitRankBtn.addEventListener('click', applyRankFilter);
+    }
+
+    if (this.state.selectedStateVal === 'all') {
+      const stateSearchInput = container.querySelector('#sidebarStateSearch');
+      if (stateSearchInput) {
+        stateSearchInput.addEventListener('input', (e) => {
+          if (this.state.stateSearchTimeout) clearTimeout(this.state.stateSearchTimeout);
+          this.state.stateSearchTimeout = setTimeout(() => {
+            this.state.stateSearchQuery = e.target.value;
+            this.renderSidebarFilters(containerId);
+            const input = document.getElementById('sidebarStateSearch');
+            if (input) {
+              input.focus();
+              input.setSelectionRange(input.value.length, input.value.length);
+            }
+          }, 150);
+        });
+      }
+
+      container.querySelectorAll('.sidebar-state-cb').forEach(cb => {
+        cb.addEventListener('change', () => {
+          const checked = Array.from(container.querySelectorAll('.sidebar-state-cb:checked')).map(el => el.value);
+          this.state.selectedStates = checked;
+          const targetView = document.getElementById('viewCutoffs');
+          if (targetView) this.render(targetView);
+        });
+      });
+
+      const clearStateBtn = container.querySelector('#clearSidebarStateFilterBtn');
+      if (clearStateBtn) {
+        clearStateBtn.addEventListener('click', () => {
+          this.state.selectedStates = [];
+          this.state.stateSearchQuery = '';
+          this.renderSidebarFilters(containerId);
+          const targetView = document.getElementById('viewCutoffs');
+          if (targetView) this.render(targetView);
+        });
+      }
+    }
+
+    container.querySelectorAll('.sidebar-category-cb').forEach(cb => {
+      cb.addEventListener('change', () => {
+        const checked = Array.from(container.querySelectorAll('.sidebar-category-cb:checked')).map(el => el.value);
+        this.state.selectedCategories = checked;
+        const targetView = document.getElementById('viewCutoffs');
+        if (targetView) this.render(targetView);
+      });
+    });
+
+    const clearCatBtn = container.querySelector('#clearCategoryFilterBtn');
+    if (clearCatBtn) {
+      clearCatBtn.addEventListener('click', () => {
+        this.state.selectedCategories = [];
+        this.renderSidebarFilters(containerId);
+        const targetView = document.getElementById('viewCutoffs');
+        if (targetView) this.render(targetView);
+      });
+    }
+
+    container.querySelectorAll('.sidebar-quota-cb').forEach(cb => {
+      cb.addEventListener('change', () => {
+        const checked = Array.from(container.querySelectorAll('.sidebar-quota-cb:checked')).map(el => el.value);
+        this.state.selectedQuotas = checked;
+        const targetView = document.getElementById('viewCutoffs');
+        if (targetView) this.render(targetView);
+      });
+    });
+
+    const clearQuotaBtn = container.querySelector('#clearQuotaFilterBtn');
+    if (clearQuotaBtn) {
+      clearQuotaBtn.addEventListener('click', () => {
+        this.state.selectedQuotas = [];
+        this.renderSidebarFilters(containerId);
+        const targetView = document.getElementById('viewCutoffs');
+        if (targetView) this.render(targetView);
+      });
+    }
+
+    const resetBtn = container.querySelector('#sidebarResetCutoffFiltersBtn');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        this.state.userRank = '';
+        this.state.searchQuery = '';
+        this.state.selectedCategories = [];
+        this.state.selectedQuotas = [];
+        this.state.selectedStates = [];
+        this.state.stateSearchQuery = '';
+        this.state.selectedCategory = 'ALL';
+        this.state.selectedQuota = 'ALL';
+        this.state.selectedChance = 'ALL';
+        this.renderSidebarFilters(containerId);
+        const targetView = document.getElementById('viewCutoffs');
+        if (targetView) this.render(targetView);
+      });
+    }
+
     const closeBtn = container.querySelector('#closeSidebarBtn');
     if (closeBtn) {
       closeBtn.addEventListener('click', () => {
-        document.body.classList.remove('sidebar-open');
-      });
-    }
-
-    const stateSearchInput = container.querySelector('#sidebarStateSearchInput');
-    if (stateSearchInput) {
-      stateSearchInput.addEventListener('input', (e) => {
-        this.state.stateSearchQuery = e.target.value;
-        this.renderSidebarFilters('filterSidebar');
-      });
-    }
-
-    container.querySelectorAll('input[name="sidebarStateCheckbox"]').forEach(cb => {
-      cb.addEventListener('change', (e) => {
-        const val = e.target.value;
-        if (e.target.checked) {
-          if (!this.state.selectedStates.includes(val)) this.state.selectedStates.push(val);
-        } else {
-          this.state.selectedStates = this.state.selectedStates.filter(s => s !== val);
-        }
-        this.renderSidebarFilters('filterSidebar');
-        const viewContainer = document.getElementById('viewCutoffs');
-        if (viewContainer) this.render(viewContainer);
-      });
-    });
-
-    const allStateRadio = container.querySelector('input[name="sidebarStateRadio"]');
-    if (allStateRadio) {
-      allStateRadio.addEventListener('change', () => {
-        this.state.selectedStates = [];
-        this.renderSidebarFilters('filterSidebar');
-        const viewContainer = document.getElementById('viewCutoffs');
-        if (viewContainer) this.render(viewContainer);
-      });
-    }
-
-    container.querySelectorAll('input[name="sidebarQuotaCheckbox"]').forEach(cb => {
-      cb.addEventListener('change', (e) => {
-        const val = e.target.value;
-        if (e.target.checked) {
-          if (!this.state.selectedQuotas.includes(val)) this.state.selectedQuotas.push(val);
-        } else {
-          this.state.selectedQuotas = this.state.selectedQuotas.filter(q => q !== val);
-        }
-        this.renderSidebarFilters('filterSidebar');
-        const viewContainer = document.getElementById('viewCutoffs');
-        if (viewContainer) this.render(viewContainer);
-      });
-    });
-
-    const allQuotaRadio = container.querySelector('input[name="sidebarQuotaRadio"]');
-    if (allQuotaRadio) {
-      allQuotaRadio.addEventListener('change', () => {
-        this.state.selectedQuotas = [];
-        this.renderSidebarFilters('filterSidebar');
-        const viewContainer = document.getElementById('viewCutoffs');
-        if (viewContainer) this.render(viewContainer);
-      });
-    }
-
-    container.querySelectorAll('input[name="sidebarCategoryCheckbox"]').forEach(cb => {
-      cb.addEventListener('change', (e) => {
-        const val = e.target.value;
-        if (e.target.checked) {
-          if (!this.state.selectedCategories.includes(val)) this.state.selectedCategories.push(val);
-        } else {
-          this.state.selectedCategories = this.state.selectedCategories.filter(c => c !== val);
-        }
-        this.renderSidebarFilters('filterSidebar');
-        const viewContainer = document.getElementById('viewCutoffs');
-        if (viewContainer) this.render(viewContainer);
-      });
-    });
-
-    const allCatRadio = container.querySelector('input[name="sidebarCategoryRadio"]');
-    if (allCatRadio) {
-      allCatRadio.addEventListener('change', () => {
-        this.state.selectedCategories = [];
-        this.renderSidebarFilters('filterSidebar');
-        const viewContainer = document.getElementById('viewCutoffs');
-        if (viewContainer) this.render(viewContainer);
+        document.getElementById('filterSidebar').classList.remove('active');
+        document.getElementById('sidebarBackdrop').classList.remove('active');
       });
     }
   },
 
   render(container) {
-    if (!container) return;
     const filteredColleges = this.getFilteredColleges();
+    const totalColleges = filteredColleges.length;
     const userRankNum = parseInt(this.state.userRank, 10);
     const hasRank = !isNaN(userRankNum) && userRankNum > 0;
 
-    const html = `
-      <div class="cutoff-explorer-layout card-glass pad-1-5">
+    container.innerHTML = `
+      <div class="cutoff-explorer-wrapper">
         
-        <!-- Controls Header Card -->
-        <div class="cutoff-controls-card">
-          <div class="cutoff-filters-grid">
+        <!-- Compact Mobile-Optimized Control Card (No manual fullscreen button per spec) -->
+        <div class="cutoff-controls-card card-glass">
+          
+          <!-- Line 1: Header Title & Data Source Badge -->
+          <div class="cutoff-controls-top-row">
+            <h3 class="cutoff-title-heading">
+              <i data-lucide="target" class="icon-accent-blue"></i>
+              <span>MCC UG Cutoff Explorer & Predictor</span>
+            </h3>
+            <div class="cutoff-source-badge">
+              <i data-lucide="calendar-check" class="icon-xs"></i>
+              <span>MCC MBBS Allotment (Rounds 1–3)</span>
+            </div>
+          </div>
+
+          <!-- Line 2: Responsive Inputs Grid (Rank Input & Top Search Input) -->
+          <div class="top-inputs-grid">
+            <!-- Rank Input (Digits restricted) -->
+            <div class="top-input-relative">
+              <i data-lucide="award" class="top-rank-icon" aria-hidden="true"></i>
+              <input type="text" id="cutoffTopRankInput" placeholder="Enter NEET Rank (e.g. 10000)" value="${this.state.userRank}" inputmode="numeric" class="top-input-field" aria-label="Enter NEET All India Rank">
+            </div>
+
+            <!-- College Search Bar (Words restricted) -->
+            <div class="top-input-relative">
+              <i data-lucide="search" class="top-search-icon" aria-hidden="true"></i>
+              <input type="text" id="cutoffTopSearchInput" placeholder="Search college, city, state..." value="${this.state.searchQuery}" class="top-input-field top-search-field" aria-label="Search college, city, or state cutoffs">
+            </div>
+          </div>
+
+          <!-- Line 3: Filter Dropdowns Grid (Category, Quota, Chance Predictor) -->
+          <div class="top-dropdowns-grid">
             
-            <div class="filter-group">
-              <label for="rankPredictorInput"><i data-lucide="award"></i> Predict by Rank:</label>
-              <input type="number" id="rankPredictorInput" class="input-dark input-rank" placeholder="Enter NEET Rank (e.g. 10000)" value="${this.state.userRank}" aria-label="Enter NEET AIR Rank for Prediction" />
-            </div>
-
-            <div class="filter-group col-span-2">
-              <label for="collegeSearchInput"><i data-lucide="search"></i> Search College:</label>
-              <input type="text" id="collegeSearchInput" class="input-dark" placeholder="Search college, city, state..." value="${this.state.searchQuery}" aria-label="Search college by name, city, or state" />
-            </div>
-
-            <div class="filter-group">
-              <label for="categoryFilterSelect"><i data-lucide="users"></i> Category:</label>
-              <select id="categoryFilterSelect" class="select-dark" aria-label="Filter cutoffs by candidate category">
+            <!-- Category Dropdown -->
+            <div class="dropdown-filter-group">
+              <label class="dropdown-label" for="cutoffCategorySelect">
+                <i data-lucide="users" class="icon-xs"></i>
+                <span>Category:</span>
+              </label>
+              <select id="cutoffCategorySelect" class="cutoff-filter-select">
                 <option value="ALL" ${this.state.selectedCategory === 'ALL' ? 'selected' : ''}>All Categories</option>
-                ${this.state.categoriesList.map(cat => `<option value="${cat}" ${this.state.selectedCategory === cat ? 'selected' : ''}>${cat}</option>`).join('')}
+                ${this.state.categoriesList.map(cat => `
+                  <option value="${cat}" ${this.state.selectedCategory === cat ? 'selected' : ''}>${cat}</option>
+                `).join('')}
               </select>
             </div>
 
-            <div class="filter-group">
-              <label for="quotaFilterSelect"><i data-lucide="layers"></i> Quota:</label>
-              <select id="quotaFilterSelect" class="select-dark" aria-label="Filter cutoffs by seat allotment quota">
+            <!-- Quota Dropdown -->
+            <div class="dropdown-filter-group">
+              <label class="dropdown-label" for="cutoffQuotaSelect">
+                <i data-lucide="layers" class="icon-xs"></i>
+                <span>Quota:</span>
+              </label>
+              <select id="cutoffQuotaSelect" class="cutoff-filter-select">
                 <option value="ALL" ${this.state.selectedQuota === 'ALL' ? 'selected' : ''}>All Quotas</option>
-                ${this.state.quotasList.map(q => `<option value="${q}" ${this.state.selectedQuota === q ? 'selected' : ''}>${q}</option>`).join('')}
+                ${this.state.quotasList.map(q => `
+                  <option value="${q}" ${this.state.selectedQuota === q ? 'selected' : ''}>${q}</option>
+                `).join('')}
               </select>
             </div>
 
-            <div class="filter-group">
-              <label for="chanceFilterSelect"><i data-lucide="sparkles"></i> Chance Predictor:</label>
-              <select id="chanceFilterSelect" class="select-dark" ${!hasRank ? 'disabled' : ''} aria-label="Filter predicted admission chance">
+            <!-- Chance Predictor Dropdown -->
+            <div class="dropdown-filter-group">
+              <label class="dropdown-label" for="cutoffChanceSelect">
+                <i data-lucide="sparkles" class="icon-xs"></i>
+                <span>Chance Predictor:</span>
+              </label>
+              <select id="cutoffChanceSelect" class="cutoff-filter-select">
                 <option value="ALL" ${this.state.selectedChance === 'ALL' ? 'selected' : ''}>All Chances</option>
                 <option value="HIGH" ${this.state.selectedChance === 'HIGH' ? 'selected' : ''}>High Chance</option>
                 <option value="BORDERLINE" ${this.state.selectedChance === 'BORDERLINE' ? 'selected' : ''}>Borderline</option>
@@ -516,50 +593,52 @@ export const CutoffExplorer = {
 
           </div>
 
-          <!-- Quick Action Bar -->
-          <div class="cutoff-action-bar">
-            <div class="action-buttons-left">
-              <button id="btnExpandAllCutoffs" class="btn btn-secondary btn-sm">
-                <i data-lucide="maximize-2"></i> Expand All
-              </button>
-              <button id="btnCollapseAllCutoffs" class="btn btn-secondary btn-sm">
-                <i data-lucide="minimize-2"></i> Collapse All
+          <!-- Line 4: Toolbar (Collapse All & Master College Count) -->
+          <div class="top-toolbar-row">
+            <div class="top-toolbar-actions">
+              <!-- Collapse All Button -->
+              <button id="collapseAllRowsBtn" class="btn-action-standard">
+                <i data-lucide="fold-vertical" class="icon-xs"></i>
+                <span>Collapse All</span>
               </button>
             </div>
-            <div class="action-info-right">
-              <span class="count-badge">Showing ${filteredColleges.length} Colleges</span>
-            </div>
+
+            <!-- Master College Count Badge -->
+            <span class="badge badge-govt badge-master-count">
+              Showing ${totalColleges.toLocaleString()} Colleges
+            </span>
           </div>
+
         </div>
 
-        <!-- Main Cutoff Table -->
-        <div class="cutoff-table-scroll">
-          <table class="cutoff-table">
+        <!-- Full Unpaginated Cutoff Table View -->
+        <div class="table-container card-glass cutoff-table-wrapper">
+          <table id="mccCutoffTable" class="cutoff-table">
             <thead>
               <tr>
-                <th class="col-expand-toggle"></th>
-                <th class="col-name-th">College Name</th>
-                <th>State & City</th>
-                <th>Type</th>
-                <th>Course</th>
-                <th>Quota</th>
-                <th>Category</th>
-                ${hasRank ? '<th>Predicted Chance</th>' : ''}
-                <th class="text-right">R1 Op</th>
-                <th class="text-right">R1 Cl</th>
-                <th class="text-right">R2 Op</th>
-                <th class="text-right">R2 Cl</th>
-                <th class="text-right">R3 Op</th>
-                <th class="text-right">R3 Cl</th>
-                <th class="text-right">Final Op</th>
-                <th class="text-right">Final Cl</th>
+                <th class="th-expand-col"></th>
+                <th>College Name</th>
+                <th class="col-location">State & City</th>
+                <th class="col-type">Type</th>
+                <th class="col-course">Course</th>
+                ${hasRank ? '<th class="text-center col-predictor">Predictor</th>' : ''}
+                <th class="col-quota">Quota</th>
+                <th class="col-category">Category</th>
+                <th class="rank-col" title="Round 1 Opening Rank">R1 Op</th>
+                <th class="rank-col" title="Round 1 Closing Rank">R1 Cl</th>
+                <th class="rank-col" title="Round 2 Opening Rank">R2 Op</th>
+                <th class="rank-col" title="Round 2 Closing Rank">R2 Cl</th>
+                <th class="rank-col" title="Round 3 Opening Rank">R3 Op</th>
+                <th class="rank-col" title="Round 3 Closing Rank">R3 Cl</th>
+                <th class="rank-col" title="Final Opening Rank">Fin Op</th>
+                <th class="rank-col th-fin-cl" title="Final Closing Rank">Fin Cl</th>
               </tr>
             </thead>
             <tbody>
               ${filteredColleges.length === 0 ? `
                 <tr>
-                  <td colspan="${hasRank ? 16 : 15}" class="text-center py-8 text-muted">
-                    No matching cutoff records found matching your filters.
+                  <td colspan="${hasRank ? 16 : 15}" class="placeholder-text placeholder-empty-table">
+                    No UG colleges found matching your active search/predictor filters.
                   </td>
                 </tr>
               ` : filteredColleges.map(group => {
@@ -569,110 +648,217 @@ export const CutoffExplorer = {
                 const categoriesCount = group.childRows.length;
 
                 return `
+                  <!-- Group Header Row -->
                   <tr class="group-header-row table-row-group-header" data-college-group-id="${group.college_id}">
+                    <!-- Column 1: Dedicated Expand/Collapse Arrow ONLY -->
                     <td class="text-center th-expand-col">
-                      <button class="group-expand-btn ${isExpanded ? 'expanded' : ''}" data-toggle-college="${group.college_id}" aria-label="Toggle ${group.college_name} details">
-                        <i data-lucide="${isExpanded ? 'chevron-down' : 'chevron-right'}" class="icon-sm"></i>
+                      <button class="group-expand-btn" data-toggle-college="${group.college_id}" aria-label="Toggle college dropdown">
+                        <i data-lucide="chevron-right" class="group-chevron group-chevron-${group.college_id} ${isExpanded ? 'is-rotated' : ''}"></i>
                       </button>
                     </td>
-                    <td class="col-name-td font-semibold text-main">
-                      <a href="#" class="college-link text-primary hover:underline" data-college-id="${group.college_id}">
-                        ${group.college_name}
-                      </a>
-                    </td>
-                    <td class="text-muted text-sm">${group.city ? `${group.city}, ` : ''}${group.state}</td>
-                    <td><span class="badge ${typeBadgeClass}">${group.college_type}</span></td>
-                    <td class="text-muted text-sm">MBBS</td>
-                    <td class="text-muted text-sm">${group.childRows.length > 0 ? (new Set(group.childRows.map(r=>r.quota))).size + ' Quotas' : '-'}</td>
+                    
+                    <!-- Column 2: College Name & Left-Aligned Chips (Code Removed) -->
                     <td>
-                      <span class="badge badge-subtle">
-                        ${categoriesCount} ${categoriesCount === 1 ? 'Category' : 'Categories'}
-                      </span>
+                      <div>
+                        <button class="college-details-link" data-college-id="${group.college_id}">
+                          ${group.college_name}
+                        </button>
+                      </div>
+                      <div class="group-summary-chips">
+                        ${group.mcc_status === 'Matched' ? `<span class="group-chip chip-text-xs">${categoriesCount} cutoff${categoriesCount > 1 ? 's' : ''}</span>` : ''}
+                        ${group.mcc_status === 'New' ? `<span class="group-chip chip-new-colleges">New</span>` : ''}
+                        ${group.mcc_status === 'Non AIQ' ? `<span class="group-chip chip-non-aiq">State Quota Only</span>` : ''}
+                      </div>
                     </td>
-                    ${hasRank ? `
-                      <td>
-                        ${(() => {
-                          const chances = group.childRows.map(r => r.chanceCategory);
-                          if (chances.includes('HIGH')) return '<span class="badge badge-chance-high">High Chance</span>';
-                          if (chances.includes('BORDERLINE')) return '<span class="badge badge-chance-medium">Borderline</span>';
-                          if (chances.includes('LOW')) return '<span class="badge badge-chance-low">Low Chance</span>';
-                          return '<span class="text-muted text-xs">N/A</span>';
-                        })()}
-                      </td>
-                    ` : ''}
-                    <td class="text-right font-mono text-sm">${group.childRows[0]?.r1_open_str || '-'}</td>
-                    <td class="text-right font-mono text-sm">${group.childRows[0]?.r1_close_str || '-'}</td>
-                    <td class="text-right font-mono text-sm">${group.childRows[0]?.r2_open_str || '-'}</td>
-                    <td class="text-right font-mono text-sm">${group.childRows[0]?.r2_close_str || '-'}</td>
-                    <td class="text-right font-mono text-sm">${group.childRows[0]?.r3_open_str || '-'}</td>
-                    <td class="text-right font-mono text-sm">${group.childRows[0]?.r3_close_str || '-'}</td>
-                    <td class="text-right font-mono text-sm text-primary font-semibold">${group.min_final_open_str || '-'}</td>
-                    <td class="text-right font-mono text-sm text-primary font-semibold">${group.max_final_close_str || '-'}</td>
+
+                    <!-- Column 3: State & City -->
+                    <td>
+                      <span class="font-medium">${group.state}</span>
+                      ${group.city ? `<br><small class="cell-subtle-sm">${group.city}</small>` : ''}
+                    </td>
+
+                    <!-- Column 4: Type -->
+                    <td><span class="badge ${typeBadgeClass}">${group.college_type}</span></td>
+
+                    <!-- Column 5: Course -->
+                    <td><span class="badge badge-govt cell-course-badge">MBBS</span></td>
+
+                    <!-- Column 6: Predictor (if active) -->
+                    ${hasRank ? '<td class="text-center opacity-50">—</td>' : ''}
+
+                    <!-- Column 7: Quota Summary -->
+                    <td><small class="opacity-70">Summary</small></td>
+
+                    <!-- Column 8: Category Summary -->
+                    <td><small class="opacity-70">Summary</small></td>
+
+                    <!-- Columns 9..14: Intermediate Round Summary Ranks (Intentionally Dash) -->
+                    <td class="text-right cell-dash-disabled">-</td>
+                    <td class="text-right cell-dash-disabled">-</td>
+                    <td class="text-right cell-dash-disabled">-</td>
+                    <td class="text-right cell-dash-disabled">-</td>
+                    <td class="text-right cell-dash-disabled">-</td>
+                    <td class="text-right cell-dash-disabled">-</td>
+
+                    <!-- Column 15: Final OP Summary -->
+                    <td class="text-right">
+                      <strong class="cell-final-op">
+                        ${group.min_final_open_str}
+                      </strong>
+                    </td>
+
+                    <!-- Column 16: Final CL Summary with End Padding -->
+                    <td class="text-right cell-final-cl">
+                      <strong class="cell-final-cl-val">
+                        ${group.max_final_close_str}
+                      </strong>
+                    </td>
                   </tr>
 
-                  ${isExpanded ? group.childRows.map(c => `
-                    <tr class="child-cutoff-row child-row-${group.college_id}">
-                      <td></td>
-                      <td colspan="3" class="pl-8 text-sm">
-                        <div class="flex items-center gap-2">
-                          <span class="tree-branch-icon text-muted">└</span>
-                          <span class="font-medium text-main">${c.quota}</span>
-                        </div>
+                  <!-- Child Rows Container (Mapped precisely to columns 1 to 16) -->
+                  ${group.childRows.length > 0 ? group.childRows.map(row => `
+                    <tr class="child-row-${group.college_id} table-row-child ${isExpanded ? '' : 'is-hidden'}">
+                      <!-- Col 1: Indent Tree Symbol under Expand Button -->
+                      <td class="th-expand-col child-indent-symbol-cell"><span class="indent-tree-char">└</span></td>
+
+                      <!-- Col 2: College Name Column -->
+                      <td>
+                        <button class="college-details-link" data-college-id="${group.college_id}">
+                          ${group.college_name}
+                        </button>
                       </td>
-                      <td class="text-sm text-muted">MBBS</td>
-                      <td class="text-sm font-medium">${c.quota}</td>
-                      <td><span class="badge badge-subtle">${c.category}</span></td>
-                      ${hasRank ? `<td><span class="badge ${c.chanceBadgeClass}">${c.chanceLabel}</span></td>` : ''}
-                      <td class="text-right font-mono text-xs">${c.r1_open_str}</td>
-                      <td class="text-right font-mono text-xs">${c.r1_close_str}</td>
-                      <td class="text-right font-mono text-xs">${c.r2_open_str}</td>
-                      <td class="text-right font-mono text-xs">${c.r2_close_str}</td>
-                      <td class="text-right font-mono text-xs">${c.r3_open_str}</td>
-                      <td class="text-right font-mono text-xs">${c.r3_close_str}</td>
-                      <td class="text-right font-mono text-xs font-semibold text-primary">${c.final_open_str}</td>
-                      <td class="text-right font-mono text-xs font-semibold text-primary">${c.final_close_str}</td>
+
+                      <!-- Col 3: State & City -->
+                      <td class="opacity-75 text-sm">${group.state}</td>
+
+                      <!-- Col 4: Type -->
+                      <td><small class="opacity-75 text-xs">${group.college_type}</small></td>
+
+                      <!-- Col 5: Course -->
+                      <td><strong class="text-blue text-sm">${row.course}</strong></td>
+
+                      <!-- Col 6: Predictor Badge (if active) -->
+                      ${hasRank ? `<td class="text-center">${row.predictor_badge || '—'}</td>` : ''}
+
+                      <!-- Col 7: Quota -->
+                      <td><small class="opacity-85 text-xs">${row.quota}</small></td>
+
+                      <!-- Col 8: Category Column -->
+                      <td><span class="badge badge-code badge-cat-sm">${row.category}</span></td>
+
+                      <!-- Col 9..16: R1 Op, R1 Cl, R2 Op, R2 Cl, R3 Op, R3 Cl, Fin Op, Fin Cl -->
+                      <td class="text-right opacity-85 text-sm">${row.r1_open_str}</td>
+                      <td class="text-right opacity-85 text-sm">${row.r1_close_str}</td>
+                      <td class="text-right opacity-85 text-sm">${row.r2_open_str}</td>
+                      <td class="text-right opacity-85 text-sm">${row.r2_close_str}</td>
+                      <td class="text-right opacity-85 text-sm">${row.r3_open_str}</td>
+                      <td class="text-right opacity-85 text-sm">${row.r3_close_str}</td>
+                      <td class="text-right text-green text-sm">${row.final_open_str}</td>
+                      <td class="text-right cell-final-cl"><strong class="text-blue text-sm-md">${row.final_close_str}</strong></td>
                     </tr>
-                  `).join('') : ''}
+                  `).join('') : `
+                    <tr class="child-row-${group.college_id} table-row-child table-row-child-warning ${isExpanded ? '' : 'is-hidden'}">
+                      <td class="th-expand-col"></td>
+                      <td colspan="${hasRank ? 15 : 14}" class="pad-3-4">
+                        ${group.mcc_status === 'New' ? `
+                          <div class="info-box-row text-warning">
+                            <i data-lucide="info" class="icon-md"></i>
+                            <span><strong>New MCC College:</strong> Participates in MCC counselling but lacks historical 2025 cutoff data.</span>
+                          </div>
+                        ` : `
+                          <div class="info-box-row text-muted">
+                            <i data-lucide="shield-off" class="icon-md"></i>
+                            <span><strong>Non AIQ College:</strong> Admissions conducted strictly through State Quota Counselling.</span>
+                          </div>
+                        `}
+                      </td>
+                    </tr>
+                  `}
                 `;
               }).join('')}
             </tbody>
           </table>
         </div>
 
+        <!-- Back-to-Top Control Footer (Horizontally and Vertically Centered using Table Explorer implementation) -->
+        <div class="table-footer-actions">
+          <button class="btn-go-to-top" id="goToTopCutoffsBtn" title="Back to Top">
+            <i data-lucide="arrow-up"></i> Back to Top
+          </button>
+        </div>
+
       </div>
     `;
 
-    container.innerHTML = html;
+    this.attachEvents(container);
     if (window.lucide) window.lucide.createIcons();
-    this.bindEvents(container);
   },
 
-  bindEvents(container) {
-    const rankInput = container.querySelector('#rankPredictorInput');
-    if (rankInput) {
-      rankInput.addEventListener('input', (e) => {
-        this.state.userRank = e.target.value;
+  attachEvents(container) {
+    // 1. Top Search Input with Character Restriction
+    const topSearch = container.querySelector('#cutoffTopSearchInput');
+
+    const applySearchFilter = () => {
+      if (!topSearch) return;
+      const val = topSearch.value.trim();
+      if (this.state.searchQuery !== val) {
+        this.state.searchQuery = val;
         this.render(container);
+      }
+    };
+
+    if (topSearch) {
+      // Restrict input to valid words/letters/numbers/spaces/hyphens/ampersands
+      topSearch.addEventListener('input', (e) => {
+        const clean = e.target.value.replace(/[^a-zA-Z0-9\s,\-&]/g, '');
+        if (e.target.value !== clean) {
+          e.target.value = clean;
+        }
+      });
+      // Execute search ONLY on blur or Enter key press
+      topSearch.addEventListener('blur', applySearchFilter);
+      topSearch.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') applySearchFilter();
       });
     }
 
-    const searchInput = container.querySelector('#collegeSearchInput');
-    if (searchInput) {
-      searchInput.addEventListener('input', (e) => {
-        this.state.searchQuery = e.target.value;
+    // 2. Top Rank Input with Digits-Only Restriction
+    const topRankInput = container.querySelector('#cutoffTopRankInput');
+
+    const applyTopRankFilter = () => {
+      if (!topRankInput) return;
+      const val = topRankInput.value.trim();
+      if (this.state.userRank !== val) {
+        this.state.userRank = val;
         this.render(container);
+      }
+    };
+
+    if (topRankInput) {
+      // Restrict input strictly to numbers (0-9)
+      topRankInput.addEventListener('input', (e) => {
+        const clean = e.target.value.replace(/[^0-9]/g, '');
+        if (e.target.value !== clean) {
+          e.target.value = clean;
+        }
+      });
+      // Execute search ONLY on blur or Enter key press
+      topRankInput.addEventListener('blur', applyTopRankFilter);
+      topRankInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') applyTopRankFilter();
       });
     }
 
-    const catSelect = container.querySelector('#categoryFilterSelect');
-    if (catSelect) {
-      catSelect.addEventListener('change', (e) => {
+    // 3. Dropdowns: Category, Quota, Chance Predictor
+    const categorySelect = container.querySelector('#cutoffCategorySelect');
+    if (categorySelect) {
+      categorySelect.addEventListener('change', (e) => {
         this.state.selectedCategory = e.target.value;
         this.render(container);
       });
     }
 
-    const quotaSelect = container.querySelector('#quotaFilterSelect');
+    const quotaSelect = container.querySelector('#cutoffQuotaSelect');
     if (quotaSelect) {
       quotaSelect.addEventListener('change', (e) => {
         this.state.selectedQuota = e.target.value;
@@ -680,7 +866,7 @@ export const CutoffExplorer = {
       });
     }
 
-    const chanceSelect = container.querySelector('#chanceFilterSelect');
+    const chanceSelect = container.querySelector('#cutoffChanceSelect');
     if (chanceSelect) {
       chanceSelect.addEventListener('change', (e) => {
         this.state.selectedChance = e.target.value;
@@ -688,43 +874,128 @@ export const CutoffExplorer = {
       });
     }
 
-    const btnExpandAll = container.querySelector('#btnExpandAllCutoffs');
-    if (btnExpandAll) {
-      btnExpandAll.addEventListener('click', () => {
-        const filtered = this.getFilteredColleges();
-        filtered.forEach(c => this.state.expandedCollegeIds.add(c.college_id));
-        this.render(container);
-      });
-    }
+    // 4. Dedicated Chevron Expand/Collapse Arrow ONLY toggles child rows
+    container.querySelectorAll('.group-expand-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const colId = btn.getAttribute('data-toggle-college');
+        if (!colId) return;
 
-    const btnCollapseAll = container.querySelector('#btnCollapseAllCutoffs');
-    if (btnCollapseAll) {
-      btnCollapseAll.addEventListener('click', () => {
+        const isCurrentlyExpanded = this.state.expandedCollegeIds.has(colId);
+        const childRows = container.querySelectorAll(`.child-row-${colId}`);
+        const chevronIcon = container.querySelector(`.group-chevron-${colId}`);
+
+        if (isCurrentlyExpanded) {
+          this.state.expandedCollegeIds.delete(colId);
+          childRows.forEach(r => r.classList.add('is-hidden'));
+          if (chevronIcon) chevronIcon.classList.remove('is-rotated');
+        } else {
+          this.state.expandedCollegeIds.add(colId);
+          childRows.forEach(r => r.classList.remove('is-hidden'));
+          if (chevronIcon) chevronIcon.classList.add('is-rotated');
+        }
+      });
+    });
+
+    // 5. Clickable College Name (.college-details-link) triggers details modal
+    container.querySelectorAll('.college-details-link').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const cid = el.getAttribute('data-college-id');
+        if (cid && window.showCollegeDetailsModal) {
+          window.showCollegeDetailsModal(cid);
+        }
+      });
+    });
+
+    // 6. Collapse All Rows Button
+    const collapseAllBtn = container.querySelector('#collapseAllRowsBtn');
+    if (collapseAllBtn) {
+      collapseAllBtn.addEventListener('click', () => {
         this.state.expandedCollegeIds.clear();
         this.render(container);
       });
     }
 
-    container.querySelectorAll('[data-toggle-college]').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        const collegeId = e.currentTarget.getAttribute('data-toggle-college');
-        if (this.state.expandedCollegeIds.has(collegeId)) {
-          this.state.expandedCollegeIds.delete(collegeId);
-        } else {
-          this.state.expandedCollegeIds.add(collegeId);
-        }
-        this.render(container);
+    // 7. Back to Top Button
+    const goToTopCutoffsBtn = container.querySelector('#goToTopCutoffsBtn');
+    if (goToTopCutoffsBtn) {
+      goToTopCutoffsBtn.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
       });
+    }
+
+    // 9. Scroll Indicator Affordance Check
+    const cutoffTableWrapper = container.querySelector('.cutoff-table-wrapper');
+    if (cutoffTableWrapper && window.initScrollAffordance) {
+      window.initScrollAffordance(cutoffTableWrapper);
+    }
+  },
+
+  exportToCsv() {
+    const colleges = this.getFilteredColleges();
+    if (!colleges || colleges.length === 0) {
+      alert("No cutoff records to export.");
+      return;
+    }
+
+    const headers = [
+      "College Name", "Course", "State", "City", "College Type", "College Code",
+      "Quota", "Category", 
+      "R1 Opening Rank", "R1 Closing Rank", 
+      "R2 Opening Rank", "R2 Closing Rank", 
+      "R3 Opening Rank", "R3 Closing Rank", 
+      "Final Opening Rank", "Final Closing Rank"
+    ];
+
+    const rows = [];
+    colleges.forEach(col => {
+      if (col.childRows.length > 0) {
+        col.childRows.forEach(r => {
+          rows.push([
+            `"${(col.college_name || '').replace(/"/g, '""')}"`,
+            `"${(r.course || 'MBBS').replace(/"/g, '""')}"`,
+            `"${(col.state || '').replace(/"/g, '""')}"`,
+            `"${(col.city || '').replace(/"/g, '""')}"`,
+            `"${(col.college_type || '').replace(/"/g, '""')}"`,
+            `"${(col.college_code || '').replace(/"/g, '""')}"`,
+            `"${(r.quota || '').replace(/"/g, '""')}"`,
+            `"${(r.category || '').replace(/"/g, '""')}"`,
+            r.r1_open_str,
+            r.r1_close_str,
+            r.r2_open_str,
+            r.r2_close_str,
+            r.r3_open_str,
+            r.r3_close_str,
+            r.final_open_str,
+            r.final_close_str
+          ]);
+        });
+      } else {
+        rows.push([
+          `"${(col.college_name || '').replace(/"/g, '""')}"`,
+          `"MBBS"`,
+          `"${(col.state || '').replace(/"/g, '""')}"`,
+          `"${(col.city || '').replace(/"/g, '""')}"`,
+          `"${(col.college_type || '').replace(/"/g, '""')}"`,
+          `"${(col.college_code || '').replace(/"/g, '""')}"`,
+          `"${(col.mcc_status || '').replace(/"/g, '""')}"`,
+          `"-"`, `"-"`, `"-"`, `"-"`, `"-"`, `"-"`, `"-"`, `"-"`, `"-"`, `"-"`
+        ]);
+      }
     });
 
-    container.querySelectorAll('.college-link').forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const cid = e.currentTarget.getAttribute('data-college-id');
-        if (window.showCollegeDetailsModal) {
-          window.showCollegeDetailsModal(cid);
-        }
-      });
-    });
+    const csvContent = [headers.join(','), ...rows.map(row => row.join(','))].join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.setAttribute('href', url);
+    link.setAttribute('download', `mcc_ug_cutoffs_predictor_${new Date().toISOString().slice(0, 10)}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 };
