@@ -2855,6 +2855,8 @@ body {
   pointer-events: none;
   transition: opacity 0.3s ease;
   padding: var(--space-xxl);
+  overscroll-behavior: contain;
+  overscroll-behavior-y: contain;
 
   [data-theme="light"] & {
     background: rgba(15, 23, 42, 0.35);
@@ -2865,6 +2867,11 @@ body {
     opacity: 1;
     pointer-events: all;
   }
+}
+
+body.modal-open {
+  overflow: hidden !important;
+  touch-action: none;
 }
 
 .modal-container {
@@ -2878,6 +2885,8 @@ body {
   transform: translateY(20px);
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
+  overscroll-behavior: contain;
+  overscroll-behavior-y: contain;
 
   [data-theme="light"] & {
     background: rgba(255, 255, 255, 0.95);
@@ -2950,6 +2959,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-xxl);
+  overscroll-behavior: contain;
+  overscroll-behavior-y: contain;
 }
 
 .details-section {

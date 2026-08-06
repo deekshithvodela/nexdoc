@@ -112,7 +112,7 @@ MCC_MANUAL_OVERRIDES = {
     "gmers medical college navsari adarsh nivasi shala campus at khambhlav po sultanpur via abrama ta jalalpore dist navsar gujarat 396406": "GMERS Medical College, Navsari",
     "government medical college and hospital keonjhar at kabitra near dd college keonjhargarh ps town police station dist keonjhar odisha odisha 758001": "Dharanidhar Medical College and Hospital, Keonjhar",
     "govt mohan kumaramangalam mc salem majeera kollappatti salem steel plant road salem 636030 tamilnadu tamil nadu 636030": "Govt. Mohan Kumaramangalam Medical College, Salem",
-    "inst of med sciences bhu varanasi institute of medical sciences banaras hindu university uttar pradesh 211005": "Heritage Institute of Medical Sciences, Varanasi",
+    "inst of med sciences bhu varanasi institute of medical sciences banaras hindu university uttar pradesh 211005": "Institute of Medical Sciences, BHU, Varansi",
     "jr medical college and hospital tamil nadu chennai trichy nh 45 kiledaiyalam tindivanam taluk villupuram district tamil nadu 604302": "ACS Medical College and Hospital, Chennai",
     "kasturba medical college manipal univ mangalore light house hill road mangalore india karnataka 575001": "Kasturba Medical College, Mangalore",
     "krishna inst of med scie karad karad dist satara maharashtra state maharashtra 415110": "Krishna Institute of Medical Sciences, Karad",

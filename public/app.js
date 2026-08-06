@@ -1058,7 +1058,7 @@ function setupGlobalListeners() {
   };
 
   // Mobile Table Fullscreen controls
-  const toggleFullscreen = (forceShow, type) => {
+  const toggleFullscreen = (forceShow, type, isFromPopstate = false) => {
     if (!type) {
       type = AppState.fullscreenType || 'table';
     }
@@ -1075,11 +1075,13 @@ function setupGlobalListeners() {
       }
       AppState.fullscreenActive = true;
       if (exitBtn) exitBtn.classList.add('is-visible');
-      
-      // Only show rotate prompt if device is in portrait mode on mobile
-      if (rotatePrompt && window.innerHeight > window.innerWidth) {
-        showRotatePromptWithTimeout(rotatePrompt);
-      }
+
+      // Push history state so mobile hardware/gesture back button exits fullscreen
+      try {
+        if (!history.state || !history.state.fullscreenActive) {
+          history.pushState({ fullscreenActive: true }, '');
+        }
+      } catch (err) {}
     } else {
       document.body.classList.remove('table-fullscreen-active');
       document.body.classList.remove('compare-fullscreen-active');
@@ -1088,21 +1090,24 @@ function setupGlobalListeners() {
       if (exitBtn) exitBtn.classList.remove('is-visible');
       if (rotatePrompt) rotatePrompt.classList.remove('is-visible');
       clearTimeout(AppState.rotatePromptTimeout);
-      
-      // Scroll to the end of the page on exit
-      setTimeout(() => {
-        // Scroll the main window to the bottom of the page
-        const scrollHeight = Math.max(
-          document.body.scrollHeight,
-          document.documentElement.scrollHeight
-        );
-        window.scrollTo({
-          top: scrollHeight,
-          behavior: 'smooth'
-        });
-      }, 150);
+
+      // If exiting via exit button (not popstate), revert history entry
+      if (!isFromPopstate) {
+        try {
+          if (history.state && history.state.fullscreenActive) {
+            history.back();
+          }
+        } catch (err) {}
+      }
     }
   };
+
+  // Listen to popstate event for mobile back button / swipe back gesture
+  window.addEventListener('popstate', (e) => {
+    if (AppState.fullscreenActive) {
+      toggleFullscreen(false, null, true);
+    }
+  });
 
   const manualToggleBtn = document.getElementById('tableFullscreenToggleBtn');
   if (manualToggleBtn) {
@@ -1278,6 +1283,7 @@ async function showCollegeDetailsModal(collegeId) {
   `;
 
   modal.classList.add('active');
+  document.body.classList.add('modal-open');
 
   // Await the details fetch if it's not completed yet
   let details = null;
@@ -1433,7 +1439,10 @@ async function showCollegeDetailsModal(collegeId) {
   }
 
   let courseBadgesHtml = '';
-  const levelList = details.courses || ['UG'];
+  const levelList = (details.courses && details.courses.length > 0)
+    ? details.courses
+    : (collegeId.startsWith('ug_') ? ['UG'] : (collegeId.startsWith('pg_') ? ['PG'] : (collegeId.startsWith('ss_') ? ['SS'] : ['UG'])));
+
   if (levelList && levelList.length > 0) {
     courseBadgesHtml = levelList.map(lvl => {
       let badgeStyle = 'background: rgba(59, 130, 246, 0.15); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.3);';
@@ -1553,7 +1562,9 @@ async function showCollegeDetailsModal(collegeId) {
 
 // Close College Details Modal
 function closeCollegeDetailsModal() {
-  document.getElementById('detailsModal').classList.remove('active');
+  const modal = document.getElementById('detailsModal');
+  if (modal) modal.classList.remove('active');
+  document.body.classList.remove('modal-open');
 }
 
 // Launch Application
